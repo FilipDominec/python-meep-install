@@ -36,7 +36,7 @@ make  &&  sudo make install
 cd ..
 
 ## Failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
-#if [ ! -d "meep" ]; then wget http://jdj.mit.edu/~stevenj/meep-1.2.1.tar.gz && tar xzf meep-1.2.1.tar.gz && mv meep-1.2.1 meep; fi
+#if [ ! -d "meep" ]; then wget http://ab-initio.mit.edu/meep/meep-1.3.tar.gz && tar xzf meep-1.3.tar.gz && mv meep-1.3 meep; fi
 #cd meep/
 #./configure $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  &&  make  &&  sudo make install
 #cd ..
