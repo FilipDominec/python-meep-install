@@ -20,9 +20,6 @@ tar xzf libctl* && cd libctl-3.2.1/
 cd ..
 
 ## --- MEEP (now fresh from github!) --------------------------------------------
-## Skip this line if no multiprocessing used (also install correct libhdf5-*-dev)
-sudo apt-get -y install openmpi-bin libopenmpi-dev
-
 export CFLAGS=" -fPIC"; export CXXFLAGS=" -fPIC"; export FFLAGS=" -fPIC"  ## Position Independent Code, needed on 64-bit
 export CPPFLAGS="-I/usr/local/include"									 ## install everything into /usr/local to prevent overwrite
 export LD_RUN_PATH="/usr/local/lib"
