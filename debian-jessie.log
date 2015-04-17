@@ -8,1005 +8,43 @@ Get:6 http://ftp.cz.debian.org jessie/non-free i386 Packages/DiffIndex [7,819 B]
 Get:7 http://ftp.cz.debian.org jessie/contrib Translation-en/DiffIndex [7,819 B]
 Get:8 http://ftp.cz.debian.org jessie/main Translation-en/DiffIndex [7,876 B]
 Get:9 http://ftp.cz.debian.org jessie/non-free Translation-en/DiffIndex [7,819 B]
-Fetched 70.5 kB in 2s (31.2 kB/s)
+Fetched 70.5 kB in 1s (38.0 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Reading state information...
+libatlas-base-dev is already the newest version.
+autoconf is already the newest version.
+autotools-dev is already the newest version.
+chrpath is already the newest version.
+debhelper is already the newest version.
+libfftw3-dev is already the newest version.
+g++ is already the newest version.
+gfortran is already the newest version.
 git is already the newest version.
-The following extra packages will be installed:
-  automake autopoint binutils build-essential dpkg-dev fakeroot g++-4.9 gcc
-  gcc-4.9 gettext gfortran-4.9 ghostscript gsfonts guile-2.0 hdf5-tools
-  imagemagick-6.q16 imagemagick-common intltool-debian libalgorithm-diff-perl
-  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan1 libasprintf-dev
-  libatlas-dev libatlas3-base libatomic1 libblas-dev libc-dev-bin libc6
-  libc6-dev libc6-i686 libcilkrts5 libcr0 libdpkg-perl libfakeroot
-  libfftw3-bin libfftw3-double3 libfftw3-long3 libfftw3-quad3 libfftw3-single3
-  libfile-fcntllock-perl libgc-dev libgcc-4.9-dev libgettextpo-dev
-  libgettextpo0 libgfortran-4.9-dev libgmp-dev libgmpxx4ldbl libgomp1
-  libgsl0ldbl libharminv2 libhdf4-0 libhdf5-8 libhdf5-openmpi-8 libhwloc-dev
-  libhwloc-plugins libhwloc5 libibverbs-dev libibverbs1 libilmbase6 libitm1
-  libjpeg-dev libjpeg62-turbo-dev liblqr-1-0 libltdl-dev libmagickcore-6.q16-2
-  libmagickcore-6.q16-2-extra libmagickwand-6.q16-2 libmail-sendmail-perl
-  libmatheval1 libncurses5-dev libnetpbm10 libnuma-dev libnuma1 libopenexr6
-  libopenmpi-dev libopenmpi1.6 libreadline6-dev libstdc++-4.9-dev
-  libsys-hostname-long-perl libtinfo-dev libubsan0 libwmf0.2-7 linux-libc-dev
-  locales manpages-dev netpbm ocl-icd-libopencl1 openmpi-common po-debconf
-  swig2.0
-Suggested packages:
-  autoconf-archive gnu-standards autoconf-doc binutils-doc dh-make
-  debian-keyring g++-multilib g++-4.9-multilib gcc-4.9-doc libstdc++6-4.9-dbg
-  gcc-multilib flex bison gdb gcc-doc gcc-4.9-multilib gcc-4.9-locales
-  libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan1-dbg
-  liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libquadmath0-dbg
-  gettext-doc gfortran-multilib gfortran-doc gfortran-4.9-multilib
-  gfortran-4.9-doc libgfortran3-dbg ghostscript-x guile-2.0-doc octave
-  imagemagick-doc autotrace cups-bsd lpr lprng curl enscript ffmpeg gimp
-  gnuplot grads graphviz hp2xx html2ps libwmf-bin povray radiance sane-utils
-  texlive-base-bin transfig ufraw-batch libblas-doc liblapack-doc glibc-doc
-  blcr-dkms libfftw3-doc libgmp10-doc libmpfr-dev gsl-ref-psdoc gsl-doc-pdf
-  gsl-doc-info gsl-ref-html libhdf4-doc libhdf4-dev hdf4-tools libhdf5-doc
-  libhwloc-contrib-plugins libtool-doc inkscape ncurses-doc readline-doc
-  libstdc++-4.9-doc automaken gcj-jdk opencl-icd libmail-box-perl swig-doc
-  swig-examples swig2.0-examples swig2.0-doc
-Recommended packages:
-  libstdc++-4.8-dev libstdc++-dev
-The following NEW packages will be installed:
-  autoconf automake autopoint autotools-dev binutils build-essential chrpath
-  debhelper dpkg-dev fakeroot g++ g++-4.9 gcc gcc-4.9 gettext gfortran
-  gfortran-4.9 ghostscript gsfonts guile-2.0 guile-2.0-dev h5utils hdf5-tools
-  imagemagick imagemagick-6.q16 imagemagick-common intltool-debian
-  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
-  libasan1 libasprintf-dev libatlas-base-dev libatlas-dev libatlas3-base
-  libatomic1 libblas-dev libc-dev-bin libc6-dev libcilkrts5 libcr0
-  libdpkg-perl libfakeroot libfftw3-bin libfftw3-dev libfftw3-double3
-  libfftw3-long3 libfftw3-quad3 libfftw3-single3 libfile-fcntllock-perl
-  libgc-dev libgcc-4.9-dev libgettextpo-dev libgettextpo0 libgfortran-4.9-dev
-  libgmp-dev libgmpxx4ldbl libgomp1 libgsl0-dev libgsl0ldbl libharminv-dev
-  libharminv2 libhdf4-0 libhdf5-8 libhdf5-openmpi-8 libhdf5-openmpi-dev
-  libhwloc-dev libhwloc-plugins libhwloc5 libibverbs-dev libibverbs1
-  libilmbase6 libitm1 libjpeg-dev libjpeg62-turbo-dev liblapack-dev liblqr-1-0
-  libltdl-dev libmagickcore-6.q16-2 libmagickcore-6.q16-2-extra
-  libmagickwand-6.q16-2 libmail-sendmail-perl libmatheval1 libncurses5-dev
-  libnetpbm10 libnuma-dev libnuma1 libopenexr6 libopenmpi-dev libopenmpi1.6
-  libreadline6-dev libstdc++-4.9-dev libsys-hostname-long-perl libtinfo-dev
-  libtool libubsan0 libwmf0.2-7 linux-libc-dev manpages-dev netpbm
-  ocl-icd-libopencl1 openmpi-common pkg-config po-debconf swig swig2.0
-  zlib1g-dev
-The following packages will be upgraded:
-  libc6 libc6-i686 locales
-3 upgraded, 107 newly installed, 0 to remove and 33 not upgraded.
-Need to get 96.3 MB of archives.
-After this operation, 318 MB of additional disk space will be used.
-Get:1 http://ftp.cz.debian.org/debian/ jessie/main imagemagick-common all 8:6.8.9.9-5 [148 kB]
-Get:2 http://ftp.cz.debian.org/debian/ jessie/main locales all 2.19-17 [3,930 kB]
-Get:3 http://ftp.cz.debian.org/debian/ jessie/main libc6 i386 2.19-17 [3,976 kB]
-Get:4 http://ftp.cz.debian.org/debian/ jessie/main libc6-i686 i386 2.19-17 [1,167 kB]
-Get:5 http://ftp.cz.debian.org/debian/ jessie/main libasan1 i386 4.9.2-10 [192 kB]
-Get:6 http://ftp.cz.debian.org/debian/ jessie/main libatomic1 i386 4.9.2-10 [8,480 B]
-Get:7 http://ftp.cz.debian.org/debian/ jessie/main libcilkrts5 i386 4.9.2-10 [44.5 kB]
-Get:8 http://ftp.cz.debian.org/debian/ jessie/main libgomp1 i386 4.9.2-10 [41.1 kB]
-Get:9 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-double3 i386 3.3.4-2 [593 kB]
-Get:10 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-long3 i386 3.3.4-2 [319 kB]
-Get:11 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-quad3 i386 3.3.4-2 [1,777 kB]
-Get:12 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-single3 i386 3.3.4-2 [621 kB]
-Get:13 http://ftp.cz.debian.org/debian/ jessie/main libgettextpo0 i386 0.19.3-2 [138 kB]
-Get:14 http://ftp.cz.debian.org/debian/ jessie/main libgmpxx4ldbl i386 2:6.0.0+dfsg-6 [22.3 kB]
-Get:15 http://ftp.cz.debian.org/debian/ jessie/main libhdf5-8 i386 1.8.13+docs-15 [1,031 kB]
-Get:16 http://ftp.cz.debian.org/debian/ jessie/main libilmbase6 i386 1.0.1-6.1 [65.6 kB]
-Get:17 http://ftp.cz.debian.org/debian/ jessie/main libitm1 i386 4.9.2-10 [30.9 kB]
-Get:18 http://ftp.cz.debian.org/debian/ jessie/main liblqr-1-0 i386 0.4.2-2 [23.9 kB]
-Get:19 http://ftp.cz.debian.org/debian/ jessie/main libmagickcore-6.q16-2 i386 8:6.8.9.9-5 [1,701 kB]
-Get:20 http://ftp.cz.debian.org/debian/ jessie/main libmagickwand-6.q16-2 i386 8:6.8.9.9-5 [382 kB]
-Get:21 http://ftp.cz.debian.org/debian/ jessie/main libmatheval1 i386 1.1.11+dfsg-2 [23.3 kB]
-Get:22 http://ftp.cz.debian.org/debian/ jessie/main libnuma1 i386 2.0.10-1 [33.7 kB]
-Get:23 http://ftp.cz.debian.org/debian/ jessie/main libopenexr6 i386 1.6.1-8 [192 kB]
-Get:24 http://ftp.cz.debian.org/debian/ jessie/main libubsan0 i386 4.9.2-10 [88.9 kB]
-Get:25 http://ftp.cz.debian.org/debian/ jessie/main libwmf0.2-7 i386 0.2.8.4-10.3+b2 [171 kB]
-Get:26 http://ftp.cz.debian.org/debian/ jessie/main libhwloc5 i386 1.10.0-3 [85.0 kB]
-Get:27 http://ftp.cz.debian.org/debian/ jessie/main libcr0 i386 0.8.5-2.2 [33.8 kB]
-Get:28 http://ftp.cz.debian.org/debian/ jessie/main libibverbs1 i386 1.1.8-1 [32.3 kB]
-Get:29 http://ftp.cz.debian.org/debian/ jessie/main libopenmpi1.6 i386 1.6.5-9.1 [1,483 kB]
-Get:30 http://ftp.cz.debian.org/debian/ jessie/main libhdf5-openmpi-8 i386 1.8.13+docs-15 [1,055 kB]
-Get:31 http://ftp.cz.debian.org/debian/ jessie/main ocl-icd-libopencl1 i386 2.2.3-1 [33.9 kB]
-Get:32 http://ftp.cz.debian.org/debian/ jessie/main autoconf all 2.69-8 [340 kB]
-Get:33 http://ftp.cz.debian.org/debian/ jessie/main autotools-dev all 20140911.1 [70.5 kB]
-Get:34 http://ftp.cz.debian.org/debian/ jessie/main automake all 1:1.14.1-4 [725 kB]
-Get:35 http://ftp.cz.debian.org/debian/ jessie/main autopoint all 0.19.3-2 [413 kB]
-Get:36 http://ftp.cz.debian.org/debian/ jessie/main binutils i386 2.25-5 [3,651 kB]
-Get:37 http://ftp.cz.debian.org/debian/ jessie/main libc-dev-bin i386 2.19-17 [234 kB]
-Get:38 http://ftp.cz.debian.org/debian/ jessie/main linux-libc-dev i386 3.16.7-ckt7-1 [987 kB]
-Get:39 http://ftp.cz.debian.org/debian/ jessie/main libc6-dev i386 2.19-17 [3,041 kB]
-Get:40 http://ftp.cz.debian.org/debian/ jessie/main libgcc-4.9-dev i386 4.9.2-10 [2,059 kB]
-Get:41 http://ftp.cz.debian.org/debian/ jessie/main gcc-4.9 i386 4.9.2-10 [5,483 kB]
-Get:42 http://ftp.cz.debian.org/debian/ jessie/main gcc i386 4:4.9.2-2 [5,118 B]
-Get:43 http://ftp.cz.debian.org/debian/ jessie/main libstdc++-4.9-dev i386 4.9.2-10 [1,124 kB]
-Get:44 http://ftp.cz.debian.org/debian/ jessie/main g++-4.9 i386 4.9.2-10 [18.0 MB]
-Get:45 http://ftp.cz.debian.org/debian/ jessie/main g++ i386 4:4.9.2-2 [1,520 B]
-Get:46 http://ftp.cz.debian.org/debian/ jessie/main libdpkg-perl all 1.17.24 [1,068 kB]
-Get:47 http://ftp.cz.debian.org/debian/ jessie/main dpkg-dev all 1.17.24 [1,542 kB]
-Get:48 http://ftp.cz.debian.org/debian/ jessie/main build-essential i386 11.7 [7,124 B]
-Get:49 http://ftp.cz.debian.org/debian/ jessie/main chrpath i386 0.16-1 [16.0 kB]
-Get:50 http://ftp.cz.debian.org/debian/ jessie/main gettext i386 0.19.3-2 [1,243 kB]
-Get:51 http://ftp.cz.debian.org/debian/ jessie/main intltool-debian all 0.35.0+20060710.1 [30.8 kB]
-Get:52 http://ftp.cz.debian.org/debian/ jessie/main po-debconf all 1.0.16+nmu3 [220 kB]
-Get:53 http://ftp.cz.debian.org/debian/ jessie/main debhelper all 9.20150101 [813 kB]
-Get:54 http://ftp.cz.debian.org/debian/ jessie/main libfakeroot i386 1.20.2-1 [45.4 kB]
-Get:55 http://ftp.cz.debian.org/debian/ jessie/main fakeroot i386 1.20.2-1 [85.6 kB]
-Get:56 http://ftp.cz.debian.org/debian/ jessie/main libgfortran-4.9-dev i386 4.9.2-10 [262 kB]
-Get:57 http://ftp.cz.debian.org/debian/ jessie/main gfortran-4.9 i386 4.9.2-10 [5,485 kB]
-Get:58 http://ftp.cz.debian.org/debian/ jessie/main gfortran i386 4:4.9.2-2 [1,280 B]
-Get:59 http://ftp.cz.debian.org/debian/ jessie/main gsfonts all 1:8.11+urwcyr1.0.7~pre44-4.2 [3,364 kB]
-Get:60 http://ftp.cz.debian.org/debian/ jessie/main ghostscript i386 9.06~dfsg-2 [83.7 kB]
-Get:61 http://ftp.cz.debian.org/debian/ jessie/main guile-2.0 i386 2.0.11+1-9 [18.5 kB]
-Get:62 http://ftp.cz.debian.org/debian/ jessie/main libtinfo-dev i386 5.9+20140913-1+b1 [76.3 kB]
-Get:63 http://ftp.cz.debian.org/debian/ jessie/main libncurses5-dev i386 5.9+20140913-1+b1 [178 kB]
-Get:64 http://ftp.cz.debian.org/debian/ jessie/main libreadline6-dev i386 6.3-8+b3 [126 kB]
-Get:65 http://ftp.cz.debian.org/debian/ jessie/main libltdl-dev i386 2.4.2-1.11 [159 kB]
-Get:66 http://ftp.cz.debian.org/debian/ jessie/main libgmp-dev i386 2:6.0.0+dfsg-6 [621 kB]
-Get:67 http://ftp.cz.debian.org/debian/ jessie/main libgc-dev i386 1:7.2d-6.4 [225 kB]
-Get:68 http://ftp.cz.debian.org/debian/ jessie/main pkg-config i386 0.28-1 [57.2 kB]
-Get:69 http://ftp.cz.debian.org/debian/ jessie/main guile-2.0-dev i386 2.0.11+1-9 [667 kB]
-Get:70 http://ftp.cz.debian.org/debian/ jessie/main libhdf4-0 i386 4.2.10-3 [314 kB]
-Get:71 http://ftp.cz.debian.org/debian/ jessie/main h5utils i386 1.12.1-2.1+b2 [240 kB]
-Get:72 http://ftp.cz.debian.org/debian/ jessie/main hdf5-tools i386 1.8.13+docs-15 [379 kB]
-Get:73 http://ftp.cz.debian.org/debian/ jessie/main imagemagick-6.q16 i386 8:6.8.9.9-5 [512 kB]
-Get:74 http://ftp.cz.debian.org/debian/ jessie/main imagemagick i386 8:6.8.9.9-5 [155 kB]
-Get:75 http://ftp.cz.debian.org/debian/ jessie/main libalgorithm-diff-perl all 1.19.02-3 [51.7 kB]
-Get:76 http://ftp.cz.debian.org/debian/ jessie/main libalgorithm-diff-xs-perl i386 0.04-3+b1 [13.2 kB]
-Get:77 http://ftp.cz.debian.org/debian/ jessie/main libalgorithm-merge-perl all 0.08-2 [13.5 kB]
-Get:78 http://ftp.cz.debian.org/debian/ jessie/main libasprintf-dev i386 0.19.3-2 [31.1 kB]
-Get:79 http://ftp.cz.debian.org/debian/ jessie/main libatlas3-base i386 3.10.2-7 [2,309 kB]
-Get:80 http://ftp.cz.debian.org/debian/ jessie/main libblas-dev i386 1.2.20110419-10 [139 kB]
-Get:81 http://ftp.cz.debian.org/debian/ jessie/main libatlas-dev all 3.10.2-7 [68.8 kB]
-Get:82 http://ftp.cz.debian.org/debian/ jessie/main libatlas-base-dev i386 3.10.2-7 [2,870 kB]
-Get:83 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-bin i386 3.3.4-2 [51.1 kB]
-Get:84 http://ftp.cz.debian.org/debian/ jessie/main libfftw3-dev i386 3.3.4-2 [3,156 kB]
-Get:85 http://ftp.cz.debian.org/debian/ jessie/main libfile-fcntllock-perl i386 0.22-1+b1 [36.8 kB]
-Get:86 http://ftp.cz.debian.org/debian/ jessie/main libgettextpo-dev i386 0.19.3-2 [152 kB]
-Get:87 http://ftp.cz.debian.org/debian/ jessie/main libgsl0ldbl i386 1.16+dfsg-2 [791 kB]
-Get:88 http://ftp.cz.debian.org/debian/ jessie/main libgsl0-dev i386 1.16+dfsg-2 [906 kB]
-Get:89 http://ftp.cz.debian.org/debian/ jessie/main libharminv2 i386 1.3.1-10 [16.3 kB]
-Get:90 http://ftp.cz.debian.org/debian/ jessie/main libharminv-dev i386 1.3.1-10 [6,984 B]
-Get:91 http://ftp.cz.debian.org/debian/ jessie/main libjpeg62-turbo-dev i386 1:1.3.1-12 [428 kB]
-Get:92 http://ftp.cz.debian.org/debian/ jessie/main libjpeg-dev all 1:1.3.1-12 [49.3 kB]
-Get:93 http://ftp.cz.debian.org/debian/ jessie/main liblapack-dev i386 3.5.0-4 [1,673 kB]
-Get:94 http://ftp.cz.debian.org/debian/ jessie/main libmagickcore-6.q16-2-extra i386 8:6.8.9.9-5 [170 kB]
-Get:95 http://ftp.cz.debian.org/debian/ jessie/main libsys-hostname-long-perl all 1.4-3 [11.6 kB]
-Get:96 http://ftp.cz.debian.org/debian/ jessie/main libmail-sendmail-perl all 0.79.16-1 [26.6 kB]
-Get:97 http://ftp.cz.debian.org/debian/ jessie/main libnetpbm10 i386 2:10.0-15.2 [84.7 kB]
-Get:98 http://ftp.cz.debian.org/debian/ jessie/main libtool all 2.4.2-1.11 [190 kB]
-Get:99 http://ftp.cz.debian.org/debian/ jessie/main manpages-dev all 3.74-1 [1,865 kB]
-Get:100 http://ftp.cz.debian.org/debian/ jessie/main netpbm i386 2:10.0-15.2 [940 kB]
-Get:101 http://ftp.cz.debian.org/debian/ jessie/main swig2.0 i386 2.0.12-1 [1,136 kB]
-Get:102 http://ftp.cz.debian.org/debian/ jessie/main swig i386 2.0.12-1 [285 kB]
-Get:103 http://ftp.cz.debian.org/debian/ jessie/main zlib1g-dev i386 1:1.2.8.dfsg-2+b1 [205 kB]
-Get:104 http://ftp.cz.debian.org/debian/ jessie/main openmpi-common all 1.6.5-9.1 [110 kB]
-Get:105 http://ftp.cz.debian.org/debian/ jessie/main libibverbs-dev i386 1.1.8-1 [84.8 kB]
-Get:106 http://ftp.cz.debian.org/debian/ jessie/main libnuma-dev i386 2.0.10-1 [45.9 kB]
-Get:107 http://ftp.cz.debian.org/debian/ jessie/main libhwloc-dev i386 1.10.0-3 [141 kB]
-Get:108 http://ftp.cz.debian.org/debian/ jessie/main libopenmpi-dev i386 1.6.5-9.1 [449 kB]
-Get:109 http://ftp.cz.debian.org/debian/ jessie/main libhdf5-openmpi-dev i386 1.8.13+docs-15 [4,261 kB]
-Get:110 http://ftp.cz.debian.org/debian/ jessie/main libhwloc-plugins i386 1.10.0-3 [14.9 kB]
-Preconfiguring packages ...
-Fetched 96.3 MB in 4min 31s (354 kB/s)
-Selecting previously unselected package imagemagick-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 69802 files and directories currently installed.)
-Preparing to unpack .../imagemagick-common_8%3a6.8.9.9-5_all.deb ...
-Unpacking imagemagick-common (8:6.8.9.9-5) ...
-Preparing to unpack .../locales_2.19-17_all.deb ...
-Unpacking locales (2.19-17) over (2.19-15) ...
-Preparing to unpack .../libc6_2.19-17_i386.deb ...
-Unpacking libc6:i386 (2.19-17) over (2.19-15) ...
-Processing triggers for man-db (2.7.0.2-5) ...
-Setting up libc6:i386 (2.19-17) ...
-Processing triggers for libc-bin (2.19-15) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 69824 files and directories currently installed.)
-Preparing to unpack .../libc6-i686_2.19-17_i386.deb ...
-Unpacking libc6-i686:i386 (2.19-17) over (2.19-15) ...
-Selecting previously unselected package libasan1:i386.
-Preparing to unpack .../libasan1_4.9.2-10_i386.deb ...
-Unpacking libasan1:i386 (4.9.2-10) ...
-Selecting previously unselected package libatomic1:i386.
-Preparing to unpack .../libatomic1_4.9.2-10_i386.deb ...
-Unpacking libatomic1:i386 (4.9.2-10) ...
-Selecting previously unselected package libcilkrts5:i386.
-Preparing to unpack .../libcilkrts5_4.9.2-10_i386.deb ...
-Unpacking libcilkrts5:i386 (4.9.2-10) ...
-Selecting previously unselected package libgomp1:i386.
-Preparing to unpack .../libgomp1_4.9.2-10_i386.deb ...
-Unpacking libgomp1:i386 (4.9.2-10) ...
-Selecting previously unselected package libfftw3-double3:i386.
-Preparing to unpack .../libfftw3-double3_3.3.4-2_i386.deb ...
-Unpacking libfftw3-double3:i386 (3.3.4-2) ...
-Selecting previously unselected package libfftw3-long3:i386.
-Preparing to unpack .../libfftw3-long3_3.3.4-2_i386.deb ...
-Unpacking libfftw3-long3:i386 (3.3.4-2) ...
-Selecting previously unselected package libfftw3-quad3:i386.
-Preparing to unpack .../libfftw3-quad3_3.3.4-2_i386.deb ...
-Unpacking libfftw3-quad3:i386 (3.3.4-2) ...
-Selecting previously unselected package libfftw3-single3:i386.
-Preparing to unpack .../libfftw3-single3_3.3.4-2_i386.deb ...
-Unpacking libfftw3-single3:i386 (3.3.4-2) ...
-Selecting previously unselected package libgettextpo0:i386.
-Preparing to unpack .../libgettextpo0_0.19.3-2_i386.deb ...
-Unpacking libgettextpo0:i386 (0.19.3-2) ...
-Selecting previously unselected package libgmpxx4ldbl:i386.
-Preparing to unpack .../libgmpxx4ldbl_2%3a6.0.0+dfsg-6_i386.deb ...
-Unpacking libgmpxx4ldbl:i386 (2:6.0.0+dfsg-6) ...
-Selecting previously unselected package libhdf5-8:i386.
-Preparing to unpack .../libhdf5-8_1.8.13+docs-15_i386.deb ...
-Unpacking libhdf5-8:i386 (1.8.13+docs-15) ...
-Selecting previously unselected package libilmbase6:i386.
-Preparing to unpack .../libilmbase6_1.0.1-6.1_i386.deb ...
-Unpacking libilmbase6:i386 (1.0.1-6.1) ...
-Selecting previously unselected package libitm1:i386.
-Preparing to unpack .../libitm1_4.9.2-10_i386.deb ...
-Unpacking libitm1:i386 (4.9.2-10) ...
-Selecting previously unselected package liblqr-1-0:i386.
-Preparing to unpack .../liblqr-1-0_0.4.2-2_i386.deb ...
-Unpacking liblqr-1-0:i386 (0.4.2-2) ...
-Selecting previously unselected package libmagickcore-6.q16-2:i386.
-Preparing to unpack .../libmagickcore-6.q16-2_8%3a6.8.9.9-5_i386.deb ...
-Unpacking libmagickcore-6.q16-2:i386 (8:6.8.9.9-5) ...
-Selecting previously unselected package libmagickwand-6.q16-2:i386.
-Preparing to unpack .../libmagickwand-6.q16-2_8%3a6.8.9.9-5_i386.deb ...
-Unpacking libmagickwand-6.q16-2:i386 (8:6.8.9.9-5) ...
-Selecting previously unselected package libmatheval1:i386.
-Preparing to unpack .../libmatheval1_1.1.11+dfsg-2_i386.deb ...
-Unpacking libmatheval1:i386 (1.1.11+dfsg-2) ...
-Selecting previously unselected package libnuma1:i386.
-Preparing to unpack .../libnuma1_2.0.10-1_i386.deb ...
-Unpacking libnuma1:i386 (2.0.10-1) ...
-Selecting previously unselected package libopenexr6:i386.
-Preparing to unpack .../libopenexr6_1.6.1-8_i386.deb ...
-Unpacking libopenexr6:i386 (1.6.1-8) ...
-Selecting previously unselected package libubsan0:i386.
-Preparing to unpack .../libubsan0_4.9.2-10_i386.deb ...
-Unpacking libubsan0:i386 (4.9.2-10) ...
-Selecting previously unselected package libwmf0.2-7:i386.
-Preparing to unpack .../libwmf0.2-7_0.2.8.4-10.3+b2_i386.deb ...
-Unpacking libwmf0.2-7:i386 (0.2.8.4-10.3+b2) ...
-Selecting previously unselected package libhwloc5:i386.
-Preparing to unpack .../libhwloc5_1.10.0-3_i386.deb ...
-Unpacking libhwloc5:i386 (1.10.0-3) ...
-Selecting previously unselected package libcr0.
-Preparing to unpack .../libcr0_0.8.5-2.2_i386.deb ...
-Unpacking libcr0 (0.8.5-2.2) ...
-Selecting previously unselected package libibverbs1.
-Preparing to unpack .../libibverbs1_1.1.8-1_i386.deb ...
-Unpacking libibverbs1 (1.1.8-1) ...
-Selecting previously unselected package libopenmpi1.6.
-Preparing to unpack .../libopenmpi1.6_1.6.5-9.1_i386.deb ...
-Unpacking libopenmpi1.6 (1.6.5-9.1) ...
-Selecting previously unselected package libhdf5-openmpi-8:i386.
-Preparing to unpack .../libhdf5-openmpi-8_1.8.13+docs-15_i386.deb ...
-Unpacking libhdf5-openmpi-8:i386 (1.8.13+docs-15) ...
-Selecting previously unselected package ocl-icd-libopencl1:i386.
-Preparing to unpack .../ocl-icd-libopencl1_2.2.3-1_i386.deb ...
-Unpacking ocl-icd-libopencl1:i386 (2.2.3-1) ...
-Selecting previously unselected package autoconf.
-Preparing to unpack .../autoconf_2.69-8_all.deb ...
-Unpacking autoconf (2.69-8) ...
-Selecting previously unselected package autotools-dev.
-Preparing to unpack .../autotools-dev_20140911.1_all.deb ...
-Unpacking autotools-dev (20140911.1) ...
-Selecting previously unselected package automake.
-Preparing to unpack .../automake_1%3a1.14.1-4_all.deb ...
-Unpacking automake (1:1.14.1-4) ...
-Selecting previously unselected package autopoint.
-Preparing to unpack .../autopoint_0.19.3-2_all.deb ...
-Unpacking autopoint (0.19.3-2) ...
-Selecting previously unselected package binutils.
-Preparing to unpack .../binutils_2.25-5_i386.deb ...
-Unpacking binutils (2.25-5) ...
-Selecting previously unselected package libc-dev-bin.
-Preparing to unpack .../libc-dev-bin_2.19-17_i386.deb ...
-Unpacking libc-dev-bin (2.19-17) ...
-Selecting previously unselected package linux-libc-dev:i386.
-Preparing to unpack .../linux-libc-dev_3.16.7-ckt7-1_i386.deb ...
-Unpacking linux-libc-dev:i386 (3.16.7-ckt7-1) ...
-Selecting previously unselected package libc6-dev:i386.
-Preparing to unpack .../libc6-dev_2.19-17_i386.deb ...
-Unpacking libc6-dev:i386 (2.19-17) ...
-Selecting previously unselected package libgcc-4.9-dev:i386.
-Preparing to unpack .../libgcc-4.9-dev_4.9.2-10_i386.deb ...
-Unpacking libgcc-4.9-dev:i386 (4.9.2-10) ...
-Selecting previously unselected package gcc-4.9.
-Preparing to unpack .../gcc-4.9_4.9.2-10_i386.deb ...
-Unpacking gcc-4.9 (4.9.2-10) ...
-Selecting previously unselected package gcc.
-Preparing to unpack .../gcc_4%3a4.9.2-2_i386.deb ...
-Unpacking gcc (4:4.9.2-2) ...
-Selecting previously unselected package libstdc++-4.9-dev:i386.
-Preparing to unpack .../libstdc++-4.9-dev_4.9.2-10_i386.deb ...
-Unpacking libstdc++-4.9-dev:i386 (4.9.2-10) ...
-Selecting previously unselected package g++-4.9.
-Preparing to unpack .../g++-4.9_4.9.2-10_i386.deb ...
-Unpacking g++-4.9 (4.9.2-10) ...
-Selecting previously unselected package g++.
-Preparing to unpack .../g++_4%3a4.9.2-2_i386.deb ...
-Unpacking g++ (4:4.9.2-2) ...
-Selecting previously unselected package libdpkg-perl.
-Preparing to unpack .../libdpkg-perl_1.17.24_all.deb ...
-Unpacking libdpkg-perl (1.17.24) ...
-Selecting previously unselected package dpkg-dev.
-Preparing to unpack .../dpkg-dev_1.17.24_all.deb ...
-Unpacking dpkg-dev (1.17.24) ...
-Selecting previously unselected package build-essential.
-Preparing to unpack .../build-essential_11.7_i386.deb ...
-Unpacking build-essential (11.7) ...
-Selecting previously unselected package chrpath.
-Preparing to unpack .../chrpath_0.16-1_i386.deb ...
-Unpacking chrpath (0.16-1) ...
-Selecting previously unselected package gettext.
-Preparing to unpack .../gettext_0.19.3-2_i386.deb ...
-Unpacking gettext (0.19.3-2) ...
-Selecting previously unselected package intltool-debian.
-Preparing to unpack .../intltool-debian_0.35.0+20060710.1_all.deb ...
-Unpacking intltool-debian (0.35.0+20060710.1) ...
-Selecting previously unselected package po-debconf.
-Preparing to unpack .../po-debconf_1.0.16+nmu3_all.deb ...
-Unpacking po-debconf (1.0.16+nmu3) ...
-Selecting previously unselected package debhelper.
-Preparing to unpack .../debhelper_9.20150101_all.deb ...
-Unpacking debhelper (9.20150101) ...
-Selecting previously unselected package libfakeroot:i386.
-Preparing to unpack .../libfakeroot_1.20.2-1_i386.deb ...
-Unpacking libfakeroot:i386 (1.20.2-1) ...
-Selecting previously unselected package fakeroot.
-Preparing to unpack .../fakeroot_1.20.2-1_i386.deb ...
-Unpacking fakeroot (1.20.2-1) ...
-Selecting previously unselected package libgfortran-4.9-dev:i386.
-Preparing to unpack .../libgfortran-4.9-dev_4.9.2-10_i386.deb ...
-Unpacking libgfortran-4.9-dev:i386 (4.9.2-10) ...
-Selecting previously unselected package gfortran-4.9.
-Preparing to unpack .../gfortran-4.9_4.9.2-10_i386.deb ...
-Unpacking gfortran-4.9 (4.9.2-10) ...
-Selecting previously unselected package gfortran.
-Preparing to unpack .../gfortran_4%3a4.9.2-2_i386.deb ...
-Unpacking gfortran (4:4.9.2-2) ...
-Selecting previously unselected package gsfonts.
-Preparing to unpack .../gsfonts_1%3a8.11+urwcyr1.0.7~pre44-4.2_all.deb ...
-Unpacking gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2) ...
-Selecting previously unselected package ghostscript.
-Preparing to unpack .../ghostscript_9.06~dfsg-2_i386.deb ...
-Unpacking ghostscript (9.06~dfsg-2) ...
-Selecting previously unselected package guile-2.0.
-Preparing to unpack .../guile-2.0_2.0.11+1-9_i386.deb ...
-Unpacking guile-2.0 (2.0.11+1-9) ...
-Selecting previously unselected package libtinfo-dev:i386.
-Preparing to unpack .../libtinfo-dev_5.9+20140913-1+b1_i386.deb ...
-Unpacking libtinfo-dev:i386 (5.9+20140913-1+b1) ...
-Selecting previously unselected package libncurses5-dev:i386.
-Preparing to unpack .../libncurses5-dev_5.9+20140913-1+b1_i386.deb ...
-Unpacking libncurses5-dev:i386 (5.9+20140913-1+b1) ...
-Selecting previously unselected package libreadline6-dev:i386.
-Preparing to unpack .../libreadline6-dev_6.3-8+b3_i386.deb ...
-Unpacking libreadline6-dev:i386 (6.3-8+b3) ...
-Selecting previously unselected package libltdl-dev:i386.
-Preparing to unpack .../libltdl-dev_2.4.2-1.11_i386.deb ...
-Unpacking libltdl-dev:i386 (2.4.2-1.11) ...
-Selecting previously unselected package libgmp-dev:i386.
-Preparing to unpack .../libgmp-dev_2%3a6.0.0+dfsg-6_i386.deb ...
-Unpacking libgmp-dev:i386 (2:6.0.0+dfsg-6) ...
-Selecting previously unselected package libgc-dev:i386.
-Preparing to unpack .../libgc-dev_1%3a7.2d-6.4_i386.deb ...
-Unpacking libgc-dev:i386 (1:7.2d-6.4) ...
-Selecting previously unselected package pkg-config.
-Preparing to unpack .../pkg-config_0.28-1_i386.deb ...
-Unpacking pkg-config (0.28-1) ...
-Selecting previously unselected package guile-2.0-dev.
-Preparing to unpack .../guile-2.0-dev_2.0.11+1-9_i386.deb ...
-Unpacking guile-2.0-dev (2.0.11+1-9) ...
-Selecting previously unselected package libhdf4-0.
-Preparing to unpack .../libhdf4-0_4.2.10-3_i386.deb ...
-Unpacking libhdf4-0 (4.2.10-3) ...
-Selecting previously unselected package h5utils.
-Preparing to unpack .../h5utils_1.12.1-2.1+b2_i386.deb ...
-Unpacking h5utils (1.12.1-2.1+b2) ...
-Selecting previously unselected package hdf5-tools.
-Preparing to unpack .../hdf5-tools_1.8.13+docs-15_i386.deb ...
-Unpacking hdf5-tools (1.8.13+docs-15) ...
-Selecting previously unselected package imagemagick-6.q16.
-Preparing to unpack .../imagemagick-6.q16_8%3a6.8.9.9-5_i386.deb ...
-Unpacking imagemagick-6.q16 (8:6.8.9.9-5) ...
-Selecting previously unselected package imagemagick.
-Preparing to unpack .../imagemagick_8%3a6.8.9.9-5_i386.deb ...
-Unpacking imagemagick (8:6.8.9.9-5) ...
-Selecting previously unselected package libalgorithm-diff-perl.
-Preparing to unpack .../libalgorithm-diff-perl_1.19.02-3_all.deb ...
-Unpacking libalgorithm-diff-perl (1.19.02-3) ...
-Selecting previously unselected package libalgorithm-diff-xs-perl.
-Preparing to unpack .../libalgorithm-diff-xs-perl_0.04-3+b1_i386.deb ...
-Unpacking libalgorithm-diff-xs-perl (0.04-3+b1) ...
-Selecting previously unselected package libalgorithm-merge-perl.
-Preparing to unpack .../libalgorithm-merge-perl_0.08-2_all.deb ...
-Unpacking libalgorithm-merge-perl (0.08-2) ...
-Selecting previously unselected package libasprintf-dev:i386.
-Preparing to unpack .../libasprintf-dev_0.19.3-2_i386.deb ...
-Unpacking libasprintf-dev:i386 (0.19.3-2) ...
-Selecting previously unselected package libatlas3-base.
-Preparing to unpack .../libatlas3-base_3.10.2-7_i386.deb ...
-Unpacking libatlas3-base (3.10.2-7) ...
-Selecting previously unselected package libblas-dev.
-Preparing to unpack .../libblas-dev_1.2.20110419-10_i386.deb ...
-Unpacking libblas-dev (1.2.20110419-10) ...
-Selecting previously unselected package libatlas-dev.
-Preparing to unpack .../libatlas-dev_3.10.2-7_all.deb ...
-Unpacking libatlas-dev (3.10.2-7) ...
-Selecting previously unselected package libatlas-base-dev.
-Preparing to unpack .../libatlas-base-dev_3.10.2-7_i386.deb ...
-Unpacking libatlas-base-dev (3.10.2-7) ...
-Selecting previously unselected package libfftw3-bin.
-Preparing to unpack .../libfftw3-bin_3.3.4-2_i386.deb ...
-Unpacking libfftw3-bin (3.3.4-2) ...
-Selecting previously unselected package libfftw3-dev:i386.
-Preparing to unpack .../libfftw3-dev_3.3.4-2_i386.deb ...
-Unpacking libfftw3-dev:i386 (3.3.4-2) ...
-Selecting previously unselected package libfile-fcntllock-perl.
-Preparing to unpack .../libfile-fcntllock-perl_0.22-1+b1_i386.deb ...
-Unpacking libfile-fcntllock-perl (0.22-1+b1) ...
-Selecting previously unselected package libgettextpo-dev:i386.
-Preparing to unpack .../libgettextpo-dev_0.19.3-2_i386.deb ...
-Unpacking libgettextpo-dev:i386 (0.19.3-2) ...
-Selecting previously unselected package libgsl0ldbl.
-Preparing to unpack .../libgsl0ldbl_1.16+dfsg-2_i386.deb ...
-Unpacking libgsl0ldbl (1.16+dfsg-2) ...
-Selecting previously unselected package libgsl0-dev.
-Preparing to unpack .../libgsl0-dev_1.16+dfsg-2_i386.deb ...
-Unpacking libgsl0-dev (1.16+dfsg-2) ...
-Selecting previously unselected package libharminv2.
-Preparing to unpack .../libharminv2_1.3.1-10_i386.deb ...
-Unpacking libharminv2 (1.3.1-10) ...
-Selecting previously unselected package libharminv-dev.
-Preparing to unpack .../libharminv-dev_1.3.1-10_i386.deb ...
-Unpacking libharminv-dev (1.3.1-10) ...
-Selecting previously unselected package libjpeg62-turbo-dev:i386.
-Preparing to unpack .../libjpeg62-turbo-dev_1%3a1.3.1-12_i386.deb ...
-Unpacking libjpeg62-turbo-dev:i386 (1:1.3.1-12) ...
-Selecting previously unselected package libjpeg-dev.
-Preparing to unpack .../libjpeg-dev_1%3a1.3.1-12_all.deb ...
-Unpacking libjpeg-dev (1:1.3.1-12) ...
-Selecting previously unselected package liblapack-dev.
-Preparing to unpack .../liblapack-dev_3.5.0-4_i386.deb ...
-Unpacking liblapack-dev (3.5.0-4) ...
-Selecting previously unselected package libmagickcore-6.q16-2-extra:i386.
-Preparing to unpack .../libmagickcore-6.q16-2-extra_8%3a6.8.9.9-5_i386.deb ...
-Unpacking libmagickcore-6.q16-2-extra:i386 (8:6.8.9.9-5) ...
-Selecting previously unselected package libsys-hostname-long-perl.
-Preparing to unpack .../libsys-hostname-long-perl_1.4-3_all.deb ...
-Unpacking libsys-hostname-long-perl (1.4-3) ...
-Selecting previously unselected package libmail-sendmail-perl.
-Preparing to unpack .../libmail-sendmail-perl_0.79.16-1_all.deb ...
-Unpacking libmail-sendmail-perl (0.79.16-1) ...
-Selecting previously unselected package libnetpbm10.
-Preparing to unpack .../libnetpbm10_2%3a10.0-15.2_i386.deb ...
-Unpacking libnetpbm10 (2:10.0-15.2) ...
-Selecting previously unselected package libtool.
-Preparing to unpack .../libtool_2.4.2-1.11_all.deb ...
-Unpacking libtool (2.4.2-1.11) ...
-Selecting previously unselected package manpages-dev.
-Preparing to unpack .../manpages-dev_3.74-1_all.deb ...
-Unpacking manpages-dev (3.74-1) ...
-Selecting previously unselected package netpbm.
-Preparing to unpack .../netpbm_2%3a10.0-15.2_i386.deb ...
-Unpacking netpbm (2:10.0-15.2) ...
-Selecting previously unselected package swig2.0.
-Preparing to unpack .../swig2.0_2.0.12-1_i386.deb ...
-Unpacking swig2.0 (2.0.12-1) ...
-Selecting previously unselected package swig.
-Preparing to unpack .../swig_2.0.12-1_i386.deb ...
-Unpacking swig (2.0.12-1) ...
-Selecting previously unselected package zlib1g-dev:i386.
-Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-2+b1_i386.deb ...
-Unpacking zlib1g-dev:i386 (1:1.2.8.dfsg-2+b1) ...
-Selecting previously unselected package openmpi-common.
-Preparing to unpack .../openmpi-common_1.6.5-9.1_all.deb ...
-Unpacking openmpi-common (1.6.5-9.1) ...
-Selecting previously unselected package libibverbs-dev.
-Preparing to unpack .../libibverbs-dev_1.1.8-1_i386.deb ...
-Unpacking libibverbs-dev (1.1.8-1) ...
-Selecting previously unselected package libnuma-dev:i386.
-Preparing to unpack .../libnuma-dev_2.0.10-1_i386.deb ...
-Unpacking libnuma-dev:i386 (2.0.10-1) ...
-Selecting previously unselected package libhwloc-dev:i386.
-Preparing to unpack .../libhwloc-dev_1.10.0-3_i386.deb ...
-Unpacking libhwloc-dev:i386 (1.10.0-3) ...
-Selecting previously unselected package libopenmpi-dev.
-Preparing to unpack .../libopenmpi-dev_1.6.5-9.1_i386.deb ...
-Unpacking libopenmpi-dev (1.6.5-9.1) ...
-Selecting previously unselected package libhdf5-openmpi-dev.
-Preparing to unpack .../libhdf5-openmpi-dev_1.8.13+docs-15_i386.deb ...
-Unpacking libhdf5-openmpi-dev (1.8.13+docs-15) ...
-Selecting previously unselected package libhwloc-plugins.
-Preparing to unpack .../libhwloc-plugins_1.10.0-3_i386.deb ...
-Unpacking libhwloc-plugins (1.10.0-3) ...
-Processing triggers for libgdk-pixbuf2.0-0:i386 (2.31.1-2+b1) ...
-Processing triggers for man-db (2.7.0.2-5) ...
-Processing triggers for install-info (5.2.0.dfsg.1-6) ...
-Processing triggers for fontconfig (2.11.0-6.3) ...
-Processing triggers for desktop-file-utils (0.22-1) ...
-Processing triggers for mime-support (3.58) ...
-Processing triggers for hicolor-icon-theme (0.13-1) ...
-Setting up imagemagick-common (8:6.8.9.9-5) ...
-Setting up locales (2.19-17) ...
-Generating locales (this might take a while)...
-  en_US.UTF-8... done
-Generation complete.
-Setting up libc6-i686:i386 (2.19-17) ...
-Setting up libasan1:i386 (4.9.2-10) ...
-Setting up libatomic1:i386 (4.9.2-10) ...
-Setting up libcilkrts5:i386 (4.9.2-10) ...
-Setting up libgomp1:i386 (4.9.2-10) ...
-Setting up libfftw3-double3:i386 (3.3.4-2) ...
-Setting up libfftw3-long3:i386 (3.3.4-2) ...
-Setting up libfftw3-quad3:i386 (3.3.4-2) ...
-Setting up libfftw3-single3:i386 (3.3.4-2) ...
-Setting up libgettextpo0:i386 (0.19.3-2) ...
-Setting up libgmpxx4ldbl:i386 (2:6.0.0+dfsg-6) ...
-Setting up libhdf5-8:i386 (1.8.13+docs-15) ...
-Setting up libilmbase6:i386 (1.0.1-6.1) ...
-Setting up libitm1:i386 (4.9.2-10) ...
-Setting up liblqr-1-0:i386 (0.4.2-2) ...
-Setting up libmagickcore-6.q16-2:i386 (8:6.8.9.9-5) ...
-Setting up libmagickwand-6.q16-2:i386 (8:6.8.9.9-5) ...
-Setting up libmatheval1:i386 (1.1.11+dfsg-2) ...
-Setting up libnuma1:i386 (2.0.10-1) ...
-Setting up libopenexr6:i386 (1.6.1-8) ...
-Setting up libubsan0:i386 (4.9.2-10) ...
-Setting up libwmf0.2-7:i386 (0.2.8.4-10.3+b2) ...
-Setting up libhwloc5:i386 (1.10.0-3) ...
-Setting up libcr0 (0.8.5-2.2) ...
-Setting up libibverbs1 (1.1.8-1) ...
-Setting up libopenmpi1.6 (1.6.5-9.1) ...
-Setting up libhdf5-openmpi-8:i386 (1.8.13+docs-15) ...
-Setting up ocl-icd-libopencl1:i386 (2.2.3-1) ...
-Setting up autoconf (2.69-8) ...
-Setting up autotools-dev (20140911.1) ...
-Setting up automake (1:1.14.1-4) ...
-update-alternatives: using /usr/bin/automake-1.14 to provide /usr/bin/automake (automake) in auto mode
-Setting up autopoint (0.19.3-2) ...
-Setting up binutils (2.25-5) ...
-Setting up libc-dev-bin (2.19-17) ...
-Setting up linux-libc-dev:i386 (3.16.7-ckt7-1) ...
-Setting up libc6-dev:i386 (2.19-17) ...
-Setting up libgcc-4.9-dev:i386 (4.9.2-10) ...
-Setting up gcc-4.9 (4.9.2-10) ...
-Setting up gcc (4:4.9.2-2) ...
-Setting up libstdc++-4.9-dev:i386 (4.9.2-10) ...
-Setting up g++-4.9 (4.9.2-10) ...
-Setting up g++ (4:4.9.2-2) ...
-update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
-Setting up libdpkg-perl (1.17.24) ...
-Setting up dpkg-dev (1.17.24) ...
-Setting up build-essential (11.7) ...
-Setting up chrpath (0.16-1) ...
-Setting up gettext (0.19.3-2) ...
-Setting up intltool-debian (0.35.0+20060710.1) ...
-Setting up po-debconf (1.0.16+nmu3) ...
-Setting up debhelper (9.20150101) ...
-Setting up libfakeroot:i386 (1.20.2-1) ...
-Setting up fakeroot (1.20.2-1) ...
-update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
-Setting up libgfortran-4.9-dev:i386 (4.9.2-10) ...
-Setting up gfortran-4.9 (4.9.2-10) ...
-Setting up gfortran (4:4.9.2-2) ...
-update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f95 (f95) in auto mode
-update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in auto mode
-Setting up gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2) ...
-Setting up ghostscript (9.06~dfsg-2) ...
-Setting up guile-2.0 (2.0.11+1-9) ...
-update-alternatives: using /usr/bin/guile-2.0 to provide /usr/bin/guile (guile) in auto mode
-Setting up libtinfo-dev:i386 (5.9+20140913-1+b1) ...
-Setting up libncurses5-dev:i386 (5.9+20140913-1+b1) ...
-Setting up libreadline6-dev:i386 (6.3-8+b3) ...
-Setting up libltdl-dev:i386 (2.4.2-1.11) ...
-Setting up libgmp-dev:i386 (2:6.0.0+dfsg-6) ...
-Setting up libgc-dev:i386 (1:7.2d-6.4) ...
-Setting up pkg-config (0.28-1) ...
-Setting up guile-2.0-dev (2.0.11+1-9) ...
-Setting up libhdf4-0 (4.2.10-3) ...
-Setting up h5utils (1.12.1-2.1+b2) ...
-Setting up hdf5-tools (1.8.13+docs-15) ...
-Setting up imagemagick-6.q16 (8:6.8.9.9-5) ...
-Setting up imagemagick (8:6.8.9.9-5) ...
-update-alternatives: using /usr/bin/compare-im6 to provide /usr/bin/compare (compare) in auto mode
-update-alternatives: using /usr/bin/animate-im6 to provide /usr/bin/animate (animate) in auto mode
-update-alternatives: using /usr/bin/convert-im6 to provide /usr/bin/convert (convert) in auto mode
-update-alternatives: using /usr/bin/composite-im6 to provide /usr/bin/composite (composite) in auto mode
-update-alternatives: using /usr/bin/conjure-im6 to provide /usr/bin/conjure (conjure) in auto mode
-update-alternatives: using /usr/bin/import-im6 to provide /usr/bin/import (import) in auto mode
-update-alternatives: using /usr/bin/identify-im6 to provide /usr/bin/identify (identify) in auto mode
-update-alternatives: using /usr/bin/stream-im6 to provide /usr/bin/stream (stream) in auto mode
-update-alternatives: using /usr/bin/display-im6 to provide /usr/bin/display (display) in auto mode
-update-alternatives: using /usr/bin/montage-im6 to provide /usr/bin/montage (montage) in auto mode
-update-alternatives: using /usr/bin/mogrify-im6 to provide /usr/bin/mogrify (mogrify) in auto mode
-Setting up libalgorithm-diff-perl (1.19.02-3) ...
-Setting up libalgorithm-diff-xs-perl (0.04-3+b1) ...
-Setting up libalgorithm-merge-perl (0.08-2) ...
-Setting up libasprintf-dev:i386 (0.19.3-2) ...
-Setting up libatlas3-base (3.10.2-7) ...
-update-alternatives: using /usr/lib/atlas-base/atlas/libblas.so.3 to provide /usr/lib/libblas.so.3 (libblas.so.3) in auto mode
-update-alternatives: using /usr/lib/atlas-base/atlas/liblapack.so.3 to provide /usr/lib/liblapack.so.3 (liblapack.so.3) in auto mode
-Setting up libblas-dev (1.2.20110419-10) ...
-update-alternatives: using /usr/lib/libblas/libblas.so to provide /usr/lib/libblas.so (libblas.so) in auto mode
-Setting up libatlas-dev (3.10.2-7) ...
-Setting up libatlas-base-dev (3.10.2-7) ...
-update-alternatives: using /usr/lib/atlas-base/atlas/libblas.so to provide /usr/lib/libblas.so (libblas.so) in auto mode
-update-alternatives: using /usr/lib/atlas-base/atlas/liblapack.so to provide /usr/lib/liblapack.so (liblapack.so) in auto mode
-Setting up libfftw3-bin (3.3.4-2) ...
-Setting up libfftw3-dev:i386 (3.3.4-2) ...
-Setting up libfile-fcntllock-perl (0.22-1+b1) ...
-Setting up libgettextpo-dev:i386 (0.19.3-2) ...
-Setting up libgsl0ldbl (1.16+dfsg-2) ...
-Setting up libgsl0-dev (1.16+dfsg-2) ...
-Setting up libharminv2 (1.3.1-10) ...
-Setting up libharminv-dev (1.3.1-10) ...
-Setting up libjpeg62-turbo-dev:i386 (1:1.3.1-12) ...
-Setting up libjpeg-dev (1:1.3.1-12) ...
-Setting up liblapack-dev (3.5.0-4) ...
-Setting up libmagickcore-6.q16-2-extra:i386 (8:6.8.9.9-5) ...
-Setting up libsys-hostname-long-perl (1.4-3) ...
-Setting up libmail-sendmail-perl (0.79.16-1) ...
-Setting up libnetpbm10 (2:10.0-15.2) ...
-Setting up libtool (2.4.2-1.11) ...
-Setting up manpages-dev (3.74-1) ...
-Setting up netpbm (2:10.0-15.2) ...
-Setting up swig2.0 (2.0.12-1) ...
-Setting up swig (2.0.12-1) ...
-Setting up zlib1g-dev:i386 (1:1.2.8.dfsg-2+b1) ...
-Setting up openmpi-common (1.6.5-9.1) ...
-Setting up libibverbs-dev (1.1.8-1) ...
-Setting up libnuma-dev:i386 (2.0.10-1) ...
-Setting up libhwloc-dev:i386 (1.10.0-3) ...
-Setting up libopenmpi-dev (1.6.5-9.1) ...
-update-alternatives: using /usr/lib/openmpi/include to provide /usr/include/mpi (mpi) in auto mode
-Setting up libhdf5-openmpi-dev (1.8.13+docs-15) ...
-update-alternatives: using /usr/bin/h5pcc.openmpi to provide /usr/bin/h5pcc (h5pcc) in auto mode
-update-alternatives: using /usr/lib/i386-linux-gnu/pkgconfig/hdf5-openmpi.pc to provide /usr/lib/i386-linux-gnu/pkgconfig/hdf5.pc (hdf5.pc) in auto mode
-Setting up libhwloc-plugins (1.10.0-3) ...
-Processing triggers for libc-bin (2.19-15) ...
-checking whether to enable maintainer-specific portions of Makefiles... no
-checking for a BSD-compatible install... /usr/bin/install -c
-checking whether build environment is sane... yes
-checking for a thread-safe mkdir -p... /bin/mkdir -p
-checking for gawk... no
-checking for mawk... mawk
-checking whether make sets $(MAKE)... yes
-checking build system type... i686-pc-linux-gnu
-checking host system type... i686-pc-linux-gnu
-checking how to print strings... printf
-checking for style of include used by make... GNU
-checking for gcc... gcc
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... no
-checking for suffix of object files... o
-checking whether we are using the GNU C compiler... yes
-checking whether gcc accepts -g... yes
-checking for gcc option to accept ISO C89... none needed
-checking dependency style of gcc... gcc3
-checking for a sed that does not truncate output... /bin/sed
-checking for grep that handles long lines and -e... /bin/grep
-checking for egrep... /bin/grep -E
-checking for fgrep... /bin/grep -F
-checking for ld used by gcc... /usr/bin/ld
-checking if the linker (/usr/bin/ld) is GNU ld... yes
-checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
-checking the name lister (/usr/bin/nm -B) interface... BSD nm
-checking whether ln -s works... yes
-checking the maximum length of command line arguments... 1572864
-checking whether the shell understands some XSI constructs... yes
-checking whether the shell understands "+="... yes
-checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
-checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
-checking for /usr/bin/ld option to reload object files... -r
-checking for objdump... objdump
-checking how to recognize dependent libraries... pass_all
-checking for dlltool... no
-checking how to associate runtime and link libraries... printf %s\n
-checking for ar... ar
-checking for archiver @FILE support... @
-checking for strip... strip
-checking for ranlib... ranlib
-checking command to parse /usr/bin/nm -B output from gcc object... ok
-checking for sysroot... no
-checking for mt... mt
-checking if mt is a manifest tool... no
-checking how to run the C preprocessor... gcc -E
-checking for ANSI C header files... yes
-checking for sys/types.h... yes
-checking for sys/stat.h... yes
-checking for stdlib.h... yes
-checking for string.h... yes
-checking for memory.h... yes
-checking for strings.h... yes
-checking for inttypes.h... yes
-checking for stdint.h... yes
-checking for unistd.h... yes
-checking for dlfcn.h... yes
-checking for objdir... .libs
-checking if gcc supports -fno-rtti -fno-exceptions... no
-checking for gcc option to produce PIC... -fPIC -DPIC
-checking if gcc PIC flag -fPIC -DPIC works... yes
-checking if gcc static flag -static works... yes
-checking if gcc supports -c -o file.o... yes
-checking if gcc supports -c -o file.o... (cached) yes
-checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
-checking dynamic linker characteristics... GNU/Linux ld.so
-checking how to hardcode library paths into programs... immediate
-checking whether stripping libraries is possible... yes
-checking if libtool supports shared libraries... yes
-checking whether to build shared libraries... no
-checking whether to build static libraries... yes
-checking for gcc... (cached) gcc
-checking whether we are using the GNU C compiler... (cached) yes
-checking whether gcc accepts -g... (cached) yes
-checking for gcc option to accept ISO C89... (cached) none needed
-checking dependency style of gcc... (cached) gcc3
-checking whether gcc and cc understand -c and -o together... yes
-checking for indent... no
-checking for gindent... no
-checking for ANSI C header files... (cached) yes
-checking for guile... guile
-checking for guile-config... guile-config
-checking if linking to guile works... yes
-checking libguile.h usability... yes
-checking libguile.h presence... yes
-checking for libguile.h... yes
-checking guile/gh.h usability... no
-checking guile/gh.h presence... no
-checking for guile/gh.h... no
-checking for modern non-gh interface... yes
-checking for gh_enter... no
-checking for gh_eval_str... no
-checking for gh_load... no
-checking for gh_bool2scm... no
-checking for gh_vector_ref... no
-checking for gh_list_ref... no
-checking for gh_length... no
-checking for scm_flush_all_ports... yes
-checking for scm_make_complex... yes
-checking for scm_c_make_rectangular... yes
-checking for scm_variable_set_x... yes
-checking for scm_c_lookup... yes
-checking for scm_c_make_vector... yes
-checking for scm_variable_ref... yes
-checking for SCM_COMPLEXP... yes
-checking whether gh_lookup works properly... no
-checking for g77... no
-checking for xlf... no
-checking for f77... f77
-checking whether we are using the GNU Fortran 77 compiler... yes
-checking whether f77 accepts -g... yes
-checking if libtool supports shared libraries... yes
-checking whether to build shared libraries... no
-checking whether to build static libraries... yes
-checking for f77 option to produce PIC... -fPIC
-checking if f77 PIC flag -fPIC works... yes
-checking if f77 static flag -static works... yes
-checking if f77 supports -c -o file.o... yes
-checking if f77 supports -c -o file.o... (cached) yes
-checking whether the f77 linker (/usr/bin/ld) supports shared libraries... yes
-checking dynamic linker characteristics... (cached) GNU/Linux ld.so
-checking how to hardcode library paths into programs... immediate
-checking how to get verbose linking output from f77... -v
-checking for Fortran 77 libraries of f77...  -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -lgfortran -lm -lguile-2.0 -lgc -lquadmath
-checking for dummy main to link with Fortran 77 libraries... none
-checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
-checking complex.h usability... yes
-checking complex.h presence... yes
-checking for complex.h... yes
-checking for C complex keyword... complex
-checking for egrep... (cached) /bin/grep -E
-checking nlopt.h usability... no
-checking nlopt.h presence... no
-checking for nlopt.h... no
-checking for basename in -lgen... no
-configure: creating ./config.status
-config.status: creating Makefile
-config.status: creating src/Makefile
-config.status: creating utils/Makefile
-config.status: creating examples/Makefile
-config.status: creating examples/example.scm
-config.status: creating utils/gen-ctl-io
-config.status: creating config.h
-config.status: creating src/ctl.h
-config.status: executing depfiles commands
-config.status: executing libtool commands
-make  all-recursive
-make[1]: Entering directory '/home/f/python-meep-install/libctl-3.2.1'
-Making all in src
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make  all-am
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/src'
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c -o ctl.lo ctl.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c ctl.c -o ctl.o
-mv -f .deps/ctl.Tpo .deps/ctl.Plo
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c -o subplex.lo subplex.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c subplex.c -o subplex.o
-mv -f .deps/subplex.Tpo .deps/subplex.Plo
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c -o ctl-f77-glue.lo ctl-f77-glue.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c ctl-f77-glue.c -o ctl-f77-glue.o
-mv -f .deps/ctl-f77-glue.Tpo .deps/ctl-f77-glue.Plo
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c -o integrator.lo integrator.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c integrator.c -o integrator.o
-mv -f .deps/integrator.Tpo .deps/integrator.Plo
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c -o cintegrator.lo cintegrator.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c cintegrator.c -o cintegrator.o
-mv -f .deps/cintegrator.Tpo .deps/cintegrator.Plo
-/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 5:1:0  -o libctl.la -rpath /usr/local/lib ctl.lo subplex.lo ctl-f77-glue.lo integrator.lo cintegrator.lo  -lm -lguile-2.0 -lgc 
-libtool: link: ar cru .libs/libctl.a  ctl.o subplex.o ctl-f77-glue.o integrator.o cintegrator.o
-libtool: link: ranlib .libs/libctl.a
-libtool: link: ( cd ".libs" && rm -f "libctl.la" && ln -s "../libctl.la" "libctl.la" )
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/src'
-Making all in utils
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-/home/f/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c ./geom.scm ..
-sed 's,/.* Input variables .*/,@#include "geom-ctl-io-defaults.c"@#if 0@,;s,/.* Output variables .*/,#endif@,' ctl-io.c | tr '@' '\n' > geom-ctl-io.c
-/home/f/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h ./geom.scm ..
-cp -f ctl-io.h ctlgeom-types.h
-make  all-am
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c -o geom.lo geom.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c geom.c -o geom.o
-mv -f .deps/geom.Tpo .deps/geom.Plo
-/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c -o geom-ctl-io.lo geom-ctl-io.c
-libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c geom-ctl-io.c -o geom-ctl-io.o
-mv -f .deps/geom-ctl-io.Tpo .deps/geom-ctl-io.Plo
-/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 5:1:0 ../src/libctl.la  -o libctlgeom.la -rpath /usr/local/lib geom.lo geom-ctl-io.lo  -lm -lguile-2.0 -lgc 
-libtool: link: ar cru .libs/libctlgeom.a  geom.o geom-ctl-io.o
-libtool: link: ranlib .libs/libctlgeom.a
-libtool: link: ( cd ".libs" && rm -f "libctlgeom.la" && ln -s "../libctlgeom.la" "libctlgeom.la" )
-gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geomtst.o -MD -MP -MF .deps/geomtst.Tpo -c -o geomtst.o geomtst.c
-mv -f .deps/geomtst.Tpo .deps/geomtst.Po
-/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o geomtst geomtst.o libctlgeom.la ../src/libctl.la -lm -lguile-2.0 -lgc 
-libtool: link: gcc -g -O2 -o geomtst geomtst.o  ./.libs/libctlgeom.a /home/f/python-meep-install/libctl-3.2.1/src/.libs/libctl.a ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-Making all in examples
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-cp -f /home/f/python-meep-install/libctl-3.2.1/./base/main.c main.c
-cp -f /home/f/python-meep-install/libctl-3.2.1/./utils/geom.c geom.c
-/home/f/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h example.scm /home/f/python-meep-install/libctl-3.2.1/.
-/home/f/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c example.scm /home/f/python-meep-install/libctl-3.2.1/.
-make  all-am
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-example.o -MD -MP -MF .deps/example-example.Tpo -c -o example-example.o `test -f 'example.c' || echo './'`example.c
-mv -f .deps/example-example.Tpo .deps/example-example.Po
-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-main.o -MD -MP -MF .deps/example-main.Tpo -c -o example-main.o `test -f 'main.c' || echo './'`main.c
-mv -f .deps/example-main.Tpo .deps/example-main.Po
-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-geom.o -MD -MP -MF .deps/example-geom.Tpo -c -o example-geom.o `test -f 'geom.c' || echo './'`geom.c
-mv -f .deps/example-geom.Tpo .deps/example-geom.Po
-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/f/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-ctl-io.o -MD -MP -MF .deps/example-ctl-io.Tpo -c -o example-ctl-io.o `test -f 'ctl-io.c' || echo './'`ctl-io.c
-mv -f .deps/example-ctl-io.Tpo .deps/example-ctl-io.Po
-/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/libctl.la  -lm -lguile-2.0 -lgc 
-libtool: link: gcc -g -O2 -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1'
-make[1]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1'
-Making install in src
-make[1]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make  install-am
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/src'
-test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
- /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctl.la '/usr/local/lib'
-libtool: install: /usr/bin/install -c .libs/libctl.lai /usr/local/lib/libctl.la
-libtool: install: /usr/bin/install -c .libs/libctl.a /usr/local/lib/libctl.a
-libtool: install: chmod 644 /usr/local/lib/libctl.a
-libtool: install: ranlib /usr/local/lib/libctl.a
-libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
-----------------------------------------------------------------------
-Libraries have been installed in:
-   /usr/local/lib
-
-If you ever happen to want to link against installed libraries
-in a given directory, LIBDIR, you must either use libtool, and
-specify the full pathname of the library, or use the `-LLIBDIR'
-flag during linking and do at least one of the following:
-   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
-     during execution
-   - add LIBDIR to the `LD_RUN_PATH' environment variable
-     during linking
-   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
-   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
-
-See any operating system documentation about shared libraries for
-more information, such as the ld(1) and ld.so(8) manual pages.
-----------------------------------------------------------------------
-test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
- /usr/bin/install -c -m 644 ctl.h '/usr/local/include'
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/src'
-make[1]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/src'
-Making install in utils
-make[1]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-make  install-am
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
- /usr/bin/install -c gen-ctl-io '/usr/local/bin'
-test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
- /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctlgeom.la '/usr/local/lib'
-libtool: install: /usr/bin/install -c .libs/libctlgeom.lai /usr/local/lib/libctlgeom.la
-libtool: install: /usr/bin/install -c .libs/libctlgeom.a /usr/local/lib/libctlgeom.a
-libtool: install: chmod 644 /usr/local/lib/libctlgeom.a
-libtool: install: ranlib /usr/local/lib/libctlgeom.a
-libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
-----------------------------------------------------------------------
-Libraries have been installed in:
-   /usr/local/lib
-
-If you ever happen to want to link against installed libraries
-in a given directory, LIBDIR, you must either use libtool, and
-specify the full pathname of the library, or use the `-LLIBDIR'
-flag during linking and do at least one of the following:
-   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
-     during execution
-   - add LIBDIR to the `LD_RUN_PATH' environment variable
-     during linking
-   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
-   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
-
-See any operating system documentation about shared libraries for
-more information, such as the ld(1) and ld.so(8) manual pages.
-----------------------------------------------------------------------
-test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
- /usr/bin/install -c -m 644 ctlgeom.h '/usr/local/include'
-test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
- /usr/bin/install -c -m 644 gen-ctl-io.1 '/usr/local/share/man/man1'
-test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
- /usr/bin/install -c -m 644 ctlgeom-types.h '/usr/local/include'
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-make[1]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/utils'
-Making install in examples
-make[1]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make  install-am
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[3]: Entering directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[3]: Nothing to be done for 'install-exec-am'.
-make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[1]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1/examples'
-make[1]: Entering directory '/home/f/python-meep-install/libctl-3.2.1'
-make[2]: Entering directory '/home/f/python-meep-install/libctl-3.2.1'
-make[2]: Nothing to be done for 'install-exec-am'.
-test -z "/usr/local/share/libctl" || /bin/mkdir -p "/usr/local/share/libctl"
-/bin/mkdir -p '/usr/local/share/libctl/utils'
- /usr/bin/install -c -m 644  utils/ctl-io.scm utils/geom.c utils/geom.scm utils/nlopt-constants.scm utils/nlopt.c '/usr/local/share/libctl/utils'
-/bin/mkdir -p '/usr/local/share/libctl/base'
- /usr/bin/install -c -m 644  base/class.scm base/ctl.scm base/extern-funcs.scm base/help.scm base/include.scm base/interaction.scm base/io-vars.scm base/math-utils.scm base/matrix3x3.scm base/simplex.scm base/utils.scm base/vector3.scm base/main.c '/usr/local/share/libctl/base'
-make[2]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1'
-make[1]: Leaving directory '/home/f/python-meep-install/libctl-3.2.1'
+libgsl0-dev is already the newest version.
+guile-2.0-dev is already the newest version.
+h5utils is already the newest version.
+libharminv-dev is already the newest version.
+imagemagick is already the newest version.
+liblapack-dev is already the newest version.
+libtool is already the newest version.
+pkg-config is already the newest version.
+swig is already the newest version.
+zlib1g-dev is already the newest version.
+The following package was automatically installed and is no longer required:
+  libhdf5-mpich-8
+Use 'apt-get autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 68 not upgraded.
 Reading package lists...
 Building dependency tree...
 Reading state information...
-libopenmpi-dev is already the newest version.
-libopenmpi-dev set to manually installed.
-Suggested packages:
-  openmpi-checkpoint
-The following NEW packages will be installed:
-  openmpi-bin
-0 upgraded, 1 newly installed, 0 to remove and 33 not upgraded.
-Need to get 153 kB of archives.
-After this operation, 328 kB of additional disk space will be used.
-Get:1 http://ftp.cz.debian.org/debian/ jessie/main openmpi-bin i386 1.6.5-9.1 [153 kB]
-Fetched 153 kB in 0s (260 kB/s)
-Selecting previously unselected package openmpi-bin.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79909 files and directories currently installed.)
-Preparing to unpack .../openmpi-bin_1.6.5-9.1_i386.deb ...
-Unpacking openmpi-bin (1.6.5-9.1) ...
-Processing triggers for man-db (2.7.0.2-5) ...
-Setting up openmpi-bin (1.6.5-9.1) ...
-update-alternatives: using /usr/bin/mpirun.openmpi to provide /usr/bin/mpirun (mpirun) in auto mode
+libmpich-dev is already the newest version.
+libmpich2-dev is already the newest version.
+The following package was automatically installed and is no longer required:
+  libhdf5-mpich-8
+Use 'apt-get autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 68 not upgraded.
 libtoolize: putting auxiliary files in `.'.
 libtoolize: linking file `./ltmain.sh'
 libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
@@ -1221,71 +259,38 @@ config.status: creating config.h
 config.status: executing depfiles commands
 config.status: executing libtool commands
 make  all-recursive
-make[1]: Entering directory '/home/f/python-meep-install/meep'
+make[1]: Entering directory '/home/f/meep'
 Making all in src
-make[2]: Entering directory '/home/f/python-meep-install/meep/src'
-make sphere_quad
-make[3]: Entering directory '/home/f/python-meep-install/meep/src'
-  CXX      sphere-quad.o
-  CXXLD    sphere_quad
-make[3]: Leaving directory '/home/f/python-meep-install/meep/src'
-(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; ../src/sphere_quad) > sphere-quad.h
-(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; sed 's/LOOP_OVER/S1LOOP_OVER/g' ../src/step_generic.cpp | sed 's/step_curl/step_curl_stride1/' | sed 's/step_update_EDHB/step_update_EDHB_stride1/' | sed 's/step_beta/step_beta_stride1/') > step_generic_stride1.cpp
+make[2]: Entering directory '/home/f/meep/src'
 make  all-am
-make[3]: Entering directory '/home/f/python-meep-install/meep/src'
-  CXX      anisotropic_averaging.lo
+make[3]: Entering directory '/home/f/meep/src'
   CXX      bands.lo
-  CXX      boundaries.lo
   CXX      bicgstab.lo
   CXX      casimir.lo
-  CXX      control_c.lo
-  CXX      cw_fields.lo
-  CXX      dft.lo
-  CXX      dft_ldos.lo
-  CXX      energy_and_flux.lo
-  CXX      fields.lo
-  CXX      loop_in_chunks.lo
-  CXX      grace.lo
-  CXX      h5fields.lo
   CXX      h5file.lo
   CXX      initialize.lo
-  CXX      integrate.lo
-  CXX      integrate2.lo
   CXX      monitor.lo
   CXX      mympi.lo
   CXX      multilevel-atom.lo
   CXX      near2far.lo
-  CXX      output_directory.lo
   CXX      random.lo
-  CXX      sources.lo
   CXX      step.lo
-  CXX      step_db.lo
-  CXX      stress.lo
-  CXX      structure.lo
-  CXX      susceptibility.lo
-  CXX      time.lo
-  CXX      update_eh.lo
   CXX      mpb.lo
   CXX      update_pols.lo
-  CXX      vec.lo
   CXX      step_generic.lo
   CXX      step_generic_stride1.lo
   CXXLD    libmeep_mpi.la
-make[3]: Leaving directory '/home/f/python-meep-install/meep/src'
-make[2]: Leaving directory '/home/f/python-meep-install/meep/src'
+make[3]: Leaving directory '/home/f/meep/src'
+make[2]: Leaving directory '/home/f/meep/src'
 Making all in libctl
-make[2]: Entering directory '/home/f/python-meep-install/meep/libctl'
-(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; sed 's/^ *class \+\([A-Za-z_0-9:]*\)\( *\| *:[^{]*\){.*$/%rename(meep_\1) meep::\1;/' ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | grep "%rename" | sort -u; echo; grep -hv typedef ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/\(inline\|const\|extern\|static\) \+//g' | sed 's/^[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%rename(meep_\1) meep::\1;/' | grep "%rename" | sort -u; ) > meep_renames.i
-(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; for f in ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp; do egrep "^enum" $f | sed 's/enum \+\([A-Za-z_0-9:]\+\).*$/\1/g' | while read enum; do cat $f | tr -d '\n' | sed 's/.*enum \+'${enum}' *{\([^}]*\)}.*/\1/g' | sed 's/= *[0-9]\+//g' |tr -d ' \t' | tr ',' '\n' | sed 's/^.*$/'"%rename(meep_${enum}_\0) meep::\0;/g"; echo; done; done;) > meep_enum_renames.i
-(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; grep -h friend ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/^ *friend \+[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%ignore \1;/' | grep "%ignore" | sort -u;) > meep_swig_bug_workaround.i
-(sed 's/%rename(\([A-Za-z0-9_]*\)) *\([A-Za-z0-9:_]*\);$/(define \2 (\1))/' meep_enum_renames.i | sed 's/[A-Za-z0-9:_]*:://g' | sed 's/_/-/g' | sed 's,//,;,'; echo "(define Centered Dielectric)") > meep-enums.scm
+make[2]: Entering directory '/home/f/meep/libctl'
 gen-ctl-io --cxx --swig -o ctl-io.i meep.scm /usr/local/share/libctl
 swig -I../src -c++ -guile -o meep_wrap.cxx meep.i
 patch -p0 meep_wrap.cxx < ./meep_wrap.patch
 patching file meep_wrap.cxx
 Hunk #1 succeeded at 760 (offset 9 lines).
 make  all-am
-make[3]: Entering directory '/home/f/python-meep-install/meep/libctl'
+make[3]: Entering directory '/home/f/meep/libctl'
 gen-ctl-io --cxx --header -o ctl-io.h meep.scm /usr/local/share/libctl
   CXX      meep.o
   CXX      structure.o
@@ -1297,25 +302,25 @@ cp -f /usr/local/share/libctl/utils/geom.c geom.cpp
 gen-ctl-io --cxx --code -o ctl-io.cpp meep.scm /usr/local/share/libctl
   CXX      ctl-io.o
   CXXLD    meep_mpi
-make[3]: Leaving directory '/home/f/python-meep-install/meep/libctl'
-make[2]: Leaving directory '/home/f/python-meep-install/meep/libctl'
+make[3]: Leaving directory '/home/f/meep/libctl'
+make[2]: Leaving directory '/home/f/meep/libctl'
 Making all in tests
-make[2]: Entering directory '/home/f/python-meep-install/meep/tests'
+make[2]: Entering directory '/home/f/meep/tests'
 make[2]: Nothing to be done for 'all'.
-make[2]: Leaving directory '/home/f/python-meep-install/meep/tests'
+make[2]: Leaving directory '/home/f/meep/tests'
 Making all in examples
-make[2]: Entering directory '/home/f/python-meep-install/meep/examples'
+make[2]: Entering directory '/home/f/meep/examples'
 make[2]: Nothing to be done for 'all'.
-make[2]: Leaving directory '/home/f/python-meep-install/meep/examples'
-make[2]: Entering directory '/home/f/python-meep-install/meep'
+make[2]: Leaving directory '/home/f/meep/examples'
+make[2]: Entering directory '/home/f/meep'
 cp -f ./meep-pkgconfig meep_mpi.pc
-make[2]: Leaving directory '/home/f/python-meep-install/meep'
-make[1]: Leaving directory '/home/f/python-meep-install/meep'
+make[2]: Leaving directory '/home/f/meep'
+make[1]: Leaving directory '/home/f/meep'
 Making install in src
-make[1]: Entering directory '/home/f/python-meep-install/meep/src'
+make[1]: Entering directory '/home/f/meep/src'
 make  install-am
-make[2]: Entering directory '/home/f/python-meep-install/meep/src'
-make[3]: Entering directory '/home/f/python-meep-install/meep/src'
+make[2]: Entering directory '/home/f/meep/src'
+make[3]: Entering directory '/home/f/meep/src'
  /bin/mkdir -p '/usr/local/lib'
  /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmeep_mpi.la '/usr/local/lib'
 libtool: install: /usr/bin/install -c .libs/libmeep_mpi.so.8.0.0 /usr/local/lib/libmeep_mpi.so.8.0.0
@@ -1348,121 +353,60 @@ more information, such as the ld(1) and ld.so(8) manual pages.
  /usr/bin/install -c -m 644 meep.hpp '/usr/local/include'
  /bin/mkdir -p '/usr/local/include/meep'
  /usr/bin/install -c -m 644 meep/mympi.hpp meep/vec.hpp '/usr/local/include/meep'
-make[3]: Leaving directory '/home/f/python-meep-install/meep/src'
-make[2]: Leaving directory '/home/f/python-meep-install/meep/src'
-make[1]: Leaving directory '/home/f/python-meep-install/meep/src'
+make[3]: Leaving directory '/home/f/meep/src'
+make[2]: Leaving directory '/home/f/meep/src'
+make[1]: Leaving directory '/home/f/meep/src'
 Making install in libctl
-make[1]: Entering directory '/home/f/python-meep-install/meep/libctl'
+make[1]: Entering directory '/home/f/meep/libctl'
 make  install-am
-make[2]: Entering directory '/home/f/python-meep-install/meep/libctl'
-make[3]: Entering directory '/home/f/python-meep-install/meep/libctl'
+make[2]: Entering directory '/home/f/meep/libctl'
+make[3]: Entering directory '/home/f/meep/libctl'
  /bin/mkdir -p '/usr/local/bin'
   /bin/bash ../libtool   --mode=install /usr/bin/install -c meep_mpi '/usr/local/bin/./meep-mpi'
 libtool: install: /usr/bin/install -c .libs/meep_mpi /usr/local/bin/./meep-mpi
  /bin/mkdir -p '/usr/local/share/meep'
  /usr/bin/install -c -m 644 meep.scm meep-enums.scm casimir.scm '/usr/local/share/meep'
-make[3]: Leaving directory '/home/f/python-meep-install/meep/libctl'
-make[2]: Leaving directory '/home/f/python-meep-install/meep/libctl'
-make[1]: Leaving directory '/home/f/python-meep-install/meep/libctl'
+make[3]: Leaving directory '/home/f/meep/libctl'
+make[2]: Leaving directory '/home/f/meep/libctl'
+make[1]: Leaving directory '/home/f/meep/libctl'
 Making install in tests
-make[1]: Entering directory '/home/f/python-meep-install/meep/tests'
-make[2]: Entering directory '/home/f/python-meep-install/meep/tests'
+make[1]: Entering directory '/home/f/meep/tests'
+make[2]: Entering directory '/home/f/meep/tests'
 make[2]: Nothing to be done for 'install-exec-am'.
 make[2]: Nothing to be done for 'install-data-am'.
-make[2]: Leaving directory '/home/f/python-meep-install/meep/tests'
-make[1]: Leaving directory '/home/f/python-meep-install/meep/tests'
+make[2]: Leaving directory '/home/f/meep/tests'
+make[1]: Leaving directory '/home/f/meep/tests'
 Making install in examples
-make[1]: Entering directory '/home/f/python-meep-install/meep/examples'
-make[2]: Entering directory '/home/f/python-meep-install/meep/examples'
+make[1]: Entering directory '/home/f/meep/examples'
+make[2]: Entering directory '/home/f/meep/examples'
 make[2]: Nothing to be done for 'install-exec-am'.
 make[2]: Nothing to be done for 'install-data-am'.
-make[2]: Leaving directory '/home/f/python-meep-install/meep/examples'
-make[1]: Leaving directory '/home/f/python-meep-install/meep/examples'
-make[1]: Entering directory '/home/f/python-meep-install/meep'
-make[2]: Entering directory '/home/f/python-meep-install/meep'
+make[2]: Leaving directory '/home/f/meep/examples'
+make[1]: Leaving directory '/home/f/meep/examples'
+make[1]: Entering directory '/home/f/meep'
+make[2]: Entering directory '/home/f/meep'
 make[2]: Nothing to be done for 'install-exec-am'.
  /bin/mkdir -p '/usr/local/lib/pkgconfig'
  /usr/bin/install -c -m 644 meep_mpi.pc '/usr/local/lib/pkgconfig'
-make[2]: Leaving directory '/home/f/python-meep-install/meep'
-make[1]: Leaving directory '/home/f/python-meep-install/meep'
+make[2]: Leaving directory '/home/f/meep'
+make[1]: Leaving directory '/home/f/meep'
 Reading package lists...
 Building dependency tree...
 Reading state information...
+python-dev is already the newest version.
 python-numpy is already the newest version.
-python-numpy set to manually installed.
-The following extra packages will be installed:
-  libexpat1-dev libpython-dev libpython-stdlib libpython2.7-dev python
-  python-decorator python-imaging python-minimal python2.7-dev
-Suggested packages:
-  python-doc python-tk
-The following NEW packages will be installed:
-  libexpat1-dev libpython-dev libpython2.7-dev python-decorator python-dev
-  python-imaging python-scipy python2.7-dev
-The following packages will be upgraded:
-  libpython-stdlib python python-minimal
-3 upgraded, 8 newly installed, 0 to remove and 30 not upgraded.
-Need to get 26.7 MB of archives.
-After this operation, 60.1 MB of additional disk space will be used.
-Get:1 http://ftp.cz.debian.org/debian/ jessie/main python-minimal i386 2.7.9-1 [40.0 kB]
-Get:2 http://ftp.cz.debian.org/debian/ jessie/main python i386 2.7.9-1 [151 kB]
-Get:3 http://ftp.cz.debian.org/debian/ jessie/main libpython-stdlib i386 2.7.9-1 [19.5 kB]
-Get:4 http://ftp.cz.debian.org/debian/ jessie/main libexpat1-dev i386 2.1.0-6+b3 [126 kB]
-Get:5 http://ftp.cz.debian.org/debian/ jessie/main libpython2.7-dev i386 2.7.9-2 [18.4 MB]
-Get:6 http://ftp.cz.debian.org/debian/ jessie/main libpython-dev i386 2.7.9-1 [19.6 kB]
-Get:7 http://ftp.cz.debian.org/debian/ jessie/main python-decorator all 3.4.0-2 [22.3 kB]
-Get:8 http://ftp.cz.debian.org/debian/ jessie/main python2.7-dev i386 2.7.9-2 [278 kB]
-Get:9 http://ftp.cz.debian.org/debian/ jessie/main python-dev i386 2.7.9-1 [1,178 B]
-Get:10 http://ftp.cz.debian.org/debian/ jessie/main python-imaging all 2.6.1-2 [9,614 B]
-Get:11 http://ftp.cz.debian.org/debian/ jessie/main python-scipy i386 0.14.0-2 [7,641 kB]
-Fetched 26.7 MB in 1min 26s (310 kB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79954 files and directories currently installed.)
-Preparing to unpack .../python-minimal_2.7.9-1_i386.deb ...
-Unpacking python-minimal (2.7.9-1) over (2.7.8-4) ...
-Processing triggers for man-db (2.7.0.2-5) ...
-Setting up python-minimal (2.7.9-1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79954 files and directories currently installed.)
-Preparing to unpack .../python_2.7.9-1_i386.deb ...
-Unpacking python (2.7.9-1) over (2.7.8-4) ...
-Preparing to unpack .../libpython-stdlib_2.7.9-1_i386.deb ...
-Unpacking libpython-stdlib:i386 (2.7.9-1) over (2.7.8-4) ...
-Selecting previously unselected package libexpat1-dev:i386.
-Preparing to unpack .../libexpat1-dev_2.1.0-6+b3_i386.deb ...
-Unpacking libexpat1-dev:i386 (2.1.0-6+b3) ...
-Selecting previously unselected package libpython2.7-dev:i386.
-Preparing to unpack .../libpython2.7-dev_2.7.9-2_i386.deb ...
-Unpacking libpython2.7-dev:i386 (2.7.9-2) ...
-Selecting previously unselected package libpython-dev:i386.
-Preparing to unpack .../libpython-dev_2.7.9-1_i386.deb ...
-Unpacking libpython-dev:i386 (2.7.9-1) ...
-Selecting previously unselected package python-decorator.
-Preparing to unpack .../python-decorator_3.4.0-2_all.deb ...
-Unpacking python-decorator (3.4.0-2) ...
-Selecting previously unselected package python2.7-dev.
-Preparing to unpack .../python2.7-dev_2.7.9-2_i386.deb ...
-Unpacking python2.7-dev (2.7.9-2) ...
-Selecting previously unselected package python-dev.
-Preparing to unpack .../python-dev_2.7.9-1_i386.deb ...
-Unpacking python-dev (2.7.9-1) ...
-Selecting previously unselected package python-imaging.
-Preparing to unpack .../python-imaging_2.6.1-2_all.deb ...
-Unpacking python-imaging (2.6.1-2) ...
-Selecting previously unselected package python-scipy.
-Preparing to unpack .../python-scipy_0.14.0-2_i386.deb ...
-Unpacking python-scipy (0.14.0-2) ...
-Processing triggers for man-db (2.7.0.2-5) ...
-Setting up libpython-stdlib:i386 (2.7.9-1) ...
-Setting up python (2.7.9-1) ...
-Setting up libexpat1-dev:i386 (2.1.0-6+b3) ...
-Setting up libpython2.7-dev:i386 (2.7.9-2) ...
-Setting up libpython-dev:i386 (2.7.9-1) ...
-Setting up python-decorator (3.4.0-2) ...
-Setting up python2.7-dev (2.7.9-2) ...
-Setting up python-dev (2.7.9-1) ...
-Setting up python-imaging (2.6.1-2) ...
-Setting up python-scipy (0.14.0-2) ...
+python-scipy is already the newest version.
+The following package was automatically installed and is no longer required:
+  libhdf5-mpich-8
+Use 'apt-get autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 68 not upgraded.
 Directories for SWIG -I option :  ['/usr/local/include']
 Directories for -L option :  ['/usr/local/lib']
 running clean
+removing 'build/temp.linux-i686-2.7' (and everything under it)
+removing 'build/lib.linux-i686-2.7' (and everything under it)
+removing 'build/bdist.linux-i686' (and everything under it)
+removing 'build'
 Directories for SWIG -I option :  ['/usr/local/include']
 Directories for -L option :  ['/usr/local/lib']
 running build_ext
@@ -1486,7 +430,6 @@ copying build/lib.linux-i686-2.7/meep_mpi.py -> /usr/local/lib/python2.7/dist-pa
 copying build/lib.linux-i686-2.7/_meep_mpi.so -> /usr/local/lib/python2.7/dist-packages
 byte-compiling /usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
 running install_data
-copying custom.hpp -> /usr/local/lib/python2.7/dist-packages
 running install_egg_info
 Writing /usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
 Directories for SWIG -I option :  ['/usr/local/include']
@@ -1513,6 +456,5 @@ running install_data
 copying custom.hpp -> build/bdist.linux-i686/dumb/usr/local/lib/python2.7/dist-packages
 running install_egg_info
 Writing build/bdist.linux-i686/dumb/usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
-creating /home/f/python-meep-install/python-meep/dist
 Creating tar archive
 removing 'build/bdist.linux-i686/dumb' (and everything under it)

@@ -11,7 +11,7 @@ rm /usr/local/lib/pkgconfig/meep_mpi.pc
 rm /usr/local/share/meep/casimir.scm
 rm /usr/local/share/meep/meep-enums.scm
 rm /usr/local/share/meep/meep.scm
-echo Removing locally compiled python-meep (works for python 2.7)...
+echo 'Removing locally compiled python-meep (works for python 2.7)...'
 rm /usr/local/lib/python2.7/dist-packages/_meep_mpi.so
 rm /usr/local/lib/python2.7/dist-packages/meep_mpi.py
 rm /usr/local/lib/python2.7/dist-packages/meep_mpi.pyc

@@ -11,7 +11,7 @@ meep_opt="--with-mpi";			## comment out if no multiprocessing is used
 sudo apt-get update
 sudo apt-get install -y autotools-dev autoconf chrpath debhelper gfortran \
     g++ git guile-2.0-dev h5utils imagemagick libatlas-base-dev libfftw3-dev libgsl0-dev \
-    libharminv-dev libhdf5-serial-dev liblapack-dev libtool pkg-config swig  zlib1g-dev
+    libharminv-dev  liblapack-dev libtool pkg-config swig  zlib1g-dev
 
 ## the version of `libctl-dev' from repository is too old (tested at Ubuntu 14.04, or older) 
 wget http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
@@ -21,7 +21,7 @@ cd ..
 
 ## --- MEEP (now fresh from github!) --------------------------------------------
 ## Skip this line if no multiprocessing used (also install correct libhdf5-*-dev)
-sudo apt-get -y install openmpi-bin libopenmpi-dev
+sudo apt-get -y install libmpich-dev libmpich2-dev
 	
 export CFLAGS=" -fPIC"; export CXXFLAGS=" -fPIC"; export FFLAGS=" -fPIC"  ## Position Independent Code, needed on 64-bit
 export CPPFLAGS="-I/usr/local/include"									 ## install everything into /usr/local to prevent overwrite
