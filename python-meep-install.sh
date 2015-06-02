@@ -20,9 +20,10 @@ tar xzf libctl* && cd libctl-3.2.1/
 cd ..
 
 ## --- MEEP (now fresh from github!) --------------------------------------------
-## Skip this line if no multiprocessing used (also install correct libhdf5-*-dev)
-#sudo apt-get -y install libmpich-dev libmpich2-dev
-sudo apt-get -y install openmpi-bin libopenmpi-dev
+## Select the dependencies that vary with MPI being used:
+#sudo apt-get -y install  libhdf5-serial-dev									## Serial version, untested
+#sudo apt-get -y install (also install correct libhdf5-*-dev!!!!) libmpich-dev libmpich2-dev								## MPICH version
+sudo apt-get -y install libhdf5-openmpi-dev openmpi-bin libopenmpi-dev			## OpenMPI version
 
 	
 export CFLAGS=" -fPIC"; export CXXFLAGS=" -fPIC"; export FFLAGS=" -fPIC"  ## Position Independent Code, needed on 64-bit
