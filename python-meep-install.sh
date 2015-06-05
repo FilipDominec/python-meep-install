@@ -3,8 +3,12 @@
 ## with some utilities on a Debian-based system.
 
 ## --- Settings ---------------------------------------------------------------
-meep_opt="--with-mpi";			## comment out if no multiprocessing is used
+MPI="openmpi"
+#MPI="mpich"
+#MPI="mpich2"
+#MPI="serial"			## i.e. no multiprocessing used
 
+if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then meep_opt="--with-mpi"; fi
 
 ## --- Build dependencies -----------------------------------------------------
 ## (list obtained from https://launchpad.net/ubuntu/quantal/+source/meep)
@@ -13,22 +17,21 @@ sudo apt-get install -y autotools-dev autoconf chrpath debhelper gfortran \
     g++ git guile-2.0-dev h5utils imagemagick libatlas-base-dev libfftw3-dev libgsl0-dev \
     libharminv-dev  liblapack-dev libtool pkg-config swig  zlib1g-dev
 
-## the version of `libctl-dev' from repository is too old (tested at Ubuntu 14.04, or older) 
-wget http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
-tar xzf libctl* && cd libctl-3.2.1/
-./configure LIBS=-lm  &&  make  &&  sudo make install
-cd ..
+sudo apt-get -y install lib$MPI-dev libhdf5-$MPI-dev  			## OpenMPI version (TODO: try removing libhdf5-cpp-8)libhdf5-cpp-8
+#sudo apt-get -y install $MPI-bin		 ## TODO remove?
+
+## for Ubuntu 15.04: fresh libctl 3.2.2 is in repository
+sudo apt-get install -y libctl-dev							
+## for Ubuntu 14.04, or older:  the version of `libctl-dev' in repository is too old, needs a fresh compile:
+#  wget http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
+#  tar xzf libctl* && cd libctl-3.2.1/
+#  ./configure LIBS=-lm  &&  make  &&  sudo make install
+#  cd ..
 
 ## --- MEEP (now fresh from github!) --------------------------------------------
-## Select the dependencies that vary with MPI being used:
-#sudo apt-get -y install  libhdf5-serial-dev									## Serial version, untested
-#sudo apt-get -y install (also install correct libhdf5-*-dev!!!!) libmpich-dev libmpich2-dev								## MPICH version
-sudo apt-get -y install libhdf5-openmpi-dev openmpi-bin libopenmpi-dev			## OpenMPI version
-
-	
 export CFLAGS=" -fPIC"; export CXXFLAGS=" -fPIC"; export FFLAGS=" -fPIC"  ## Position Independent Code, needed on 64-bit
-export CPPFLAGS="-I/usr/local/include"									 ## install everything into /usr/local to prevent overwrite
-export LD_RUN_PATH="/usr/local/lib"
+export CPPFLAGS="-I/usr/include/hdf5/$MPI"
+export LDFLAGS="-L/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/hdf5/$MPI"
 
 ## Note: If the git version was unavailable, use the failsafe alternative below
 #if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github

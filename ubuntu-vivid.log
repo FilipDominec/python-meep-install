@@ -2,22 +2,24 @@ Ign http://cz.archive.ubuntu.com vivid InRelease
 Ign http://cz.archive.ubuntu.com vivid-updates InRelease
 Ign http://cz.archive.ubuntu.com vivid-backports InRelease
 Hit http://cz.archive.ubuntu.com vivid Release.gpg
-Get:1 http://cz.archive.ubuntu.com vivid-updates Release.gpg [933 B]
+Hit http://cz.archive.ubuntu.com vivid-updates Release.gpg
 Hit http://cz.archive.ubuntu.com vivid-backports Release.gpg
 Hit http://cz.archive.ubuntu.com vivid Release
-Get:2 http://cz.archive.ubuntu.com vivid-updates Release [63,5 kB]
+Hit http://cz.archive.ubuntu.com vivid-updates Release
 Hit http://cz.archive.ubuntu.com vivid-backports Release
 Hit http://cz.archive.ubuntu.com vivid/main Sources
-Ign http://repo.palatinus.cz  InRelease
 Hit http://cz.archive.ubuntu.com vivid/restricted Sources
 Hit http://cz.archive.ubuntu.com vivid/universe Sources
 Hit http://cz.archive.ubuntu.com vivid/multiverse Sources
+Ign http://ppa.launchpad.net vivid InRelease
 Hit http://cz.archive.ubuntu.com vivid/main amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid/restricted amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid/universe amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid/multiverse amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid/main i386 Packages
 Hit http://cz.archive.ubuntu.com vivid/restricted i386 Packages
+Ign http://repo.palatinus.cz  InRelease
+Hit http://ppa.launchpad.net vivid Release.gpg
 Hit http://repo.palatinus.cz  Release.gpg
 Hit http://cz.archive.ubuntu.com vivid/universe i386 Packages
 Hit http://cz.archive.ubuntu.com vivid/multiverse i386 Packages
@@ -25,23 +27,24 @@ Hit http://cz.archive.ubuntu.com vivid/main Translation-en
 Hit http://cz.archive.ubuntu.com vivid/multiverse Translation-en
 Hit http://cz.archive.ubuntu.com vivid/restricted Translation-en
 Hit http://cz.archive.ubuntu.com vivid/universe Translation-en
-Get:3 http://cz.archive.ubuntu.com vivid-updates/main Sources [34,0 kB]
-Ign http://ppa.launchpad.net vivid InRelease
-Get:4 http://cz.archive.ubuntu.com vivid-updates/restricted Sources [28 B]
-Get:5 http://cz.archive.ubuntu.com vivid-updates/universe Sources [14,8 kB]
-Hit http://repo.palatinus.cz  Release
-Get:6 http://cz.archive.ubuntu.com vivid-updates/multiverse Sources [1 957 B]
-Get:7 http://cz.archive.ubuntu.com vivid-updates/main amd64 Packages [78,4 kB]
-Get:8 http://cz.archive.ubuntu.com vivid-updates/restricted amd64 Packages [28 B]
-Get:9 http://cz.archive.ubuntu.com vivid-updates/universe amd64 Packages [44,1 kB]
-Get:10 http://cz.archive.ubuntu.com vivid-updates/multiverse amd64 Packages [3 494 B]
-Get:11 http://cz.archive.ubuntu.com vivid-updates/main i386 Packages [78,4 kB]
-Hit http://ppa.launchpad.net vivid Release.gpg
-Get:12 http://cz.archive.ubuntu.com vivid-updates/restricted i386 Packages [28 B]
-Get:13 http://cz.archive.ubuntu.com vivid-updates/universe i386 Packages [44,0 kB]
-Hit http://repo.palatinus.cz  Packages
-Get:14 http://cz.archive.ubuntu.com vivid-updates/multiverse i386 Packages [3 680 B]
+Hit http://cz.archive.ubuntu.com vivid-updates/main Sources
+Hit http://cz.archive.ubuntu.com vivid-updates/restricted Sources
+Hit http://cz.archive.ubuntu.com vivid-updates/universe Sources
 Hit http://ppa.launchpad.net vivid Release
+Hit http://cz.archive.ubuntu.com vivid-updates/multiverse Sources
+Hit http://cz.archive.ubuntu.com vivid-updates/main amd64 Packages
+Hit http://cz.archive.ubuntu.com vivid-updates/restricted amd64 Packages
+Hit http://cz.archive.ubuntu.com vivid-updates/universe amd64 Packages
+Hit http://cz.archive.ubuntu.com vivid-updates/multiverse amd64 Packages
+Hit http://cz.archive.ubuntu.com vivid-updates/main i386 Packages
+Hit http://cz.archive.ubuntu.com vivid-updates/restricted i386 Packages
+Ign http://security.ubuntu.com vivid-security InRelease
+Hit http://cz.archive.ubuntu.com vivid-updates/universe i386 Packages
+Hit http://repo.palatinus.cz  Release
+Hit http://cz.archive.ubuntu.com vivid-updates/multiverse i386 Packages
+Hit http://ppa.launchpad.net vivid/main amd64 Packages
+Hit http://repo.palatinus.cz  Packages
+Get:1 http://security.ubuntu.com vivid-security Release.gpg [933 B]
 Hit http://cz.archive.ubuntu.com vivid-updates/main Translation-en
 Hit http://cz.archive.ubuntu.com vivid-updates/multiverse Translation-en
 Hit http://cz.archive.ubuntu.com vivid-updates/restricted Translation-en
@@ -50,9 +53,9 @@ Hit http://cz.archive.ubuntu.com vivid-backports/main Sources
 Hit http://cz.archive.ubuntu.com vivid-backports/restricted Sources
 Hit http://cz.archive.ubuntu.com vivid-backports/universe Sources
 Hit http://cz.archive.ubuntu.com vivid-backports/multiverse Sources
-Hit http://ppa.launchpad.net vivid/main amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/main amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/restricted amd64 Packages
+Hit http://ppa.launchpad.net vivid/main i386 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/universe amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/multiverse amd64 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/main i386 Packages
@@ -60,33 +63,30 @@ Hit http://cz.archive.ubuntu.com vivid-backports/restricted i386 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/universe i386 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/multiverse i386 Packages
 Hit http://cz.archive.ubuntu.com vivid-backports/main Translation-en
-Hit http://ppa.launchpad.net vivid/main i386 Packages
+Get:2 http://security.ubuntu.com vivid-security Release [63,5 kB]
+Hit http://ppa.launchpad.net vivid/main Translation-en
 Hit http://cz.archive.ubuntu.com vivid-backports/multiverse Translation-en
 Hit http://cz.archive.ubuntu.com vivid-backports/restricted Translation-en
 Hit http://cz.archive.ubuntu.com vivid-backports/universe Translation-en
-Hit http://ppa.launchpad.net vivid/main Translation-en
-Ign http://security.ubuntu.com vivid-security InRelease
-Get:15 http://security.ubuntu.com vivid-security Release.gpg [933 B]
+Get:3 http://security.ubuntu.com vivid-security/main Sources [19,3 kB]
+Get:4 http://security.ubuntu.com vivid-security/restricted Sources [28 B]
+Get:5 http://security.ubuntu.com vivid-security/universe Sources [8 774 B]
 Ign http://repo.palatinus.cz  Translation-en_US
+Get:6 http://security.ubuntu.com vivid-security/multiverse Sources [1 957 B]
 Ign http://repo.palatinus.cz  Translation-en
-Get:16 http://security.ubuntu.com vivid-security Release [63,5 kB]
-Get:17 http://security.ubuntu.com vivid-security/main Sources [17,4 kB]
-Get:18 http://security.ubuntu.com vivid-security/restricted Sources [28 B]
-Get:19 http://security.ubuntu.com vivid-security/universe Sources [7 113 B]
-Get:20 http://security.ubuntu.com vivid-security/multiverse Sources [1 957 B]
-Get:21 http://security.ubuntu.com vivid-security/main amd64 Packages [46,0 kB]
-Get:22 http://security.ubuntu.com vivid-security/restricted amd64 Packages [28 B]
-Get:23 http://security.ubuntu.com vivid-security/universe amd64 Packages [20,0 kB]
-Get:24 http://security.ubuntu.com vivid-security/multiverse amd64 Packages [3 494 B]
-Get:25 http://security.ubuntu.com vivid-security/main i386 Packages [45,5 kB]
-Get:26 http://security.ubuntu.com vivid-security/restricted i386 Packages [28 B]
-Get:27 http://security.ubuntu.com vivid-security/universe i386 Packages [20,0 kB]
-Get:28 http://security.ubuntu.com vivid-security/multiverse i386 Packages [3 680 B]
+Get:7 http://security.ubuntu.com vivid-security/main amd64 Packages [55,2 kB]
+Get:8 http://security.ubuntu.com vivid-security/restricted amd64 Packages [28 B]
+Get:9 http://security.ubuntu.com vivid-security/universe amd64 Packages [26,6 kB]
+Get:10 http://security.ubuntu.com vivid-security/multiverse amd64 Packages [3 494 B]
+Get:11 http://security.ubuntu.com vivid-security/main i386 Packages [54,7 kB]
+Get:12 http://security.ubuntu.com vivid-security/restricted i386 Packages [28 B]
+Get:13 http://security.ubuntu.com vivid-security/universe i386 Packages [26,5 kB]
+Get:14 http://security.ubuntu.com vivid-security/multiverse i386 Packages [3 680 B]
 Hit http://security.ubuntu.com vivid-security/main Translation-en
 Hit http://security.ubuntu.com vivid-security/multiverse Translation-en
 Hit http://security.ubuntu.com vivid-security/restricted Translation-en
 Hit http://security.ubuntu.com vivid-security/universe Translation-en
-Fetched 597 kB in 2s (201 kB/s)
+Fetched 265 kB in 3s (87,2 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -110,14 +110,18 @@ zlib1g-dev is already the newest version.
 h5utils is already the newest version.
 libatlas-base-dev is already the newest version.
 libharminv-dev is already the newest version.
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
 Reading package lists...
 Building dependency tree...
 Reading state information...
 libhdf5-openmpi-dev is already the newest version.
 libopenmpi-dev is already the newest version.
-openmpi-bin is already the newest version.
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libctl-dev is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
 libtoolize: putting auxiliary files in `.'.
 libtoolize: linking file `./ltmain.sh'
 libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
@@ -134,3 +138,400 @@ libtoolize: linking file `m4/ltoptions.m4'
 libtoolize: linking file `m4/ltsugar.m4'
 libtoolize: linking file `m4/ltversion.m4'
 libtoolize: linking file `m4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for mpic++... mpic++
+checking for MPI_Init... yes
+checking for mpi.h... yes
+checking for extra flag needed to combine stdio.h and mpi.h... none
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for C++ compiler vendor... gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... mpic++ -E
+checking for ld used by mpic++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for mpic++ option to produce PIC... -fPIC -DPIC
+checking if mpic++ PIC flag -fPIC -DPIC works... yes
+checking if mpic++ static flag -static works... no
+checking if mpic++ supports -c -o file.o... yes
+checking if mpic++ supports -c -o file.o... (cached) yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for latex2html... no
+checking for sin in -lm... yes
+checking for fftw_plan_dft_1d in -lfftw3... yes
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking if f77 supports -c -o file.o... (cached) yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from f77... -v
+checking for Fortran 77 libraries of f77...  -L/usr/lib/x86_64-linux-gnu/hdf5/openmpi -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. -lfftw3 -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... yes
+checking for sgemm_ in -lf77blas... yes
+checking for cblas_dgemm in -lcblas... yes
+checking for cheev_... no
+checking for cheev_ in -llapack... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for harminv >= 1.1... yes
+checking HARMINV_CFLAGS... 
+checking HARMINV_LIBS... -lharminv 
+checking mpb.h usability... no
+checking mpb.h presence... no
+checking for mpb.h... no
+checking for cblas_cgemm... yes
+checking for gsl_sf_bessel_Jn in -lgsl... yes
+checking for deflate in -lz... yes
+checking for H5Pcreate in -lhdf5... yes
+checking hdf5.h usability... yes
+checking hdf5.h presence... yes
+checking for hdf5.h... yes
+checking for H5Pset_mpi... no
+checking for H5Pset_fapl_mpio... yes
+checking for mpirun... mpirun
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for scm_make_smob_type... yes
+checking for SCM_SMOB_PREDICATE... no
+checking for SCM_SMOB_DATA... no
+checking for SCM_NEWSMOB... no
+checking how to activate readline in Guile... ice-9 readline
+checking for libctl dir... /usr/local/share/libctl
+checking for gen-ctl-io... gen-ctl-io
+checking for ctl_get_vector3 in -lctl... yes
+checking ctl.h usability... yes
+checking ctl.h presence... yes
+checking for ctl.h... yes
+checking whether libctl version is at least 3.2.0... ok
+checking for libctl_quiet feature... yes
+checking for basename in -lgen... no
+checking for feenableexcept... yes
+checking whether feenableexcept declaration is usable... yes
+checking whether to catch and ignore SIGFPE signals... no
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for cblas_ddot... yes
+checking for cblas_daxpy... yes
+checking for jn... yes
+checking for C/C++ restrict keyword... __restrict
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating meep-pkgconfig
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating libctl/Makefile
+config.status: creating libctl/meep.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep'
+Making all in src
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/src'
+make  all-am
+make[3]: Entering directory '/home/filip/p/python-meep-install/meep/src'
+  CXX      bands.lo
+  CXX      bicgstab.lo
+  CXX      casimir.lo
+  CXX      h5file.lo
+  CXX      initialize.lo
+  CXX      monitor.lo
+  CXX      mympi.lo
+  CXX      multilevel-atom.lo
+  CXX      near2far.lo
+  CXX      random.lo
+  CXX      step.lo
+  CXX      mpb.lo
+  CXX      update_pols.lo
+  CXX      step_generic.lo
+  CXX      step_generic_stride1.lo
+  CXXLD    libmeep_mpi.la
+make[3]: Leaving directory '/home/filip/p/python-meep-install/meep/src'
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/src'
+Making all in libctl
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/libctl'
+gen-ctl-io --cxx --swig -o ctl-io.i meep.scm /usr/local/share/libctl
+swig -I../src -c++ -guile -o meep_wrap.cxx meep.i
+patch -p0 meep_wrap.cxx < ./meep_wrap.patch
+patching file meep_wrap.cxx
+Hunk #1 succeeded at 760 (offset 9 lines).
+make  all-am
+make[3]: Entering directory '/home/filip/p/python-meep-install/meep/libctl'
+gen-ctl-io --cxx --header -o ctl-io.h meep.scm /usr/local/share/libctl
+  CXX      meep.o
+  CXX      structure.o
+  CXX      meep_wrap.o
+cp -f /usr/local/share/libctl/base/main.c main.cpp
+  CXX      main.o
+cp -f /usr/local/share/libctl/utils/geom.c geom.cpp
+  CXX      geom.o
+gen-ctl-io --cxx --code -o ctl-io.cpp meep.scm /usr/local/share/libctl
+  CXX      ctl-io.o
+  CXXLD    meep_mpi
+make[3]: Leaving directory '/home/filip/p/python-meep-install/meep/libctl'
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/libctl'
+Making all in tests
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/tests'
+Making all in examples
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/examples'
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep'
+cp -f ./meep-pkgconfig meep_mpi.pc
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep'
+Making install in src
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep/src'
+make  install-am
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/src'
+make[3]: Entering directory '/home/filip/p/python-meep-install/meep/src'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmeep_mpi.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.so.8.0.0 /usr/local/lib/libmeep_mpi.so.8.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so.8 || { rm -f libmeep_mpi.so.8 && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so.8; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so || { rm -f libmeep_mpi.so && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.lai /usr/local/lib/libmeep_mpi.la
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.a /usr/local/lib/libmeep_mpi.a
+libtool: install: chmod 644 /usr/local/lib/libmeep_mpi.a
+libtool: install: ranlib /usr/local/lib/libmeep_mpi.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/include'
+ /usr/bin/install -c -m 644 meep.hpp '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/meep'
+ /usr/bin/install -c -m 644 meep/mympi.hpp meep/vec.hpp '/usr/local/include/meep'
+make[3]: Leaving directory '/home/filip/p/python-meep-install/meep/src'
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/src'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep/src'
+Making install in libctl
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep/libctl'
+make  install-am
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/libctl'
+make[3]: Entering directory '/home/filip/p/python-meep-install/meep/libctl'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c meep_mpi '/usr/local/bin/./meep-mpi'
+libtool: install: /usr/bin/install -c .libs/meep_mpi /usr/local/bin/./meep-mpi
+ /bin/mkdir -p '/usr/local/share/meep'
+ /usr/bin/install -c -m 644 meep.scm meep-enums.scm casimir.scm '/usr/local/share/meep'
+make[3]: Leaving directory '/home/filip/p/python-meep-install/meep/libctl'
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/libctl'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep/libctl'
+Making install in tests
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep/tests'
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/tests'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep/tests'
+Making install in examples
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep/examples'
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep/examples'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep/examples'
+make[1]: Entering directory '/home/filip/p/python-meep-install/meep'
+make[2]: Entering directory '/home/filip/p/python-meep-install/meep'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 meep_mpi.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory '/home/filip/p/python-meep-install/meep'
+make[1]: Leaving directory '/home/filip/p/python-meep-install/meep'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-dev is already the newest version.
+python-numpy is already the newest version.
+python-scipy is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+removing 'build/temp.linux-x86_64-2.7' (and everything under it)
+removing 'build/lib.linux-x86_64-2.7' (and everything under it)
+removing 'build/bdist.linux-x86_64' (and everything under it)
+removing 'build'
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+creating build/lib.linux-x86_64-2.7
+c++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -lmeep_mpi -o build/lib.linux-x86_64-2.7/_meep_mpi.so
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-2.7
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> /usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> /usr/local/lib/python2.7/dist-packages
+byte-compiling /usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+running install_egg_info
+Removing /usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+Writing /usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+running build_ext
+installing to build/bdist.linux-x86_64/dumb
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/dumb
+creating build/bdist.linux-x86_64/dumb/usr
+creating build/bdist.linux-x86_64/dumb/usr/local
+creating build/bdist.linux-x86_64/dumb/usr/local/lib
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+byte-compiling build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+copying custom.hpp -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+running install_egg_info
+Writing build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+Creating tar archive
+removing 'build/bdist.linux-x86_64/dumb' (and everything under it)
