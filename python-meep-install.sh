@@ -34,8 +34,8 @@ export CPPFLAGS="-I/usr/include/hdf5/$MPI"
 export LDFLAGS="-L/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/hdf5/$MPI"
 
 ## Note: If the git version was unavailable, use the failsafe alternative below
-#if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
-if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi
+if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
+#if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi	  ## official branch
 cd meep/
 ./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
 make  &&  sudo make install
