@@ -1,0 +1,446 @@
+Last metadata expiration check performed 0:47:30 ago on Wed Jun 17 18:45:18 2015.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check performed 0:47:31 ago on Wed Jun 17 18:45:18 2015.
+Dependencies resolved.
+Nothing to do.
+Complete!
+TODO: h5utils must be compiled on Fedora!
+Last metadata expiration check performed 0:47:32 ago on Wed Jun 17 18:45:18 2015.
+Dependencies resolved.
+Nothing to do.
+Complete!
+TODO: harminv must be (probably) compiled on Fedora!
+TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!
+Last metadata expiration check performed 0:47:34 ago on Wed Jun 17 18:45:18 2015.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check performed 0:47:35 ago on Wed Jun 17 18:45:18 2015.
+Dependencies resolved.
+Nothing to do.
+Complete!
+TODO: when HDF5 libraries are available for Fedora, include them as above
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for mpic++... no
+checking for mpiCC... no
+checking for mpicxx... no
+checking for mpCC... no
+checking for hcp... no
+checking for mpxlC... no
+checking for mpxlC_r... no
+checking for cmpic++... no
+checking for MPI_Init... no
+checking for MPI_Init in -lmpi... no
+checking for MPI_Init in -lmpich... no
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --enable-maintainer-mode --enable-shared --prefix=/usr/local CXXFLAGS= -fPIC LDFLAGS=-L/usr/lib//hdf5/openmpi CPPFLAGS=-I/usr/include/hdf5/openmpi CFLAGS= -fPIC FFLAGS= -fPIC --no-create --no-recursion
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for C++ compiler vendor... gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /bin/ld -m elf_x86_64
+checking if the linker (/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for latex2html... no
+checking for sin in -lm... yes
+checking for fftw_plan_dft_1d in -lfftw3... yes
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking whether we are using the GNU Fortran 77 compiler... (cached) yes
+checking whether gfortran accepts -g... (cached) yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran static flag -static works... no
+checking if gfortran supports -c -o file.o... yes
+checking if gfortran supports -c -o file.o... (cached) yes
+checking whether the gfortran linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from gfortran... -v
+checking for Fortran 77 libraries of gfortran...  -L/usr/lib//hdf5/openmpi -L/usr/lib/gcc/x86_64-redhat-linux/5.1.1 -L/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../.. -lfftw3 -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... no
+checking for sgemm_ in -lblas... yes
+checking for dgemm_ in -ldgemm... no
+checking for sgemm_ in -lmkl... no
+checking for sgemm_... (cached) no
+checking for sgemm_ in -lcxml... no
+checking for sgemm_ in -ldxml... no
+checking for sgemm_ in -lscs... no
+checking for sgemm_ in -lcomplib.sgimath... no
+checking for sgemm_ in -lblas... (cached) yes
+checking for sgemm_ in -lessl... no
+checking for sgemm_ in -lblas... (cached) yes
+checking for cheev_... no
+checking for cheev_ in -llapack... yes
+checking for pkg-config... /bin/pkg-config
+checking for harminv >= 1.1... checking for harminv_get_freq_error in -lharminv... no
+checking mpb.h usability... no
+checking mpb.h presence... no
+checking for mpb.h... no
+checking for cblas_cgemm... no
+checking for cblas_cgemm in -lgslcblas... yes
+checking for gsl_sf_bessel_Jn in -lgsl... yes
+checking for deflate in -lz... yes
+checking for H5Pcreate in -lhdf5... no
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for scm_make_smob_type... yes
+checking for SCM_SMOB_PREDICATE... no
+checking for SCM_SMOB_DATA... no
+checking for SCM_NEWSMOB... no
+checking how to activate readline in Guile... ice-9 readline
+checking for libctl dir... /usr/local/share/libctl
+checking for gen-ctl-io... gen-ctl-io
+checking for ctl_get_vector3 in -lctl... yes
+checking ctl.h usability... yes
+checking ctl.h presence... yes
+checking for ctl.h... yes
+checking whether libctl version is at least 3.2.0... ok
+checking for libctl_quiet feature... yes
+checking for basename in -lgen... no
+checking for feenableexcept... yes
+checking whether feenableexcept declaration is usable... yes
+checking whether to catch and ignore SIGFPE signals... no
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for cblas_ddot... yes
+checking for cblas_daxpy... yes
+checking for jn... yes
+checking for C/C++ restrict keyword... __restrict
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+ /bin/sh ./config.status
+config.status: creating Makefile
+config.status: creating meep-pkgconfig
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating libctl/Makefile
+config.status: creating libctl/meep.scm
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/meep'
+Making all in src
+make[2]: Entering directory '/home/dominecf/meep/src'
+make  all-am
+make[3]: Entering directory '/home/dominecf/meep/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/dominecf/meep/src'
+make[2]: Leaving directory '/home/dominecf/meep/src'
+Making all in libctl
+make[2]: Entering directory '/home/dominecf/meep/libctl'
+gen-ctl-io --cxx --header -o ctl-io.h meep.scm /usr/local/share/libctl
+cp -f /usr/local/share/libctl/base/main.c main.cpp
+cp -f /usr/local/share/libctl/utils/geom.c geom.cpp
+gen-ctl-io --cxx --code -o ctl-io.cpp meep.scm /usr/local/share/libctl
+gen-ctl-io --cxx --swig -o ctl-io.i meep.scm /usr/local/share/libctl
+swig -I../src -c++ -guile -o meep_wrap.cxx meep.i
+patch -p0 meep_wrap.cxx < ./meep_wrap.patch
+patching file meep_wrap.cxx
+Hunk #1 succeeded at 759 (offset 8 lines).
+make  all-am
+make[3]: Entering directory '/home/dominecf/meep/libctl'
+  CXX      meep.o
+  CXX      structure.o
+  CXX      meep_wrap.o
+  CXX      main.o
+  CXX      geom.o
+  CXX      ctl-io.o
+  CXXLD    meep
+make[3]: Leaving directory '/home/dominecf/meep/libctl'
+make[2]: Leaving directory '/home/dominecf/meep/libctl'
+Making all in tests
+make[2]: Entering directory '/home/dominecf/meep/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/dominecf/meep/tests'
+Making all in examples
+make[2]: Entering directory '/home/dominecf/meep/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/dominecf/meep/examples'
+make[2]: Entering directory '/home/dominecf/meep'
+cp -f ./meep-pkgconfig meep.pc
+make[2]: Leaving directory '/home/dominecf/meep'
+make[1]: Leaving directory '/home/dominecf/meep'
+Making install in src
+make[1]: Entering directory '/home/dominecf/meep/src'
+make  install-am
+make[2]: Entering directory '/home/dominecf/meep/src'
+make[3]: Entering directory '/home/dominecf/meep/src'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/sh ../libtool   --mode=install /bin/install -c   libmeep.la '/usr/local/lib'
+libtool: install: /bin/install -c .libs/libmeep.so.7.0.2 /usr/local/lib/libmeep.so.7.0.2
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep.so.7.0.2 libmeep.so.7 || { rm -f libmeep.so.7 && ln -s libmeep.so.7.0.2 libmeep.so.7; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep.so.7.0.2 libmeep.so || { rm -f libmeep.so && ln -s libmeep.so.7.0.2 libmeep.so; }; })
+libtool: install: /bin/install -c .libs/libmeep.lai /usr/local/lib/libmeep.la
+libtool: install: /bin/install -c .libs/libmeep.a /usr/local/lib/libmeep.a
+libtool: install: chmod 644 /usr/local/lib/libmeep.a
+libtool: install: ranlib /usr/local/lib/libmeep.a
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/include'
+ /bin/install -c -m 644 meep.hpp '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/meep'
+ /bin/install -c -m 644 meep/mympi.hpp meep/vec.hpp '/usr/local/include/meep'
+make[3]: Leaving directory '/home/dominecf/meep/src'
+make[2]: Leaving directory '/home/dominecf/meep/src'
+make[1]: Leaving directory '/home/dominecf/meep/src'
+Making install in libctl
+make[1]: Entering directory '/home/dominecf/meep/libctl'
+make  install-am
+make[2]: Entering directory '/home/dominecf/meep/libctl'
+make[3]: Entering directory '/home/dominecf/meep/libctl'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/sh ../libtool   --mode=install /bin/install -c meep '/usr/local/bin'
+libtool: install: /bin/install -c .libs/meep /usr/local/bin/meep
+ /bin/mkdir -p '/usr/local/share/meep'
+ /bin/install -c -m 644 meep.scm meep-enums.scm casimir.scm '/usr/local/share/meep'
+make[3]: Leaving directory '/home/dominecf/meep/libctl'
+make[2]: Leaving directory '/home/dominecf/meep/libctl'
+make[1]: Leaving directory '/home/dominecf/meep/libctl'
+Making install in tests
+make[1]: Entering directory '/home/dominecf/meep/tests'
+make[2]: Entering directory '/home/dominecf/meep/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/dominecf/meep/tests'
+make[1]: Leaving directory '/home/dominecf/meep/tests'
+Making install in examples
+make[1]: Entering directory '/home/dominecf/meep/examples'
+make[2]: Entering directory '/home/dominecf/meep/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/dominecf/meep/examples'
+make[1]: Leaving directory '/home/dominecf/meep/examples'
+make[1]: Entering directory '/home/dominecf/meep'
+make[2]: Entering directory '/home/dominecf/meep'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /bin/install -c -m 644 meep.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory '/home/dominecf/meep'
+make[1]: Leaving directory '/home/dominecf/meep'
+Last metadata expiration check performed 0:48:23 ago on Wed Jun 17 18:45:18 2015.
+No package matplotlib available.
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+removing 'build/temp.linux-x86_64-2.7' (and everything under it)
+removing 'build/lib.linux-x86_64-2.7' (and everything under it)
+removing 'build/bdist.linux-x86_64' (and everything under it)
+removing 'build'
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+creating build/lib.linux-x86_64-2.7
+g++ -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -L/usr/lib64 -lmeep_mpi -lpython2.7 -o build/lib.linux-x86_64-2.7/_meep_mpi.so
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-2.7
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+g++ -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -L/usr/lib64 -lmeep_mpi -lpython2.7 -o build/lib.linux-x86_64-2.7/_meep_mpi.so
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-2.7
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+g++ -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -L/usr/lib64 -lmeep_mpi -lpython2.7 -o build/lib.linux-x86_64-2.7/_meep_mpi.so
