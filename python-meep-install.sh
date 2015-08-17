@@ -11,11 +11,10 @@ MPI="openmpi"
 ## --- Preparation and build dependencies -------------------------------------
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then meep_opt="--with-mpi"; fi
 
+## Switch installation commands between Debian-based systems and RPM-based systems
 if [ -d /etc/apt ]; then
-	## For Debian, *Ubuntu etc.
 	INSTALL="sudo apt-get -y install"
 else
-	## For RedHat, Fedora etc.
 	INSTALL="yum -y install"
 fi
 
@@ -25,7 +24,7 @@ if [ -d /etc/apt ]; then
 	$INSTALL autotools-dev          g++  		gfortran	guile-2.0-dev 	
 	$INSTALL h5utils 
 	$INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev
-	$INSTALL libharminv-dev pkg-config	## missing in RPM?
+	$INSTALL libharminv-dev pkg-config	## these are missing in RPM?
 	$INSTALL zlib1g-dev
 else
 	$INSTALL automake autoconf 	gcc-c++  	gcc-gfortran	guile-devel
