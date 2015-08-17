@@ -1,18 +1,22 @@
-# python-meep-install
-Setting up the electromagnetic simulation environment based on MEEP (http://ab-initio.mit.edu/wiki/index.php/Meep) is not straightforward.
+# Overview of python-meep-install
+Setting up the electromagnetic simulation environment based on MEEP (http://ab-initio.mit.edu/wiki/index.php/Meep) is not straightforward. Author has spend many days making the simulation work on different 64-bit systems, use HDF5 libraries, multiprocessing etc., and this experience has motivated the publication of this script.
 
-This script should automatically install MEEP, Python-meep and related programs/libraries at different linux distributions.
+It should automatically install MEEP, Python-meep and related programs/libraries at different linux distributions.
 
-It will hopefully be updated to reflect future changes in the linux distributions.
-
-
-# Invocation 
+# Use
+### Invocation 
 You can simply run the 'python-meep-install.sh' script as root
 
 If you wish to contribute with the installation output, use e.g.:
 '''sudo ./python-meep-install.sh | tee your-system-version.log
+The easiest way to upload the log is perhaps to paste it into a comment. Thank you!
 
-The easiest way to upload the log is to open a new issue. Thank you!
+If everything works and you can 'import meep_mpi' in your Python2 console, do not forget there are practical examples of its use at 
+https://github.com/FilipDominec/python-meep-utils
+
+### Settings 
+By editing the 'python-meep-install.sh' script, you can choose
+* whether multiprocessing is supported, and which implementation of the Message-Passing Protocol will be used (openmpi|mpich|mpich2|none)
 
 # Supported systems
 ### Tested on:
