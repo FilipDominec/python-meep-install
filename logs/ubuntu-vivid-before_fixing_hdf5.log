@@ -1,0 +1,1308 @@
+Ign http://cz.archive.ubuntu.com vivid InRelease
+Ign http://cz.archive.ubuntu.com vivid-updates InRelease
+Ign http://cz.archive.ubuntu.com vivid-backports InRelease
+Cíl http://cz.archive.ubuntu.com vivid Release.gpg
+Mám:1 http://cz.archive.ubuntu.com vivid-updates Release.gpg [933 B]
+Cíl http://cz.archive.ubuntu.com vivid-backports Release.gpg
+Cíl http://cz.archive.ubuntu.com vivid Release
+Mám:2 http://cz.archive.ubuntu.com vivid-updates Release [63,5 kB]
+Cíl http://cz.archive.ubuntu.com vivid-backports Release
+Cíl http://cz.archive.ubuntu.com vivid/main Sources
+Cíl http://cz.archive.ubuntu.com vivid/restricted Sources
+Cíl http://cz.archive.ubuntu.com vivid/universe Sources
+Cíl http://cz.archive.ubuntu.com vivid/multiverse Sources
+Cíl http://cz.archive.ubuntu.com vivid/main amd64 Packages
+Ign http://security.ubuntu.com vivid-security InRelease
+Cíl http://cz.archive.ubuntu.com vivid/restricted amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid/universe amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid/multiverse amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid/main i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid/restricted i386 Packages
+Mám:3 http://security.ubuntu.com vivid-security Release.gpg [933 B]
+Cíl http://cz.archive.ubuntu.com vivid/universe i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid/multiverse i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid/main Translation-cs
+Cíl http://cz.archive.ubuntu.com vivid/main Translation-en
+Cíl http://cz.archive.ubuntu.com vivid/multiverse Translation-cs
+Cíl http://cz.archive.ubuntu.com vivid/multiverse Translation-en
+Cíl http://cz.archive.ubuntu.com vivid/restricted Translation-cs
+Cíl http://cz.archive.ubuntu.com vivid/restricted Translation-en
+Cíl http://cz.archive.ubuntu.com vivid/universe Translation-cs
+Mám:4 http://security.ubuntu.com vivid-security Release [63,5 kB]
+Cíl http://cz.archive.ubuntu.com vivid/universe Translation-en
+Mám:5 http://cz.archive.ubuntu.com vivid-updates/main Sources [26,5 kB]
+Mám:6 http://cz.archive.ubuntu.com vivid-updates/restricted Sources [28 B]
+Mám:7 http://cz.archive.ubuntu.com vivid-updates/universe Sources [11,0 kB]
+Mám:8 http://cz.archive.ubuntu.com vivid-updates/multiverse Sources [729 B]
+Mám:9 http://cz.archive.ubuntu.com vivid-updates/main amd64 Packages [57,8 kB]
+Mám:10 http://cz.archive.ubuntu.com vivid-updates/restricted amd64 Packages [28 B]
+Mám:11 http://cz.archive.ubuntu.com vivid-updates/universe amd64 Packages [34,5 kB]
+Mám:12 http://cz.archive.ubuntu.com vivid-updates/multiverse amd64 Packages [1 159 B]
+Mám:13 http://security.ubuntu.com vivid-security/main Sources [12,3 kB]
+Mám:14 http://cz.archive.ubuntu.com vivid-updates/main i386 Packages [57,2 kB]
+Mám:15 http://cz.archive.ubuntu.com vivid-updates/restricted i386 Packages [28 B]
+Mám:16 http://cz.archive.ubuntu.com vivid-updates/universe i386 Packages [34,5 kB]
+Mám:17 http://cz.archive.ubuntu.com vivid-updates/multiverse i386 Packages [1 410 B]
+Cíl http://cz.archive.ubuntu.com vivid-updates/main Translation-en
+Mám:18 http://security.ubuntu.com vivid-security/restricted Sources [28 B]
+Cíl http://cz.archive.ubuntu.com vivid-updates/multiverse Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-updates/restricted Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-updates/universe Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-backports/main Sources
+Cíl http://cz.archive.ubuntu.com vivid-backports/restricted Sources
+Cíl http://cz.archive.ubuntu.com vivid-backports/universe Sources
+Cíl http://cz.archive.ubuntu.com vivid-backports/multiverse Sources
+Cíl http://cz.archive.ubuntu.com vivid-backports/main amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/restricted amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/universe amd64 Packages
+Mám:19 http://security.ubuntu.com vivid-security/universe Sources [4 612 B]
+Cíl http://cz.archive.ubuntu.com vivid-backports/multiverse amd64 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/main i386 Packages
+Mám:20 http://security.ubuntu.com vivid-security/multiverse Sources [729 B]
+Cíl http://cz.archive.ubuntu.com vivid-backports/restricted i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/universe i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/multiverse i386 Packages
+Cíl http://cz.archive.ubuntu.com vivid-backports/main Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-backports/multiverse Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-backports/restricted Translation-en
+Cíl http://cz.archive.ubuntu.com vivid-backports/universe Translation-en
+Mám:21 http://security.ubuntu.com vivid-security/main amd64 Packages [30,5 kB]
+Mám:22 http://security.ubuntu.com vivid-security/restricted amd64 Packages [28 B]
+Mám:23 http://security.ubuntu.com vivid-security/universe amd64 Packages [13,3 kB]
+Mám:24 http://security.ubuntu.com vivid-security/multiverse amd64 Packages [1 159 B]
+Mám:25 http://security.ubuntu.com vivid-security/main i386 Packages [30,1 kB]
+Mám:26 http://security.ubuntu.com vivid-security/restricted i386 Packages [28 B]
+Mám:27 http://security.ubuntu.com vivid-security/universe i386 Packages [13,3 kB]
+Mám:28 http://security.ubuntu.com vivid-security/multiverse i386 Packages [1 410 B]
+Cíl http://security.ubuntu.com vivid-security/main Translation-en
+Cíl http://security.ubuntu.com vivid-security/multiverse Translation-en
+Cíl http://security.ubuntu.com vivid-security/restricted Translation-en
+Cíl http://security.ubuntu.com vivid-security/universe Translation-en
+Staženo 461 kB za 4s (108 kB/s)
+Načítají se seznamy balíků…
+Načítají se seznamy balíků…
+Vytváří se strom závislostí…
+Načítají se stavové informace…
+g++ je již nejnovější verze.
+g++ nastaven jako instalovaný ručně.
+git je již nejnovější verze.
+imagemagick je již nejnovější verze.
+Následující extra balíky budou instalovány:
+  automake build-essential dh-apparmor dpkg-dev fakeroot gettext gfortran-4.9
+  guile-2.0 guile-2.0-libs hdf5-tools intltool-debian libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasprintf-dev
+  libatlas-dev libatlas3-base libblas-dev libdpkg-perl libfakeroot
+  libfftw3-bin libfftw3-long3 libfftw3-quad3 libfftw3-single3
+  libfile-fcntllock-perl libgc-dev libgettextpo-dev libgettextpo0
+  libgfortran-4.9-dev libgmp-dev libgmpxx4ldbl libharminv2 libhdf4-0 libhdf5-8
+  libltdl-dev libmail-sendmail-perl libmatheval1 libncurses5-dev
+  libreadline6-dev libsys-hostname-long-perl libtinfo-dev m4 make po-debconf
+  swig2.0
+Navrhované balíky:
+  autoconf-archive gnu-standards autoconf-doc dh-make apparmor-easyprof
+  debian-keyring gettext-doc gfortran-multilib gfortran-doc
+  gfortran-4.9-multilib gfortran-4.9-doc libgfortran3-dbg guile-2.0-doc octave
+  libblas-doc liblapack-doc libfftw3-doc libgmp10-doc libmpfr-dev libhdf4-doc
+  libhdf4-dev hdf4-tools libtool-doc ncurses-doc readline-doc automaken
+  gcj-jdk make-doc libmail-box-perl swig-doc swig-examples swig2.0-examples
+  swig2.0-doc
+Následující NOVÉ balíky budou nainstalovány:
+  autoconf automake autotools-dev build-essential chrpath debhelper
+  dh-apparmor dpkg-dev fakeroot gettext gfortran gfortran-4.9 guile-2.0
+  guile-2.0-dev guile-2.0-libs h5utils hdf5-tools intltool-debian
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libasprintf-dev libatlas-base-dev libatlas-dev libatlas3-base libblas-dev
+  libdpkg-perl libfakeroot libfftw3-bin libfftw3-dev libfftw3-long3
+  libfftw3-quad3 libfftw3-single3 libfile-fcntllock-perl libgc-dev
+  libgettextpo-dev libgettextpo0 libgfortran-4.9-dev libgmp-dev libgmpxx4ldbl
+  libgsl0-dev libharminv-dev libharminv2 libhdf4-0 libhdf5-8 liblapack-dev
+  libltdl-dev libmail-sendmail-perl libmatheval1 libncurses5-dev
+  libreadline6-dev libsys-hostname-long-perl libtinfo-dev libtool m4 make
+  pkg-config po-debconf swig swig2.0 zlib1g-dev
+0 aktualizováno, 61 nově instalováno, 0 k odstranění a 8 neaktualizováno.
+Nutno stáhnout 30,2 MB archivů.
+Po této operaci bude na disku použito dalších 156 MB.
+Mám:1 http://cz.archive.ubuntu.com/ubuntu/ vivid/main guile-2.0-libs amd64 2.0.11+1-9ubuntu1 [2 209 kB]
+Mám:2 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfftw3-long3 amd64 3.3.4-2ubuntu1 [306 kB]
+Mám:3 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfftw3-quad3 amd64 3.3.4-2ubuntu1 [550 kB]
+Mám:4 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfftw3-single3 amd64 3.3.4-2ubuntu1 [749 kB]
+Mám:5 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgettextpo0 amd64 0.19.2-2ubuntu1 [111 kB]
+Mám:6 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgmpxx4ldbl amd64 2:6.0.0+dfsg-6ubuntu1 [9 164 B]
+Mám:7 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhdf5-8 amd64 1.8.13+docs-15 [1 030 kB]
+Mám:8 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libmatheval1 amd64 1.1.11+dfsg-2 [21,2 kB]
+Mám:9 http://cz.archive.ubuntu.com/ubuntu/ vivid/main m4 amd64 1.4.17-4 [193 kB]
+Mám:10 http://cz.archive.ubuntu.com/ubuntu/ vivid/main autoconf all 2.69-8 [321 kB]
+Mám:11 http://cz.archive.ubuntu.com/ubuntu/ vivid/main autotools-dev all 20140911.1 [39,6 kB]
+Mám:12 http://cz.archive.ubuntu.com/ubuntu/ vivid/main automake all 1:1.14.1-3ubuntu1 [510 kB]
+Mám:13 http://cz.archive.ubuntu.com/ubuntu/ vivid/main make amd64 4.0-8.1 [149 kB]
+Mám:14 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libdpkg-perl all 1.17.25ubuntu1 [194 kB]
+Mám:15 http://cz.archive.ubuntu.com/ubuntu/ vivid/main dpkg-dev all 1.17.25ubuntu1 [762 kB]
+Mám:16 http://cz.archive.ubuntu.com/ubuntu/ vivid/main build-essential amd64 11.6ubuntu6 [4 838 B]
+Mám:17 http://cz.archive.ubuntu.com/ubuntu/ vivid/main chrpath amd64 0.16-1 [12,9 kB]
+Mám:18 http://cz.archive.ubuntu.com/ubuntu/ vivid/main gettext amd64 0.19.2-2ubuntu1 [851 kB]
+Mám:19 http://cz.archive.ubuntu.com/ubuntu/ vivid/main intltool-debian all 0.35.0+20060710.1 [31,6 kB]
+Mám:20 http://cz.archive.ubuntu.com/ubuntu/ vivid/main po-debconf all 1.0.16+nmu3 [207 kB]
+Mám:21 http://cz.archive.ubuntu.com/ubuntu/ vivid/main dh-apparmor all 2.9.1-0ubuntu9 [11,1 kB]
+Mám:22 http://cz.archive.ubuntu.com/ubuntu/ vivid/main debhelper all 9.20150101ubuntu1 [727 kB]
+Mám:23 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfakeroot amd64 1.20.2-1ubuntu1 [25,5 kB]
+Mám:24 http://cz.archive.ubuntu.com/ubuntu/ vivid/main fakeroot amd64 1.20.2-1ubuntu1 [61,8 kB]
+Mám:25 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgfortran-4.9-dev amd64 4.9.2-10ubuntu13 [285 kB]
+Mám:26 http://cz.archive.ubuntu.com/ubuntu/ vivid/main gfortran-4.9 amd64 4.9.2-10ubuntu13 [5 500 kB]
+Mám:27 http://cz.archive.ubuntu.com/ubuntu/ vivid/main gfortran amd64 4:4.9.2-2ubuntu2 [1 350 B]
+Mám:28 http://cz.archive.ubuntu.com/ubuntu/ vivid/main guile-2.0 amd64 2.0.11+1-9ubuntu1 [8 882 B]
+Mám:29 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libtinfo-dev amd64 5.9+20140712-2ubuntu2 [77,1 kB]
+Mám:30 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libncurses5-dev amd64 5.9+20140712-2ubuntu2 [175 kB]
+Mám:31 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libreadline6-dev amd64 6.3-8ubuntu1 [123 kB]
+Mám:32 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libltdl-dev amd64 2.4.2-1.11 [158 kB]
+Mám:33 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgmp-dev amd64 2:6.0.0+dfsg-6ubuntu1 [316 kB]
+Mám:34 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgc-dev amd64 1:7.2d-6.4 [169 kB]
+Mám:35 http://cz.archive.ubuntu.com/ubuntu/ vivid/main pkg-config amd64 0.28-1ubuntu1 [40,0 kB]
+Mám:36 http://cz.archive.ubuntu.com/ubuntu/ vivid/main guile-2.0-dev amd64 2.0.11+1-9ubuntu1 [689 kB]
+Mám:37 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhdf4-0 amd64 4.2.10-3.1 [295 kB]
+Mám:38 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe h5utils amd64 1.12.1-2.1build1 [237 kB]
+Mám:39 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe hdf5-tools amd64 1.8.13+docs-15 [356 kB]
+Mám:40 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libalgorithm-diff-perl all 1.19.02-3 [50,0 kB]
+Mám:41 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libalgorithm-diff-xs-perl amd64 0.04-3build1 [11,8 kB]
+Mám:42 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libalgorithm-merge-perl all 0.08-2 [12,7 kB]
+Mám:43 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libasprintf-dev amd64 0.19.2-2ubuntu1 [4 588 B]
+Mám:44 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libatlas3-base amd64 3.10.2-7 [2 668 kB]
+Mám:45 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libblas-dev amd64 1.2.20110419-10 [156 kB]
+Mám:46 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libatlas-dev all 3.10.2-7 [22,6 kB]
+Mám:47 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libatlas-base-dev amd64 3.10.2-7 [3 338 kB]
+Mám:48 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfftw3-bin amd64 3.3.4-2ubuntu1 [31,7 kB]
+Mám:49 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfftw3-dev amd64 3.3.4-2ubuntu1 [2 104 kB]
+Mám:50 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libfile-fcntllock-perl amd64 0.22-1build1 [34,3 kB]
+Mám:51 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgettextpo-dev amd64 0.19.2-2ubuntu1 [127 kB]
+Mám:52 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libgsl0-dev amd64 1.16+dfsg-2build1 [918 kB]
+Mám:53 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libharminv2 amd64 1.3.1-10 [13,7 kB]
+Mám:54 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libharminv-dev amd64 1.3.1-10 [2 876 B]
+Mám:55 http://cz.archive.ubuntu.com/ubuntu/ vivid/main liblapack-dev amd64 3.5.0-4 [1 874 kB]
+Mám:56 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libsys-hostname-long-perl all 1.4-3 [11,3 kB]
+Mám:57 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libmail-sendmail-perl all 0.79.16-1 [26,5 kB]
+Mám:58 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libtool all 2.4.2-1.11 [180 kB]
+Mám:59 http://cz.archive.ubuntu.com/ubuntu/ vivid/main swig2.0 amd64 2.0.12-1ubuntu1 [875 kB]
+Mám:60 http://cz.archive.ubuntu.com/ubuntu/ vivid/main swig amd64 2.0.12-1ubuntu1 [6 320 B]
+Mám:61 http://cz.archive.ubuntu.com/ubuntu/ vivid/main zlib1g-dev amd64 1:1.2.8.dfsg-2ubuntu1 [169 kB]
+Staženo 30,2 MB za 48s (620 kB/s)
+Vybírá se dosud nevybraný balík guile-2.0-libs:amd64.
+(Načítá se databáze … (Načítá se databáze … 5%(Načítá se databáze … 10%(Načítá se databáze … 15%(Načítá se databáze … 20%(Načítá se databáze … 25%(Načítá se databáze … 30%(Načítá se databáze … 35%(Načítá se databáze … 40%(Načítá se databáze … 45%(Načítá se databáze … 50%(Načítá se databáze … 55%(Načítá se databáze … 60%(Načítá se databáze … 65%(Načítá se databáze … 70%(Načítá se databáze … 75%(Načítá se databáze … 80%(Načítá se databáze … 85%(Načítá se databáze … 90%(Načítá se databáze … 95%(Načítá se databáze … 100%(Načítá se databáze … nyní je nainstalováno 204876 souborů a adresářů.)
+Připravuje se nahrazení …/guile-2.0-libs_2.0.11+1-9ubuntu1_amd64.deb …
+Rozbaluje se guile-2.0-libs:amd64 (2.0.11+1-9ubuntu1) …
+Vybírá se dosud nevybraný balík libfftw3-long3:amd64.
+Připravuje se nahrazení …/libfftw3-long3_3.3.4-2ubuntu1_amd64.deb …
+Rozbaluje se libfftw3-long3:amd64 (3.3.4-2ubuntu1) …
+Vybírá se dosud nevybraný balík libfftw3-quad3:amd64.
+Připravuje se nahrazení …/libfftw3-quad3_3.3.4-2ubuntu1_amd64.deb …
+Rozbaluje se libfftw3-quad3:amd64 (3.3.4-2ubuntu1) …
+Vybírá se dosud nevybraný balík libfftw3-single3:amd64.
+Připravuje se nahrazení …/libfftw3-single3_3.3.4-2ubuntu1_amd64.deb …
+Rozbaluje se libfftw3-single3:amd64 (3.3.4-2ubuntu1) …
+Vybírá se dosud nevybraný balík libgettextpo0:amd64.
+Připravuje se nahrazení …/libgettextpo0_0.19.2-2ubuntu1_amd64.deb …
+Rozbaluje se libgettextpo0:amd64 (0.19.2-2ubuntu1) …
+Vybírá se dosud nevybraný balík libgmpxx4ldbl:amd64.
+Připravuje se nahrazení …/libgmpxx4ldbl_2%3a6.0.0+dfsg-6ubuntu1_amd64.deb …
+Rozbaluje se libgmpxx4ldbl:amd64 (2:6.0.0+dfsg-6ubuntu1) …
+Vybírá se dosud nevybraný balík libhdf5-8:amd64.
+Připravuje se nahrazení …/libhdf5-8_1.8.13+docs-15_amd64.deb …
+Rozbaluje se libhdf5-8:amd64 (1.8.13+docs-15) …
+Vybírá se dosud nevybraný balík libmatheval1:amd64.
+Připravuje se nahrazení …/libmatheval1_1.1.11+dfsg-2_amd64.deb …
+Rozbaluje se libmatheval1:amd64 (1.1.11+dfsg-2) …
+Vybírá se dosud nevybraný balík m4.
+Připravuje se nahrazení …/archives/m4_1.4.17-4_amd64.deb …
+Rozbaluje se m4 (1.4.17-4) …
+Vybírá se dosud nevybraný balík autoconf.
+Připravuje se nahrazení …/autoconf_2.69-8_all.deb …
+Rozbaluje se autoconf (2.69-8) …
+Vybírá se dosud nevybraný balík autotools-dev.
+Připravuje se nahrazení …/autotools-dev_20140911.1_all.deb …
+Rozbaluje se autotools-dev (20140911.1) …
+Vybírá se dosud nevybraný balík automake.
+Připravuje se nahrazení …/automake_1%3a1.14.1-3ubuntu1_all.deb …
+Rozbaluje se automake (1:1.14.1-3ubuntu1) …
+Vybírá se dosud nevybraný balík make.
+Připravuje se nahrazení …/make_4.0-8.1_amd64.deb …
+Rozbaluje se make (4.0-8.1) …
+Vybírá se dosud nevybraný balík libdpkg-perl.
+Připravuje se nahrazení …/libdpkg-perl_1.17.25ubuntu1_all.deb …
+Rozbaluje se libdpkg-perl (1.17.25ubuntu1) …
+Vybírá se dosud nevybraný balík dpkg-dev.
+Připravuje se nahrazení …/dpkg-dev_1.17.25ubuntu1_all.deb …
+Rozbaluje se dpkg-dev (1.17.25ubuntu1) …
+Vybírá se dosud nevybraný balík build-essential.
+Připravuje se nahrazení …/build-essential_11.6ubuntu6_amd64.deb …
+Rozbaluje se build-essential (11.6ubuntu6) …
+Vybírá se dosud nevybraný balík chrpath.
+Připravuje se nahrazení …/chrpath_0.16-1_amd64.deb …
+Rozbaluje se chrpath (0.16-1) …
+Vybírá se dosud nevybraný balík gettext.
+Připravuje se nahrazení …/gettext_0.19.2-2ubuntu1_amd64.deb …
+Rozbaluje se gettext (0.19.2-2ubuntu1) …
+Vybírá se dosud nevybraný balík intltool-debian.
+Připravuje se nahrazení …/intltool-debian_0.35.0+20060710.1_all.deb …
+Rozbaluje se intltool-debian (0.35.0+20060710.1) …
+Vybírá se dosud nevybraný balík po-debconf.
+Připravuje se nahrazení …/po-debconf_1.0.16+nmu3_all.deb …
+Rozbaluje se po-debconf (1.0.16+nmu3) …
+Vybírá se dosud nevybraný balík dh-apparmor.
+Připravuje se nahrazení …/dh-apparmor_2.9.1-0ubuntu9_all.deb …
+Rozbaluje se dh-apparmor (2.9.1-0ubuntu9) …
+Vybírá se dosud nevybraný balík debhelper.
+Připravuje se nahrazení …/debhelper_9.20150101ubuntu1_all.deb …
+Rozbaluje se debhelper (9.20150101ubuntu1) …
+Vybírá se dosud nevybraný balík libfakeroot:amd64.
+Připravuje se nahrazení …/libfakeroot_1.20.2-1ubuntu1_amd64.deb …
+Rozbaluje se libfakeroot:amd64 (1.20.2-1ubuntu1) …
+Vybírá se dosud nevybraný balík fakeroot.
+Připravuje se nahrazení …/fakeroot_1.20.2-1ubuntu1_amd64.deb …
+Rozbaluje se fakeroot (1.20.2-1ubuntu1) …
+Vybírá se dosud nevybraný balík libgfortran-4.9-dev:amd64.
+Připravuje se nahrazení …/libgfortran-4.9-dev_4.9.2-10ubuntu13_amd64.deb …
+Rozbaluje se libgfortran-4.9-dev:amd64 (4.9.2-10ubuntu13) …
+Vybírá se dosud nevybraný balík gfortran-4.9.
+Připravuje se nahrazení …/gfortran-4.9_4.9.2-10ubuntu13_amd64.deb …
+Rozbaluje se gfortran-4.9 (4.9.2-10ubuntu13) …
+Vybírá se dosud nevybraný balík gfortran.
+Připravuje se nahrazení …/gfortran_4%3a4.9.2-2ubuntu2_amd64.deb …
+Rozbaluje se gfortran (4:4.9.2-2ubuntu2) …
+Vybírá se dosud nevybraný balík guile-2.0.
+Připravuje se nahrazení …/guile-2.0_2.0.11+1-9ubuntu1_amd64.deb …
+Rozbaluje se guile-2.0 (2.0.11+1-9ubuntu1) …
+Vybírá se dosud nevybraný balík libtinfo-dev:amd64.
+Připravuje se nahrazení …/libtinfo-dev_5.9+20140712-2ubuntu2_amd64.deb …
+Rozbaluje se libtinfo-dev:amd64 (5.9+20140712-2ubuntu2) …
+Vybírá se dosud nevybraný balík libncurses5-dev:amd64.
+Připravuje se nahrazení …/libncurses5-dev_5.9+20140712-2ubuntu2_amd64.deb …
+Rozbaluje se libncurses5-dev:amd64 (5.9+20140712-2ubuntu2) …
+Vybírá se dosud nevybraný balík libreadline6-dev:amd64.
+Připravuje se nahrazení …/libreadline6-dev_6.3-8ubuntu1_amd64.deb …
+Rozbaluje se libreadline6-dev:amd64 (6.3-8ubuntu1) …
+Vybírá se dosud nevybraný balík libltdl-dev:amd64.
+Připravuje se nahrazení …/libltdl-dev_2.4.2-1.11_amd64.deb …
+Rozbaluje se libltdl-dev:amd64 (2.4.2-1.11) …
+Vybírá se dosud nevybraný balík libgmp-dev:amd64.
+Připravuje se nahrazení …/libgmp-dev_2%3a6.0.0+dfsg-6ubuntu1_amd64.deb …
+Rozbaluje se libgmp-dev:amd64 (2:6.0.0+dfsg-6ubuntu1) …
+Vybírá se dosud nevybraný balík libgc-dev:amd64.
+Připravuje se nahrazení …/libgc-dev_1%3a7.2d-6.4_amd64.deb …
+Rozbaluje se libgc-dev:amd64 (1:7.2d-6.4) …
+Vybírá se dosud nevybraný balík pkg-config.
+Připravuje se nahrazení …/pkg-config_0.28-1ubuntu1_amd64.deb …
+Rozbaluje se pkg-config (0.28-1ubuntu1) …
+Vybírá se dosud nevybraný balík guile-2.0-dev.
+Připravuje se nahrazení …/guile-2.0-dev_2.0.11+1-9ubuntu1_amd64.deb …
+Rozbaluje se guile-2.0-dev (2.0.11+1-9ubuntu1) …
+Vybírá se dosud nevybraný balík libhdf4-0.
+Připravuje se nahrazení …/libhdf4-0_4.2.10-3.1_amd64.deb …
+Rozbaluje se libhdf4-0 (4.2.10-3.1) …
+Vybírá se dosud nevybraný balík h5utils.
+Připravuje se nahrazení …/h5utils_1.12.1-2.1build1_amd64.deb …
+Rozbaluje se h5utils (1.12.1-2.1build1) …
+Vybírá se dosud nevybraný balík hdf5-tools.
+Připravuje se nahrazení …/hdf5-tools_1.8.13+docs-15_amd64.deb …
+Rozbaluje se hdf5-tools (1.8.13+docs-15) …
+Vybírá se dosud nevybraný balík libalgorithm-diff-perl.
+Připravuje se nahrazení …/libalgorithm-diff-perl_1.19.02-3_all.deb …
+Rozbaluje se libalgorithm-diff-perl (1.19.02-3) …
+Vybírá se dosud nevybraný balík libalgorithm-diff-xs-perl.
+Připravuje se nahrazení …/libalgorithm-diff-xs-perl_0.04-3build1_amd64.deb …
+Rozbaluje se libalgorithm-diff-xs-perl (0.04-3build1) …
+Vybírá se dosud nevybraný balík libalgorithm-merge-perl.
+Připravuje se nahrazení …/libalgorithm-merge-perl_0.08-2_all.deb …
+Rozbaluje se libalgorithm-merge-perl (0.08-2) …
+Vybírá se dosud nevybraný balík libasprintf-dev:amd64.
+Připravuje se nahrazení …/libasprintf-dev_0.19.2-2ubuntu1_amd64.deb …
+Rozbaluje se libasprintf-dev:amd64 (0.19.2-2ubuntu1) …
+Vybírá se dosud nevybraný balík libatlas3-base.
+Připravuje se nahrazení …/libatlas3-base_3.10.2-7_amd64.deb …
+Rozbaluje se libatlas3-base (3.10.2-7) …
+Vybírá se dosud nevybraný balík libblas-dev.
+Připravuje se nahrazení …/libblas-dev_1.2.20110419-10_amd64.deb …
+Rozbaluje se libblas-dev (1.2.20110419-10) …
+Vybírá se dosud nevybraný balík libatlas-dev.
+Připravuje se nahrazení …/libatlas-dev_3.10.2-7_all.deb …
+Rozbaluje se libatlas-dev (3.10.2-7) …
+Vybírá se dosud nevybraný balík libatlas-base-dev.
+Připravuje se nahrazení …/libatlas-base-dev_3.10.2-7_amd64.deb …
+Rozbaluje se libatlas-base-dev (3.10.2-7) …
+Vybírá se dosud nevybraný balík libfftw3-bin.
+Připravuje se nahrazení …/libfftw3-bin_3.3.4-2ubuntu1_amd64.deb …
+Rozbaluje se libfftw3-bin (3.3.4-2ubuntu1) …
+Vybírá se dosud nevybraný balík libfftw3-dev:amd64.
+Připravuje se nahrazení …/libfftw3-dev_3.3.4-2ubuntu1_amd64.deb …
+Rozbaluje se libfftw3-dev:amd64 (3.3.4-2ubuntu1) …
+Vybírá se dosud nevybraný balík libfile-fcntllock-perl.
+Připravuje se nahrazení …/libfile-fcntllock-perl_0.22-1build1_amd64.deb …
+Rozbaluje se libfile-fcntllock-perl (0.22-1build1) …
+Vybírá se dosud nevybraný balík libgettextpo-dev:amd64.
+Připravuje se nahrazení …/libgettextpo-dev_0.19.2-2ubuntu1_amd64.deb …
+Rozbaluje se libgettextpo-dev:amd64 (0.19.2-2ubuntu1) …
+Vybírá se dosud nevybraný balík libgsl0-dev.
+Připravuje se nahrazení …/libgsl0-dev_1.16+dfsg-2build1_amd64.deb …
+Rozbaluje se libgsl0-dev (1.16+dfsg-2build1) …
+Vybírá se dosud nevybraný balík libharminv2.
+Připravuje se nahrazení …/libharminv2_1.3.1-10_amd64.deb …
+Rozbaluje se libharminv2 (1.3.1-10) …
+Vybírá se dosud nevybraný balík libharminv-dev.
+Připravuje se nahrazení …/libharminv-dev_1.3.1-10_amd64.deb …
+Rozbaluje se libharminv-dev (1.3.1-10) …
+Vybírá se dosud nevybraný balík liblapack-dev.
+Připravuje se nahrazení …/liblapack-dev_3.5.0-4_amd64.deb …
+Rozbaluje se liblapack-dev (3.5.0-4) …
+Vybírá se dosud nevybraný balík libsys-hostname-long-perl.
+Připravuje se nahrazení …/libsys-hostname-long-perl_1.4-3_all.deb …
+Rozbaluje se libsys-hostname-long-perl (1.4-3) …
+Vybírá se dosud nevybraný balík libmail-sendmail-perl.
+Připravuje se nahrazení …/libmail-sendmail-perl_0.79.16-1_all.deb …
+Rozbaluje se libmail-sendmail-perl (0.79.16-1) …
+Vybírá se dosud nevybraný balík libtool.
+Připravuje se nahrazení …/libtool_2.4.2-1.11_all.deb …
+Rozbaluje se libtool (2.4.2-1.11) …
+Vybírá se dosud nevybraný balík swig2.0.
+Připravuje se nahrazení …/swig2.0_2.0.12-1ubuntu1_amd64.deb …
+Rozbaluje se swig2.0 (2.0.12-1ubuntu1) …
+Vybírá se dosud nevybraný balík swig.
+Připravuje se nahrazení …/swig_2.0.12-1ubuntu1_amd64.deb …
+Rozbaluje se swig (2.0.12-1ubuntu1) …
+Vybírá se dosud nevybraný balík zlib1g-dev:amd64.
+Připravuje se nahrazení …/zlib1g-dev_1%3a1.2.8.dfsg-2ubuntu1_amd64.deb …
+Rozbaluje se zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu1) …
+Zpracovávají se spouštěče pro balík man-db (2.7.0.2-5) …
+Zpracovávají se spouštěče pro balík install-info (5.2.0.dfsg.1-6) …
+Nastavuje se balík guile-2.0-libs:amd64 (2.0.11+1-9ubuntu1) …
+Nastavuje se balík libfftw3-long3:amd64 (3.3.4-2ubuntu1) …
+Nastavuje se balík libfftw3-quad3:amd64 (3.3.4-2ubuntu1) …
+Nastavuje se balík libfftw3-single3:amd64 (3.3.4-2ubuntu1) …
+Nastavuje se balík libgettextpo0:amd64 (0.19.2-2ubuntu1) …
+Nastavuje se balík libgmpxx4ldbl:amd64 (2:6.0.0+dfsg-6ubuntu1) …
+Nastavuje se balík libhdf5-8:amd64 (1.8.13+docs-15) …
+Nastavuje se balík libmatheval1:amd64 (1.1.11+dfsg-2) …
+Nastavuje se balík m4 (1.4.17-4) …
+Nastavuje se balík autoconf (2.69-8) …
+Nastavuje se balík autotools-dev (20140911.1) …
+Nastavuje se balík automake (1:1.14.1-3ubuntu1) …
+update-alternatives: používám /usr/bin/automake-1.14 pro poskytnutí /usr/bin/automake (automake) v automatickém režimu
+Nastavuje se balík make (4.0-8.1) …
+Nastavuje se balík libdpkg-perl (1.17.25ubuntu1) …
+Nastavuje se balík dpkg-dev (1.17.25ubuntu1) …
+Nastavuje se balík build-essential (11.6ubuntu6) …
+Nastavuje se balík chrpath (0.16-1) …
+Nastavuje se balík gettext (0.19.2-2ubuntu1) …
+Nastavuje se balík intltool-debian (0.35.0+20060710.1) …
+Nastavuje se balík po-debconf (1.0.16+nmu3) …
+Nastavuje se balík dh-apparmor (2.9.1-0ubuntu9) …
+Nastavuje se balík debhelper (9.20150101ubuntu1) …
+Nastavuje se balík libfakeroot:amd64 (1.20.2-1ubuntu1) …
+Nastavuje se balík fakeroot (1.20.2-1ubuntu1) …
+update-alternatives: používám /usr/bin/fakeroot-sysv pro poskytnutí /usr/bin/fakeroot (fakeroot) v automatickém režimu
+Nastavuje se balík libgfortran-4.9-dev:amd64 (4.9.2-10ubuntu13) …
+Nastavuje se balík gfortran-4.9 (4.9.2-10ubuntu13) …
+Nastavuje se balík gfortran (4:4.9.2-2ubuntu2) …
+update-alternatives: používám /usr/bin/gfortran pro poskytnutí /usr/bin/f95 (f95) v automatickém režimu
+update-alternatives: používám /usr/bin/gfortran pro poskytnutí /usr/bin/f77 (f77) v automatickém režimu
+Nastavuje se balík guile-2.0 (2.0.11+1-9ubuntu1) …
+update-alternatives: používám /usr/bin/guile-2.0 pro poskytnutí /usr/bin/guile (guile) v automatickém režimu
+Nastavuje se balík libtinfo-dev:amd64 (5.9+20140712-2ubuntu2) …
+Nastavuje se balík libncurses5-dev:amd64 (5.9+20140712-2ubuntu2) …
+Nastavuje se balík libreadline6-dev:amd64 (6.3-8ubuntu1) …
+Nastavuje se balík libltdl-dev:amd64 (2.4.2-1.11) …
+Nastavuje se balík libgmp-dev:amd64 (2:6.0.0+dfsg-6ubuntu1) …
+Nastavuje se balík libgc-dev:amd64 (1:7.2d-6.4) …
+Nastavuje se balík pkg-config (0.28-1ubuntu1) …
+Nastavuje se balík guile-2.0-dev (2.0.11+1-9ubuntu1) …
+Nastavuje se balík libhdf4-0 (4.2.10-3.1) …
+Nastavuje se balík h5utils (1.12.1-2.1build1) …
+Nastavuje se balík hdf5-tools (1.8.13+docs-15) …
+Nastavuje se balík libalgorithm-diff-perl (1.19.02-3) …
+Nastavuje se balík libalgorithm-diff-xs-perl (0.04-3build1) …
+Nastavuje se balík libalgorithm-merge-perl (0.08-2) …
+Nastavuje se balík libasprintf-dev:amd64 (0.19.2-2ubuntu1) …
+Nastavuje se balík libatlas3-base (3.10.2-7) …
+update-alternatives: používám /usr/lib/atlas-base/atlas/libblas.so.3 pro poskytnutí /usr/lib/libblas.so.3 (libblas.so.3) v automatickém režimu
+update-alternatives: používám /usr/lib/atlas-base/atlas/liblapack.so.3 pro poskytnutí /usr/lib/liblapack.so.3 (liblapack.so.3) v automatickém režimu
+Nastavuje se balík libblas-dev (1.2.20110419-10) …
+update-alternatives: používám /usr/lib/libblas/libblas.so pro poskytnutí /usr/lib/libblas.so (libblas.so) v automatickém režimu
+Nastavuje se balík libatlas-dev (3.10.2-7) …
+Nastavuje se balík libatlas-base-dev (3.10.2-7) …
+update-alternatives: používám /usr/lib/atlas-base/atlas/libblas.so pro poskytnutí /usr/lib/libblas.so (libblas.so) v automatickém režimu
+update-alternatives: používám /usr/lib/atlas-base/atlas/liblapack.so pro poskytnutí /usr/lib/liblapack.so (liblapack.so) v automatickém režimu
+Nastavuje se balík libfftw3-bin (3.3.4-2ubuntu1) …
+Nastavuje se balík libfftw3-dev:amd64 (3.3.4-2ubuntu1) …
+Nastavuje se balík libfile-fcntllock-perl (0.22-1build1) …
+Nastavuje se balík libgettextpo-dev:amd64 (0.19.2-2ubuntu1) …
+Nastavuje se balík libgsl0-dev (1.16+dfsg-2build1) …
+Nastavuje se balík libharminv2 (1.3.1-10) …
+Nastavuje se balík libharminv-dev (1.3.1-10) …
+Nastavuje se balík liblapack-dev (3.5.0-4) …
+Nastavuje se balík libsys-hostname-long-perl (1.4-3) …
+Nastavuje se balík libmail-sendmail-perl (0.79.16-1) …
+Nastavuje se balík libtool (2.4.2-1.11) …
+Nastavuje se balík swig2.0 (2.0.12-1ubuntu1) …
+Nastavuje se balík swig (2.0.12-1ubuntu1) …
+Nastavuje se balík zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu1) …
+Zpracovávají se spouštěče pro balík libc-bin (2.21-0ubuntu4) …
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for indent... no
+checking for gindent... no
+checking for ANSI C header files... (cached) yes
+checking for guile... guile
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for modern non-gh interface... yes
+checking for gh_enter... no
+checking for gh_eval_str... no
+checking for gh_load... no
+checking for gh_bool2scm... no
+checking for gh_vector_ref... no
+checking for gh_list_ref... no
+checking for gh_length... no
+checking for scm_flush_all_ports... yes
+checking for scm_make_complex... yes
+checking for scm_c_make_rectangular... yes
+checking for scm_variable_set_x... yes
+checking for scm_c_lookup... yes
+checking for scm_c_make_vector... yes
+checking for scm_variable_ref... yes
+checking for SCM_COMPLEXP... yes
+checking whether gh_lookup works properly... no
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking if f77 supports -c -o file.o... (cached) yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from f77... -v
+checking for Fortran 77 libraries of f77...  -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. -lgfortran -lm -lguile-2.0 -lgc -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for C complex keyword... complex
+checking for egrep... (cached) /bin/grep -E
+checking nlopt.h usability... no
+checking nlopt.h presence... no
+checking for nlopt.h... no
+checking for basename in -lgen... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating utils/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/example.scm
+config.status: creating utils/gen-ctl-io
+config.status: creating config.h
+config.status: creating src/ctl.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+Making all in src
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make  all-am
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c -o ctl.lo ctl.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c ctl.c -o ctl.o
+mv -f .deps/ctl.Tpo .deps/ctl.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c -o subplex.lo subplex.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c subplex.c -o subplex.o
+mv -f .deps/subplex.Tpo .deps/subplex.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c -o ctl-f77-glue.lo ctl-f77-glue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c ctl-f77-glue.c -o ctl-f77-glue.o
+mv -f .deps/ctl-f77-glue.Tpo .deps/ctl-f77-glue.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c -o integrator.lo integrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c integrator.c -o integrator.o
+mv -f .deps/integrator.Tpo .deps/integrator.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c -o cintegrator.lo cintegrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c cintegrator.c -o cintegrator.o
+mv -f .deps/cintegrator.Tpo .deps/cintegrator.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 5:1:0  -o libctl.la -rpath /usr/local/lib ctl.lo subplex.lo ctl-f77-glue.lo integrator.lo cintegrator.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctl.a  ctl.o subplex.o ctl-f77-glue.o integrator.o cintegrator.o
+libtool: link: ranlib .libs/libctl.a
+libtool: link: ( cd ".libs" && rm -f "libctl.la" && ln -s "../libctl.la" "libctl.la" )
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+Making all in utils
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+/home/dominecf/b/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c ./geom.scm ..
+sed 's,/.* Input variables .*/,@#include "geom-ctl-io-defaults.c"@#if 0@,;s,/.* Output variables .*/,#endif@,' ctl-io.c | tr '@' '\n' > geom-ctl-io.c
+/home/dominecf/b/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h ./geom.scm ..
+cp -f ctl-io.h ctlgeom-types.h
+make  all-am
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c -o geom.lo geom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c geom.c -o geom.o
+mv -f .deps/geom.Tpo .deps/geom.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c -o geom-ctl-io.lo geom-ctl-io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c geom-ctl-io.c -o geom-ctl-io.o
+mv -f .deps/geom-ctl-io.Tpo .deps/geom-ctl-io.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 5:1:0 ../src/libctl.la  -o libctlgeom.la -rpath /usr/local/lib geom.lo geom-ctl-io.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctlgeom.a  geom.o geom-ctl-io.o
+libtool: link: ranlib .libs/libctlgeom.a
+libtool: link: ( cd ".libs" && rm -f "libctlgeom.la" && ln -s "../libctlgeom.la" "libctlgeom.la" )
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geomtst.o -MD -MP -MF .deps/geomtst.Tpo -c -o geomtst.o geomtst.c
+mv -f .deps/geomtst.Tpo .deps/geomtst.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o geomtst geomtst.o libctlgeom.la ../src/libctl.la -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o geomtst geomtst.o  ./.libs/libctlgeom.a /home/dominecf/b/python-meep-install/libctl-3.2.1/src/.libs/libctl.a ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+Making all in examples
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+cp -f /home/dominecf/b/python-meep-install/libctl-3.2.1/./base/main.c main.c
+cp -f /home/dominecf/b/python-meep-install/libctl-3.2.1/./utils/geom.c geom.c
+/home/dominecf/b/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h example.scm /home/dominecf/b/python-meep-install/libctl-3.2.1/.
+/home/dominecf/b/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c example.scm /home/dominecf/b/python-meep-install/libctl-3.2.1/.
+make  all-am
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-example.o -MD -MP -MF .deps/example-example.Tpo -c -o example-example.o `test -f 'example.c' || echo './'`example.c
+mv -f .deps/example-example.Tpo .deps/example-example.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-main.o -MD -MP -MF .deps/example-main.Tpo -c -o example-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/example-main.Tpo .deps/example-main.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-geom.o -MD -MP -MF .deps/example-geom.Tpo -c -o example-geom.o `test -f 'geom.c' || echo './'`geom.c
+mv -f .deps/example-geom.Tpo .deps/example-geom.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/b/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-ctl-io.o -MD -MP -MF .deps/example-ctl-io.Tpo -c -o example-ctl-io.o `test -f 'ctl-io.c' || echo './'`ctl-io.c
+mv -f .deps/example-ctl-io.Tpo .deps/example-ctl-io.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/libctl.la  -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+Making install in src
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make  install-am
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctl.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libctl.lai /usr/local/lib/libctl.la
+libtool: install: /usr/bin/install -c .libs/libctl.a /usr/local/lib/libctl.a
+libtool: install: chmod 644 /usr/local/lib/libctl.a
+libtool: install: ranlib /usr/local/lib/libctl.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctl.h '/usr/local/include'
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/src“
+Making install in utils
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+make  install-am
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /usr/bin/install -c gen-ctl-io '/usr/local/bin'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctlgeom.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libctlgeom.lai /usr/local/lib/libctlgeom.la
+libtool: install: /usr/bin/install -c .libs/libctlgeom.a /usr/local/lib/libctlgeom.a
+libtool: install: chmod 644 /usr/local/lib/libctlgeom.a
+libtool: install: ranlib /usr/local/lib/libctlgeom.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctlgeom.h '/usr/local/include'
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /usr/bin/install -c -m 644 gen-ctl-io.1 '/usr/local/share/man/man1'
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctlgeom-types.h '/usr/local/include'
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/utils“
+Making install in examples
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make  install-am
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[3]: Pro „install-exec-am“ nebude nic uděláno.
+make[3]: Pro „install-data-am“ nebude nic uděláno.
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1/examples“
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+make[2]: Pro „install-exec-am“ nebude nic uděláno.
+test -z "/usr/local/share/libctl" || /bin/mkdir -p "/usr/local/share/libctl"
+/bin/mkdir -p '/usr/local/share/libctl/base'
+ /usr/bin/install -c -m 644  base/class.scm base/ctl.scm base/extern-funcs.scm base/help.scm base/include.scm base/interaction.scm base/io-vars.scm base/math-utils.scm base/matrix3x3.scm base/simplex.scm base/utils.scm base/vector3.scm base/main.c '/usr/local/share/libctl/base'
+/bin/mkdir -p '/usr/local/share/libctl/utils'
+ /usr/bin/install -c -m 644  utils/ctl-io.scm utils/geom.c utils/geom.scm utils/nlopt-constants.scm utils/nlopt.c '/usr/local/share/libctl/utils'
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/libctl-3.2.1“
+Načítají se seznamy balíků…
+Vytváří se strom závislostí…
+Načítají se stavové informace…
+Následující extra balíky budou instalovány:
+  libcr0 libhdf5-openmpi-8 libhwloc-dev libhwloc-plugins libhwloc5
+  libibverbs-dev libibverbs1 libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev
+  libnuma-dev libopenmpi1.6 ocl-icd-libopencl1 openmpi-common
+Navrhované balíky:
+  blcr-dkms libhdf5-doc libhwloc-contrib-plugins opencl-icd
+Následující NOVÉ balíky budou nainstalovány:
+  libcr0 libhdf5-openmpi-8 libhdf5-openmpi-dev libhwloc-dev libhwloc-plugins
+  libhwloc5 libibverbs-dev libibverbs1 libjpeg-dev libjpeg-turbo8-dev
+  libjpeg8-dev libnuma-dev libopenmpi-dev libopenmpi1.6 ocl-icd-libopencl1
+  openmpi-common
+0 aktualizováno, 16 nově instalováno, 0 k odstranění a 8 neaktualizováno.
+Nutno stáhnout 7 554 kB archivů.
+Po této operaci bude na disku použito dalších 36,8 MB.
+Mám:1 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libcr0 amd64 0.8.5-2.1 [18,6 kB]
+Mám:2 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhwloc5 amd64 1.10.0-3 [84,1 kB]
+Mám:3 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libibverbs1 amd64 1.1.8-1ubuntu1 [24,7 kB]
+Mám:4 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libopenmpi1.6 amd64 1.6.5-9.2 [1 441 kB]
+Mám:5 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhdf5-openmpi-8 amd64 1.8.13+docs-15 [1 054 kB]
+Mám:6 http://cz.archive.ubuntu.com/ubuntu/ vivid/main ocl-icd-libopencl1 amd64 2.2.3-1 [29,1 kB]
+Mám:7 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libjpeg-turbo8-dev amd64 1.3.0-0ubuntu2 [242 kB]
+Mám:8 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libjpeg8-dev amd64 8c-2ubuntu8 [1 552 B]
+Mám:9 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libjpeg-dev amd64 8c-2ubuntu8 [1 546 B]
+Mám:10 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe openmpi-common all 1.6.5-9.2 [101 kB]
+Mám:11 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libibverbs-dev amd64 1.1.8-1ubuntu1 [77,1 kB]
+Mám:12 http://cz.archive.ubuntu.com/ubuntu/ vivid/main libnuma-dev amd64 2.0.10-1ubuntu2 [31,6 kB]
+Mám:13 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhwloc-dev amd64 1.10.0-3 [138 kB]
+Mám:14 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libopenmpi-dev amd64 1.6.5-9.2 [380 kB]
+Mám:15 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhdf5-openmpi-dev amd64 1.8.13+docs-15 [3 917 kB]
+Mám:16 http://cz.archive.ubuntu.com/ubuntu/ vivid/universe libhwloc-plugins amd64 1.10.0-3 [12,0 kB]
+Staženo 7 554 kB za 12s (597 kB/s)
+Vybírá se dosud nevybraný balík libcr0.
+(Načítá se databáze … (Načítá se databáze … 5%(Načítá se databáze … 10%(Načítá se databáze … 15%(Načítá se databáze … 20%(Načítá se databáze … 25%(Načítá se databáze … 30%(Načítá se databáze … 35%(Načítá se databáze … 40%(Načítá se databáze … 45%(Načítá se databáze … 50%(Načítá se databáze … 55%(Načítá se databáze … 60%(Načítá se databáze … 65%(Načítá se databáze … 70%(Načítá se databáze … 75%(Načítá se databáze … 80%(Načítá se databáze … 85%(Načítá se databáze … 90%(Načítá se databáze … 95%(Načítá se databáze … 100%(Načítá se databáze … nyní je nainstalováno 208751 souborů a adresářů.)
+Připravuje se nahrazení …/libcr0_0.8.5-2.1_amd64.deb …
+Rozbaluje se libcr0 (0.8.5-2.1) …
+Vybírá se dosud nevybraný balík libhwloc5:amd64.
+Připravuje se nahrazení …/libhwloc5_1.10.0-3_amd64.deb …
+Rozbaluje se libhwloc5:amd64 (1.10.0-3) …
+Vybírá se dosud nevybraný balík libibverbs1.
+Připravuje se nahrazení …/libibverbs1_1.1.8-1ubuntu1_amd64.deb …
+Rozbaluje se libibverbs1 (1.1.8-1ubuntu1) …
+Vybírá se dosud nevybraný balík libopenmpi1.6.
+Připravuje se nahrazení …/libopenmpi1.6_1.6.5-9.2_amd64.deb …
+Rozbaluje se libopenmpi1.6 (1.6.5-9.2) …
+Vybírá se dosud nevybraný balík libhdf5-openmpi-8:amd64.
+Připravuje se nahrazení …/libhdf5-openmpi-8_1.8.13+docs-15_amd64.deb …
+Rozbaluje se libhdf5-openmpi-8:amd64 (1.8.13+docs-15) …
+Vybírá se dosud nevybraný balík ocl-icd-libopencl1:amd64.
+Připravuje se nahrazení …/ocl-icd-libopencl1_2.2.3-1_amd64.deb …
+Rozbaluje se ocl-icd-libopencl1:amd64 (2.2.3-1) …
+Vybírá se dosud nevybraný balík libjpeg-turbo8-dev:amd64.
+Připravuje se nahrazení …/libjpeg-turbo8-dev_1.3.0-0ubuntu2_amd64.deb …
+Rozbaluje se libjpeg-turbo8-dev:amd64 (1.3.0-0ubuntu2) …
+Vybírá se dosud nevybraný balík libjpeg8-dev:amd64.
+Připravuje se nahrazení …/libjpeg8-dev_8c-2ubuntu8_amd64.deb …
+Rozbaluje se libjpeg8-dev:amd64 (8c-2ubuntu8) …
+Vybírá se dosud nevybraný balík libjpeg-dev:amd64.
+Připravuje se nahrazení …/libjpeg-dev_8c-2ubuntu8_amd64.deb …
+Rozbaluje se libjpeg-dev:amd64 (8c-2ubuntu8) …
+Vybírá se dosud nevybraný balík openmpi-common.
+Připravuje se nahrazení …/openmpi-common_1.6.5-9.2_all.deb …
+Rozbaluje se openmpi-common (1.6.5-9.2) …
+Vybírá se dosud nevybraný balík libibverbs-dev.
+Připravuje se nahrazení …/libibverbs-dev_1.1.8-1ubuntu1_amd64.deb …
+Rozbaluje se libibverbs-dev (1.1.8-1ubuntu1) …
+Vybírá se dosud nevybraný balík libnuma-dev:amd64.
+Připravuje se nahrazení …/libnuma-dev_2.0.10-1ubuntu2_amd64.deb …
+Rozbaluje se libnuma-dev:amd64 (2.0.10-1ubuntu2) …
+Vybírá se dosud nevybraný balík libhwloc-dev:amd64.
+Připravuje se nahrazení …/libhwloc-dev_1.10.0-3_amd64.deb …
+Rozbaluje se libhwloc-dev:amd64 (1.10.0-3) …
+Vybírá se dosud nevybraný balík libopenmpi-dev.
+Připravuje se nahrazení …/libopenmpi-dev_1.6.5-9.2_amd64.deb …
+Rozbaluje se libopenmpi-dev (1.6.5-9.2) …
+Vybírá se dosud nevybraný balík libhdf5-openmpi-dev.
+Připravuje se nahrazení …/libhdf5-openmpi-dev_1.8.13+docs-15_amd64.deb …
+Rozbaluje se libhdf5-openmpi-dev (1.8.13+docs-15) …
+Vybírá se dosud nevybraný balík libhwloc-plugins.
+Připravuje se nahrazení …/libhwloc-plugins_1.10.0-3_amd64.deb …
+Rozbaluje se libhwloc-plugins (1.10.0-3) …
+Zpracovávají se spouštěče pro balík man-db (2.7.0.2-5) …
+Nastavuje se balík libcr0 (0.8.5-2.1) …
+Nastavuje se balík libhwloc5:amd64 (1.10.0-3) …
+Nastavuje se balík libibverbs1 (1.1.8-1ubuntu1) …
+Nastavuje se balík libopenmpi1.6 (1.6.5-9.2) …
+Nastavuje se balík libhdf5-openmpi-8:amd64 (1.8.13+docs-15) …
+Nastavuje se balík ocl-icd-libopencl1:amd64 (2.2.3-1) …
+Nastavuje se balík libjpeg-turbo8-dev:amd64 (1.3.0-0ubuntu2) …
+Nastavuje se balík libjpeg8-dev:amd64 (8c-2ubuntu8) …
+Nastavuje se balík libjpeg-dev:amd64 (8c-2ubuntu8) …
+Nastavuje se balík openmpi-common (1.6.5-9.2) …
+Nastavuje se balík libibverbs-dev (1.1.8-1ubuntu1) …
+Nastavuje se balík libnuma-dev:amd64 (2.0.10-1ubuntu2) …
+Nastavuje se balík libhwloc-dev:amd64 (1.10.0-3) …
+Nastavuje se balík libopenmpi-dev (1.6.5-9.2) …
+update-alternatives: používám /usr/lib/openmpi/include pro poskytnutí /usr/include/mpi (mpi) v automatickém režimu
+Nastavuje se balík libhdf5-openmpi-dev (1.8.13+docs-15) …
+update-alternatives: používám /usr/bin/h5pcc.openmpi pro poskytnutí /usr/bin/h5pcc (h5pcc) v automatickém režimu
+update-alternatives: používám /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5-openmpi.pc pro poskytnutí /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5.pc (hdf5.pc) v automatickém režimu
+Nastavuje se balík libhwloc-plugins (1.10.0-3) …
+Zpracovávají se spouštěče pro balík libc-bin (2.21-0ubuntu4) …
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in `.'.
+libtoolize: linking file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: linking file `m4/libtool.m4'
+libtoolize: linking file `m4/ltoptions.m4'
+libtoolize: linking file `m4/ltsugar.m4'
+libtoolize: linking file `m4/ltversion.m4'
+libtoolize: linking file `m4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for mpic++... mpic++
+checking for MPI_Init... yes
+checking for mpi.h... yes
+checking for extra flag needed to combine stdio.h and mpi.h... none
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for C++ compiler vendor... gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... mpic++ -E
+checking for ld used by mpic++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for mpic++ option to produce PIC... -fPIC -DPIC
+checking if mpic++ PIC flag -fPIC -DPIC works... yes
+checking if mpic++ static flag -static works... no
+checking if mpic++ supports -c -o file.o... yes
+checking if mpic++ supports -c -o file.o... (cached) yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for latex2html... no
+checking for sin in -lm... yes
+checking for fftw_plan_dft_1d in -lfftw3... yes
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking if f77 supports -c -o file.o... (cached) yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from f77... -v
+checking for Fortran 77 libraries of f77...  -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. -lfftw3 -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... yes
+checking for sgemm_ in -lf77blas... yes
+checking for cblas_dgemm in -lcblas... yes
+checking for cheev_... no
+checking for cheev_ in -llapack... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for harminv >= 1.1... yes
+checking HARMINV_CFLAGS... 
+checking HARMINV_LIBS... -lharminv 
+checking mpb.h usability... no
+checking mpb.h presence... no
+checking for mpb.h... no
+checking for cblas_cgemm... yes
+checking for gsl_sf_bessel_Jn in -lgsl... yes
+checking for deflate in -lz... yes
+checking for H5Pcreate in -lhdf5... no
+checking for H5Pset_mpi... no
+checking for H5Pset_fapl_mpio... no
+checking for mpirun... no
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for scm_make_smob_type... yes
+checking for SCM_SMOB_PREDICATE... no
+checking for SCM_SMOB_DATA... no
+checking for SCM_NEWSMOB... no
+checking how to activate readline in Guile... ice-9 readline
+checking for libctl dir... /usr/local/share/libctl
+checking for gen-ctl-io... gen-ctl-io
+checking for ctl_get_vector3 in -lctl... yes
+checking ctl.h usability... yes
+checking ctl.h presence... yes
+checking for ctl.h... yes
+checking whether libctl version is at least 3.2.0... ok
+checking for libctl_quiet feature... yes
+checking for basename in -lgen... no
+checking for feenableexcept... yes
+checking whether feenableexcept declaration is usable... yes
+checking whether to catch and ignore SIGFPE signals... no
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for cblas_ddot... yes
+checking for cblas_daxpy... yes
+checking for jn... yes
+checking for C/C++ restrict keyword... __restrict
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating meep-pkgconfig
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating libctl/Makefile
+config.status: creating libctl/meep.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep“
+Making all in src
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+make sphere_quad
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+  CXX      sphere-quad.o
+  CXXLD    sphere_quad
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; ../src/sphere_quad) > sphere-quad.h
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; sed 's/LOOP_OVER/S1LOOP_OVER/g' ../src/step_generic.cpp | sed 's/step_curl/step_curl_stride1/' | sed 's/step_update_EDHB/step_update_EDHB_stride1/' | sed 's/step_beta/step_beta_stride1/') > step_generic_stride1.cpp
+make  all-am
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+  CXX      anisotropic_averaging.lo
+  CXX      bands.lo
+  CXX      boundaries.lo
+  CXX      bicgstab.lo
+  CXX      casimir.lo
+  CXX      control_c.lo
+  CXX      cw_fields.lo
+  CXX      dft.lo
+  CXX      dft_ldos.lo
+  CXX      energy_and_flux.lo
+  CXX      fields.lo
+  CXX      loop_in_chunks.lo
+  CXX      grace.lo
+  CXX      h5fields.lo
+  CXX      h5file.lo
+  CXX      initialize.lo
+  CXX      integrate.lo
+  CXX      integrate2.lo
+  CXX      monitor.lo
+  CXX      mympi.lo
+  CXX      multilevel-atom.lo
+  CXX      near2far.lo
+  CXX      output_directory.lo
+  CXX      random.lo
+  CXX      sources.lo
+  CXX      step.lo
+  CXX      step_db.lo
+  CXX      stress.lo
+  CXX      structure.lo
+  CXX      susceptibility.lo
+  CXX      time.lo
+  CXX      update_eh.lo
+  CXX      mpb.lo
+  CXX      update_pols.lo
+  CXX      vec.lo
+  CXX      step_generic.lo
+  CXX      step_generic_stride1.lo
+  CXXLD    libmeep_mpi.la
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+Making all in libctl
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/libctl“
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; sed 's/^ *class \+\([A-Za-z_0-9:]*\)\( *\| *:[^{]*\){.*$/%rename(meep_\1) meep::\1;/' ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | grep "%rename" | sort -u; echo; grep -hv typedef ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/\(inline\|const\|extern\|static\) \+//g' | sed 's/^[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%rename(meep_\1) meep::\1;/' | grep "%rename" | sort -u; ) > meep_renames.i
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; for f in ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp; do egrep "^enum" $f | sed 's/enum \+\([A-Za-z_0-9:]\+\).*$/\1/g' | while read enum; do cat $f | tr -d '\n' | sed 's/.*enum \+'${enum}' *{\([^}]*\)}.*/\1/g' | sed 's/= *[0-9]\+//g' |tr -d ' \t' | tr ',' '\n' | sed 's/^.*$/'"%rename(meep_${enum}_\0) meep::\0;/g"; echo; done; done;) > meep_enum_renames.i
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; grep -h friend ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/^ *friend \+[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%ignore \1;/' | grep "%ignore" | sort -u;) > meep_swig_bug_workaround.i
+(sed 's/%rename(\([A-Za-z0-9_]*\)) *\([A-Za-z0-9:_]*\);$/(define \2 (\1))/' meep_enum_renames.i | sed 's/[A-Za-z0-9:_]*:://g' | sed 's/_/-/g' | sed 's,//,;,'; echo "(define Centered Dielectric)") > meep-enums.scm
+gen-ctl-io --cxx --swig -o ctl-io.i meep.scm /usr/local/share/libctl
+swig -I../src -c++ -guile -o meep_wrap.cxx meep.i
+patch -p0 meep_wrap.cxx < ./meep_wrap.patch
+patching file meep_wrap.cxx
+Hunk #1 succeeded at 760 (offset 9 lines).
+make  all-am
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/libctl“
+gen-ctl-io --cxx --header -o ctl-io.h meep.scm /usr/local/share/libctl
+  CXX      meep.o
+  CXX      structure.o
+  CXX      meep_wrap.o
+cp -f /usr/local/share/libctl/base/main.c main.cpp
+  CXX      main.o
+cp -f /usr/local/share/libctl/utils/geom.c geom.cpp
+  CXX      geom.o
+gen-ctl-io --cxx --code -o ctl-io.cpp meep.scm /usr/local/share/libctl
+  CXX      ctl-io.o
+  CXXLD    meep_mpi
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/libctl“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/libctl“
+Making all in tests
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/tests“
+make[2]: Pro „all“ nebude nic uděláno.
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/tests“
+Making all in examples
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/examples“
+make[2]: Pro „all“ nebude nic uděláno.
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/examples“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep“
+cp -f ./meep-pkgconfig meep_mpi.pc
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep“
+Making install in src
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+make  install-am
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/src“
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmeep_mpi.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.so.8.0.0 /usr/local/lib/libmeep_mpi.so.8.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so.8 || { rm -f libmeep_mpi.so.8 && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so.8; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so || { rm -f libmeep_mpi.so && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.lai /usr/local/lib/libmeep_mpi.la
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.a /usr/local/lib/libmeep_mpi.a
+libtool: install: chmod 644 /usr/local/lib/libmeep_mpi.a
+libtool: install: ranlib /usr/local/lib/libmeep_mpi.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/include'
+ /usr/bin/install -c -m 644 meep.hpp '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/meep'
+ /usr/bin/install -c -m 644 meep/mympi.hpp meep/vec.hpp '/usr/local/include/meep'
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/src“
+Making install in libctl
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/libctl“
+make  install-am
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/libctl“
+make[3]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/libctl“
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c meep_mpi '/usr/local/bin/./meep-mpi'
+libtool: install: /usr/bin/install -c .libs/meep_mpi /usr/local/bin/./meep-mpi
+ /bin/mkdir -p '/usr/local/share/meep'
+ /usr/bin/install -c -m 644 meep.scm meep-enums.scm casimir.scm '/usr/local/share/meep'
+make[3]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/libctl“
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/libctl“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/libctl“
+Making install in tests
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/tests“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/tests“
+make[2]: Pro „install-exec-am“ nebude nic uděláno.
+make[2]: Pro „install-data-am“ nebude nic uděláno.
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/tests“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/tests“
+Making install in examples
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/examples“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep/examples“
+make[2]: Pro „install-exec-am“ nebude nic uděláno.
+make[2]: Pro „install-data-am“ nebude nic uděláno.
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/examples“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep/examples“
+make[1]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep“
+make[2]: Vstupuje se do adresáře „/home/dominecf/b/python-meep-install/meep“
+make[2]: Pro „install-exec-am“ nebude nic uděláno.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 meep_mpi.pc '/usr/local/lib/pkgconfig'
+make[2]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep“
+make[1]: Opouští se adresář „/home/dominecf/b/python-meep-install/meep“
+Načítají se seznamy balíků…
+Vytváří se strom závislostí…
+Načítají se stavové informace…
+python-dev je již nejnovější verze.
+python-dev nastaven jako instalovaný ručně.
+python-numpy je již nejnovější verze.
+python-numpy nastaven jako instalovaný ručně.
+python-scipy je již nejnovější verze.
+0 aktualizováno, 0 nově instalováno, 0 k odstranění a 8 neaktualizováno.
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+creating build/lib.linux-x86_64-2.7
+c++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -lmeep_mpi -o build/lib.linux-x86_64-2.7/_meep_mpi.so
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-2.7
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> /usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> /usr/local/lib/python2.7/dist-packages
+byte-compiling /usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+copying custom.hpp -> /usr/local/lib/python2.7/dist-packages
+running install_egg_info
+Writing /usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+running build_ext
+installing to build/bdist.linux-x86_64/dumb
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/dumb
+creating build/bdist.linux-x86_64/dumb/usr
+creating build/bdist.linux-x86_64/dumb/usr/local
+creating build/bdist.linux-x86_64/dumb/usr/local/lib
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+byte-compiling build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+copying custom.hpp -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+running install_egg_info
+Writing build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+creating /home/dominecf/b/python-meep-install/python-meep/dist
+Creating tar archive
+removing 'build/bdist.linux-x86_64/dumb' (and everything under it)
