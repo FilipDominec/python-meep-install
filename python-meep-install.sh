@@ -41,7 +41,7 @@ else
 fi
 
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then
-    if [ "$PKGTYPE" = "deb" ]; then
+    if [ -d /etc/apt ]; then
         $INSTALL lib$MPI-dev libhdf5-$MPI-dev              
     else
         $INSTALL $MPI-devel hdf5-$MPI-devel
@@ -59,7 +59,7 @@ cd ..
 
 ## --- MEEP (now fresh from github!) --------------------------------------------
 export CFLAGS=" -fPIC"; export CXXFLAGS=" -fPIC"; export FFLAGS=" -fPIC"  ## Position Independent Code, needed on 64-bit
-if [ "$PKGTYPE" = "deb" ]; then
+if [ -d /etc/apt ]; then
     export CPPFLAGS="-I/usr/include/hdf5/$MPI"
     export LDFLAGS="-L/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/hdf5/$MPI"
 else
