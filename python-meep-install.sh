@@ -44,9 +44,9 @@ fi
 
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then
     if [ -d /etc/apt ]; then
-        $INSTALL lib$MPI-dev libhdf5-$MPI-dev              
+        $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
     else
-        $INSTALL $MPI-devel hdf5-$MPI-devel
+        $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
     fi
 fi
 
