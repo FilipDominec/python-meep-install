@@ -56,7 +56,7 @@ fi
 ## for Ubuntu <= 14.04, or other distros:  the version of `libctl-dev' in repository is too old, needs a fresh compile:
 if [ ! -d libctl-3.2.1/ ]; then
 	wget http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
-	tar xzf libctl*
+	tar xzf libctl-3.2.1.tar.gz
 fi
 cd libctl-3.2.1/
 ./configure LIBS=-lm  &&  make  &&  sudo make install
