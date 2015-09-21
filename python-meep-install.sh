@@ -90,9 +90,9 @@ cd ..
 ## --- PYTHON-MEEP ------------------------------------------------------------
 ## Install python-meep dependencies and SWIG
 if [ -d /etc/apt ]; then
-    $INSTALL python-dev python-numpy python-scipy python-matplotlib
+    $INSTALL python-dev python-numpy python-scipy python-matplotlib python-argparse
 else
-    $INSTALL python-devel numpy scipy matplotlib
+    $INSTALL python-devel numpy scipy matplotlib argparse
 fi
 
 ## Get the latest source from green block at https://launchpad.net/python-meep/1.4
