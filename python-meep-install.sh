@@ -27,15 +27,15 @@ $INSTALL git-core     ## for old ubuntu 10.04
 if [ -d /etc/apt ]; then 
     $INSTALL autotools-dev          g++    gfortran         
     $INSTALL h5utils 
-    $INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev
+    $INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev mpb-dev
     $INSTALL libharminv-dev pkg-config  ## these are missing in RPM?
     $INSTALL zlib1g-dev
-    $INSTALL guile-2.0-dev   ## for newer linux versions
-    $INSTALL guile-1.8-dev   ## for old ubuntu 10.04
+	## for newer linux versions -- or if fails -- for old ubuntu 10.04
+    $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
 else
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
-    $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel
+    $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		mpb-devel
     echo "TODO: harminv must be (probably) compiled on Fedora!"
     echo "TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!"
     $INSTALL zlib-devel
