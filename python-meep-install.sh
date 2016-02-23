@@ -32,6 +32,7 @@ if [ -d /etc/apt ]; then
     $INSTALL zlib1g-dev
 	## for newer linux versions -- or if fails -- for old ubuntu 10.04
     $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
+    $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
 else
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
@@ -40,16 +41,8 @@ else
     echo "TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!"
     $INSTALL zlib-devel
     $INSTALL guile-devel
+    $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
 fi
-
-if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then
-    if [ -d /etc/apt ]; then
-        $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
-    else
-        $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
-    fi
-fi
-
 
 ##   for Ubuntu 15.04: fresh libctl 3.2.2 is in repository and we can use it
 # $INSTALL libctl-dev                            
@@ -77,14 +70,16 @@ fi
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+./autogen.sh $meep_opt --enable-maintainer-mode --prefix=/usr/local  # exits with 1 ?
 make  &&  sudo make install
+# --enable-shared 
 cd ..
 
 ## Failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
 #if [ ! -d "meep" ]; then wget http://ab-initio.mit.edu/meep/meep-1.3.tar.gz && tar xzf meep-1.3.tar.gz && mv meep-1.3 meep; fi
 #cd meep/
-#./configure $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  &&  make  &&  sudo make install
+#./configure $meep_opt --enable-maintainer-mode --prefix=/usr/local  &&  make  &&  sudo make install
+# # --enable-shared 
 #cd ..
 
 ## --- PYTHON-MEEP ------------------------------------------------------------
