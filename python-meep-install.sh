@@ -3,10 +3,10 @@
 ## with some utilities on a Debian-based system.
 
 ## --- Settings ---------------------------------------------------------------
-#MPI="openmpi"
+MPI="openmpi"
 #MPI="mpich"
 #MPI="mpich2"
-MPI="serial"        ## i.e. no multiprocessing used
+#MPI="serial"        ## i.e. no multiprocessing used
 
 ## --- Preparation and build dependencies -------------------------------------
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then meep_opt="--with-mpi"; fi
@@ -70,14 +70,16 @@ fi
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+./autogen.sh $meep_opt --enable-maintainer-mode --prefix=/usr/local  # exits with 1 ?
 make  &&  sudo make install
+# --enable-shared 
 cd ..
 
 ## Failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
 #if [ ! -d "meep" ]; then wget http://ab-initio.mit.edu/meep/meep-1.3.tar.gz && tar xzf meep-1.3.tar.gz && mv meep-1.3 meep; fi
 #cd meep/
-#./configure $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  &&  make  &&  sudo make install
+#./configure $meep_opt --enable-maintainer-mode --prefix=/usr/local  &&  make  &&  sudo make install
+# # --enable-shared 
 #cd ..
 
 ## --- PYTHON-MEEP ------------------------------------------------------------
