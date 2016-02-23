@@ -3,10 +3,10 @@
 ## with some utilities on a Debian-based system.
 
 ## --- Settings ---------------------------------------------------------------
-MPI="openmpi"
+#MPI="openmpi"
 #MPI="mpich"
 #MPI="mpich2"
-#MPI="serial"        ## i.e. no multiprocessing used
+MPI="serial"        ## i.e. no multiprocessing used
 
 ## --- Preparation and build dependencies -------------------------------------
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then meep_opt="--with-mpi"; fi
@@ -32,6 +32,7 @@ if [ -d /etc/apt ]; then
     $INSTALL zlib1g-dev
 	## for newer linux versions -- or if fails -- for old ubuntu 10.04
     $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
+    $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
 else
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
@@ -40,16 +41,8 @@ else
     echo "TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!"
     $INSTALL zlib-devel
     $INSTALL guile-devel
+    $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
 fi
-
-if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then
-    if [ -d /etc/apt ]; then
-        $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
-    else
-        $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
-    fi
-fi
-
 
 ##   for Ubuntu 15.04: fresh libctl 3.2.2 is in repository and we can use it
 # $INSTALL libctl-dev                            
