@@ -70,9 +70,8 @@ fi
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-./autogen.sh $meep_opt --enable-maintainer-mode --prefix=/usr/local  # exits with 1 ?
+./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
 make  &&  sudo make install
-# --enable-shared 
 cd ..
 
 ## Failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
