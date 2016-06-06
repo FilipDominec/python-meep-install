@@ -104,10 +104,8 @@ pm_opt=`echo $meep_opt | sed 's/--with//g'`
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
 sed -i -e '/custom.hpp/ a export LD_RUN_PATH=\/usr\/local\/lib' make${pm_opt}
 sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-site-init.py
-if [ ! -d /etc/apt/ ]; then 
-    ## Fedora22 complained about "Unknown SWIG preprocessor directive" if the comment was left 
-    sed -i -e '/initialisations/d' meep-site-init.py
-fi
+## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
+sed -i -e '/initialisations/d' meep-site-init.py
 
 sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib
 

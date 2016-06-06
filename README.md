@@ -27,6 +27,7 @@ By editing the 'python-meep-install.sh' script, you can choose
 * Debian Jessie
 
 ### Experimental/partially working:
+* The eigenmode source requires the 'mpb-dev' package, which is not available in Ubuntu 15.04 or earlier. You can still download the source and compile MPB on older systems, but in such a case, make sure you use the '-fPIC' option to enable its use with MEEP.
 
 ### Known not to work on:
 * Fedora 22  (and other RPM-based systems)
