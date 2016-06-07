@@ -1,0 +1,1264 @@
+Last metadata expiration check: 2:17:04 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 2:17:07 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+================================================================================
+ Package                         Arch     Version               Repository
+                                                                           Size
+================================================================================
+Installing:
+ autoconf                        noarch   2.69-21.fc23          fedora    709 k
+ automake                        noarch   1.15-4.fc23           fedora    695 k
+ binutils                        x86_64   2.25-17.fc23          updates   5.6 M
+ chrpath                         x86_64   0.16-2.fc23           fedora     31 k
+ cpp                             x86_64   5.3.1-6.fc23          updates   8.3 M
+ debconf                         noarch   1.5.56-3.fc23         fedora    191 k
+ debhelper                       noarch   9.20150628-1.fc23     fedora    905 k
+ dpkg                            x86_64   1.17.25-6.fc23        updates   1.3 M
+ dpkg-dev                        noarch   1.17.25-6.fc23        updates   888 k
+ dpkg-perl                       noarch   1.17.25-6.fc23        updates   223 k
+ gcc                             x86_64   5.3.1-6.fc23          updates    19 M
+ gettext-common-devel            noarch   0.19.7-3.fc23         updates   411 k
+ gettext-devel                   x86_64   0.19.7-3.fc23         updates   323 k
+ glibc-devel                     x86_64   2.22-17.fc23          updates   913 k
+ glibc-headers                   x86_64   2.22-17.fc23          updates   496 k
+ intltool                        noarch   0.51.0-3.fc23         fedora     65 k
+ isl                             x86_64   0.14-4.fc23           fedora    490 k
+ kernel-headers                  x86_64   4.5.5-201.fc23        updates   1.0 M
+ libmpc                          x86_64   1.0.2-4.fc23          fedora     55 k
+ libtool                         x86_64   2.4.6-8.fc23          updates   707 k
+ m4                              x86_64   1.4.17-8.fc23         fedora    266 k
+ patch                           x86_64   2.7.5-2.fc23          fedora    123 k
+ perl-Authen-SASL                noarch   2.16-6.fc23           fedora     56 k
+ perl-Business-ISBN              noarch   2.09-7.fc23           fedora     31 k
+ perl-Business-ISBN-Data         noarch   20140910.002-3.fc23   fedora     30 k
+ perl-CGI                        noarch   4.21-1.fc23           fedora    203 k
+ perl-Compress-Raw-Bzip2         x86_64   2.068-347.fc23        fedora     37 k
+ perl-Compress-Raw-Zlib          x86_64   2.068-347.fc23        fedora     63 k
+ perl-Convert-ASN1               noarch   0.27-4.fc23           fedora     58 k
+ perl-Convert-BinHex             noarch   1.124-1.fc23          fedora     48 k
+ perl-Data-OptList               noarch   0.109-6.fc23          fedora     28 k
+ perl-Devel-GlobalDestruction    noarch   0.13-4.fc23           fedora     22 k
+ perl-Digest                     noarch   1.17-346.fc23         fedora     26 k
+ perl-Digest-HMAC                noarch   1.03-11.fc23          fedora     19 k
+ perl-Digest-MD5                 x86_64   2.55-1.fc23           updates    35 k
+ perl-Digest-SHA                 x86_64   1:5.95-347.fc23       fedora     63 k
+ perl-Email-Date-Format          noarch   1.005-3.fc23          fedora     21 k
+ perl-Email-Simple               noarch   2.208-1.fc23          fedora     37 k
+ perl-Encode-Locale              noarch   1.05-3.fc23           fedora     20 k
+ perl-File-FcntlLock             x86_64   0.22-3.fc23           fedora     43 k
+ perl-File-Listing               noarch   6.04-11.fc23          fedora     17 k
+ perl-File-Remove                noarch   1.57-1.fc23           updates    32 k
+ perl-Font-AFM                   noarch   1.20-19.fc23          fedora     23 k
+ perl-GSSAPI                     x86_64   0.28-15.fc23          fedora     61 k
+ perl-HTML-Format                noarch   2.12-2.fc23           updates    60 k
+ perl-HTML-Parser                x86_64   3.71-11.fc23          fedora    116 k
+ perl-HTML-Tagset                noarch   3.20-24.fc23          fedora     22 k
+ perl-HTML-Tree                  noarch   1:5.03-11.fc23        fedora    223 k
+ perl-HTTP-Cookies               noarch   6.01-11.fc23          fedora     29 k
+ perl-HTTP-Date                  noarch   6.02-12.fc23          fedora     18 k
+ perl-HTTP-Message               noarch   6.11-1.fc23           fedora     88 k
+ perl-HTTP-Negotiate             noarch   6.01-11.fc23          fedora     21 k
+ perl-IO-Compress                noarch   2.068-347.fc23        fedora    254 k
+ perl-IO-HTML                    noarch   1.001-4.fc23          fedora     27 k
+ perl-IO-Socket-IP               noarch   0.37-347.fc23         fedora     45 k
+ perl-IO-Socket-SSL              noarch   2.023-1.fc23          updates   254 k
+ perl-IO-stringy                 noarch   2.111-3.fc23          fedora     70 k
+ perl-JSON                       noarch   2.90-5.fc23           fedora     98 k
+ perl-LDAP                       noarch   1:0.65-3.fc23         fedora    390 k
+ perl-LWP-MediaTypes             noarch   6.02-8.fc23           fedora     28 k
+ perl-MIME-Types                 noarch   2.11-1.fc23           fedora     69 k
+ perl-MIME-tools                 noarch   5.506-3.fc23          fedora    247 k
+ perl-Mail-Box                   noarch   2.118-4.fc23          fedora    1.0 M
+ perl-Mail-IMAPClient            noarch   3.37-1.fc23           updates   222 k
+ perl-Mail-Sendmail              noarch   0.79-27.fc23          fedora     33 k
+ perl-Mail-Transport-Dbx         x86_64   0.07-24.fc23          fedora     44 k
+ perl-MailTools                  noarch   2.14-3.fc23           fedora    106 k
+ perl-NTLM                       noarch   1.09-11.fc23          fedora     23 k
+ perl-Net-HTTP                   noarch   6.09-3.fc23           fedora     32 k
+ perl-Net-SMTP-SSL               noarch   1.03-1.fc23           fedora     13 k
+ perl-Net-SSLeay                 x86_64   1.71-1.fc23           fedora    320 k
+ perl-Object-Realize-Later       noarch   0.19-3.fc23           fedora     24 k
+ perl-Package-Generator          noarch   1.106-5.fc23          fedora     26 k
+ perl-Params-Util                x86_64   1.07-13.fc23          fedora     42 k
+ perl-Parse-RecDescent           noarch   1.967012-1.fc23       fedora    210 k
+ perl-Sub-Exporter               noarch   0.987-6.fc23          fedora     72 k
+ perl-Sub-Exporter-Progressive   noarch   0.001011-5.fc23       fedora     16 k
+ perl-Sub-Install                noarch   0.928-6.fc23          fedora     25 k
+ perl-TeX-Hyphen                 noarch   1.16-2.fc23           fedora     39 k
+ perl-Text-Autoformat            noarch   1.740000-1.fc23       updates    49 k
+ perl-Text-Balanced              noarch   2.03-348.fc23         fedora     57 k
+ perl-Text-Reform                noarch   1.20-13.fc23          fedora     47 k
+ perl-Text-Soundex               x86_64   3.04-296.fc23         fedora     23 k
+ perl-Text-Unidecode             noarch   1.27-1.fc23           updates   145 k
+ perl-Thread-Queue               noarch   3.11-1.fc23           updates    22 k
+ perl-URI                        noarch   1.69-1.fc23           fedora    116 k
+ perl-User-Identity              noarch   0.93-14.fc23          fedora     75 k
+ perl-WWW-RobotRules             noarch   6.02-12.fc23          fedora     21 k
+ perl-XML-Filter-BufferText      noarch   1.01-23.fc23          fedora     15 k
+ perl-XML-NamespaceSupport       noarch   1.11-16.fc23          fedora     22 k
+ perl-XML-Parser                 x86_64   2.44-3.fc23           fedora    224 k
+ perl-XML-SAX-Base               noarch   1.08-14.fc23          fedora     34 k
+ perl-XML-SAX-Writer             noarch   0.53-9.fc23           fedora     28 k
+ perl-libnet                     noarch   3.08-1.fc23           updates   126 k
+ perl-libwww-perl                noarch   6.15-1.fc23           updates   209 k
+ po-debconf                      noarch   1.0.16-5.nmu2.fc23    fedora    149 k
+ python-html2text                noarch   2015.6.6-4.fc23       updates    48 k
+ swig                            x86_64   3.0.7-8.fc23          updates   1.5 M
+ xz-lzma-compat                  x86_64   5.2.1-3.fc23          fedora     24 k
+
+Transaction Summary
+================================================================================
+Install  99 Packages
+
+Total size: 51 M
+Installed size: 139 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : perl-HTTP-Date-6.02-12.fc23.noarch                         1/99 
+  Installing  : perl-IO-Socket-IP-0.37-347.fc23.noarch                     2/99 
+  Installing  : perl-libnet-3.08-1.fc23.noarch                             3/99 
+  Installing  : binutils-2.25-17.fc23.x86_64                               4/99 
+  Installing  : perl-XML-SAX-Base-1.08-14.fc23.noarch                      5/99 
+  Installing  : perl-LWP-MediaTypes-6.02-8.fc23.noarch                     6/99 
+  Installing  : perl-Compress-Raw-Zlib-2.068-347.fc23.x86_64               7/99 
+  Installing  : python-html2text-2015.6.6-4.fc23.noarch                    8/99 
+  Installing  : libmpc-1.0.2-4.fc23.x86_64                                 9/99 
+  Installing  : perl-Sub-Install-0.928-6.fc23.noarch                      10/99 
+  Installing  : perl-Params-Util-1.07-13.fc23.x86_64                      11/99 
+  Installing  : perl-Digest-1.17-346.fc23.noarch                          12/99 
+  Installing  : perl-Digest-MD5-2.55-1.fc23.x86_64                        13/99 
+  Installing  : perl-Encode-Locale-1.05-3.fc23.noarch                     14/99 
+  Installing  : perl-HTML-Tagset-3.20-24.fc23.noarch                      15/99 
+  Installing  : patch-2.7.5-2.fc23.x86_64                                 16/99 
+  Installing  : perl-Digest-SHA-1:5.95-347.fc23.x86_64                    17/99 
+  Installing  : perl-Digest-HMAC-1.03-11.fc23.noarch                      18/99 
+  Installing  : perl-NTLM-1.09-11.fc23.noarch                             19/99 
+  Installing  : perl-Data-OptList-0.109-6.fc23.noarch                     20/99 
+  Installing  : cpp-5.3.1-6.fc23.x86_64                                   21/99 
+  Installing  : perl-XML-Filter-BufferText-1.01-23.fc23.noarch            22/99 
+  Installing  : perl-File-Listing-6.04-11.fc23.noarch                     23/99 
+  Installing  : kernel-headers-4.5.5-201.fc23.x86_64                      24/99 
+  Installing  : glibc-headers-2.22-17.fc23.x86_64                         25/99 
+  Installing  : glibc-devel-2.22-17.fc23.x86_64                           26/99 
+  Installing  : perl-Thread-Queue-3.11-1.fc23.noarch                      27/99 
+  Installing  : dpkg-1.17.25-6.fc23.x86_64                                28/99 
+  Installing  : dpkg-perl-1.17.25-6.fc23.noarch                           29/99 
+  Installing  : xz-lzma-compat-5.2.1-3.fc23.x86_64                        30/99 
+  Installing  : dpkg-dev-1.17.25-6.fc23.noarch                            31/99 
+  Installing  : gettext-common-devel-0.19.7-3.fc23.noarch                 32/99 
+  Installing  : gettext-devel-0.19.7-3.fc23.x86_64                        33/99 
+  Installing  : perl-TeX-Hyphen-1.16-2.fc23.noarch                        34/99 
+  Installing  : perl-Text-Reform-1.20-13.fc23.noarch                      35/99 
+  Installing  : perl-Text-Autoformat-1.740000-1.fc23.noarch               36/99 
+  Installing  : perl-Text-Balanced-2.03-348.fc23.noarch                   37/99 
+  Installing  : perl-Parse-RecDescent-1.967012-1.fc23.noarch              38/99 
+  Installing  : perl-Mail-IMAPClient-3.37-1.fc23.noarch                   39/99 
+  Installing  : perl-Font-AFM-1.20-19.fc23.noarch                         40/99 
+  Installing  : perl-File-Remove-1.57-1.fc23.noarch                       41/99 
+  Installing  : perl-Net-SSLeay-1.71-1.fc23.x86_64                        42/99 
+  Installing  : perl-Text-Unidecode-1.27-1.fc23.noarch                    43/99 
+  Installing  : perl-Text-Soundex-3.04-296.fc23.x86_64                    44/99 
+  Installing  : isl-0.14-4.fc23.x86_64                                    45/99 
+  Installing  : gcc-5.3.1-6.fc23.x86_64                                   46/99 
+  Installing  : perl-Package-Generator-1.106-5.fc23.noarch                47/99 
+  Installing  : perl-Sub-Exporter-0.987-6.fc23.noarch                     48/99 
+  Installing  : perl-Sub-Exporter-Progressive-0.001011-5.fc23.noarch      49/99 
+  Installing  : perl-Devel-GlobalDestruction-0.13-4.fc23.noarch           50/99 
+  Installing  : perl-Business-ISBN-Data-20140910.002-3.fc23.noarch        51/99 
+  Installing  : perl-Business-ISBN-2.09-7.fc23.noarch                     52/99 
+  Installing  : perl-URI-1.69-1.fc23.noarch                               53/99 
+  Installing  : perl-IO-Socket-SSL-2.023-1.fc23.noarch                    54/99 
+  Installing  : perl-Net-SMTP-SSL-1.03-1.fc23.noarch                      55/99 
+  Installing  : perl-MailTools-2.14-3.fc23.noarch                         56/99 
+  Installing  : perl-WWW-RobotRules-6.02-12.fc23.noarch                   57/99 
+  Installing  : perl-XML-NamespaceSupport-1.11-16.fc23.noarch             58/99 
+  Installing  : perl-XML-SAX-Writer-0.53-9.fc23.noarch                    59/99 
+  Installing  : perl-IO-HTML-1.001-4.fc23.noarch                          60/99 
+  Installing  : perl-GSSAPI-0.28-15.fc23.x86_64                           61/99 
+  Installing  : perl-Authen-SASL-2.16-6.fc23.noarch                       62/99 
+  Installing  : perl-Convert-BinHex-1.124-1.fc23.noarch                   63/99 
+  Installing  : perl-MIME-tools-5.506-3.fc23.noarch                       64/99 
+  Installing  : perl-Email-Date-Format-1.005-3.fc23.noarch                65/99 
+  Installing  : perl-Email-Simple-2.208-1.fc23.noarch                     66/99 
+  Installing  : perl-JSON-2.90-5.fc23.noarch                              67/99 
+  Installing  : perl-Convert-ASN1-0.27-4.fc23.noarch                      68/99 
+  Installing  : perl-User-Identity-0.93-14.fc23.noarch                    69/99 
+  Installing  : perl-Object-Realize-Later-0.19-3.fc23.noarch              70/99 
+  Installing  : perl-Mail-Transport-Dbx-0.07-24.fc23.x86_64               71/99 
+  Installing  : perl-MIME-Types-2.11-1.fc23.noarch                        72/99 
+  Installing  : perl-IO-stringy-2.111-3.fc23.noarch                       73/99 
+  Installing  : perl-File-FcntlLock-0.22-3.fc23.x86_64                    74/99 
+  Installing  : perl-Compress-Raw-Bzip2-2.068-347.fc23.x86_64             75/99 
+  Installing  : perl-IO-Compress-2.068-347.fc23.noarch                    76/99 
+  Installing  : perl-HTTP-Message-6.11-1.fc23.noarch                      77/99 
+  Installing  : perl-HTML-Parser-3.71-11.fc23.x86_64                      78/99 
+  Installing  : perl-HTML-Tree-1:5.03-11.fc23.noarch                      79/99 
+  Installing  : perl-HTTP-Negotiate-6.01-11.fc23.noarch                   80/99 
+  Installing  : perl-HTML-Format-2.12-2.fc23.noarch                       81/99 
+  Installing  : perl-Mail-Box-2.118-4.fc23.noarch                         82/99 
+  Installing  : perl-CGI-4.21-1.fc23.noarch                               83/99 
+  Installing  : perl-HTTP-Cookies-6.01-11.fc23.noarch                     84/99 
+  Installing  : perl-Net-HTTP-6.09-3.fc23.noarch                          85/99 
+  Installing  : perl-libwww-perl-6.15-1.fc23.noarch                       86/99 
+  Installing  : perl-LDAP-1:0.65-3.fc23.noarch                            87/99 
+  Installing  : debconf-1.5.56-3.fc23.noarch                              88/99 
+  Installing  : perl-XML-Parser-2.44-3.fc23.x86_64                        89/99 
+  Installing  : perl-Mail-Sendmail-0.79-27.fc23.noarch                    90/99 
+  Installing  : m4-1.4.17-8.fc23.x86_64                                   91/99 
+  Installing  : autoconf-2.69-21.fc23.noarch                              92/99 
+  Installing  : automake-1.15-4.fc23.noarch                               93/99 
+  Installing  : intltool-0.51.0-3.fc23.noarch                             94/99 
+  Installing  : po-debconf-1.0.16-5.nmu2.fc23.noarch                      95/99 
+  Installing  : debhelper-9.20150628-1.fc23.noarch                        96/99 
+  Installing  : libtool-2.4.6-8.fc23.x86_64                               97/99 
+  Installing  : swig-3.0.7-8.fc23.x86_64                                  98/99 
+  Installing  : chrpath-0.16-2.fc23.x86_64                                99/99 
+  Verifying   : autoconf-2.69-21.fc23.noarch                               1/99 
+  Verifying   : chrpath-0.16-2.fc23.x86_64                                 2/99 
+  Verifying   : debhelper-9.20150628-1.fc23.noarch                         3/99 
+  Verifying   : m4-1.4.17-8.fc23.x86_64                                    4/99 
+  Verifying   : po-debconf-1.0.16-5.nmu2.fc23.noarch                       5/99 
+  Verifying   : debconf-1.5.56-3.fc23.noarch                               6/99 
+  Verifying   : intltool-0.51.0-3.fc23.noarch                              7/99 
+  Verifying   : perl-IO-Compress-2.068-347.fc23.noarch                     8/99 
+  Verifying   : perl-Mail-Box-2.118-4.fc23.noarch                          9/99 
+  Verifying   : perl-Mail-Sendmail-0.79-27.fc23.noarch                    10/99 
+  Verifying   : perl-CGI-4.21-1.fc23.noarch                               11/99 
+  Verifying   : perl-LDAP-1:0.65-3.fc23.noarch                            12/99 
+  Verifying   : automake-1.15-4.fc23.noarch                               13/99 
+  Verifying   : patch-2.7.5-2.fc23.x86_64                                 14/99 
+  Verifying   : perl-XML-Parser-2.44-3.fc23.x86_64                        15/99 
+  Verifying   : perl-Compress-Raw-Bzip2-2.068-347.fc23.x86_64             16/99 
+  Verifying   : perl-Compress-Raw-Zlib-2.068-347.fc23.x86_64              17/99 
+  Verifying   : perl-Devel-GlobalDestruction-0.13-4.fc23.noarch           18/99 
+  Verifying   : perl-Digest-HMAC-1.03-11.fc23.noarch                      19/99 
+  Verifying   : perl-Email-Simple-2.208-1.fc23.noarch                     20/99 
+  Verifying   : perl-File-FcntlLock-0.22-3.fc23.x86_64                    21/99 
+  Verifying   : perl-HTML-Tree-1:5.03-11.fc23.noarch                      22/99 
+  Verifying   : perl-IO-stringy-2.111-3.fc23.noarch                       23/99 
+  Verifying   : perl-MIME-Types-2.11-1.fc23.noarch                        24/99 
+  Verifying   : perl-MIME-tools-5.506-3.fc23.noarch                       25/99 
+  Verifying   : perl-Mail-Transport-Dbx-0.07-24.fc23.x86_64               26/99 
+  Verifying   : perl-MailTools-2.14-3.fc23.noarch                         27/99 
+  Verifying   : perl-Object-Realize-Later-0.19-3.fc23.noarch              28/99 
+  Verifying   : perl-URI-1.69-1.fc23.noarch                               29/99 
+  Verifying   : perl-User-Identity-0.93-14.fc23.noarch                    30/99 
+  Verifying   : perl-HTML-Parser-3.71-11.fc23.x86_64                      31/99 
+  Verifying   : perl-Authen-SASL-2.16-6.fc23.noarch                       32/99 
+  Verifying   : perl-Convert-ASN1-0.27-4.fc23.noarch                      33/99 
+  Verifying   : perl-HTTP-Message-6.11-1.fc23.noarch                      34/99 
+  Verifying   : perl-HTTP-Negotiate-6.01-11.fc23.noarch                   35/99 
+  Verifying   : perl-JSON-2.90-5.fc23.noarch                              36/99 
+  Verifying   : perl-LWP-MediaTypes-6.02-8.fc23.noarch                    37/99 
+  Verifying   : perl-Text-Soundex-3.04-296.fc23.x86_64                    38/99 
+  Verifying   : perl-XML-SAX-Base-1.08-14.fc23.noarch                     39/99 
+  Verifying   : perl-XML-SAX-Writer-0.53-9.fc23.noarch                    40/99 
+  Verifying   : perl-Sub-Exporter-Progressive-0.001011-5.fc23.noarch      41/99 
+  Verifying   : perl-Digest-SHA-1:5.95-347.fc23.x86_64                    42/99 
+  Verifying   : perl-Email-Date-Format-1.005-3.fc23.noarch                43/99 
+  Verifying   : perl-HTML-Tagset-3.20-24.fc23.noarch                      44/99 
+  Verifying   : perl-Convert-BinHex-1.124-1.fc23.noarch                   45/99 
+  Verifying   : perl-Net-SMTP-SSL-1.03-1.fc23.noarch                      46/99 
+  Verifying   : perl-Business-ISBN-2.09-7.fc23.noarch                     47/99 
+  Verifying   : perl-GSSAPI-0.28-15.fc23.x86_64                           48/99 
+  Verifying   : perl-Encode-Locale-1.05-3.fc23.noarch                     49/99 
+  Verifying   : perl-HTTP-Date-6.02-12.fc23.noarch                        50/99 
+  Verifying   : perl-IO-HTML-1.001-4.fc23.noarch                          51/99 
+  Verifying   : perl-XML-Filter-BufferText-1.01-23.fc23.noarch            52/99 
+  Verifying   : perl-XML-NamespaceSupport-1.11-16.fc23.noarch             53/99 
+  Verifying   : perl-Sub-Exporter-0.987-6.fc23.noarch                     54/99 
+  Verifying   : perl-Digest-1.17-346.fc23.noarch                          55/99 
+  Verifying   : perl-Business-ISBN-Data-20140910.002-3.fc23.noarch        56/99 
+  Verifying   : perl-Data-OptList-0.109-6.fc23.noarch                     57/99 
+  Verifying   : perl-Package-Generator-1.106-5.fc23.noarch                58/99 
+  Verifying   : perl-Params-Util-1.07-13.fc23.x86_64                      59/99 
+  Verifying   : perl-Sub-Install-0.928-6.fc23.noarch                      60/99 
+  Verifying   : libtool-2.4.6-8.fc23.x86_64                               61/99 
+  Verifying   : swig-3.0.7-8.fc23.x86_64                                  62/99 
+  Verifying   : gcc-5.3.1-6.fc23.x86_64                                   63/99 
+  Verifying   : libmpc-1.0.2-4.fc23.x86_64                                64/99 
+  Verifying   : cpp-5.3.1-6.fc23.x86_64                                   65/99 
+  Verifying   : binutils-2.25-17.fc23.x86_64                              66/99 
+  Verifying   : glibc-devel-2.22-17.fc23.x86_64                           67/99 
+  Verifying   : isl-0.14-4.fc23.x86_64                                    68/99 
+  Verifying   : perl-libnet-3.08-1.fc23.noarch                            69/99 
+  Verifying   : perl-IO-Socket-IP-0.37-347.fc23.noarch                    70/99 
+  Verifying   : perl-Text-Unidecode-1.27-1.fc23.noarch                    71/99 
+  Verifying   : perl-IO-Socket-SSL-2.023-1.fc23.noarch                    72/99 
+  Verifying   : perl-Net-SSLeay-1.71-1.fc23.x86_64                        73/99 
+  Verifying   : perl-Digest-MD5-2.55-1.fc23.x86_64                        74/99 
+  Verifying   : perl-File-Remove-1.57-1.fc23.noarch                       75/99 
+  Verifying   : perl-HTML-Format-2.12-2.fc23.noarch                       76/99 
+  Verifying   : perl-Font-AFM-1.20-19.fc23.noarch                         77/99 
+  Verifying   : perl-Mail-IMAPClient-3.37-1.fc23.noarch                   78/99 
+  Verifying   : perl-Parse-RecDescent-1.967012-1.fc23.noarch              79/99 
+  Verifying   : perl-Text-Balanced-2.03-348.fc23.noarch                   80/99 
+  Verifying   : perl-Text-Autoformat-1.740000-1.fc23.noarch               81/99 
+  Verifying   : perl-Text-Reform-1.20-13.fc23.noarch                      82/99 
+  Verifying   : perl-TeX-Hyphen-1.16-2.fc23.noarch                        83/99 
+  Verifying   : perl-libwww-perl-6.15-1.fc23.noarch                       84/99 
+  Verifying   : perl-File-Listing-6.04-11.fc23.noarch                     85/99 
+  Verifying   : perl-HTTP-Cookies-6.01-11.fc23.noarch                     86/99 
+  Verifying   : perl-NTLM-1.09-11.fc23.noarch                             87/99 
+  Verifying   : perl-Net-HTTP-6.09-3.fc23.noarch                          88/99 
+  Verifying   : perl-WWW-RobotRules-6.02-12.fc23.noarch                   89/99 
+  Verifying   : gettext-devel-0.19.7-3.fc23.x86_64                        90/99 
+  Verifying   : gettext-common-devel-0.19.7-3.fc23.noarch                 91/99 
+  Verifying   : dpkg-dev-1.17.25-6.fc23.noarch                            92/99 
+  Verifying   : xz-lzma-compat-5.2.1-3.fc23.x86_64                        93/99 
+  Verifying   : dpkg-perl-1.17.25-6.fc23.noarch                           94/99 
+  Verifying   : dpkg-1.17.25-6.fc23.x86_64                                95/99 
+  Verifying   : perl-Thread-Queue-3.11-1.fc23.noarch                      96/99 
+  Verifying   : glibc-headers-2.22-17.fc23.x86_64                         97/99 
+  Verifying   : kernel-headers-4.5.5-201.fc23.x86_64                      98/99 
+  Verifying   : python-html2text-2015.6.6-4.fc23.noarch                   99/99 
+
+Installed:
+  autoconf.noarch 2.69-21.fc23                                                  
+  automake.noarch 1.15-4.fc23                                                   
+  binutils.x86_64 2.25-17.fc23                                                  
+  chrpath.x86_64 0.16-2.fc23                                                    
+  cpp.x86_64 5.3.1-6.fc23                                                       
+  debconf.noarch 1.5.56-3.fc23                                                  
+  debhelper.noarch 9.20150628-1.fc23                                            
+  dpkg.x86_64 1.17.25-6.fc23                                                    
+  dpkg-dev.noarch 1.17.25-6.fc23                                                
+  dpkg-perl.noarch 1.17.25-6.fc23                                               
+  gcc.x86_64 5.3.1-6.fc23                                                       
+  gettext-common-devel.noarch 0.19.7-3.fc23                                     
+  gettext-devel.x86_64 0.19.7-3.fc23                                            
+  glibc-devel.x86_64 2.22-17.fc23                                               
+  glibc-headers.x86_64 2.22-17.fc23                                             
+  intltool.noarch 0.51.0-3.fc23                                                 
+  isl.x86_64 0.14-4.fc23                                                        
+  kernel-headers.x86_64 4.5.5-201.fc23                                          
+  libmpc.x86_64 1.0.2-4.fc23                                                    
+  libtool.x86_64 2.4.6-8.fc23                                                   
+  m4.x86_64 1.4.17-8.fc23                                                       
+  patch.x86_64 2.7.5-2.fc23                                                     
+  perl-Authen-SASL.noarch 2.16-6.fc23                                           
+  perl-Business-ISBN.noarch 2.09-7.fc23                                         
+  perl-Business-ISBN-Data.noarch 20140910.002-3.fc23                            
+  perl-CGI.noarch 4.21-1.fc23                                                   
+  perl-Compress-Raw-Bzip2.x86_64 2.068-347.fc23                                 
+  perl-Compress-Raw-Zlib.x86_64 2.068-347.fc23                                  
+  perl-Convert-ASN1.noarch 0.27-4.fc23                                          
+  perl-Convert-BinHex.noarch 1.124-1.fc23                                       
+  perl-Data-OptList.noarch 0.109-6.fc23                                         
+  perl-Devel-GlobalDestruction.noarch 0.13-4.fc23                               
+  perl-Digest.noarch 1.17-346.fc23                                              
+  perl-Digest-HMAC.noarch 1.03-11.fc23                                          
+  perl-Digest-MD5.x86_64 2.55-1.fc23                                            
+  perl-Digest-SHA.x86_64 1:5.95-347.fc23                                        
+  perl-Email-Date-Format.noarch 1.005-3.fc23                                    
+  perl-Email-Simple.noarch 2.208-1.fc23                                         
+  perl-Encode-Locale.noarch 1.05-3.fc23                                         
+  perl-File-FcntlLock.x86_64 0.22-3.fc23                                        
+  perl-File-Listing.noarch 6.04-11.fc23                                         
+  perl-File-Remove.noarch 1.57-1.fc23                                           
+  perl-Font-AFM.noarch 1.20-19.fc23                                             
+  perl-GSSAPI.x86_64 0.28-15.fc23                                               
+  perl-HTML-Format.noarch 2.12-2.fc23                                           
+  perl-HTML-Parser.x86_64 3.71-11.fc23                                          
+  perl-HTML-Tagset.noarch 3.20-24.fc23                                          
+  perl-HTML-Tree.noarch 1:5.03-11.fc23                                          
+  perl-HTTP-Cookies.noarch 6.01-11.fc23                                         
+  perl-HTTP-Date.noarch 6.02-12.fc23                                            
+  perl-HTTP-Message.noarch 6.11-1.fc23                                          
+  perl-HTTP-Negotiate.noarch 6.01-11.fc23                                       
+  perl-IO-Compress.noarch 2.068-347.fc23                                        
+  perl-IO-HTML.noarch 1.001-4.fc23                                              
+  perl-IO-Socket-IP.noarch 0.37-347.fc23                                        
+  perl-IO-Socket-SSL.noarch 2.023-1.fc23                                        
+  perl-IO-stringy.noarch 2.111-3.fc23                                           
+  perl-JSON.noarch 2.90-5.fc23                                                  
+  perl-LDAP.noarch 1:0.65-3.fc23                                                
+  perl-LWP-MediaTypes.noarch 6.02-8.fc23                                        
+  perl-MIME-Types.noarch 2.11-1.fc23                                            
+  perl-MIME-tools.noarch 5.506-3.fc23                                           
+  perl-Mail-Box.noarch 2.118-4.fc23                                             
+  perl-Mail-IMAPClient.noarch 3.37-1.fc23                                       
+  perl-Mail-Sendmail.noarch 0.79-27.fc23                                        
+  perl-Mail-Transport-Dbx.x86_64 0.07-24.fc23                                   
+  perl-MailTools.noarch 2.14-3.fc23                                             
+  perl-NTLM.noarch 1.09-11.fc23                                                 
+  perl-Net-HTTP.noarch 6.09-3.fc23                                              
+  perl-Net-SMTP-SSL.noarch 1.03-1.fc23                                          
+  perl-Net-SSLeay.x86_64 1.71-1.fc23                                            
+  perl-Object-Realize-Later.noarch 0.19-3.fc23                                  
+  perl-Package-Generator.noarch 1.106-5.fc23                                    
+  perl-Params-Util.x86_64 1.07-13.fc23                                          
+  perl-Parse-RecDescent.noarch 1.967012-1.fc23                                  
+  perl-Sub-Exporter.noarch 0.987-6.fc23                                         
+  perl-Sub-Exporter-Progressive.noarch 0.001011-5.fc23                          
+  perl-Sub-Install.noarch 0.928-6.fc23                                          
+  perl-TeX-Hyphen.noarch 1.16-2.fc23                                            
+  perl-Text-Autoformat.noarch 1.740000-1.fc23                                   
+  perl-Text-Balanced.noarch 2.03-348.fc23                                       
+  perl-Text-Reform.noarch 1.20-13.fc23                                          
+  perl-Text-Soundex.x86_64 3.04-296.fc23                                        
+  perl-Text-Unidecode.noarch 1.27-1.fc23                                        
+  perl-Thread-Queue.noarch 3.11-1.fc23                                          
+  perl-URI.noarch 1.69-1.fc23                                                   
+  perl-User-Identity.noarch 0.93-14.fc23                                        
+  perl-WWW-RobotRules.noarch 6.02-12.fc23                                       
+  perl-XML-Filter-BufferText.noarch 1.01-23.fc23                                
+  perl-XML-NamespaceSupport.noarch 1.11-16.fc23                                 
+  perl-XML-Parser.x86_64 2.44-3.fc23                                            
+  perl-XML-SAX-Base.noarch 1.08-14.fc23                                         
+  perl-XML-SAX-Writer.noarch 0.53-9.fc23                                        
+  perl-libnet.noarch 3.08-1.fc23                                                
+  perl-libwww-perl.noarch 6.15-1.fc23                                           
+  po-debconf.noarch 1.0.16-5.nmu2.fc23                                          
+  python-html2text.noarch 2015.6.6-4.fc23                                       
+  swig.x86_64 3.0.7-8.fc23                                                      
+  xz-lzma-compat.x86_64 5.2.1-3.fc23                                            
+
+Complete!
+Last metadata expiration check: 2:18:38 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 2:18:41 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 2:18:44 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+================================================================================
+ Package                 Arch         Version               Repository     Size
+================================================================================
+Installing:
+ gcc-c++                 x86_64       5.3.1-6.fc23          updates       9.8 M
+ gcc-gfortran            x86_64       5.3.1-6.fc23          updates       9.2 M
+ libgfortran             x86_64       5.3.1-6.fc23          updates       297 k
+ libquadmath             x86_64       5.3.1-6.fc23          updates       183 k
+ libquadmath-devel       x86_64       5.3.1-6.fc23          updates        41 k
+ libstdc++-devel         x86_64       5.3.1-6.fc23          updates       1.8 M
+
+Transaction Summary
+================================================================================
+Install  6 Packages
+
+Total download size: 21 M
+Installed size: 57 M
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           1.1 MB/s |  21 MB     00:19     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : libquadmath-5.3.1-6.fc23.x86_64                             1/6 
+  Installing  : libgfortran-5.3.1-6.fc23.x86_64                             2/6 
+  Installing  : libquadmath-devel-5.3.1-6.fc23.x86_64                       3/6 
+  Installing  : libstdc++-devel-5.3.1-6.fc23.x86_64                         4/6 
+  Installing  : gcc-c++-5.3.1-6.fc23.x86_64                                 5/6 
+  Installing  : gcc-gfortran-5.3.1-6.fc23.x86_64                            6/6 
+  Verifying   : gcc-c++-5.3.1-6.fc23.x86_64                                 1/6 
+  Verifying   : gcc-gfortran-5.3.1-6.fc23.x86_64                            2/6 
+  Verifying   : libgfortran-5.3.1-6.fc23.x86_64                             3/6 
+  Verifying   : libquadmath-5.3.1-6.fc23.x86_64                             4/6 
+  Verifying   : libquadmath-devel-5.3.1-6.fc23.x86_64                       5/6 
+  Verifying   : libstdc++-devel-5.3.1-6.fc23.x86_64                         6/6 
+
+Installed:
+  gcc-c++.x86_64 5.3.1-6.fc23             gcc-gfortran.x86_64 5.3.1-6.fc23     
+  libgfortran.x86_64 5.3.1-6.fc23         libquadmath.x86_64 5.3.1-6.fc23      
+  libquadmath-devel.x86_64 5.3.1-6.fc23   libstdc++-devel.x86_64 5.3.1-6.fc23  
+
+Complete!
+TODO: h5utils must be compiled on Fedora!
+Last metadata expiration check: 2:19:20 ago on Tue Jun  7 14:56:48 2016.
+No package mpb-devel available.
+TODO: harminv must be (probably) compiled on Fedora!
+TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!
+Last metadata expiration check: 2:19:22 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+================================================================================
+ Package            Arch           Version                 Repository      Size
+================================================================================
+Installing:
+ zlib-devel         x86_64         1.2.8-9.fc23            fedora          55 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 55 k
+Installed size: 134 k
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                            37 kB/s |  55 kB     00:01     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : zlib-devel-1.2.8-9.fc23.x86_64                              1/1 
+  Verifying   : zlib-devel-1.2.8-9.fc23.x86_64                              1/1 
+
+Installed:
+  zlib-devel.x86_64 1.2.8-9.fc23                                                
+
+Complete!
+Last metadata expiration check: 2:19:30 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+================================================================================
+ Package            Arch          Version                  Repository      Size
+================================================================================
+Installing:
+ gc-devel           x86_64        7.4.2-4.fc23             fedora         115 k
+ gmp-devel          x86_64        1:6.0.0-12.fc23          fedora         186 k
+ guile-devel        x86_64        5:2.0.11-7.fc23          updates        135 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 436 k
+Installed size: 1.2 M
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           139 kB/s | 436 kB     00:03     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : gmp-devel-1:6.0.0-12.fc23.x86_64                            1/3 
+  Installing  : gc-devel-7.4.2-4.fc23.x86_64                                2/3 
+  Installing  : guile-devel-5:2.0.11-7.fc23.x86_64                          3/3 
+  Verifying   : guile-devel-5:2.0.11-7.fc23.x86_64                          1/3 
+  Verifying   : gc-devel-7.4.2-4.fc23.x86_64                                2/3 
+  Verifying   : gmp-devel-1:6.0.0-12.fc23.x86_64                            3/3 
+
+Installed:
+  gc-devel.x86_64 7.4.2-4.fc23            gmp-devel.x86_64 1:6.0.0-12.fc23     
+  guile-devel.x86_64 5:2.0.11-7.fc23     
+
+Complete!
+Last metadata expiration check: 2:19:45 ago on Tue Jun  7 14:56:48 2016.
+Dependencies resolved.
+================================================================================
+ Package                Arch       Version                    Repository   Size
+================================================================================
+Installing:
+ hdf5-openmpi           x86_64     1.8.15-10.patch1.fc23      updates     1.7 M
+ hdf5-openmpi-devel     x86_64     1.8.15-10.patch1.fc23      updates     695 k
+ hwloc-libs             x86_64     1.11.0-4.fc23              fedora      1.5 M
+ libibumad              x86_64     1.3.10.2-1.fc23            updates      71 k
+ libpfm                 x86_64     4.6.0-3.fc23               fedora      192 k
+ lm_sensors-libs        x86_64     3.4.0-3.fc23               fedora       46 k
+ munge                  x86_64     0.5.11-4.fc23              fedora      102 k
+ munge-libs             x86_64     0.5.11-4.fc23              fedora       40 k
+ openmpi                x86_64     1.8.8-5.fc23.1             updates     3.0 M
+ openmpi-devel          x86_64     1.8.8-5.fc23.1             updates     5.3 M
+ opensm-libs            x86_64     3.3.19-1.fc23              updates      69 k
+ papi-libs              x86_64     5.4.1-3.fc23               fedora      154 k
+ rpm-mpi-hooks          noarch     3-5.fc23                   updates      11 k
+ torque                 x86_64     4.2.10-10.fc23             updates      87 k
+ torque-libs            x86_64     4.2.10-10.fc23             updates     134 k
+
+Transaction Summary
+================================================================================
+Install  15 Packages
+
+Total download size: 13 M
+Installed size: 37 M
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           999 kB/s |  13 MB     00:13     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : munge-libs-0.5.11-4.fc23.x86_64                            1/15 
+  Installing  : munge-0.5.11-4.fc23.x86_64                                 2/15 
+  Installing  : torque-4.2.10-10.fc23.x86_64                               3/15 
+  Installing  : torque-libs-4.2.10-10.fc23.x86_64                          4/15 
+  Installing  : hwloc-libs-1.11.0-4.fc23.x86_64                            5/15 
+  Installing  : libibumad-1.3.10.2-1.fc23.x86_64                           6/15 
+  Installing  : opensm-libs-3.3.19-1.fc23.x86_64                           7/15 
+  Installing  : rpm-mpi-hooks-3-5.fc23.noarch                              8/15 
+  Installing  : lm_sensors-libs-3.4.0-3.fc23.x86_64                        9/15 
+  Installing  : libpfm-4.6.0-3.fc23.x86_64                                10/15 
+  Installing  : papi-libs-5.4.1-3.fc23.x86_64                             11/15 
+  Installing  : openmpi-1.8.8-5.fc23.1.x86_64                             12/15 
+  Installing  : openmpi-devel-1.8.8-5.fc23.1.x86_64                       13/15 
+  Installing  : hdf5-openmpi-1.8.15-10.patch1.fc23.x86_64                 14/15 
+  Installing  : hdf5-openmpi-devel-1.8.15-10.patch1.fc23.x86_64           15/15 
+  Verifying   : openmpi-1.8.8-5.fc23.1.x86_64                              1/15 
+  Verifying   : hwloc-libs-1.11.0-4.fc23.x86_64                            2/15 
+  Verifying   : papi-libs-5.4.1-3.fc23.x86_64                              3/15 
+  Verifying   : libpfm-4.6.0-3.fc23.x86_64                                 4/15 
+  Verifying   : lm_sensors-libs-3.4.0-3.fc23.x86_64                        5/15 
+  Verifying   : openmpi-devel-1.8.8-5.fc23.1.x86_64                        6/15 
+  Verifying   : hdf5-openmpi-devel-1.8.15-10.patch1.fc23.x86_64            7/15 
+  Verifying   : hdf5-openmpi-1.8.15-10.patch1.fc23.x86_64                  8/15 
+  Verifying   : rpm-mpi-hooks-3-5.fc23.noarch                              9/15 
+  Verifying   : opensm-libs-3.3.19-1.fc23.x86_64                          10/15 
+  Verifying   : torque-libs-4.2.10-10.fc23.x86_64                         11/15 
+  Verifying   : munge-0.5.11-4.fc23.x86_64                                12/15 
+  Verifying   : munge-libs-0.5.11-4.fc23.x86_64                           13/15 
+  Verifying   : torque-4.2.10-10.fc23.x86_64                              14/15 
+  Verifying   : libibumad-1.3.10.2-1.fc23.x86_64                          15/15 
+
+Installed:
+  hdf5-openmpi.x86_64 1.8.15-10.patch1.fc23                                     
+  hdf5-openmpi-devel.x86_64 1.8.15-10.patch1.fc23                               
+  hwloc-libs.x86_64 1.11.0-4.fc23                                               
+  libibumad.x86_64 1.3.10.2-1.fc23                                              
+  libpfm.x86_64 4.6.0-3.fc23                                                    
+  lm_sensors-libs.x86_64 3.4.0-3.fc23                                           
+  munge.x86_64 0.5.11-4.fc23                                                    
+  munge-libs.x86_64 0.5.11-4.fc23                                               
+  openmpi.x86_64 1.8.8-5.fc23.1                                                 
+  openmpi-devel.x86_64 1.8.8-5.fc23.1                                           
+  opensm-libs.x86_64 3.3.19-1.fc23                                              
+  papi-libs.x86_64 5.4.1-3.fc23                                                 
+  rpm-mpi-hooks.noarch 3-5.fc23                                                 
+  torque.x86_64 4.2.10-10.fc23                                                  
+  torque-libs.x86_64 4.2.10-10.fc23                                             
+
+Complete!
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for indent... no
+checking for gindent... no
+checking for ANSI C header files... (cached) yes
+checking for guile... guile
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for modern non-gh interface... yes
+checking for gh_enter... no
+checking for gh_eval_str... no
+checking for gh_load... no
+checking for gh_bool2scm... no
+checking for gh_vector_ref... no
+checking for gh_list_ref... no
+checking for gh_length... no
+checking for scm_flush_all_ports... yes
+checking for scm_make_complex... yes
+checking for scm_c_make_rectangular... yes
+checking for scm_variable_set_x... yes
+checking for scm_c_lookup... yes
+checking for scm_c_make_vector... yes
+checking for scm_variable_ref... yes
+checking for SCM_COMPLEXP... yes
+checking whether gh_lookup works properly... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran static flag -static works... no
+checking if gfortran supports -c -o file.o... yes
+checking if gfortran supports -c -o file.o... (cached) yes
+checking whether the gfortran linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from gfortran... -v
+checking for Fortran 77 libraries of gfortran...  -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../.. -lgfortran -lm -lguile-2.0 -lgc -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for C complex keyword... complex
+checking for egrep... (cached) /bin/grep -E
+checking nlopt.h usability... no
+checking nlopt.h presence... no
+checking for nlopt.h... no
+checking for basename in -lgen... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating utils/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/example.scm
+config.status: creating utils/gen-ctl-io
+config.status: creating config.h
+config.status: creating src/ctl.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making all in src
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c -o ctl.lo ctl.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c ctl.c -o ctl.o
+mv -f .deps/ctl.Tpo .deps/ctl.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c -o subplex.lo subplex.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c subplex.c -o subplex.o
+mv -f .deps/subplex.Tpo .deps/subplex.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c -o ctl-f77-glue.lo ctl-f77-glue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c ctl-f77-glue.c -o ctl-f77-glue.o
+mv -f .deps/ctl-f77-glue.Tpo .deps/ctl-f77-glue.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c -o integrator.lo integrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c integrator.c -o integrator.o
+mv -f .deps/integrator.Tpo .deps/integrator.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c -o cintegrator.lo cintegrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c cintegrator.c -o cintegrator.o
+mv -f .deps/cintegrator.Tpo .deps/cintegrator.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 5:1:0  -o libctl.la -rpath /usr/local/lib ctl.lo subplex.lo ctl-f77-glue.lo integrator.lo cintegrator.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctl.a  ctl.o subplex.o ctl-f77-glue.o integrator.o cintegrator.o
+libtool: link: ranlib .libs/libctl.a
+libtool: link: ( cd ".libs" && rm -f "libctl.la" && ln -s "../libctl.la" "libctl.la" )
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making all in utils
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c ./geom.scm ..
+sed 's,/.* Input variables .*/,@#include "geom-ctl-io-defaults.c"@#if 0@,;s,/.* Output variables .*/,#endif@,' ctl-io.c | tr '@' '\n' > geom-ctl-io.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h ./geom.scm ..
+cp -f ctl-io.h ctlgeom-types.h
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c -o geom.lo geom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c geom.c -o geom.o
+mv -f .deps/geom.Tpo .deps/geom.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c -o geom-ctl-io.lo geom-ctl-io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c geom-ctl-io.c -o geom-ctl-io.o
+mv -f .deps/geom-ctl-io.Tpo .deps/geom-ctl-io.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 5:1:0 ../src/libctl.la  -o libctlgeom.la -rpath /usr/local/lib geom.lo geom-ctl-io.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctlgeom.a  geom.o geom-ctl-io.o
+libtool: link: ranlib .libs/libctlgeom.a
+libtool: link: ( cd ".libs" && rm -f "libctlgeom.la" && ln -s "../libctlgeom.la" "libctlgeom.la" )
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geomtst.o -MD -MP -MF .deps/geomtst.Tpo -c -o geomtst.o geomtst.c
+mv -f .deps/geomtst.Tpo .deps/geomtst.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o geomtst geomtst.o libctlgeom.la ../src/libctl.la -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o geomtst geomtst.o  ./.libs/libctlgeom.a /home/dominecf/python-meep-install/libctl-3.2.1/src/.libs/libctl.a ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making all in examples
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./base/main.c main.c
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./utils/geom.c geom.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-example.o -MD -MP -MF .deps/example-example.Tpo -c -o example-example.o `test -f 'example.c' || echo './'`example.c
+mv -f .deps/example-example.Tpo .deps/example-example.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-main.o -MD -MP -MF .deps/example-main.Tpo -c -o example-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/example-main.Tpo .deps/example-main.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-geom.o -MD -MP -MF .deps/example-geom.Tpo -c -o example-geom.o `test -f 'geom.c' || echo './'`geom.c
+mv -f .deps/example-geom.Tpo .deps/example-geom.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-ctl-io.o -MD -MP -MF .deps/example-ctl-io.Tpo -c -o example-ctl-io.o `test -f 'ctl-io.c' || echo './'`ctl-io.c
+mv -f .deps/example-ctl-io.Tpo .deps/example-ctl-io.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/libctl.la  -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making install in src
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c   libctl.la '/usr/local/lib'
+libtool: install: /bin/install -c .libs/libctl.lai /usr/local/lib/libctl.la
+libtool: install: /bin/install -c .libs/libctl.a /usr/local/lib/libctl.a
+libtool: install: chmod 644 /usr/local/lib/libctl.a
+libtool: install: ranlib /usr/local/lib/libctl.a
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctl.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making install in utils
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /bin/install -c gen-ctl-io '/usr/local/bin'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c   libctlgeom.la '/usr/local/lib'
+libtool: install: /bin/install -c .libs/libctlgeom.lai /usr/local/lib/libctlgeom.la
+libtool: install: /bin/install -c .libs/libctlgeom.a /usr/local/lib/libctlgeom.a
+libtool: install: chmod 644 /usr/local/lib/libctlgeom.a
+libtool: install: ranlib /usr/local/lib/libctlgeom.a
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctlgeom.h '/usr/local/include'
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /bin/install -c -m 644 gen-ctl-io.1 '/usr/local/share/man/man1'
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctlgeom-types.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making install in examples
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/libctl" || /bin/mkdir -p "/usr/local/share/libctl"
+/bin/mkdir -p '/usr/local/share/libctl/base'
+ /bin/install -c -m 644  base/class.scm base/ctl.scm base/extern-funcs.scm base/help.scm base/include.scm base/interaction.scm base/io-vars.scm base/math-utils.scm base/matrix3x3.scm base/simplex.scm base/utils.scm base/vector3.scm base/main.c '/usr/local/share/libctl/base'
+/bin/mkdir -p '/usr/local/share/libctl/utils'
+ /bin/install -c -m 644  utils/ctl-io.scm utils/geom.c utils/geom.scm utils/nlopt-constants.scm utils/nlopt.c '/usr/local/share/libctl/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+TODO: enable HDF5 libraries for RPM distros
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether /lib64/openmpi/bin/mpicxx accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of /lib64/openmpi/bin/mpicxx... gcc3
+checking for mpic++... no
+checking for mpiCC... no
+checking for mpicxx... no
+checking for mpCC... no
+checking for hcp... no
+checking for mpxlC... no
+checking for mpxlC_r... no
+checking for cmpic++... no
+checking for MPI_Init... yes
+checking for mpi.h... yes
+checking for extra flag needed to combine stdio.h and mpi.h... none
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... /lib64/openmpi/bin/mpicc
+checking whether we are using the GNU C compiler... yes
+checking whether /lib64/openmpi/bin/mpicc accepts -g... yes
+checking for /lib64/openmpi/bin/mpicc option to accept ISO C89... none needed
+checking whether /lib64/openmpi/bin/mpicc understands -c and -o together... yes
+checking dependency style of /lib64/openmpi/bin/mpicc... gcc3
+checking for C++ compiler vendor... gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by /lib64/openmpi/bin/mpicc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from /lib64/openmpi/bin/mpicc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... /lib64/openmpi/bin/mpicc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /lib64/openmpi/bin/mpicc supports -fno-rtti -fno-exceptions... no
+checking for /lib64/openmpi/bin/mpicc option to produce PIC... -fPIC -DPIC
+checking if /lib64/openmpi/bin/mpicc PIC flag -fPIC -DPIC works... yes
+checking if /lib64/openmpi/bin/mpicc static flag -static works... no
+checking if /lib64/openmpi/bin/mpicc supports -c -o file.o... yes
+checking if /lib64/openmpi/bin/mpicc supports -c -o file.o... (cached) yes
+checking whether the /lib64/openmpi/bin/mpicc linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... /lib64/openmpi/bin/mpicxx -E
+checking for ld used by /lib64/openmpi/bin/mpicxx... /bin/ld -m elf_x86_64
+checking if the linker (/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /lib64/openmpi/bin/mpicxx linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for /lib64/openmpi/bin/mpicxx option to produce PIC... -fPIC -DPIC
+checking if /lib64/openmpi/bin/mpicxx PIC flag -fPIC -DPIC works... yes
+checking if /lib64/openmpi/bin/mpicxx static flag -static works... no
+checking if /lib64/openmpi/bin/mpicxx supports -c -o file.o... yes
+checking if /lib64/openmpi/bin/mpicxx supports -c -o file.o... (cached) yes
+checking whether the /lib64/openmpi/bin/mpicxx linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for latex2html... no
+checking for sin in -lm... yes
+checking for fftw_plan_dft_1d in -lfftw3... no
+checking for fftw_create_plan in -ldfftw... no
+checking for fftw_create_plan in -lfftw... no
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether /lib64/openmpi/bin/mpif77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for /lib64/openmpi/bin/mpif77 option to produce PIC... -fPIC
+checking if /lib64/openmpi/bin/mpif77 PIC flag -fPIC works... yes
+checking if /lib64/openmpi/bin/mpif77 static flag -static works... no
+checking if /lib64/openmpi/bin/mpif77 supports -c -o file.o... yes
+checking if /lib64/openmpi/bin/mpif77 supports -c -o file.o... (cached) yes
+checking whether the /lib64/openmpi/bin/mpif77 linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from /lib64/openmpi/bin/mpif77... -v
+checking for Fortran 77 libraries of /lib64/openmpi/bin/mpif77...  -L/usr/lib/x86_64-linux-gnu/hdf5/openmpi -L/usr/lib64/openmpi/lib -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../.. -lgfortran -lm -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lquadmath -lpthread
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... no
+checking for sgemm_ in -lblas... no
+checking for sgemm_ in -lmkl... no
+checking for sgemm_... (cached) no
+checking for sgemm_ in -lcxml... no
+checking for sgemm_ in -ldxml... no
+checking for sgemm_ in -lscs... no
+checking for sgemm_ in -lcomplib.sgimath... no
+checking for sgemm_ in -lblas... (cached) no
+checking for sgemm_ in -lblas... (cached) no
+checking for pkg-config... /bin/pkg-config
+checking for harminv >= 1.1... checking for harminv_get_freq_error in -lharminv... no
+checking mpb.h usability... no
+checking mpb.h presence... no
+checking for mpb.h... no
+checking for cblas_cgemm... no
+checking for cblas_cgemm in -lgslcblas... no
+checking for gsl_sf_bessel_Jn in -lgsl... no
+checking for deflate in -lz... yes
+checking for H5Pcreate in -lhdf5... yes
+checking hdf5.h usability... yes
+checking hdf5.h presence... yes
+checking for hdf5.h... yes
+checking for H5Pset_mpi... no
+checking for H5Pset_fapl_mpio... yes
+checking for mpirun... no
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for scm_make_smob_type... yes
+checking for SCM_SMOB_PREDICATE... no
+checking for SCM_SMOB_DATA... no
+checking for SCM_NEWSMOB... no
+checking how to activate readline in Guile... ice-9 readline
+checking for libctl dir... /usr/local/share/libctl
+checking for gen-ctl-io... gen-ctl-io
+checking for ctl_get_vector3 in -lctl... yes
+checking ctl.h usability... yes
+checking ctl.h presence... yes
+checking for ctl.h... yes
+checking whether libctl version is at least 3.2.0... ok
+checking for libctl_quiet feature... yes
+checking for basename in -lgen... no
+checking for feenableexcept... yes
+checking whether feenableexcept declaration is usable... yes
+checking whether to catch and ignore SIGFPE signals... no
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for cblas_ddot... no
+checking for cblas_daxpy... no
+checking for jn... yes
+checking for C/C++ restrict keyword... __restrict
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating meep-pkgconfig
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating libctl/Makefile
+config.status: creating libctl/meep.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep'
+Making all in src
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+make sphere_quad
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+  CXX      sphere-quad.o
+  CXXLD    sphere_quad
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; ../src/sphere_quad) > sphere-quad.h
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; sed 's/LOOP_OVER/S1LOOP_OVER/g' ../src/step_generic.cpp | sed 's/step_curl/step_curl_stride1/' | sed 's/step_update_EDHB/step_update_EDHB_stride1/' | sed 's/step_beta/step_beta_stride1/') > step_generic_stride1.cpp
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+  CXX      anisotropic_averaging.lo
+  CXX      bands.lo
+  CXX      boundaries.lo
+  CXX      bicgstab.lo
+  CXX      casimir.lo
+  CXX      control_c.lo
+  CXX      cw_fields.lo
+  CXX      dft.lo
+  CXX      dft_ldos.lo
+  CXX      energy_and_flux.lo
+  CXX      fields.lo
+  CXX      loop_in_chunks.lo
+  CXX      grace.lo
+  CXX      h5fields.lo
+  CXX      h5file.lo
+  CXX      initialize.lo
+  CXX      integrate.lo
+  CXX      integrate2.lo
+  CXX      monitor.lo
+  CXX      mympi.lo
+  CXX      multilevel-atom.lo
+  CXX      near2far.lo
+  CXX      output_directory.lo
+  CXX      random.lo
+  CXX      sources.lo
+Makefile:568: recipe for target 'sources.lo' failed
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+Makefile:423: recipe for target 'all' failed
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+Makefile:491: recipe for target 'all-recursive' failed
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep'
+Makefile:400: recipe for target 'all' failed
+Last metadata expiration check: 2:22:38 ago on Tue Jun  7 14:56:48 2016.
+No package matplotlib available.
+No package argparse available.
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
