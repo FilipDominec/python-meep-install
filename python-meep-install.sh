@@ -15,8 +15,11 @@ if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; the
 if [ -d /etc/apt ]; then
     INSTALL="sudo apt-get -y install"
     sudo apt-get update
+elif [ -d /etc/dnf ]; then
+	INSTALL="sudo dnf -y install"
+    sudo dnf update
 else
-    INSTALL="yum -y install"
+    INSTALL="sudo yum -y install"
     sudo yum update
 fi
 
@@ -34,6 +37,11 @@ if [ -d /etc/apt ]; then
     $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
     $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
 else
+	#h5utils, harminv, and meep(-non-mpi) can be installed from Fedora COPR on Fedora 22 or better
+	#On Fedora 23: 
+	#dnf copr enable hmaarrfk.meep
+	#dnf install meep
+	#dnf install h5utils
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
     $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		mpb-devel
@@ -41,7 +49,7 @@ else
     echo "TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!"
     $INSTALL zlib-devel
     $INSTALL guile-devel
-    $INSTALL $MPI-bin $MPI-devel hdf5-$MPI-devel
+    $INSTALL $MPI $MPI-devel hdf5-$MPI-devel
 fi
 
 ##   for Ubuntu 15.04: fresh libctl 3.2.2 is in repository and we can use it
@@ -64,13 +72,22 @@ if [ -d /etc/apt ]; then
 else
     echo "TODO: enable HDF5 libraries for RPM distros"
     PATH=$PATH:/usr/local/bin
+    export CPPFLAGS="-I/usr/local/include -I/usr/include/hdf5/$MPI"    
+    export LDFLAGS="-L/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/hdf5/$MPI"
+    export LD_RUN_PATH="/usr/local/lib"
 fi
 
 ## Note: If the git version was unavailable, use the failsafe alternative below
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+if [ -d /etc/apt ]; then
+	./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+else
+	#Fedora (at least) requires the MPI compiler definitions. 
+	CC=/lib64/openmpi/bin/mpicc CXX=/lib64/openmpi/bin/mpicxx F77=/lib64/openmpi/bin/mpif77 ./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+fi
+
 make  &&  sudo make install
 cd ..
 
