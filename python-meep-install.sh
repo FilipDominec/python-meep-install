@@ -77,7 +77,7 @@ fi
 ##   for Ubuntu 15.04: fresh libctl 3.2.2 is in repository and we can use it
 # $INSTALL libctl-dev                            
 ## for Ubuntu <= 14.04, or other distros:  the version of `libctl-dev' in repository is too old, needs a fresh compile:
-if [ ! -d libctl-3.2.1/ ]; then
+if [ ! -d "libctl-3.2.1" ]; then
 	wget http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
 	tar xzf libctl-3.2.1.tar.gz
 fi
@@ -122,11 +122,15 @@ cd ..
 
 ## --- PYTHON-MEEP ------------------------------------------------------------
 ## Install python-meep dependencies and SWIG
-if [ -d /etc/apt ]; then
-    $INSTALL python-dev python-numpy python-scipy python-matplotlib python-argparse
+if [ -n "$debian" ]; then
+	$INSTALL python-dev python-numpy python-scipy python-matplotlib python-argparse
 else
-    $INSTALL python-devel numpy scipy matplotlib argparse
+	$INSTALL python-devel numpy scipy python2-matplotlib redhat-rpm-config
+	# based on some searching, argparse appears to be included in the default python package on fedora? python-argparse
 fi
+
+
+
 
 ## Get the latest source from green block at https://launchpad.net/python-meep/1.4
 if [ ! -d "python-meep" ]; then
