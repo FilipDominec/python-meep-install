@@ -61,7 +61,9 @@ elif [ -n "$redhat" ]; then
 	#dnf install h5utils
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
-    $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		mpb-devel
+    $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		
+    echo "TODO: MPB devel libs must be (probably) compiled on Fedora!"    
+	$INSTALL mpb-devel 
     echo "TODO: harminv must be (probably) compiled on Fedora!"    
     $INSTALL pkgconfig
     $INSTALL zlib-devel
