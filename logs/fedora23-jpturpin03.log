@@ -1,0 +1,624 @@
+Selecting Red Hat Mode
+Last metadata expiration check: 1:20:50 ago on Wed Jun  8 17:46:16 2016.
+Dependencies resolved.
+================================================================================
+ Package                         Arch      Version             Repository  Size
+================================================================================
+Installing:
+ python2-matplotlib              x86_64    1.4.3-14.fc23       updates     35 M
+     replacing  python-matplotlib.x86_64 1.4.3-6.fc23
+ python2-matplotlib-tk           x86_64    1.4.3-14.fc23       updates     80 k
+     replacing  python-matplotlib-tk.x86_64 1.4.3-6.fc23
+Upgrading:
+ python-matplotlib-data          noarch    1.4.3-14.fc23       updates    2.0 M
+ python-matplotlib-data-fonts    noarch    1.4.3-14.fc23       updates    991 k
+ setroubleshoot                  x86_64    3.3.8.1-1.fc23      updates    135 k
+ setroubleshoot-server           x86_64    3.3.8.1-1.fc23      updates    395 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+Upgrade  4 Packages
+
+Total download size: 39 M
+Is this ok [y/N]: Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           1.0 MB/s |  36 MB     00:36     
+Delta RPMs reduced 38.9 MB of updates to 35.7 MB (8.1% saved)
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Upgrading   : python-matplotlib-data-fonts-1.4.3-14.fc23.noarch          1/12 
+  Upgrading   : python-matplotlib-data-1.4.3-14.fc23.noarch                2/12 
+  Installing  : python2-matplotlib-tk-1.4.3-14.fc23.x86_64                 3/12 
+  Installing  : python2-matplotlib-1.4.3-14.fc23.x86_64                    4/12 
+  Upgrading   : setroubleshoot-server-3.3.8.1-1.fc23.x86_64                5/12 
+  Upgrading   : setroubleshoot-3.3.8.1-1.fc23.x86_64                       6/12 
+  Obsoleting  : python-matplotlib-tk-1.4.3-6.fc23.x86_64                   7/12 
+  Obsoleting  : python-matplotlib-1.4.3-6.fc23.x86_64                      8/12 
+  Cleanup     : python-matplotlib-data-fonts-1.4.3-6.fc23.noarch           9/12 
+  Cleanup     : python-matplotlib-data-1.4.3-6.fc23.noarch                10/12 
+  Cleanup     : setroubleshoot-3.3.7-1.fc23.x86_64                        11/12 
+  Cleanup     : setroubleshoot-server-3.3.7-1.fc23.x86_64                 12/12 
+  Verifying   : python2-matplotlib-1.4.3-14.fc23.x86_64                    1/12 
+  Verifying   : python2-matplotlib-tk-1.4.3-14.fc23.x86_64                 2/12 
+  Verifying   : python-matplotlib-data-1.4.3-14.fc23.noarch                3/12 
+  Verifying   : python-matplotlib-data-fonts-1.4.3-14.fc23.noarch          4/12 
+  Verifying   : setroubleshoot-3.3.8.1-1.fc23.x86_64                       5/12 
+  Verifying   : setroubleshoot-server-3.3.8.1-1.fc23.x86_64                6/12 
+  Verifying   : setroubleshoot-3.3.7-1.fc23.x86_64                         7/12 
+  Verifying   : setroubleshoot-server-3.3.7-1.fc23.x86_64                  8/12 
+  Verifying   : python-matplotlib-1.4.3-6.fc23.x86_64                      9/12 
+  Verifying   : python-matplotlib-data-1.4.3-6.fc23.noarch                10/12 
+  Verifying   : python-matplotlib-data-fonts-1.4.3-6.fc23.noarch          11/12 
+  Verifying   : python-matplotlib-tk-1.4.3-6.fc23.x86_64                  12/12 
+
+Installed:
+  python2-matplotlib.x86_64 1.4.3-14.fc23                                       
+  python2-matplotlib-tk.x86_64 1.4.3-14.fc23                                    
+
+Upgraded:
+  python-matplotlib-data.noarch 1.4.3-14.fc23                                   
+  python-matplotlib-data-fonts.noarch 1.4.3-14.fc23                             
+  setroubleshoot.x86_64 3.3.8.1-1.fc23                                          
+  setroubleshoot-server.x86_64 3.3.8.1-1.fc23                                   
+
+Complete!
+Last metadata expiration check: 1:22:00 ago on Wed Jun  8 17:46:16 2016.
+Package autoconf-2.69-21.fc23.noarch is already installed, skipping.
+Package chrpath-0.16-2.fc23.x86_64 is already installed, skipping.
+Package debhelper-9.20150628-1.fc23.noarch is already installed, skipping.
+Package libtool-2.4.6-8.fc23.x86_64 is already installed, skipping.
+Package swig-3.0.7-8.fc23.x86_64 is already installed, skipping.
+Package wget-1.17.1-1.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:03 ago on Wed Jun  8 17:46:16 2016.
+Package git-2.5.5-1.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:06 ago on Wed Jun  8 17:46:16 2016.
+Package git-core-2.5.5-1.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:10 ago on Wed Jun  8 17:46:16 2016.
+Package automake-1.15-4.fc23.noarch is already installed, skipping.
+Package autoconf-2.69-21.fc23.noarch is already installed, skipping.
+Package gcc-c++-5.3.1-6.fc23.x86_64 is already installed, skipping.
+Package gcc-gfortran-5.3.1-6.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+TODO: h5utils must be compiled on Fedora!
+Last metadata expiration check: 1:22:16 ago on Wed Jun  8 17:46:16 2016.
+No package mpb-devel available.
+Error: Unable to find a match.
+TODO: harminv must be (probably) compiled on Fedora!
+Last metadata expiration check: 1:22:17 ago on Wed Jun  8 17:46:16 2016.
+Package pkgconfig-1:0.28-9.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:20 ago on Wed Jun  8 17:46:16 2016.
+Package zlib-devel-1.2.8-9.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:24 ago on Wed Jun  8 17:46:16 2016.
+Package guile-devel-5:2.0.11-7.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 1:22:26 ago on Wed Jun  8 17:46:16 2016.
+Package openmpi-1.8.8-5.fc23.1.x86_64 is already installed, skipping.
+Package openmpi-devel-1.8.8-5.fc23.1.x86_64 is already installed, skipping.
+Package hdf5-openmpi-devel-1.8.15-10.patch1.fc23.x86_64 is already installed, skipping.
+Dependencies resolved.
+Nothing to do.
+Complete!
+--2016-06-08 19:08:44--  http://ab-initio.mit.edu/libctl/libctl-3.2.1.tar.gz
+Resolving ab-initio.mit.edu (ab-initio.mit.edu)... 18.62.2.90
+Connecting to ab-initio.mit.edu (ab-initio.mit.edu)|18.62.2.90|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 485825 (474K) [application/x-gzip]
+Saving to: ‘libctl-3.2.1.tar.gz.1’
+
+     0K .......... .......... .......... .......... .......... 10%  237K 2s
+    50K .......... .......... .......... .......... .......... 21% 4.24M 1s
+   100K .......... .......... .......... .......... .......... 31%  478K 1s
+   150K .......... .......... .......... .......... .......... 42%  479K 1s
+   200K .......... .......... .......... .......... .......... 52%  481K 0s
+   250K .......... .......... .......... .......... .......... 63%  487K 0s
+   300K .......... .......... .......... .......... .......... 73% 3.55M 0s
+   350K .......... .......... .......... .......... .......... 84%  487K 0s
+   400K .......... .......... .......... .......... .......... 94%  480K 0s
+   450K .......... .......... ....                            100% 5.58M=0.9s
+
+2016-06-08 19:08:46 (550 KB/s) - ‘libctl-3.2.1.tar.gz.1’ saved [485825/485825]
+
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for indent... no
+checking for gindent... no
+checking for ANSI C header files... (cached) yes
+checking for guile... guile
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for modern non-gh interface... yes
+checking for gh_enter... no
+checking for gh_eval_str... no
+checking for gh_load... no
+checking for gh_bool2scm... no
+checking for gh_vector_ref... no
+checking for gh_list_ref... no
+checking for gh_length... no
+checking for scm_flush_all_ports... yes
+checking for scm_make_complex... yes
+checking for scm_c_make_rectangular... yes
+checking for scm_variable_set_x... yes
+checking for scm_c_lookup... yes
+checking for scm_c_make_vector... yes
+checking for scm_variable_ref... yes
+checking for SCM_COMPLEXP... yes
+checking whether gh_lookup works properly... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran static flag -static works... no
+checking if gfortran supports -c -o file.o... yes
+checking if gfortran supports -c -o file.o... (cached) yes
+checking whether the gfortran linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from gfortran... -v
+checking for Fortran 77 libraries of gfortran...  -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../.. -lgfortran -lm -lguile-2.0 -lgc -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for C complex keyword... complex
+checking for egrep... (cached) /bin/grep -E
+checking nlopt.h usability... no
+checking nlopt.h presence... no
+checking for nlopt.h... no
+checking for basename in -lgen... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating utils/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/example.scm
+config.status: creating utils/gen-ctl-io
+config.status: creating config.h
+config.status: creating src/ctl.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making all in src
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c -o ctl.lo ctl.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c ctl.c -o ctl.o
+mv -f .deps/ctl.Tpo .deps/ctl.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c -o subplex.lo subplex.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c subplex.c -o subplex.o
+mv -f .deps/subplex.Tpo .deps/subplex.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c -o ctl-f77-glue.lo ctl-f77-glue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c ctl-f77-glue.c -o ctl-f77-glue.o
+mv -f .deps/ctl-f77-glue.Tpo .deps/ctl-f77-glue.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c -o integrator.lo integrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c integrator.c -o integrator.o
+mv -f .deps/integrator.Tpo .deps/integrator.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0   -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c -o cintegrator.lo cintegrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c cintegrator.c -o cintegrator.o
+mv -f .deps/cintegrator.Tpo .deps/cintegrator.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 5:1:0  -o libctl.la -rpath /usr/local/lib ctl.lo subplex.lo ctl-f77-glue.lo integrator.lo cintegrator.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctl.a  ctl.o subplex.o ctl-f77-glue.o integrator.o cintegrator.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libctl.a
+libtool: link: ( cd ".libs" && rm -f "libctl.la" && ln -s "../libctl.la" "libctl.la" )
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making all in utils
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c ./geom.scm ..
+sed 's,/.* Input variables .*/,@#include "geom-ctl-io-defaults.c"@#if 0@,;s,/.* Output variables .*/,#endif@,' ctl-io.c | tr '@' '\n' > geom-ctl-io.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h ./geom.scm ..
+cp -f ctl-io.h ctlgeom-types.h
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c -o geom.lo geom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c geom.c -o geom.o
+mv -f .deps/geom.Tpo .deps/geom.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c -o geom-ctl-io.lo geom-ctl-io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c geom-ctl-io.c -o geom-ctl-io.o
+mv -f .deps/geom-ctl-io.Tpo .deps/geom-ctl-io.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 5:1:0 ../src/libctl.la  -o libctlgeom.la -rpath /usr/local/lib geom.lo geom-ctl-io.lo  -lm -lguile-2.0 -lgc 
+libtool: link: ar cru .libs/libctlgeom.a  geom.o geom-ctl-io.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libctlgeom.a
+libtool: link: ( cd ".libs" && rm -f "libctlgeom.la" && ln -s "../libctlgeom.la" "libctlgeom.la" )
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0   -g -O2 -MT geomtst.o -MD -MP -MF .deps/geomtst.Tpo -c -o geomtst.o geomtst.c
+mv -f .deps/geomtst.Tpo .deps/geomtst.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o geomtst geomtst.o libctlgeom.la ../src/libctl.la -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o geomtst geomtst.o  ./.libs/libctlgeom.a /home/dominecf/python-meep-install/libctl-3.2.1/src/.libs/libctl.a ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making all in examples
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./base/main.c main.c
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./utils/geom.c geom.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-example.o -MD -MP -MF .deps/example-example.Tpo -c -o example-example.o `test -f 'example.c' || echo './'`example.c
+mv -f .deps/example-example.Tpo .deps/example-example.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-main.o -MD -MP -MF .deps/example-main.Tpo -c -o example-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/example-main.Tpo .deps/example-main.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-geom.o -MD -MP -MF .deps/example-geom.Tpo -c -o example-geom.o `test -f 'geom.c' || echo './'`geom.c
+mv -f .deps/example-geom.Tpo .deps/example-geom.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0   -g -O2 -MT example-ctl-io.o -MD -MP -MF .deps/example-ctl-io.Tpo -c -o example-ctl-io.o `test -f 'ctl-io.c' || echo './'`ctl-io.c
+mv -f .deps/example-ctl-io.Tpo .deps/example-ctl-io.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/libctl.la  -lm -lguile-2.0 -lgc 
+libtool: link: gcc -g -O2 -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making install in src
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c   libctl.la '/usr/local/lib'
+libtool: install: /bin/install -c .libs/libctl.lai /usr/local/lib/libctl.la
+libtool: install: /bin/install -c .libs/libctl.a /usr/local/lib/libctl.a
+libtool: install: chmod 644 /usr/local/lib/libctl.a
+libtool: install: ranlib /usr/local/lib/libctl.a
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctl.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making install in utils
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /bin/install -c gen-ctl-io '/usr/local/bin'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/sh ../libtool   --mode=install /bin/install -c   libctlgeom.la '/usr/local/lib'
+libtool: install: /bin/install -c .libs/libctlgeom.lai /usr/local/lib/libctlgeom.la
+libtool: install: /bin/install -c .libs/libctlgeom.a /usr/local/lib/libctlgeom.a
+libtool: install: chmod 644 /usr/local/lib/libctlgeom.a
+libtool: install: ranlib /usr/local/lib/libctlgeom.a
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctlgeom.h '/usr/local/include'
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /bin/install -c -m 644 gen-ctl-io.1 '/usr/local/share/man/man1'
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /bin/install -c -m 644 ctlgeom-types.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making install in examples
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/libctl" || /bin/mkdir -p "/usr/local/share/libctl"
+/bin/mkdir -p '/usr/local/share/libctl/base'
+ /bin/install -c -m 644  base/class.scm base/ctl.scm base/extern-funcs.scm base/help.scm base/include.scm base/interaction.scm base/io-vars.scm base/math-utils.scm base/matrix3x3.scm base/simplex.scm base/utils.scm base/vector3.scm base/main.c '/usr/local/share/libctl/base'
+/bin/mkdir -p '/usr/local/share/libctl/utils'
+ /bin/install -c -m 644  utils/ctl-io.scm utils/geom.c utils/geom.scm utils/nlopt-constants.scm utils/nlopt.c '/usr/local/share/libctl/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+TODO: enable HDF5 libraries for RPM distros
+Cloning into 'meep'...
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --force-missing
+configure.ac:68: installing './compile'
+configure.ac:68: installing './config.guess'
+configure.ac:68: installing './config.sub'
+configure.ac:11: installing './install-sh'
+configure.ac:11: installing './missing'
+libctl/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+autoreconf: Leaving directory `.'
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --force-missing
+configure.ac:68: installing './compile'
+configure.ac:11: installing './missing'
+libctl/Makefile.am: installing './depcomp'
+autoreconf: Leaving directory `.'
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --force-missing
+configure.ac:68: installing './compile'
+configure.ac:11: installing './missing'
+libctl/Makefile.am: installing './depcomp'
+autoreconf: Leaving directory `.'
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for mpic++... no
+checking for mpiCC... no
+checking for mpicxx... no
+checking for mpCC... no
+checking for hcp... no
+checking for mpxlC... no
+checking for mpxlC_r... no
+checking for cmpic++... no
+checking for MPI_Init... no
+checking for MPI_Init in -lmpi... no
+checking for MPI_Init in -lmpich... no
+configure: error: could not find mpi library for --with-mpi
+make: *** No targets specified and no makefile found.  Stop.
+Last metadata expiration check: 1:23:44 ago on Wed Jun  8 17:46:16 2016.
+Package numpy-1:1.9.2-2.fc23.x86_64 is already installed, skipping.
+No package matplotlib available.
+No package argparse available.
+Error: Unable to find a match.
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+meep_common.i:87: Error: Unable to find 'meep/mympi.hpp'
+meep_common.i:88: Error: Unable to find 'meep/vec.hpp'
+meep_common.i:89: Error: Unable to find 'meep.hpp'
+error: command 'swig' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+file meep_mpi.py (for module meep_mpi) not found
+file meep_mpi.py (for module meep_mpi) not found
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+meep_common.i:87: Error: Unable to find 'meep/mympi.hpp'
+meep_common.i:88: Error: Unable to find 'meep/vec.hpp'
+meep_common.i:89: Error: Unable to find 'meep.hpp'
+error: command 'swig' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+file meep_mpi.py (for module meep_mpi) not found
+file meep_mpi.py (for module meep_mpi) not found
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+meep_common.i:87: Error: Unable to find 'meep/mympi.hpp'
+meep_common.i:88: Error: Unable to find 'meep/vec.hpp'
+meep_common.i:89: Error: Unable to find 'meep.hpp'
+error: command 'swig' failed with exit status 1
