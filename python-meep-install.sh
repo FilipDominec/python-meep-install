@@ -101,7 +101,7 @@ fi
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-if [ -n "$debian" ] || [ "$MPI"="serial" ]; then
+if [ -n "$debian" ] || [ "$MPI" = "serial" ]; then
 	./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
 else	
 	#Fedora (at least) requires the MPI compiler definitions. 
