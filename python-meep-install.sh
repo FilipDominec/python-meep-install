@@ -11,23 +11,40 @@ MPI="openmpi"
 ## --- Preparation and build dependencies -------------------------------------
 if [ "$MPI" = "openmpi" ] || [ "$MPI" = "mpich" ] || [ "$MPI" = "mpich2" ] ; then meep_opt="--with-mpi"; fi
 
+debian=
+redhat=
 ## Switch installation commands between Debian-based systems and RPM-based systems
 if [ -d /etc/apt ]; then
+	debian=1
+	#Debian System - use apt-get package manager]
+	echo "Selecting Debian Mode"
     INSTALL="sudo apt-get -y install"
     sudo apt-get update
-elif [ -d /etc/dnf ]; then
-	INSTALL="sudo dnf -y install"
-    sudo dnf update
-else
-    INSTALL="sudo yum -y install"
-    sudo yum update
+fi 
+if [ -e /etc/redhat-release ]; then 
+	redhat=1
+	#Override a possible mis-detection of the platform due to the presence 
+	#of the /etc/apt folder on a red hat-based system
+	#Red hat system - use either dnf (more recent) or yum (legacy) package managers
+	echo "Selecting Red Hat Mode"
+	if [ -d /etc/dnf ]; then
+		INSTALL="sudo dnf -y install"
+		sudo dnf update
+	else
+		INSTALL="sudo yum -y install"
+		sudo yum update
+	fi
+fi
+if [ -z "$INSTALL" ]; then
+	echo "ERROR IN PLATFORM DETECTION: Could not select correct package manager. Exiting." >&2 
+	exit 1
 fi
 
 $INSTALL autoconf chrpath debhelper libtool swig wget 
 $INSTALL git          ## on newer linux versions
 $INSTALL git-core     ## for old ubuntu 10.04
 
-if [ -d /etc/apt ]; then 
+if [ -n "$debian" ]; then 
     $INSTALL autotools-dev          g++    gfortran         
     $INSTALL h5utils 
     $INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev mpb-dev
@@ -36,7 +53,7 @@ if [ -d /etc/apt ]; then
 	## for newer linux versions -- or if fails -- for old ubuntu 10.04
     $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
     $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
-else
+elif [ -n "$redhat" ]; then
 	#h5utils, harminv, and meep(-non-mpi) can be installed from Fedora COPR on Fedora 22 or better
 	#On Fedora 23: 
 	#dnf copr enable hmaarrfk.meep
@@ -45,11 +62,14 @@ else
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
     $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		mpb-devel
-    echo "TODO: harminv must be (probably) compiled on Fedora!"
-    echo "TODO: the debian package of 'pkg-config' missing its counterpart on Fedora!"
+    echo "TODO: harminv must be (probably) compiled on Fedora!"    
+    $INSTALL pkgconfig
     $INSTALL zlib-devel
     $INSTALL guile-devel
     $INSTALL $MPI $MPI-devel hdf5-$MPI-devel
+else
+    echo "Invalid Platform." >&2
+    exit 1
 fi
 
 ##   for Ubuntu 15.04: fresh libctl 3.2.2 is in repository and we can use it
@@ -81,11 +101,11 @@ fi
 if [ ! -d "meep" ]; then git clone https://github.com/filipdominec/meep; fi   ## FD's branch, see github
 #if [ ! -d "meep" ]; then git clone https://github.com/stevengj/meep; fi      ## official branch
 cd meep/
-if [ -d /etc/apt ]; then
+if [ -n "$debian" ] || [ "$MPI"="serial" ]; then
 	./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
-else
+else	
 	#Fedora (at least) requires the MPI compiler definitions. 
-	CC=/lib64/openmpi/bin/mpicc CXX=/lib64/openmpi/bin/mpicxx F77=/lib64/openmpi/bin/mpif77 ./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
+	CC=/lib64/$MPI/bin/mpicc CXX=/lib64/$MPI/bin/mpicxx F77=/lib64/$MPI/bin/mpif77 ./autogen.sh $meep_opt --enable-maintainer-mode --enable-shared --prefix=/usr/local  # exits with 1 ?
 fi
 
 make  &&  sudo make install
