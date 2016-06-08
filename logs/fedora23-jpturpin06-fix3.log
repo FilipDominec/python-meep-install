@@ -1,9 +1,9 @@
 Selecting Red Hat Mode
-Last metadata expiration check: 0:16:22 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:16 ago on Wed Jun  8 23:01:20 2016.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:25 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:19 ago on Wed Jun  8 23:01:20 2016.
 Package autoconf-2.69-21.fc23.noarch is already installed, skipping.
 Package chrpath-0.16-2.fc23.x86_64 is already installed, skipping.
 Package debhelper-9.20150628-1.fc23.noarch is already installed, skipping.
@@ -13,17 +13,17 @@ Package wget-1.17.1-1.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:27 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:22 ago on Wed Jun  8 23:01:20 2016.
 Package git-2.5.5-1.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:30 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:24 ago on Wed Jun  8 23:01:20 2016.
 Package git-core-2.5.5-1.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:33 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:27 ago on Wed Jun  8 23:01:20 2016.
 Package automake-1.15-4.fc23.noarch is already installed, skipping.
 Package autoconf-2.69-21.fc23.noarch is already installed, skipping.
 Package gcc-c++-5.3.1-6.fc23.x86_64 is already installed, skipping.
@@ -32,7 +32,7 @@ Dependencies resolved.
 Nothing to do.
 Complete!
 TODO: h5utils must be compiled on Fedora!
-Last metadata expiration check: 0:16:36 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:29 ago on Wed Jun  8 23:01:20 2016.
 Package ImageMagick-6.9.2.7-1.fc23.x86_64 is already installed, skipping.
 Package atlas-devel-3.10.2-6.fc23.x86_64 is already installed, skipping.
 Package fftw-devel-3.3.4-6.fc23.x86_64 is already installed, skipping.
@@ -42,26 +42,26 @@ Dependencies resolved.
 Nothing to do.
 Complete!
 TODO: MPB devel libs must be (probably) compiled on Fedora!
-Last metadata expiration check: 0:16:39 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:32 ago on Wed Jun  8 23:01:20 2016.
 No package mpb-devel available.
 Error: Unable to find a match.
 TODO: harminv must be (probably) compiled on Fedora!
-Last metadata expiration check: 0:16:40 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:34 ago on Wed Jun  8 23:01:20 2016.
 Package pkgconfig-1:0.28-9.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:42 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:36 ago on Wed Jun  8 23:01:20 2016.
 Package zlib-devel-1.2.8-9.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:44 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:39 ago on Wed Jun  8 23:01:20 2016.
 Package guile-devel-5:2.0.11-7.fc23.x86_64 is already installed, skipping.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Last metadata expiration check: 0:16:47 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:50:42 ago on Wed Jun  8 23:01:20 2016.
 Package openmpi-1.8.8-5.fc23.1.x86_64 is already installed, skipping.
 Package openmpi-devel-1.8.8-5.fc23.1.x86_64 is already installed, skipping.
 Package hdf5-openmpi-devel-1.8.15-10.patch1.fc23.x86_64 is already installed, skipping.
@@ -3259,239 +3259,21 @@ make[2]: Nothing to be done for 'install-exec-am'.
  /bin/install -c -m 644 meep_mpi.pc '/usr/local/lib/pkgconfig'
 make[2]: Leaving directory '/home/dominecf/python-meep-install/meep'
 make[1]: Leaving directory '/home/dominecf/python-meep-install/meep'
-Last metadata expiration check: 0:18:30 ago on Wed Jun  8 23:01:20 2016.
+Last metadata expiration check: 0:52:28 ago on Wed Jun  8 23:01:20 2016.
+Package python-devel-2.7.11-3.fc23.x86_64 is already installed, skipping.
+Package numpy-1:1.9.2-2.fc23.x86_64 is already installed, skipping.
+Package scipy-0.14.1-1.fc22.x86_64 is already installed, skipping.
+Package python2-matplotlib-1.4.3-14.fc23.x86_64 is already installed, skipping.
+Package redhat-rpm-config-36-1.fc23.1.noarch is already installed, skipping.
 Dependencies resolved.
-================================================================================
- Package              Arch   Version                              Repository
-                                                                           Size
-================================================================================
-Installing:
- SDL                  x86_64 1.2.15-20.fc23                       updates 213 k
- agg                  x86_64 2.5-23.fc23                          fedora  147 k
- dwz                  x86_64 0.12-1.fc23                          fedora  106 k
- ghc-srpm-macros      noarch 1.4.2-2.fc23                         fedora  8.2 k
- gnat-srpm-macros     noarch 2-1.fc23                             fedora  8.4 k
- go-srpm-macros       noarch 2-3.fc23                             fedora  8.0 k
- numpy                x86_64 1:1.9.2-2.fc23                       fedora  3.0 M
- numpy-f2py           x86_64 1:1.9.2-2.fc23                       fedora  248 k
- ocaml-srpm-macros    noarch 2-3.fc23                             fedora  8.1 k
- perl-Filter          x86_64 2:1.55-1.fc23                        fedora   79 k
- perl-Tk              x86_64 804.033-3.fc23                       fedora  2.1 M
- perl-XML-XPath       noarch 1.13-28.fc23                         fedora   77 k
- perl-encoding        x86_64 3:2.17-4.fc23                        updates  62 k
- perl-open            noarch 1.10-351.fc23                        updates  62 k
- perl-srpm-macros     noarch 1-17.fc23                            fedora  9.7 k
- pyparsing            noarch 2.1.3-1.fc23                         updates  11 k
- python-dateutil      noarch 1:2.4.2-2.fc23                       fedora   88 k
- python-devel         x86_64 2.7.11-3.fc23                        updates 398 k
- python-matplotlib-data
-                      noarch 1.4.3-14.fc23                        updates 2.0 M
- python-matplotlib-data-fonts
-                      noarch 1.4.3-14.fc23                        updates 991 k
- python-nose          noarch 1.3.7-4.fc23                         fedora  280 k
- python-rpm-macros    noarch 3-7.fc23                             updates 8.8 k
- python-six           noarch 1.9.0-3.fc23                         fedora   34 k
- python-srpm-macros   noarch 3-7.fc23                             updates 8.1 k
- python2-matplotlib   x86_64 1.4.3-14.fc23                        updates  35 M
- python2-matplotlib-tk
-                      x86_64 1.4.3-14.fc23                        updates  80 k
- python2-pyparsing    noarch 2.1.3-1.fc23                         updates 111 k
- python2-rpm-macros   noarch 3-7.fc23                             updates 8.2 k
- pytz                 noarch 2015.4-1.fc23                        fedora   60 k
- qhull                x86_64 2003.1-26.fc23                       fedora  358 k
- redhat-rpm-config    noarch 36-1.fc23.1                          updates  59 k
- scipy                x86_64 0.14.1-1.fc22                        fedora   10 M
- stix-math-fonts      noarch 1.1.0-8.fc23                         fedora  291 k
- texlive-base         noarch 4:2014-19.20140525_r34255.fc23       updates 1.4 M
- texlive-dvipng       noarch 4:svn29821.1.14-19.fc23              updates  53 k
- texlive-dvipng-bin   x86_64 4:svn30845.0-19.20140525_r34255.fc23 updates  73 k
- texlive-hyphen-base  noarch 4:svn31131.0-19.fc23                 updates  49 k
- texlive-kpathsea     noarch 4:svn32266.0-19.fc23                 updates 150 k
- texlive-kpathsea-bin x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates  50 k
- texlive-kpathsea-lib x86_64 4:2014-19.20140525_r34255.fc23       updates  98 k
- texlive-metafont     noarch 4:svn29764.2.718281-19.fc23          updates  73 k
- texlive-metafont-bin x86_64 4:svn30088.0-19.20140525_r34255.fc23 updates 211 k
- texlive-tetex        noarch 4:svn33394.3.0-19.fc23               updates 102 k
- texlive-tetex-bin    noarch 4:svn29741.0-19.20140525_r34255.fc23 updates  27 k
- texlive-texlive.infra
-                      noarch 4:svn32920.0-19.fc23                 updates 152 k
- texlive-texlive.infra-bin
-                      x86_64 4:svn29741.0-19.20140525_r34255.fc23 updates  26 k
- tix                  x86_64 1:8.4.3-16.fc23                      fedora  259 k
- tk                   x86_64 1:8.6.4-2.fc23                       fedora  1.6 M
- tkinter              x86_64 2.7.11-3.fc23                        updates 384 k
-
-Transaction Summary
-================================================================================
-Install  49 Packages
-
-Total download size: 61 M
-Installed size: 152 M
-Downloading Packages:
---------------------------------------------------------------------------------
-Total                                           1.1 MB/s |  61 MB     00:54     
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Installing  : texlive-base-4:2014-19.20140525_r34255.fc23.noarch         1/49 
-  Installing  : texlive-kpathsea-lib-4:2014-19.20140525_r34255.fc23.x86    2/49 
-  Installing  : tk-1:8.6.4-2.fc23.x86_64                                   3/49 
-  Installing  : python-matplotlib-data-fonts-1.4.3-14.fc23.noarch          4/49 
-  Installing  : python-matplotlib-data-1.4.3-14.fc23.noarch                5/49 
-  Installing  : python-six-1.9.0-3.fc23.noarch                             6/49 
-  Installing  : python-dateutil-1:2.4.2-2.fc23.noarch                      7/49 
-  Installing  : tix-1:8.4.3-16.fc23.x86_64                                 8/49 
-  Installing  : tkinter-2.7.11-3.fc23.x86_64                               9/49 
-  Installing  : perl-Filter-2:1.55-1.fc23.x86_64                          10/49 
-  Installing  : perl-encoding-3:2.17-4.fc23.x86_64                        11/49 
-  Installing  : perl-open-1.10-351.fc23.noarch                            12/49 
-  Installing  : perl-Tk-804.033-3.fc23.x86_64                             13/49 
-  Installing  : perl-XML-XPath-1.13-28.fc23.noarch                        14/49 
-  Installing  : texlive-texlive.infra-bin-4:svn29741.0-19.20140525_r342   15/49 
-  Installing  : texlive-kpathsea-4:svn32266.0-19.fc23.noarch              16/49 
-  Installing  : texlive-hyphen-base-4:svn31131.0-19.fc23.noarch           17/49 
-  Installing  : texlive-kpathsea-bin-4:svn30088.0-19.20140525_r34255.fc   18/49 
-  Installing  : texlive-texlive.infra-4:svn32920.0-19.fc23.noarch         19/49 
-  Installing  : texlive-metafont-bin-4:svn30088.0-19.20140525_r34255.fc   20/49 
-  Installing  : texlive-tetex-bin-4:svn29741.0-19.20140525_r34255.fc23.   21/49 
-  Installing  : texlive-tetex-4:svn33394.3.0-19.fc23.noarch               22/49 
-  Installing  : texlive-metafont-4:svn29764.2.718281-19.fc23.noarch       23/49 
-  Installing  : texlive-dvipng-4:svn29821.1.14-19.fc23.noarch             24/49 
-  Installing  : texlive-dvipng-bin-4:svn30845.0-19.20140525_r34255.fc23   25/49 
-  Installing  : SDL-1.2.15-20.fc23.x86_64                                 26/49 
-  Installing  : agg-2.5-23.fc23.x86_64                                    27/49 
-  Installing  : python2-pyparsing-2.1.3-1.fc23.noarch                     28/49 
-  Installing  : pyparsing-2.1.3-1.fc23.noarch                             29/49 
-  Installing  : python-srpm-macros-3-7.fc23.noarch                        30/49 
-  Installing  : perl-srpm-macros-1-17.fc23.noarch                         31/49 
-  Installing  : ocaml-srpm-macros-2-3.fc23.noarch                         32/49 
-  Installing  : go-srpm-macros-2-3.fc23.noarch                            33/49 
-  Installing  : gnat-srpm-macros-2-1.fc23.noarch                          34/49 
-  Installing  : ghc-srpm-macros-1.4.2-2.fc23.noarch                       35/49 
-  Installing  : dwz-0.12-1.fc23.x86_64                                    36/49 
-  Installing  : python-nose-1.3.7-4.fc23.noarch                           37/49 
-  Installing  : numpy-1:1.9.2-2.fc23.x86_64                               38/49 
-  Installing  : python2-rpm-macros-3-7.fc23.noarch                        39/49 
-  Installing  : python-rpm-macros-3-7.fc23.noarch                         40/49 
-  Installing  : python-devel-2.7.11-3.fc23.x86_64                         41/49 
-  Installing  : numpy-f2py-1:1.9.2-2.fc23.x86_64                          42/49 
-  Installing  : stix-math-fonts-1.1.0-8.fc23.noarch                       43/49 
-  Installing  : qhull-2003.1-26.fc23.x86_64                               44/49 
-  Installing  : pytz-2015.4-1.fc23.noarch                                 45/49 
-  Installing  : python2-matplotlib-tk-1.4.3-14.fc23.x86_64                46/49 
-  Installing  : python2-matplotlib-1.4.3-14.fc23.x86_64                   47/49 
-  Installing  : scipy-0.14.1-1.fc22.x86_64                                48/49 
-  Installing  : redhat-rpm-config-36-1.fc23.1.noarch                      49/49 
-  Verifying   : scipy-0.14.1-1.fc22.x86_64                                 1/49 
-  Verifying   : python2-matplotlib-1.4.3-14.fc23.x86_64                    2/49 
-  Verifying   : numpy-f2py-1:1.9.2-2.fc23.x86_64                           3/49 
-  Verifying   : agg-2.5-23.fc23.x86_64                                     4/49 
-  Verifying   : python-dateutil-1:2.4.2-2.fc23.noarch                      5/49 
-  Verifying   : python-six-1.9.0-3.fc23.noarch                             6/49 
-  Verifying   : pytz-2015.4-1.fc23.noarch                                  7/49 
-  Verifying   : qhull-2003.1-26.fc23.x86_64                                8/49 
-  Verifying   : stix-math-fonts-1.1.0-8.fc23.noarch                        9/49 
-  Verifying   : python-matplotlib-data-1.4.3-14.fc23.noarch               10/49 
-  Verifying   : python2-matplotlib-tk-1.4.3-14.fc23.x86_64                11/49 
-  Verifying   : python-matplotlib-data-fonts-1.4.3-14.fc23.noarch         12/49 
-  Verifying   : tk-1:8.6.4-2.fc23.x86_64                                  13/49 
-  Verifying   : python-devel-2.7.11-3.fc23.x86_64                         14/49 
-  Verifying   : python-rpm-macros-3-7.fc23.noarch                         15/49 
-  Verifying   : python2-rpm-macros-3-7.fc23.noarch                        16/49 
-  Verifying   : numpy-1:1.9.2-2.fc23.x86_64                               17/49 
-  Verifying   : python-nose-1.3.7-4.fc23.noarch                           18/49 
-  Verifying   : redhat-rpm-config-36-1.fc23.1.noarch                      19/49 
-  Verifying   : dwz-0.12-1.fc23.x86_64                                    20/49 
-  Verifying   : ghc-srpm-macros-1.4.2-2.fc23.noarch                       21/49 
-  Verifying   : gnat-srpm-macros-2-1.fc23.noarch                          22/49 
-  Verifying   : go-srpm-macros-2-3.fc23.noarch                            23/49 
-  Verifying   : ocaml-srpm-macros-2-3.fc23.noarch                         24/49 
-  Verifying   : perl-srpm-macros-1-17.fc23.noarch                         25/49 
-  Verifying   : python-srpm-macros-3-7.fc23.noarch                        26/49 
-  Verifying   : tkinter-2.7.11-3.fc23.x86_64                              27/49 
-  Verifying   : tix-1:8.4.3-16.fc23.x86_64                                28/49 
-  Verifying   : pyparsing-2.1.3-1.fc23.noarch                             29/49 
-  Verifying   : python2-pyparsing-2.1.3-1.fc23.noarch                     30/49 
-  Verifying   : texlive-dvipng-bin-4:svn30845.0-19.20140525_r34255.fc23   31/49 
-  Verifying   : SDL-1.2.15-20.fc23.x86_64                                 32/49 
-  Verifying   : texlive-base-4:2014-19.20140525_r34255.fc23.noarch        33/49 
-  Verifying   : texlive-dvipng-4:svn29821.1.14-19.fc23.noarch             34/49 
-  Verifying   : texlive-kpathsea-lib-4:2014-19.20140525_r34255.fc23.x86   35/49 
-  Verifying   : texlive-kpathsea-bin-4:svn30088.0-19.20140525_r34255.fc   36/49 
-  Verifying   : texlive-kpathsea-4:svn32266.0-19.fc23.noarch              37/49 
-  Verifying   : texlive-metafont-bin-4:svn30088.0-19.20140525_r34255.fc   38/49 
-  Verifying   : texlive-metafont-4:svn29764.2.718281-19.fc23.noarch       39/49 
-  Verifying   : texlive-hyphen-base-4:svn31131.0-19.fc23.noarch           40/49 
-  Verifying   : texlive-tetex-bin-4:svn29741.0-19.20140525_r34255.fc23.   41/49 
-  Verifying   : texlive-tetex-4:svn33394.3.0-19.fc23.noarch               42/49 
-  Verifying   : texlive-texlive.infra-4:svn32920.0-19.fc23.noarch         43/49 
-  Verifying   : perl-Tk-804.033-3.fc23.x86_64                             44/49 
-  Verifying   : perl-XML-XPath-1.13-28.fc23.noarch                        45/49 
-  Verifying   : perl-open-1.10-351.fc23.noarch                            46/49 
-  Verifying   : texlive-texlive.infra-bin-4:svn29741.0-19.20140525_r342   47/49 
-  Verifying   : perl-encoding-3:2.17-4.fc23.x86_64                        48/49 
-  Verifying   : perl-Filter-2:1.55-1.fc23.x86_64                          49/49 
-
-Installed:
-  SDL.x86_64 1.2.15-20.fc23                                                     
-  agg.x86_64 2.5-23.fc23                                                        
-  dwz.x86_64 0.12-1.fc23                                                        
-  ghc-srpm-macros.noarch 1.4.2-2.fc23                                           
-  gnat-srpm-macros.noarch 2-1.fc23                                              
-  go-srpm-macros.noarch 2-3.fc23                                                
-  numpy.x86_64 1:1.9.2-2.fc23                                                   
-  numpy-f2py.x86_64 1:1.9.2-2.fc23                                              
-  ocaml-srpm-macros.noarch 2-3.fc23                                             
-  perl-Filter.x86_64 2:1.55-1.fc23                                              
-  perl-Tk.x86_64 804.033-3.fc23                                                 
-  perl-XML-XPath.noarch 1.13-28.fc23                                            
-  perl-encoding.x86_64 3:2.17-4.fc23                                            
-  perl-open.noarch 1.10-351.fc23                                                
-  perl-srpm-macros.noarch 1-17.fc23                                             
-  pyparsing.noarch 2.1.3-1.fc23                                                 
-  python-dateutil.noarch 1:2.4.2-2.fc23                                         
-  python-devel.x86_64 2.7.11-3.fc23                                             
-  python-matplotlib-data.noarch 1.4.3-14.fc23                                   
-  python-matplotlib-data-fonts.noarch 1.4.3-14.fc23                             
-  python-nose.noarch 1.3.7-4.fc23                                               
-  python-rpm-macros.noarch 3-7.fc23                                             
-  python-six.noarch 1.9.0-3.fc23                                                
-  python-srpm-macros.noarch 3-7.fc23                                            
-  python2-matplotlib.x86_64 1.4.3-14.fc23                                       
-  python2-matplotlib-tk.x86_64 1.4.3-14.fc23                                    
-  python2-pyparsing.noarch 2.1.3-1.fc23                                         
-  python2-rpm-macros.noarch 3-7.fc23                                            
-  pytz.noarch 2015.4-1.fc23                                                     
-  qhull.x86_64 2003.1-26.fc23                                                   
-  redhat-rpm-config.noarch 36-1.fc23.1                                          
-  scipy.x86_64 0.14.1-1.fc22                                                    
-  stix-math-fonts.noarch 1.1.0-8.fc23                                           
-  texlive-base.noarch 4:2014-19.20140525_r34255.fc23                            
-  texlive-dvipng.noarch 4:svn29821.1.14-19.fc23                                 
-  texlive-dvipng-bin.x86_64 4:svn30845.0-19.20140525_r34255.fc23                
-  texlive-hyphen-base.noarch 4:svn31131.0-19.fc23                               
-  texlive-kpathsea.noarch 4:svn32266.0-19.fc23                                  
-  texlive-kpathsea-bin.x86_64 4:svn30088.0-19.20140525_r34255.fc23              
-  texlive-kpathsea-lib.x86_64 4:2014-19.20140525_r34255.fc23                    
-  texlive-metafont.noarch 4:svn29764.2.718281-19.fc23                           
-  texlive-metafont-bin.x86_64 4:svn30088.0-19.20140525_r34255.fc23              
-  texlive-tetex.noarch 4:svn33394.3.0-19.fc23                                   
-  texlive-tetex-bin.noarch 4:svn29741.0-19.20140525_r34255.fc23                 
-  texlive-texlive.infra.noarch 4:svn32920.0-19.fc23                             
-  texlive-texlive.infra-bin.x86_64 4:svn29741.0-19.20140525_r34255.fc23         
-  tix.x86_64 1:8.4.3-16.fc23                                                    
-  tk.x86_64 1:8.6.4-2.fc23                                                      
-  tkinter.x86_64 2.7.11-3.fc23                                                  
-
+Nothing to do.
 Complete!
 Directories for SWIG -I option :  ['/usr/local/include']
 Directories for -L option :  ['/usr/local/lib']
 running clean
 removing 'build/temp.linux-x86_64-2.7' (and everything under it)
 removing 'build/lib.linux-x86_64-2.7' (and everything under it)
-'build/bdist.linux-x86_64' does not exist -- can't clean it
+removing 'build/bdist.linux-x86_64' (and everything under it)
 'build/scripts-2.7' does not exist -- can't clean it
 removing 'build'
 Directories for SWIG -I option :  ['/usr/local/include']
@@ -3629,8 +3411,8 @@ copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> /usr/lib64/python2.7/site-pac
 copying build/lib.linux-x86_64-2.7/meep_mpi.py -> /usr/lib64/python2.7/site-packages
 byte-compiling /usr/lib64/python2.7/site-packages/meep_mpi.py to meep_mpi.pyc
 running install_data
-copying custom.hpp -> /usr/lib64/python2.7/site-packages
 running install_egg_info
+Removing /usr/lib64/python2.7/site-packages/python_meep-1.4-py2.7.egg-info
 Writing /usr/lib64/python2.7/site-packages/python_meep-1.4-py2.7.egg-info
 Directories for SWIG -I option :  ['/usr/local/include']
 Directories for -L option :  ['/usr/local/lib']
@@ -3655,6 +3437,5 @@ running install_data
 copying custom.hpp -> build/bdist.linux-x86_64/dumb/usr/lib64/python2.7/site-packages
 running install_egg_info
 Writing build/bdist.linux-x86_64/dumb/usr/lib64/python2.7/site-packages/python_meep-1.4-py2.7.egg-info
-creating /home/dominecf/python-meep-install/python-meep/dist
 Creating tar archive
 removing 'build/bdist.linux-x86_64/dumb' (and everything under it)

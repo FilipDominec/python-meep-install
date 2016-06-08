@@ -96,7 +96,7 @@ else
     PATH=$PATH:/usr/local/bin
     export CPPFLAGS="-I/usr/local/include -I/usr/include/hdf5/$MPI"    
     export LDFLAGS="-L/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/hdf5/$MPI"
-    export LD_RUN_PATH="/usr/local/lib"
+    export LD_RUN_PATH="/usr/local/lib:/usr/lib64/openmpi/lib"
 fi
 
 ## Note: If the git version was unavailable, use the failsafe alternative below
@@ -127,6 +127,13 @@ if [ -n "$debian" ]; then
 else
 	$INSTALL python-devel numpy scipy python2-matplotlib redhat-rpm-config
 	# based on some searching, argparse appears to be included in the default python package on fedora? python-argparse
+
+
+
+	#[dominecf@localhost python-meep-install]$ export LD_LIBRARY_PATH=/usr/lib64/openmpi/lib/
+	#[dominecf@localhost python-meep-install]$ 
+	#[dominecf@localhost python-meep-install]$ python -c 'import meep_mpi'
+
 fi
 
 
@@ -145,7 +152,7 @@ fi
 cd python-meep/
 pm_opt=`echo $meep_opt | sed 's/--with//g'`
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
-sed -i -e '/custom.hpp/ a export LD_RUN_PATH=\/usr\/local\/lib' make${pm_opt}
+sed -i -e '/custom.hpp/ a export LD_RUN_PATH=$LD_RUN_PATH:\/usr\/local\/lib' make${pm_opt}
 sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-site-init.py
 ## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
 sed -i -e '/initialisations/d' meep-site-init.py
