@@ -8,7 +8,7 @@ It should automatically install MEEP, Python-meep and related programs/libraries
 You can simply run the 'python-meep-install.sh' script as root
 
 If you wish to contribute with the installation output, use e.g.:
-'''sudo ./python-meep-install.sh | tee your-system-version.log
+'''sudo ./python-meep-install.sh 2>&1 | tee your-system-version.log
 The easiest way to upload the log is perhaps to paste it into a comment. Thank you!
 
 If everything works and you can 'import meep_mpi' in your Python2 console, do not forget there are practical examples of its use at 
