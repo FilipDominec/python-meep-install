@@ -127,17 +127,8 @@ if [ -n "$debian" ]; then
 else
 	$INSTALL python-devel numpy scipy python2-matplotlib redhat-rpm-config
 	# based on some searching, argparse appears to be included in the default python package on fedora? python-argparse
-
-
-
-	#[dominecf@localhost python-meep-install]$ export LD_LIBRARY_PATH=/usr/lib64/openmpi/lib/
-	#[dominecf@localhost python-meep-install]$ 
-	#[dominecf@localhost python-meep-install]$ python -c 'import meep_mpi'
-
+	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
-
-
-
 
 ## Get the latest source from green block at https://launchpad.net/python-meep/1.4
 if [ ! -d "python-meep" ]; then
