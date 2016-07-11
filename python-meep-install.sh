@@ -47,7 +47,7 @@ $INSTALL git-core     ## for old ubuntu 10.04
 if [ -n "$debian" ]; then 
     $INSTALL autotools-dev          g++    gfortran         
     $INSTALL h5utils 
-    $INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev mpb-dev
+    $INSTALL imagemagick            libatlas-base-dev libfftw3-dev libgsl0-dev liblapack-dev # mpb-dev  ## TODO mpb needs recomp w/ -fPIC
     $INSTALL libharminv-dev pkg-config  ## these are missing in RPM?
     $INSTALL zlib1g-dev
 	## for newer linux versions -- or if fails -- for old ubuntu 10.04
