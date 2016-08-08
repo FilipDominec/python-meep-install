@@ -62,8 +62,8 @@ elif [ -n "$redhat" ]; then
     $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
     echo "TODO: h5utils must be compiled on Fedora!"
     $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		
-    echo "TODO: MPB devel libs must be (probably) compiled on Fedora!"    
-	$INSTALL mpb-devel 
+    #echo "TODO: MPB devel libs must be (probably) compiled on Fedora!"    
+	#$INSTALL mpb-devel   ## TODO mpb needs recomp w/ -fPIC,  but not tested on Fedora
     echo "TODO: harminv must be (probably) compiled on Fedora!"    
     $INSTALL pkgconfig
     $INSTALL zlib-devel

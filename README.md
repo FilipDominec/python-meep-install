@@ -20,19 +20,16 @@ By editing the 'python-meep-install.sh' script, you can choose
 
 # Supported systems
 ### Tested on:
-* Ubuntu 12.10
-* Ubuntu 14.10
-* Ubuntu 15.04
-* Ubuntu 15.10 amd64
+* Ubuntu 12.10 14.10 15.04 15.10amd64 16.04amd64
 * Debian Jessie
 
 ### Experimental/partially working:
+* Fedora (and other RPM-based systems)
+  * (?) optional library 'harminv' is missing, can be manually compiled if needed
+  * (?) dependency 'pkg-config' is missing,
 * The eigenmode source requires the 'mpb-dev' package, which is not available in Ubuntu 15.04 or earlier. You can still download the source and compile MPB on older systems, but in such a case, make sure you use the '-fPIC' option to enable its use with MEEP.
 
 ### Known not to work on:
-* Fedora 22  (and other RPM-based systems)
-  * optional library 'harminv' is missing, can be manually compiled if needed
-  * dependency 'pkg-config' is missing,
 
 # Possible issues
 * When installation crashes, it does at the end. You have to track what of the many steps failed.
