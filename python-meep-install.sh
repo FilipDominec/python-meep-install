@@ -142,9 +142,14 @@ fi
 ## from passing the "-I" and "-L" parameters to the build script).
 cd python-meep/
 pm_opt=`echo $meep_opt | sed 's/--with//g'`
-sed -i -e '/meep-common/i\
+## Add dependencies required for access of the LDOS computation (this may require further fixes to yield useful data)
+sed -i -e '/meep-site-init/i\
 	%include "cpointer.i"\
-	%pointer_functions(double ,doubleP) \/* added by FDominec to enable access to LDOS computation results *\/' ./meep_mpi.i
+	%pointer_functions(double ,doubleP) \/* added by FDominec to enable access to LDOS computation results *\/' ./meep${pm_opt}.i
+sed -i -e '/meep-site-init/i\
+	%include "carrays.i"\
+	%array_functions(double, doubleArray); ' ./meep${pm_opt}.i
+
 sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python-meep
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
 sed -i -e '/custom.hpp/ a export LD_RUN_PATH=$LD_RUN_PATH:\/usr\/local\/lib' make${pm_opt}
