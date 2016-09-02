@@ -145,10 +145,9 @@ pm_opt=`echo $meep_opt | sed 's/--with//g'`
 ## Add dependencies required for access of the LDOS computation (this may require further fixes to yield useful data)
 sed -i -e '/meep-site-init/i\
 	%include "cpointer.i"\
-	%pointer_functions(double ,doubleP) \/* added by FDominec to enable access to LDOS computation results *\/' ./meep${pm_opt}.i
-sed -i -e '/meep-site-init/i\
+	%pointer_functions(double ,doubleP) \/* added by FDominec to enable access to LDOS computation results *\/\
 	%include "carrays.i"\
-	%array_functions(double, doubleArray); ' ./meep${pm_opt}.i
+	%array_functions(double, doubleArray); ' `echo ./meep${pm_opt}.i | sed s/-/_/`
 
 sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python-meep
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
