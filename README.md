@@ -20,7 +20,7 @@ By editing the 'python-meep-install.sh' script, you can choose
 
 # Supported systems
 ### Tested on:
-* Ubuntu 12.10 14.10 15.04 15.10amd64 16.04amd64
+* Ubuntu 12.10 14.10 15.04 15.10amd64 16.04amd64 17.04amd64
 * Debian Jessie
 
 ### Experimental/partially working:
@@ -32,5 +32,6 @@ By editing the 'python-meep-install.sh' script, you can choose
 ### Known not to work on:
 
 # Possible issues
-* When installation crashes, it does at the end. You have to track what of the many steps failed.
+* When installation crashes, it does at the end. You have to track what of the many steps failed.  
+* Downloading of libctl-3.2.1.tar.gz seems to hang for several minutes sometimes (May 2017). Not a serious trouble.
 * Sometimes the apt-get installer refuses to work, reporting either that "the dpkg database is locked" or that it "can not find the source code for ...". I guess this is due to the updater launching during the run of the installation script. It may help to re-run the script again.
