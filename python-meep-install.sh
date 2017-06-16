@@ -51,7 +51,7 @@ if [ -n "$debian" ]; then
     $INSTALL libharminv-dev pkg-config  ## these are missing in RPM?
     $INSTALL zlib1g-dev
 	## for newer linux versions -- or if fails -- for old ubuntu 10.04
-    $INSTALL guile-2.0-dev || $INSTALL guile-1.8-dev   
+	$INSTALL guile-2.0-dev=2.0.11* || $INSTALL guile-1.8-dev		## guile 2.0.13 made meep-mpi fail (reported 2017-06-16 by J Weiner)
     $INSTALL $MPI-bin lib$MPI-dev libhdf5-$MPI-dev              
 elif [ -n "$redhat" ]; then
 	#h5utils, harminv, and meep(-non-mpi) can be installed from Fedora COPR on Fedora 22 or better
