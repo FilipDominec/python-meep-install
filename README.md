@@ -19,8 +19,8 @@ By editing the 'python-meep-install.sh' script, you can choose
 * whether multiprocessing is supported, and which implementation of the Message-Passing Protocol will be used (openmpi|mpich|mpich2|none)
 
 # Supported systems
-### Tested on:
-* Ubuntu 12.10 14.10 15.04 15.10amd64 16.04amd64 17.04amd64
+### Tested to work fully on:
+* Ubuntu 12.10 14.10 15.04 15.10amd64 
 * Debian Jessie
 
 ### Experimental/partially working:
@@ -28,6 +28,7 @@ By editing the 'python-meep-install.sh' script, you can choose
   * (?) optional library 'harminv' is missing, can be manually compiled if needed
   * (?) dependency 'pkg-config' is missing,
 * The eigenmode source requires the 'mpb-dev' package, which is not available in Ubuntu 15.04 or earlier. You can still download the source and compile MPB on older systems, but in such a case, make sure you use the '-fPIC' option to enable its use with MEEP.
+* Python-meep works perfectly on Ubuntu 16.04amd64 and 17.04amd64, but the ```meep``` interpreter of scheme fails with guile 2.0.13 (see https://github.com/stevengj/meep/issues/57). Previous Ubuntu versions include guile 2.0.11 or older, with which ```meep``` or ```meep-mpi``` work fine.
 
 ### Known not to work on:
 
