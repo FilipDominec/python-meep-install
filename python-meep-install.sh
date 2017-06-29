@@ -1,7 +1,18 @@
 #!/bin/bash
-## This is a compilation procedure that worked for me to setup the python-meep 
-## with some utilities on a Debian-based system.
+"""
+Setting up the electromagnetic simulation environment based on MEEP 
+(http://ab-initio.mit.edu/wiki/index.php/Meep) is not straightforward. 
+I have spent several days making the simulation work on different 
+32/64-bit systems, use HDF5 libraries with multiprocessing support 
+etc., and this experience has motivated the publication of this script.
 
+It should automatically install MEEP, Python-meep and related 
+programs/libraries at different linux distributions.  If you are 
+interested in starting with python-meep, you may wish to try the example 
+scripts: https://github.com/FilipDominec/python-meep-utils
+
+(c) Filip Dominec 2013-2017, licensed under GPL-2.0
+"""
 ## --- Settings ---------------------------------------------------------------
 MPI="openmpi"
 #MPI="mpich"
@@ -121,6 +132,9 @@ cd ..
 #cd ..
 
 ## --- PYTHON-MEEP ------------------------------------------------------------
+## NOTE: If you are interested in the scheme interface of MEEP only, you may 
+## make the compilation a bit faster by deleting all following lines
+
 ## Install python-meep dependencies and SWIG
 if [ -n "$debian" ]; then
 	$INSTALL python-dev python-numpy python-scipy python-matplotlib python-argparse
@@ -138,7 +152,7 @@ if [ ! -d "python-meep" ]; then
     tar xf python-meep-1.4.2.tar
 fi
 
-## If libmeep*.so was installed to /usr/local/lib, this scipt has to edit the installation scripts (aside
+## Since we chose to install libmeep*.so to /usr/local/lib, this script has to modify the installation scripts (aside
 ## from passing the "-I" and "-L" parameters to the build script).
 cd python-meep/
 pm_opt=`echo $meep_opt | sed 's/--with//g'`
