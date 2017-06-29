@@ -13,6 +13,7 @@ scripts: https://github.com/FilipDominec/python-meep-utils
 
 (c) Filip Dominec 2013-2017, licensed under GPL-2.0
 """
+
 ## --- Settings ---------------------------------------------------------------
 MPI="openmpi"
 #MPI="mpich"
