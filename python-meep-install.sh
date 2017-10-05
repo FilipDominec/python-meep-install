@@ -67,12 +67,12 @@ if [ -n "$debian" ]; then
 	## guile 2.0.13 made meep-mpi fail (reported 2017-06-16 by J Weiner)
 	$INSTALL guile-2.0-dev=2.0.11* || $INSTALL guile-1.8-dev || compile_guile_manually=1	
 	if [ -n "$compile_guile_manually" ]; then 
-		echo INSTALLING GUILE 2.0.11 FROM GIT REPOSITORY
+		echo "INSTALLING GUILE 2.0.11 FROM GIT REPOSITORY"
+		$INSTALL flex libgmp-dev libunistring-dev libltdl-dev libgc-dev libffi-dev
 		git clone https://github.com/cky/guile
 		pushd guile/
 		git checkout 972fb41 ## crucial: change to the commit when the 2.0.11 version was released
 		./autogen.sh 
-		sudo apt-get install flex libgmp-dev libunistring-dev libltdl-dev libgc-dev libffi-dev
 		./configure && make && make install
 		popd
 	fi
