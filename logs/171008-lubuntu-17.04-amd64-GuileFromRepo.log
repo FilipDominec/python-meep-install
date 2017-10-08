@@ -1,0 +1,1748 @@
+Selecting Debian Mode
+Hit:1 http://cz.archive.ubuntu.com/ubuntu zesty InRelease
+Hit:2 http://security.ubuntu.com/ubuntu zesty-security InRelease
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty-updates InRelease [89,2 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty-backports InRelease [89,2 kB]
+Fetched 178 kB in 0s (275 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+wget is already the newest version (1.18-2ubuntu1).
+The following additional packages will be installed:
+  automake autopoint autotools-dev binutils build-essential dh-autoreconf
+  dh-strip-nondeterminism dpkg-dev fakeroot g++ g++-6 gcc gcc-6 gettext
+  intltool-debian libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libarchive-zip-perl libasan3 libatomic1 libc-dev-bin
+  libc6 libc6-dev libcc1-0 libcilkrts5 libdpkg-perl libfakeroot
+  libfile-fcntllock-perl libfile-stripnondeterminism-perl libgcc-6-dev libitm1
+  liblsan0 libltdl-dev libmail-sendmail-perl libmpx2 libsigsegv2
+  libstdc++-6-dev libsys-hostname-long-perl libtsan0 libubsan0 linux-libc-dev
+  m4 make manpages-dev po-debconf swig3.0
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc binutils-doc dh-make
+  debian-keyring g++-multilib g++-6-multilib gcc-6-doc libstdc++6-6-dbg
+  gcc-multilib flex bison gdb gcc-doc gcc-6-multilib gcc-6-locales libgcc1-dbg
+  libgomp1-dbg libitm1-dbg libatomic1-dbg libasan3-dbg liblsan0-dbg
+  libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx2-dbg libquadmath0-dbg
+  gettext-doc libasprintf-dev libgettextpo-dev glibc-doc libtool-doc
+  libstdc++-6-doc gfortran | fortran95-compiler gcj-jdk m4-doc make-doc
+  libmail-box-perl swig-doc swig-examples swig3.0-examples swig3.0-doc
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev binutils build-essential chrpath
+  debhelper dh-autoreconf dh-strip-nondeterminism dpkg-dev fakeroot g++ g++-6
+  gcc gcc-6 gettext intltool-debian libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libarchive-zip-perl
+  libasan3 libatomic1 libc-dev-bin libc6-dev libcc1-0 libcilkrts5 libdpkg-perl
+  libfakeroot libfile-fcntllock-perl libfile-stripnondeterminism-perl
+  libgcc-6-dev libitm1 liblsan0 libltdl-dev libmail-sendmail-perl libmpx2
+  libsigsegv2 libstdc++-6-dev libsys-hostname-long-perl libtool libtsan0
+  libubsan0 linux-libc-dev m4 make manpages-dev po-debconf swig swig3.0
+The following packages will be upgraded:
+  libc6
+1 upgraded, 51 newly installed, 0 to remove and 185 not upgraded.
+Need to get 33,4 MB/36,0 MB of archives.
+After this operation, 147 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libsigsegv2 amd64 2.10-5 [14,1 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 m4 amd64 1.4.18-1 [197 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 autoconf all 2.69-10 [321 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 autotools-dev all 20161112.1 [39,5 kB]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 automake all 1:1.15-5ubuntu1 [509 kB]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 autopoint all 0.19.8.1-1ubuntu2 [412 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 binutils amd64 2.28-3ubuntu1 [2 439 kB]
+Get:8 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 libc-dev-bin amd64 2.24-9ubuntu2.2 [68,6 kB]
+Get:9 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 linux-libc-dev amd64 4.10.0-35.39 [907 kB]
+Get:10 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 libc6-dev amd64 2.24-9ubuntu2.2 [2 276 kB]
+Get:11 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libcc1-0 amd64 6.3.0-12ubuntu2 [31,1 kB]
+Get:12 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libitm1 amd64 6.3.0-12ubuntu2 [28,0 kB]
+Get:13 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libatomic1 amd64 6.3.0-12ubuntu2 [9 168 B]
+Get:14 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libasan3 amd64 6.3.0-12ubuntu2 [315 kB]
+Get:15 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 liblsan0 amd64 6.3.0-12ubuntu2 [117 kB]
+Get:16 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libtsan0 amd64 6.3.0-12ubuntu2 [261 kB]
+Get:17 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libubsan0 amd64 6.3.0-12ubuntu2 [108 kB]
+Get:18 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libcilkrts5 amd64 6.3.0-12ubuntu2 [40,8 kB]
+Get:19 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libmpx2 amd64 6.3.0-12ubuntu2 [11,5 kB]
+Get:20 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgcc-6-dev amd64 6.3.0-12ubuntu2 [2 307 kB]
+Get:21 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 gcc-6 amd64 6.3.0-12ubuntu2 [7 209 kB]
+Get:22 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 gcc amd64 4:6.3.0-2ubuntu1 [5 188 B]
+Get:23 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libstdc++-6-dev amd64 6.3.0-12ubuntu2 [1 427 kB]
+Get:24 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 g++-6 amd64 6.3.0-12ubuntu2 [7 395 kB]
+Get:25 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 g++ amd64 4:6.3.0-2ubuntu1 [1 476 B]
+Get:26 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 make amd64 4.1-9.1 [154 kB]
+Get:27 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libdpkg-perl all 1.18.10ubuntu2 [202 kB]
+Get:28 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 dpkg-dev all 1.18.10ubuntu2 [651 kB]
+Get:29 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 build-essential amd64 12.1ubuntu2 [4 758 B]
+Get:30 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 chrpath amd64 0.16-2 [13,2 kB]
+Get:31 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libtool all 2.4.6-2 [194 kB]
+Get:32 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 dh-autoreconf all 13 [15,6 kB]
+Get:33 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libarchive-zip-perl all 1.59-1 [84,0 kB]
+Get:34 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfile-stripnondeterminism-perl all 0.032-1 [12,9 kB]
+Get:35 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 dh-strip-nondeterminism all 0.032-1 [4 894 B]
+Get:36 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 gettext amd64 0.19.8.1-1ubuntu2 [1 083 kB]
+Get:37 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 intltool-debian all 0.35.0+20060710.4 [24,9 kB]
+Get:38 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 po-debconf all 1.0.20 [232 kB]
+Get:39 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 debhelper all 10.2.2ubuntu1 [742 kB]
+Get:40 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfakeroot amd64 1.21-1ubuntu2 [25,9 kB]
+Get:41 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 fakeroot amd64 1.21-1ubuntu2 [62,2 kB]
+Get:42 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libalgorithm-diff-perl all 1.19.03-1 [47,6 kB]
+Get:43 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libalgorithm-diff-xs-perl amd64 0.04-4build2 [11,1 kB]
+Get:44 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libalgorithm-merge-perl all 0.08-3 [12,0 kB]
+Get:45 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfile-fcntllock-perl amd64 0.22-3build1 [33,1 kB]
+Get:46 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libltdl-dev amd64 2.4.6-2 [162 kB]
+Get:47 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libsys-hostname-long-perl all 1.5-1 [11,7 kB]
+Get:48 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libmail-sendmail-perl all 0.79.16-2 [22,3 kB]
+Get:49 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 manpages-dev all 4.09-2 [2 113 kB]
+Get:50 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 swig3.0 amd64 3.0.10-1.1 [1 073 kB]
+Get:51 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 swig amd64 3.0.10-1.1 [6 372 B]
+Preconfiguring packages ...
+Fetched 33,4 MB in 18s (1 772 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113273 files and directories currently installed.)
+Preparing to unpack .../libc6_2.24-9ubuntu2.2_amd64.deb ...
+Unpacking libc6:amd64 (2.24-9ubuntu2.2) over (2.24-9ubuntu2) ...
+Setting up libc6:amd64 (2.24-9ubuntu2.2) ...
+Selecting previously unselected package libsigsegv2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113273 files and directories currently installed.)
+Preparing to unpack .../00-libsigsegv2_2.10-5_amd64.deb ...
+Unpacking libsigsegv2:amd64 (2.10-5) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../01-m4_1.4.18-1_amd64.deb ...
+Unpacking m4 (1.4.18-1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../02-autoconf_2.69-10_all.deb ...
+Unpacking autoconf (2.69-10) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../03-autotools-dev_20161112.1_all.deb ...
+Unpacking autotools-dev (20161112.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../04-automake_1%3a1.15-5ubuntu1_all.deb ...
+Unpacking automake (1:1.15-5ubuntu1) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../05-autopoint_0.19.8.1-1ubuntu2_all.deb ...
+Unpacking autopoint (0.19.8.1-1ubuntu2) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../06-binutils_2.28-3ubuntu1_amd64.deb ...
+Unpacking binutils (2.28-3ubuntu1) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../07-libc-dev-bin_2.24-9ubuntu2.2_amd64.deb ...
+Unpacking libc-dev-bin (2.24-9ubuntu2.2) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../08-linux-libc-dev_4.10.0-35.39_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (4.10.0-35.39) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../09-libc6-dev_2.24-9ubuntu2.2_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.24-9ubuntu2.2) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../10-libcc1-0_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libcc1-0:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../11-libitm1_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libitm1:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../12-libatomic1_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libatomic1:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libasan3:amd64.
+Preparing to unpack .../13-libasan3_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libasan3:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../14-liblsan0_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking liblsan0:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../15-libtsan0_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libtsan0:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libubsan0:amd64.
+Preparing to unpack .../16-libubsan0_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libubsan0:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libcilkrts5:amd64.
+Preparing to unpack .../17-libcilkrts5_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libcilkrts5:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libmpx2:amd64.
+Preparing to unpack .../18-libmpx2_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libmpx2:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libgcc-6-dev:amd64.
+Preparing to unpack .../19-libgcc-6-dev_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libgcc-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package gcc-6.
+Preparing to unpack .../20-gcc-6_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking gcc-6 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../21-gcc_4%3a6.3.0-2ubuntu1_amd64.deb ...
+Unpacking gcc (4:6.3.0-2ubuntu1) ...
+Selecting previously unselected package libstdc++-6-dev:amd64.
+Preparing to unpack .../22-libstdc++-6-dev_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libstdc++-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package g++-6.
+Preparing to unpack .../23-g++-6_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking g++-6 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../24-g++_4%3a6.3.0-2ubuntu1_amd64.deb ...
+Unpacking g++ (4:6.3.0-2ubuntu1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../25-make_4.1-9.1_amd64.deb ...
+Unpacking make (4.1-9.1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../26-libdpkg-perl_1.18.10ubuntu2_all.deb ...
+Unpacking libdpkg-perl (1.18.10ubuntu2) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../27-dpkg-dev_1.18.10ubuntu2_all.deb ...
+Unpacking dpkg-dev (1.18.10ubuntu2) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../28-build-essential_12.1ubuntu2_amd64.deb ...
+Unpacking build-essential (12.1ubuntu2) ...
+Selecting previously unselected package chrpath.
+Preparing to unpack .../29-chrpath_0.16-2_amd64.deb ...
+Unpacking chrpath (0.16-2) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../30-libtool_2.4.6-2_all.deb ...
+Unpacking libtool (2.4.6-2) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../31-dh-autoreconf_13_all.deb ...
+Unpacking dh-autoreconf (13) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../32-libarchive-zip-perl_1.59-1_all.deb ...
+Unpacking libarchive-zip-perl (1.59-1) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../33-libfile-stripnondeterminism-perl_0.032-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (0.032-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../34-dh-strip-nondeterminism_0.032-1_all.deb ...
+Unpacking dh-strip-nondeterminism (0.032-1) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../35-gettext_0.19.8.1-1ubuntu2_amd64.deb ...
+Unpacking gettext (0.19.8.1-1ubuntu2) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../36-intltool-debian_0.35.0+20060710.4_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.4) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../37-po-debconf_1.0.20_all.deb ...
+Unpacking po-debconf (1.0.20) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../38-debhelper_10.2.2ubuntu1_all.deb ...
+Unpacking debhelper (10.2.2ubuntu1) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../39-libfakeroot_1.21-1ubuntu2_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.21-1ubuntu2) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../40-fakeroot_1.21-1ubuntu2_amd64.deb ...
+Unpacking fakeroot (1.21-1ubuntu2) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../41-libalgorithm-diff-perl_1.19.03-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.03-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../42-libalgorithm-diff-xs-perl_0.04-4build2_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-4build2) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../43-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../44-libfile-fcntllock-perl_0.22-3build1_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3build1) ...
+Selecting previously unselected package libltdl-dev:amd64.
+Preparing to unpack .../45-libltdl-dev_2.4.6-2_amd64.deb ...
+Unpacking libltdl-dev:amd64 (2.4.6-2) ...
+Selecting previously unselected package libsys-hostname-long-perl.
+Preparing to unpack .../46-libsys-hostname-long-perl_1.5-1_all.deb ...
+Unpacking libsys-hostname-long-perl (1.5-1) ...
+Selecting previously unselected package libmail-sendmail-perl.
+Preparing to unpack .../47-libmail-sendmail-perl_0.79.16-2_all.deb ...
+Unpacking libmail-sendmail-perl (0.79.16-2) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../48-manpages-dev_4.09-2_all.deb ...
+Unpacking manpages-dev (4.09-2) ...
+Selecting previously unselected package swig3.0.
+Preparing to unpack .../49-swig3.0_3.0.10-1.1_amd64.deb ...
+Unpacking swig3.0 (3.0.10-1.1) ...
+Selecting previously unselected package swig.
+Preparing to unpack .../50-swig_3.0.10-1.1_amd64.deb ...
+Unpacking swig (3.0.10-1.1) ...
+Setting up chrpath (0.16-2) ...
+Setting up libatomic1:amd64 (6.3.0-12ubuntu2) ...
+Setting up libcc1-0:amd64 (6.3.0-12ubuntu2) ...
+Setting up make (4.1-9.1) ...
+Setting up libasan3:amd64 (6.3.0-12ubuntu2) ...
+Setting up libarchive-zip-perl (1.59-1) ...
+Setting up swig3.0 (3.0.10-1.1) ...
+Setting up libltdl-dev:amd64 (2.4.6-2) ...
+Setting up gettext (0.19.8.1-1ubuntu2) ...
+Setting up libsigsegv2:amd64 (2.10-5) ...
+Setting up libcilkrts5:amd64 (6.3.0-12ubuntu2) ...
+Processing triggers for install-info (6.3.0.dfsg.1-1) ...
+Setting up libubsan0:amd64 (6.3.0-12ubuntu2) ...
+Setting up libtsan0:amd64 (6.3.0-12ubuntu2) ...
+Setting up linux-libc-dev:amd64 (4.10.0-35.39) ...
+Setting up libdpkg-perl (1.18.10ubuntu2) ...
+Setting up m4 (1.4.18-1) ...
+Setting up liblsan0:amd64 (6.3.0-12ubuntu2) ...
+Setting up libsys-hostname-long-perl (1.5-1) ...
+Setting up libfile-fcntllock-perl (0.22-3build1) ...
+Setting up intltool-debian (0.35.0+20060710.4) ...
+Setting up libmpx2:amd64 (6.3.0-12ubuntu2) ...
+Setting up libmail-sendmail-perl (0.79.16-2) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up autotools-dev (20161112.1) ...
+Setting up libfakeroot:amd64 (1.21-1ubuntu2) ...
+Setting up libalgorithm-diff-perl (1.19.03-1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up binutils (2.28-3ubuntu1) ...
+Setting up libc-dev-bin (2.24-9ubuntu2.2) ...
+Setting up manpages-dev (4.09-2) ...
+Setting up libc6-dev:amd64 (2.24-9ubuntu2.2) ...
+Setting up libitm1:amd64 (6.3.0-12ubuntu2) ...
+Setting up autopoint (0.19.8.1-1ubuntu2) ...
+Setting up libfile-stripnondeterminism-perl (0.032-1) ...
+Setting up swig (3.0.10-1.1) ...
+Setting up libgcc-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Setting up libstdc++-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Setting up po-debconf (1.0.20) ...
+Setting up autoconf (2.69-10) ...
+Setting up fakeroot (1.21-1ubuntu2) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up gcc-6 (6.3.0-12ubuntu2) ...
+Setting up g++-6 (6.3.0-12ubuntu2) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up dpkg-dev (1.18.10ubuntu2) ...
+Setting up libalgorithm-diff-xs-perl (0.04-4build2) ...
+Setting up automake (1:1.15-5ubuntu1) ...
+update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+Setting up libtool (2.4.6-2) ...
+Setting up gcc (4:6.3.0-2ubuntu1) ...
+Setting up g++ (4:6.3.0-2ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up build-essential (12.1ubuntu2) ...
+Setting up dh-autoreconf (13) ...
+Setting up debhelper (10.2.2ubuntu1) ...
+Setting up dh-strip-nondeterminism (0.032-1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.11.0-2ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 185 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  git-core
+0 upgraded, 1 newly installed, 0 to remove and 185 not upgraded.
+Need to get 1 458 B of archives.
+After this operation, 8 192 B of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 git-core all 1:2.11.0-2ubuntu0.3 [1 458 B]
+Fetched 1 458 B in 0s (5 262 B/s)
+Selecting previously unselected package git-core.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120420 files and directories currently installed.)
+Preparing to unpack .../git-core_1%3a2.11.0-2ubuntu0.3_all.deb ...
+Unpacking git-core (1:2.11.0-2ubuntu0.3) ...
+Setting up git-core (1:2.11.0-2ubuntu0.3) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autotools-dev is already the newest version (20161112.1).
+autotools-dev set to manually installed.
+g++ is already the newest version (4:6.3.0-2ubuntu1).
+g++ set to manually installed.
+The following additional packages will be installed:
+  gfortran-6 libgfortran-6-dev libgfortran3
+Suggested packages:
+  gfortran-multilib gfortran-doc gfortran-6-multilib gfortran-6-doc
+  libgfortran3-dbg libcoarrays-dev
+The following NEW packages will be installed:
+  gfortran gfortran-6 libgfortran-6-dev libgfortran3
+0 upgraded, 4 newly installed, 0 to remove and 185 not upgraded.
+Need to get 7 529 kB of archives.
+After this operation, 28,5 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgfortran3 amd64 6.3.0-12ubuntu2 [270 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgfortran-6-dev amd64 6.3.0-12ubuntu2 [303 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 gfortran-6 amd64 6.3.0-12ubuntu2 [6 954 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 gfortran amd64 4:6.3.0-2ubuntu1 [1 272 B]
+Fetched 7 529 kB in 2s (2 553 kB/s)
+Selecting previously unselected package libgfortran3:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120421 files and directories currently installed.)
+Preparing to unpack .../libgfortran3_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libgfortran3:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package libgfortran-6-dev:amd64.
+Preparing to unpack .../libgfortran-6-dev_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking libgfortran-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package gfortran-6.
+Preparing to unpack .../gfortran-6_6.3.0-12ubuntu2_amd64.deb ...
+Unpacking gfortran-6 (6.3.0-12ubuntu2) ...
+Selecting previously unselected package gfortran.
+Preparing to unpack .../gfortran_4%3a6.3.0-2ubuntu1_amd64.deb ...
+Unpacking gfortran (4:6.3.0-2ubuntu1) ...
+Setting up libgfortran3:amd64 (6.3.0-12ubuntu2) ...
+Setting up libgfortran-6-dev:amd64 (6.3.0-12ubuntu2) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up gfortran-6 (6.3.0-12ubuntu2) ...
+Setting up gfortran (4:6.3.0-2ubuntu1) ...
+update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f95 (f95) in auto mode
+update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in auto mode
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  hdf5-tools libaec0 libhdf4-0 libhdf5-100 libmatheval1 libsz2
+Suggested packages:
+  octave libhdf4-doc libhdf4-dev hdf4-tools
+The following NEW packages will be installed:
+  h5utils hdf5-tools libaec0 libhdf4-0 libhdf5-100 libmatheval1 libsz2
+0 upgraded, 7 newly installed, 0 to remove and 185 not upgraded.
+Need to get 2 045 kB of archives.
+After this operation, 7 834 kB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhdf4-0 amd64 4.2.12-1 [303 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libaec0 amd64 0.3.2-1 [18,0 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libsz2 amd64 0.3.2-1 [5 048 B]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhdf5-100 amd64 1.10.0-patch1+docs-3 [1 250 kB]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libmatheval1 amd64 1.1.11+dfsg-3 [21,1 kB]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 h5utils amd64 1.12.1-6build1 [65,1 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 hdf5-tools amd64 1.10.0-patch1+docs-3 [383 kB]
+Fetched 2 045 kB in 0s (2 152 kB/s)
+Selecting previously unselected package libhdf4-0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120454 files and directories currently installed.)
+Preparing to unpack .../0-libhdf4-0_4.2.12-1_amd64.deb ...
+Unpacking libhdf4-0 (4.2.12-1) ...
+Selecting previously unselected package libaec0:amd64.
+Preparing to unpack .../1-libaec0_0.3.2-1_amd64.deb ...
+Unpacking libaec0:amd64 (0.3.2-1) ...
+Selecting previously unselected package libsz2:amd64.
+Preparing to unpack .../2-libsz2_0.3.2-1_amd64.deb ...
+Unpacking libsz2:amd64 (0.3.2-1) ...
+Selecting previously unselected package libhdf5-100:amd64.
+Preparing to unpack .../3-libhdf5-100_1.10.0-patch1+docs-3_amd64.deb ...
+Unpacking libhdf5-100:amd64 (1.10.0-patch1+docs-3) ...
+Selecting previously unselected package libmatheval1:amd64.
+Preparing to unpack .../4-libmatheval1_1.1.11+dfsg-3_amd64.deb ...
+Unpacking libmatheval1:amd64 (1.1.11+dfsg-3) ...
+Selecting previously unselected package h5utils.
+Preparing to unpack .../5-h5utils_1.12.1-6build1_amd64.deb ...
+Unpacking h5utils (1.12.1-6build1) ...
+Selecting previously unselected package hdf5-tools.
+Preparing to unpack .../6-hdf5-tools_1.10.0-patch1+docs-3_amd64.deb ...
+Unpacking hdf5-tools (1.10.0-patch1+docs-3) ...
+Setting up libaec0:amd64 (0.3.2-1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up libhdf4-0 (4.2.12-1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libmatheval1:amd64 (1.1.11+dfsg-3) ...
+Setting up libsz2:amd64 (0.3.2-1) ...
+Setting up libhdf5-100:amd64 (1.10.0-patch1+docs-3) ...
+Setting up hdf5-tools (1.10.0-patch1+docs-3) ...
+Setting up h5utils (1.12.1-6build1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libatlas-dev libatlas3-base libblas-common libblas-dev libblas3 libfftw3-bin
+  libfftw3-long3 libfftw3-quad3 liblapack3
+Suggested packages:
+  libblas-doc liblapack-doc liblapack-doc-man libfftw3-doc
+The following NEW packages will be installed:
+  libatlas-base-dev libatlas-dev libatlas3-base libblas-common libblas-dev
+  libblas3 libfftw3-bin libfftw3-dev libfftw3-long3 libfftw3-quad3 libgsl-dev
+  liblapack-dev liblapack3
+The following packages will be upgraded:
+  imagemagick
+1 upgraded, 13 newly installed, 0 to remove and 184 not upgraded.
+Need to get 15,0 MB/15,0 MB of archives.
+After this operation, 87,2 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libblas-common amd64 3.7.0-1 [5 696 B]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libatlas3-base amd64 3.10.3-1ubuntu1 [2 834 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libblas3 amd64 3.7.0-1 [144 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libblas-dev amd64 3.7.0-1 [7 668 B]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libatlas-dev amd64 3.10.3-1ubuntu1 [21,8 kB]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libatlas-base-dev amd64 3.10.3-1ubuntu1 [3 680 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfftw3-long3 amd64 3.3.5-3 [308 kB]
+Get:8 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfftw3-quad3 amd64 3.3.5-3 [549 kB]
+Get:9 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfftw3-bin amd64 3.3.5-3 [31,8 kB]
+Get:10 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libfftw3-dev amd64 3.3.5-3 [2 123 kB]
+Get:11 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgsl-dev amd64 2.3+dfsg-1 [993 kB]
+Get:12 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 liblapack3 amd64 3.7.0-1 [2 129 kB]
+Get:13 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 liblapack-dev amd64 3.7.0-1 [2 158 kB]
+Fetched 15,0 MB in 4s (3 006 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120576 files and directories currently installed.)
+Preparing to unpack .../00-imagemagick_8%3a6.9.7.4+dfsg-3ubuntu1.2_amd64.deb ...
+Unpacking imagemagick (8:6.9.7.4+dfsg-3ubuntu1.2) over (8:6.9.7.4+dfsg-3ubuntu1) ...
+Selecting previously unselected package libblas-common.
+Preparing to unpack .../01-libblas-common_3.7.0-1_amd64.deb ...
+Unpacking libblas-common (3.7.0-1) ...
+Selecting previously unselected package libatlas3-base.
+Preparing to unpack .../02-libatlas3-base_3.10.3-1ubuntu1_amd64.deb ...
+Unpacking libatlas3-base (3.10.3-1ubuntu1) ...
+Selecting previously unselected package libblas3.
+Preparing to unpack .../03-libblas3_3.7.0-1_amd64.deb ...
+Unpacking libblas3 (3.7.0-1) ...
+Selecting previously unselected package libblas-dev.
+Preparing to unpack .../04-libblas-dev_3.7.0-1_amd64.deb ...
+Unpacking libblas-dev (3.7.0-1) ...
+Selecting previously unselected package libatlas-dev.
+Preparing to unpack .../05-libatlas-dev_3.10.3-1ubuntu1_amd64.deb ...
+Unpacking libatlas-dev (3.10.3-1ubuntu1) ...
+Selecting previously unselected package libatlas-base-dev.
+Preparing to unpack .../06-libatlas-base-dev_3.10.3-1ubuntu1_amd64.deb ...
+Unpacking libatlas-base-dev (3.10.3-1ubuntu1) ...
+Selecting previously unselected package libfftw3-long3:amd64.
+Preparing to unpack .../07-libfftw3-long3_3.3.5-3_amd64.deb ...
+Unpacking libfftw3-long3:amd64 (3.3.5-3) ...
+Selecting previously unselected package libfftw3-quad3:amd64.
+Preparing to unpack .../08-libfftw3-quad3_3.3.5-3_amd64.deb ...
+Unpacking libfftw3-quad3:amd64 (3.3.5-3) ...
+Selecting previously unselected package libfftw3-bin.
+Preparing to unpack .../09-libfftw3-bin_3.3.5-3_amd64.deb ...
+Unpacking libfftw3-bin (3.3.5-3) ...
+Selecting previously unselected package libfftw3-dev:amd64.
+Preparing to unpack .../10-libfftw3-dev_3.3.5-3_amd64.deb ...
+Unpacking libfftw3-dev:amd64 (3.3.5-3) ...
+Selecting previously unselected package libgsl-dev.
+Preparing to unpack .../11-libgsl-dev_2.3+dfsg-1_amd64.deb ...
+Unpacking libgsl-dev (2.3+dfsg-1) ...
+Selecting previously unselected package liblapack3.
+Preparing to unpack .../12-liblapack3_3.7.0-1_amd64.deb ...
+Unpacking liblapack3 (3.7.0-1) ...
+Selecting previously unselected package liblapack-dev.
+Preparing to unpack .../13-liblapack-dev_3.7.0-1_amd64.deb ...
+Unpacking liblapack-dev (3.7.0-1) ...
+Setting up libgsl-dev (2.3+dfsg-1) ...
+Setting up libblas-common (3.7.0-1) ...
+Setting up libfftw3-quad3:amd64 (3.3.5-3) ...
+Setting up libblas3 (3.7.0-1) ...
+update-alternatives: using /usr/lib/libblas/libblas.so.3 to provide /usr/lib/libblas.so.3 (libblas.so.3) in auto mode
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up imagemagick (8:6.9.7.4+dfsg-3ubuntu1.2) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libfftw3-long3:amd64 (3.3.5-3) ...
+Setting up libatlas3-base (3.10.3-1ubuntu1) ...
+update-alternatives: using /usr/lib/atlas-base/atlas/libblas.so.3 to provide /usr/lib/libblas.so.3 (libblas.so.3) in auto mode
+update-alternatives: using /usr/lib/atlas-base/atlas/liblapack.so.3 to provide /usr/lib/liblapack.so.3 (liblapack.so.3) in auto mode
+Setting up libfftw3-bin (3.3.5-3) ...
+Setting up libblas-dev (3.7.0-1) ...
+update-alternatives: using /usr/lib/libblas/libblas.so to provide /usr/lib/libblas.so (libblas.so) in auto mode
+Setting up liblapack3 (3.7.0-1) ...
+Setting up libfftw3-dev:amd64 (3.3.5-3) ...
+Setting up libatlas-dev (3.10.3-1ubuntu1) ...
+Setting up liblapack-dev (3.7.0-1) ...
+update-alternatives: using /usr/lib/lapack/liblapack.so to provide /usr/lib/liblapack.so (liblapack.so) in auto mode
+Setting up libatlas-base-dev (3.10.3-1ubuntu1) ...
+update-alternatives: using /usr/lib/atlas-base/atlas/libblas.so to provide /usr/lib/libblas.so (libblas.so) in auto mode
+update-alternatives: using /usr/lib/atlas-base/atlas/liblapack.so to provide /usr/lib/liblapack.so (liblapack.so) in auto mode
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libharminv3
+The following NEW packages will be installed:
+  libharminv-dev libharminv3 pkg-config
+0 upgraded, 3 newly installed, 0 to remove and 184 not upgraded.
+Need to get 62,1 kB of archives.
+After this operation, 280 kB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libharminv3 amd64 1.4-1 [14,1 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libharminv-dev amd64 1.4-1 [2 998 B]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 pkg-config amd64 0.29.1-0ubuntu1 [45,0 kB]
+Fetched 62,1 kB in 0s (345 kB/s)
+Selecting previously unselected package libharminv3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121156 files and directories currently installed.)
+Preparing to unpack .../libharminv3_1.4-1_amd64.deb ...
+Unpacking libharminv3 (1.4-1) ...
+Selecting previously unselected package libharminv-dev.
+Preparing to unpack .../libharminv-dev_1.4-1_amd64.deb ...
+Unpacking libharminv-dev (1.4-1) ...
+Selecting previously unselected package pkg-config.
+Preparing to unpack .../pkg-config_0.29.1-0ubuntu1_amd64.deb ...
+Unpacking pkg-config (0.29.1-0ubuntu1) ...
+Setting up libharminv3 (1.4-1) ...
+Setting up libharminv-dev (1.4-1) ...
+Setting up pkg-config (0.29.1-0ubuntu1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  zlib1g-dev
+0 upgraded, 1 newly installed, 0 to remove and 184 not upgraded.
+Need to get 173 kB of archives.
+After this operation, 443 kB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-0ubuntu1 [173 kB]
+Fetched 173 kB in 0s (784 kB/s)
+Selecting previously unselected package zlib1g-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121182 files and directories currently installed.)
+Preparing to unpack .../zlib1g-dev_1%3a1.2.11.dfsg-0ubuntu1_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  guile-2.0 guile-2.0-libs libgc-dev libgc1c2 libgmp-dev libgmpxx4ldbl
+  libncurses5-dev libreadline-dev libtinfo-dev
+Suggested packages:
+  guile-2.0-doc gmp-doc libgmp10-doc libmpfr-dev ncurses-doc readline-doc
+The following NEW packages will be installed:
+  guile-2.0 guile-2.0-dev guile-2.0-libs libgc-dev libgc1c2 libgmp-dev
+  libgmpxx4ldbl libncurses5-dev libreadline-dev libtinfo-dev
+0 upgraded, 10 newly installed, 0 to remove and 184 not upgraded.
+Need to get 3 935 kB of archives.
+After this operation, 22,2 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgc1c2 amd64 1:7.4.2-8ubuntu1 [81,8 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 guile-2.0-libs amd64 2.0.13+1-4 [2 222 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 guile-2.0 amd64 2.0.13+1-4 [6 484 B]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libtinfo-dev amd64 6.0+20160625-1ubuntu1 [78,9 kB]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libncurses5-dev amd64 6.0+20160625-1ubuntu1 [176 kB]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libreadline-dev amd64 7.0-0ubuntu2 [132 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgmpxx4ldbl amd64 2:6.1.2+dfsg-1 [8 878 B]
+Get:8 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgmp-dev amd64 2:6.1.2+dfsg-1 [316 kB]
+Get:9 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libgc-dev amd64 1:7.4.2-8ubuntu1 [224 kB]
+Get:10 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 guile-2.0-dev amd64 2.0.13+1-4 [688 kB]
+Fetched 3 935 kB in 1s (2 755 kB/s)
+Selecting previously unselected package libgc1c2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121210 files and directories currently installed.)
+Preparing to unpack .../0-libgc1c2_1%3a7.4.2-8ubuntu1_amd64.deb ...
+Unpacking libgc1c2:amd64 (1:7.4.2-8ubuntu1) ...
+Selecting previously unselected package guile-2.0-libs:amd64.
+Preparing to unpack .../1-guile-2.0-libs_2.0.13+1-4_amd64.deb ...
+Unpacking guile-2.0-libs:amd64 (2.0.13+1-4) ...
+Selecting previously unselected package guile-2.0.
+Preparing to unpack .../2-guile-2.0_2.0.13+1-4_amd64.deb ...
+Unpacking guile-2.0 (2.0.13+1-4) ...
+Selecting previously unselected package libtinfo-dev:amd64.
+Preparing to unpack .../3-libtinfo-dev_6.0+20160625-1ubuntu1_amd64.deb ...
+Unpacking libtinfo-dev:amd64 (6.0+20160625-1ubuntu1) ...
+Selecting previously unselected package libncurses5-dev:amd64.
+Preparing to unpack .../4-libncurses5-dev_6.0+20160625-1ubuntu1_amd64.deb ...
+Unpacking libncurses5-dev:amd64 (6.0+20160625-1ubuntu1) ...
+Selecting previously unselected package libreadline-dev:amd64.
+Preparing to unpack .../5-libreadline-dev_7.0-0ubuntu2_amd64.deb ...
+Unpacking libreadline-dev:amd64 (7.0-0ubuntu2) ...
+Selecting previously unselected package libgmpxx4ldbl:amd64.
+Preparing to unpack .../6-libgmpxx4ldbl_2%3a6.1.2+dfsg-1_amd64.deb ...
+Unpacking libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-1) ...
+Selecting previously unselected package libgmp-dev:amd64.
+Preparing to unpack .../7-libgmp-dev_2%3a6.1.2+dfsg-1_amd64.deb ...
+Unpacking libgmp-dev:amd64 (2:6.1.2+dfsg-1) ...
+Selecting previously unselected package libgc-dev:amd64.
+Preparing to unpack .../8-libgc-dev_1%3a7.4.2-8ubuntu1_amd64.deb ...
+Unpacking libgc-dev:amd64 (1:7.4.2-8ubuntu1) ...
+Selecting previously unselected package guile-2.0-dev.
+Preparing to unpack .../9-guile-2.0-dev_2.0.13+1-4_amd64.deb ...
+Unpacking guile-2.0-dev (2.0.13+1-4) ...
+Processing triggers for install-info (6.3.0.dfsg.1-1) ...
+Setting up libtinfo-dev:amd64 (6.0+20160625-1ubuntu1) ...
+Setting up libgc1c2:amd64 (1:7.4.2-8ubuntu1) ...
+Setting up libncurses5-dev:amd64 (6.0+20160625-1ubuntu1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up guile-2.0-libs:amd64 (2.0.13+1-4) ...
+Setting up libreadline-dev:amd64 (7.0-0ubuntu2) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-1) ...
+Setting up guile-2.0 (2.0.13+1-4) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/guile-2.0/bin/guile to provide /usr/bin/guile (guile) in auto mode
+Setting up libgmp-dev:amd64 (2:6.1.2+dfsg-1) ...
+Setting up libgc-dev:amd64 (1:7.4.2-8ubuntu1) ...
+Setting up guile-2.0-dev (2.0.13+1-4) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libaec-dev libfabric1 libhdf5-openmpi-100 libhwloc-dev libhwloc-plugins
+  libhwloc5 libibverbs-dev libibverbs1 libjpeg-dev libjpeg-turbo8-dev
+  libjpeg8-dev libnl-3-200 libnl-genl-3-200 libnl-route-3-200 libnuma-dev
+  libopenmpi2 libpsm-infinipath1 librdmacm1 ocl-icd-libopencl1 openmpi-common
+Suggested packages:
+  libhdf5-doc libhwloc-contrib-plugins openmpi-doc opencl-icd
+The following NEW packages will be installed:
+  libaec-dev libfabric1 libhdf5-openmpi-100 libhdf5-openmpi-dev libhwloc-dev
+  libhwloc-plugins libhwloc5 libibverbs-dev libibverbs1 libjpeg-dev
+  libjpeg-turbo8-dev libjpeg8-dev libnl-route-3-200 libnuma-dev libopenmpi-dev
+  libopenmpi2 libpsm-infinipath1 librdmacm1 ocl-icd-libopencl1 openmpi-bin
+  openmpi-common
+The following packages will be upgraded:
+  libnl-3-200 libnl-genl-3-200
+2 upgraded, 21 newly installed, 0 to remove and 182 not upgraded.
+Need to get 8 114 kB/8 178 kB of archives.
+After this operation, 33,5 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 libnl-route-3-200 amd64 3.2.29-0ubuntu2.1 [146 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libibverbs1 amd64 1.2.1-2ubuntu1 [30,8 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libpsm-infinipath1 amd64 3.3+19.g67c0807.open-3 [170 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 librdmacm1 amd64 1.1.0-2 [48,9 kB]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libfabric1 amd64 1.4.0-1 [259 kB]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libjpeg-turbo8-dev amd64 1.5.1-0ubuntu1 [260 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libjpeg8-dev amd64 8c-2ubuntu8 [1 552 B]
+Get:8 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libjpeg-dev amd64 8c-2ubuntu8 [1 546 B]
+Get:9 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhwloc5 amd64 1.11.5-1 [101 kB]
+Get:10 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 ocl-icd-libopencl1 amd64 2.2.11-1ubuntu1 [30,3 kB]
+Get:11 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhwloc-plugins amd64 1.11.5-1 [12,2 kB]
+Get:12 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libopenmpi2 amd64 2.0.2-2 [1 982 kB]
+Get:13 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 openmpi-common all 2.0.2-2 [136 kB]
+Get:14 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 openmpi-bin amd64 2.0.2-2 [85,0 kB]
+Get:15 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libaec-dev amd64 0.3.2-1 [16,6 kB]
+Get:16 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhdf5-openmpi-100 amd64 1.10.0-patch1+docs-3 [1 283 kB]
+Get:17 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libibverbs-dev amd64 1.2.1-2ubuntu1 [97,5 kB]
+Get:18 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libnuma-dev amd64 2.0.11-1ubuntu2 [32,1 kB]
+Get:19 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhwloc-dev amd64 1.11.5-1 [163 kB]
+Get:20 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libopenmpi-dev amd64 2.0.2-2 [913 kB]
+Get:21 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libhdf5-openmpi-dev amd64 1.10.0-patch1+docs-3 [2 344 kB]
+Fetched 8 114 kB in 3s (2 639 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 122179 files and directories currently installed.)
+Preparing to unpack .../00-libnl-genl-3-200_3.2.29-0ubuntu2.1_amd64.deb ...
+Unpacking libnl-genl-3-200:amd64 (3.2.29-0ubuntu2.1) over (3.2.29-0ubuntu2) ...
+Preparing to unpack .../01-libnl-3-200_3.2.29-0ubuntu2.1_amd64.deb ...
+Unpacking libnl-3-200:amd64 (3.2.29-0ubuntu2.1) over (3.2.29-0ubuntu2) ...
+Selecting previously unselected package libnl-route-3-200:amd64.
+Preparing to unpack .../02-libnl-route-3-200_3.2.29-0ubuntu2.1_amd64.deb ...
+Unpacking libnl-route-3-200:amd64 (3.2.29-0ubuntu2.1) ...
+Selecting previously unselected package libibverbs1.
+Preparing to unpack .../03-libibverbs1_1.2.1-2ubuntu1_amd64.deb ...
+Unpacking libibverbs1 (1.2.1-2ubuntu1) ...
+Selecting previously unselected package libpsm-infinipath1.
+Preparing to unpack .../04-libpsm-infinipath1_3.3+19.g67c0807.open-3_amd64.deb ...
+Unpacking libpsm-infinipath1 (3.3+19.g67c0807.open-3) ...
+Selecting previously unselected package librdmacm1.
+Preparing to unpack .../05-librdmacm1_1.1.0-2_amd64.deb ...
+Unpacking librdmacm1 (1.1.0-2) ...
+Selecting previously unselected package libfabric1.
+Preparing to unpack .../06-libfabric1_1.4.0-1_amd64.deb ...
+Unpacking libfabric1 (1.4.0-1) ...
+Selecting previously unselected package libjpeg-turbo8-dev:amd64.
+Preparing to unpack .../07-libjpeg-turbo8-dev_1.5.1-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8-dev:amd64 (1.5.1-0ubuntu1) ...
+Selecting previously unselected package libjpeg8-dev:amd64.
+Preparing to unpack .../08-libjpeg8-dev_8c-2ubuntu8_amd64.deb ...
+Unpacking libjpeg8-dev:amd64 (8c-2ubuntu8) ...
+Selecting previously unselected package libjpeg-dev:amd64.
+Preparing to unpack .../09-libjpeg-dev_8c-2ubuntu8_amd64.deb ...
+Unpacking libjpeg-dev:amd64 (8c-2ubuntu8) ...
+Selecting previously unselected package libhwloc5:amd64.
+Preparing to unpack .../10-libhwloc5_1.11.5-1_amd64.deb ...
+Unpacking libhwloc5:amd64 (1.11.5-1) ...
+Selecting previously unselected package ocl-icd-libopencl1:amd64.
+Preparing to unpack .../11-ocl-icd-libopencl1_2.2.11-1ubuntu1_amd64.deb ...
+Unpacking ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+Selecting previously unselected package libhwloc-plugins.
+Preparing to unpack .../12-libhwloc-plugins_1.11.5-1_amd64.deb ...
+Unpacking libhwloc-plugins (1.11.5-1) ...
+Selecting previously unselected package libopenmpi2:amd64.
+Preparing to unpack .../13-libopenmpi2_2.0.2-2_amd64.deb ...
+Unpacking libopenmpi2:amd64 (2.0.2-2) ...
+Selecting previously unselected package openmpi-common.
+Preparing to unpack .../14-openmpi-common_2.0.2-2_all.deb ...
+Unpacking openmpi-common (2.0.2-2) ...
+Selecting previously unselected package openmpi-bin.
+Preparing to unpack .../15-openmpi-bin_2.0.2-2_amd64.deb ...
+Unpacking openmpi-bin (2.0.2-2) ...
+Selecting previously unselected package libaec-dev:amd64.
+Preparing to unpack .../16-libaec-dev_0.3.2-1_amd64.deb ...
+Unpacking libaec-dev:amd64 (0.3.2-1) ...
+Selecting previously unselected package libhdf5-openmpi-100:amd64.
+Preparing to unpack .../17-libhdf5-openmpi-100_1.10.0-patch1+docs-3_amd64.deb ...
+Unpacking libhdf5-openmpi-100:amd64 (1.10.0-patch1+docs-3) ...
+Selecting previously unselected package libibverbs-dev.
+Preparing to unpack .../18-libibverbs-dev_1.2.1-2ubuntu1_amd64.deb ...
+Unpacking libibverbs-dev (1.2.1-2ubuntu1) ...
+Selecting previously unselected package libnuma-dev:amd64.
+Preparing to unpack .../19-libnuma-dev_2.0.11-1ubuntu2_amd64.deb ...
+Unpacking libnuma-dev:amd64 (2.0.11-1ubuntu2) ...
+Selecting previously unselected package libhwloc-dev:amd64.
+Preparing to unpack .../20-libhwloc-dev_1.11.5-1_amd64.deb ...
+Unpacking libhwloc-dev:amd64 (1.11.5-1) ...
+Selecting previously unselected package libopenmpi-dev.
+Preparing to unpack .../21-libopenmpi-dev_2.0.2-2_amd64.deb ...
+Unpacking libopenmpi-dev (2.0.2-2) ...
+Selecting previously unselected package libhdf5-openmpi-dev.
+Preparing to unpack .../22-libhdf5-openmpi-dev_1.10.0-patch1+docs-3_amd64.deb ...
+Unpacking libhdf5-openmpi-dev (1.10.0-patch1+docs-3) ...
+Setting up libaec-dev:amd64 (0.3.2-1) ...
+Setting up libhwloc5:amd64 (1.11.5-1) ...
+Setting up libpsm-infinipath1 (3.3+19.g67c0807.open-3) ...
+Setting up libjpeg-turbo8-dev:amd64 (1.5.1-0ubuntu1) ...
+Setting up libjpeg8-dev:amd64 (8c-2ubuntu8) ...
+Setting up openmpi-common (2.0.2-2) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up libjpeg-dev:amd64 (8c-2ubuntu8) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libnuma-dev:amd64 (2.0.11-1ubuntu2) ...
+Setting up ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+Setting up libnl-3-200:amd64 (3.2.29-0ubuntu2.1) ...
+Setting up libhwloc-dev:amd64 (1.11.5-1) ...
+Setting up libnl-genl-3-200:amd64 (3.2.29-0ubuntu2.1) ...
+Setting up libnl-route-3-200:amd64 (3.2.29-0ubuntu2.1) ...
+Setting up libhwloc-plugins (1.11.5-1) ...
+Setting up libibverbs1 (1.2.1-2ubuntu1) ...
+Setting up librdmacm1 (1.1.0-2) ...
+Setting up libibverbs-dev (1.2.1-2ubuntu1) ...
+Setting up libfabric1 (1.4.0-1) ...
+Setting up libopenmpi2:amd64 (2.0.2-2) ...
+Setting up libhdf5-openmpi-100:amd64 (1.10.0-patch1+docs-3) ...
+Setting up libopenmpi-dev (2.0.2-2) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/openmpi/include to provide /usr/include/mpi (mpi) in auto mode
+Setting up openmpi-bin (2.0.2-2) ...
+update-alternatives: using /usr/bin/mpirun.openmpi to provide /usr/bin/mpirun (mpirun) in auto mode
+Setting up libhdf5-openmpi-dev (1.10.0-patch1+docs-3) ...
+update-alternatives: using /usr/bin/h5pcc.openmpi to provide /usr/bin/h5pcc (h5pcc) in auto mode
+update-alternatives: using /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5-openmpi.pc to provide /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5.pc (hdf5.pc) in auto mode
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for indent... no
+checking for gindent... no
+checking for ANSI C header files... (cached) yes
+checking for guile... guile
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for modern non-gh interface... yes
+checking for gh_enter... no
+checking for gh_eval_str... no
+checking for gh_load... no
+checking for gh_bool2scm... no
+checking for gh_vector_ref... no
+checking for gh_list_ref... no
+checking for gh_length... no
+checking for scm_flush_all_ports... yes
+checking for scm_make_complex... yes
+checking for scm_c_make_rectangular... yes
+checking for scm_variable_set_x... yes
+checking for scm_c_lookup... yes
+checking for scm_c_make_vector... yes
+checking for scm_variable_ref... yes
+checking for SCM_COMPLEXP... yes
+checking whether gh_lookup works properly... no
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking if f77 supports -c -o file.o... (cached) yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from f77... -v
+checking for Fortran 77 libraries of f77...  -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -lgfortran -lm -lguile-2.0 -lgc -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for C complex keyword... complex
+checking for egrep... (cached) /bin/grep -E
+checking nlopt.h usability... no
+checking nlopt.h presence... no
+checking for nlopt.h... no
+checking for basename in -lgen... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating utils/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/example.scm
+config.status: creating utils/gen-ctl-io
+config.status: creating config.h
+config.status: creating src/ctl.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making all in src
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0  -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c -o ctl.lo ctl.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl.lo -MD -MP -MF .deps/ctl.Tpo -c ctl.c -o ctl.o
+mv -f .deps/ctl.Tpo .deps/ctl.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0  -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c -o subplex.lo subplex.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT subplex.lo -MD -MP -MF .deps/subplex.Tpo -c subplex.c -o subplex.o
+mv -f .deps/subplex.Tpo .deps/subplex.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0  -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c -o ctl-f77-glue.lo ctl-f77-glue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT ctl-f77-glue.lo -MD -MP -MF .deps/ctl-f77-glue.Tpo -c ctl-f77-glue.c -o ctl-f77-glue.o
+mv -f .deps/ctl-f77-glue.Tpo .deps/ctl-f77-glue.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0  -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c -o integrator.lo integrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT integrator.lo -MD -MP -MF .deps/integrator.Tpo -c integrator.c -o integrator.o
+mv -f .deps/integrator.Tpo .deps/integrator.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -pthread -I/usr/include/guile/2.0  -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c -o cintegrator.lo cintegrator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/guile/2.0 -g -O2 -MT cintegrator.lo -MD -MP -MF .deps/cintegrator.Tpo -c cintegrator.c -o cintegrator.o
+mv -f .deps/cintegrator.Tpo .deps/cintegrator.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 5:1:0  -o libctl.la -rpath /usr/local/lib ctl.lo subplex.lo ctl-f77-glue.lo integrator.lo cintegrator.lo  -lm -lguile-2.0 -lgc
+libtool: link: ar cru .libs/libctl.a  ctl.o subplex.o ctl-f77-glue.o integrator.o cintegrator.o
+libtool: link: ranlib .libs/libctl.a
+libtool: link: ( cd ".libs" && rm -f "libctl.la" && ln -s "../libctl.la" "libctl.la" )
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making all in utils
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c ./geom.scm ..
+sed 's,/.* Input variables .*/,@#include "geom-ctl-io-defaults.c"@#if 0@,;s,/.* Output variables .*/,#endif@,' ctl-io.c | tr '@' '\n' > geom-ctl-io.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h ./geom.scm ..
+cp -f ctl-io.h ctlgeom-types.h
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0  -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c -o geom.lo geom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom.lo -MD -MP -MF .deps/geom.Tpo -c geom.c -o geom.o
+mv -f .deps/geom.Tpo .deps/geom.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0  -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c -o geom-ctl-io.lo geom-ctl-io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -pthread -I/usr/include/guile/2.0 -g -O2 -MT geom-ctl-io.lo -MD -MP -MF .deps/geom-ctl-io.Tpo -c geom-ctl-io.c -o geom-ctl-io.o
+mv -f .deps/geom-ctl-io.Tpo .deps/geom-ctl-io.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 5:1:0 ../src/libctl.la  -o libctlgeom.la -rpath /usr/local/lib geom.lo geom-ctl-io.lo  -lm -lguile-2.0 -lgc
+libtool: link: ar cru .libs/libctlgeom.a  geom.o geom-ctl-io.o
+libtool: link: ranlib .libs/libctlgeom.a
+libtool: link: ( cd ".libs" && rm -f "libctlgeom.la" && ln -s "../libctlgeom.la" "libctlgeom.la" )
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src   -pthread -I/usr/include/guile/2.0  -g -O2 -MT geomtst.o -MD -MP -MF .deps/geomtst.Tpo -c -o geomtst.o geomtst.c
+mv -f .deps/geomtst.Tpo .deps/geomtst.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o geomtst geomtst.o libctlgeom.la ../src/libctl.la -lm -lguile-2.0 -lgc
+libtool: link: gcc -g -O2 -o geomtst geomtst.o  ./.libs/libctlgeom.a /home/dominecf/python-meep-install/libctl-3.2.1/src/.libs/libctl.a ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making all in examples
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./base/main.c main.c
+cp -f /home/dominecf/python-meep-install/libctl-3.2.1/./utils/geom.c geom.c
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --header -o ctl-io.h example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+/home/dominecf/python-meep-install/libctl-3.2.1/utils/gen-ctl-io --code -o ctl-io.c example.scm /home/dominecf/python-meep-install/libctl-3.2.1/.
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0  -g -O2 -MT example-example.o -MD -MP -MF .deps/example-example.Tpo -c -o example-example.o `test -f 'example.c' || echo './'`example.c
+mv -f .deps/example-example.Tpo .deps/example-example.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0  -g -O2 -MT example-main.o -MD -MP -MF .deps/example-main.Tpo -c -o example-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/example-main.Tpo .deps/example-main.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0  -g -O2 -MT example-geom.o -MD -MP -MF .deps/example-geom.Tpo -c -o example-geom.o `test -f 'geom.c' || echo './'`geom.c
+mv -f .deps/example-geom.Tpo .deps/example-geom.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DCTL_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/ctl.scm'"' -DINCLUDE_SCM='"'/home/dominecf/python-meep-install/libctl-3.2.1/./base/include.scm'"' -DSPEC_SCM='"'/usr/local/share/libctl/example.scm'"' -DVERSION_STRING='"'"example 3.2.1"'"' -I../utils -I../src -pthread -I/usr/include/guile/2.0  -g -O2 -MT example-ctl-io.o -MD -MP -MF .deps/example-ctl-io.Tpo -c -o example-ctl-io.o `test -f 'ctl-io.c' || echo './'`ctl-io.c
+mv -f .deps/example-ctl-io.Tpo .deps/example-ctl-io.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/libctl.la  -lm -lguile-2.0 -lgc
+libtool: link: gcc -g -O2 -o example example-example.o example-main.o example-geom.o example-ctl-io.o  ../src/.libs/libctl.a -lm -lguile-2.0 -lgc
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+Making install in src
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctl.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libctl.lai /usr/local/lib/libctl.la
+libtool: install: /usr/bin/install -c .libs/libctl.a /usr/local/lib/libctl.a
+libtool: install: chmod 644 /usr/local/lib/libctl.a
+libtool: install: ranlib /usr/local/lib/libctl.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctl.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/src'
+Making install in utils
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+test -z "/usr/local/bin" || /bin/mkdir -p "/usr/local/bin"
+ /usr/bin/install -c gen-ctl-io '/usr/local/bin'
+test -z "/usr/local/lib" || /bin/mkdir -p "/usr/local/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libctlgeom.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libctlgeom.lai /usr/local/lib/libctlgeom.la
+libtool: install: /usr/bin/install -c .libs/libctlgeom.a /usr/local/lib/libctlgeom.a
+libtool: install: chmod 644 /usr/local/lib/libctlgeom.a
+libtool: install: ranlib /usr/local/lib/libctlgeom.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctlgeom.h '/usr/local/include'
+test -z "/usr/local/share/man/man1" || /bin/mkdir -p "/usr/local/share/man/man1"
+ /usr/bin/install -c -m 644 gen-ctl-io.1 '/usr/local/share/man/man1'
+test -z "/usr/local/include" || /bin/mkdir -p "/usr/local/include"
+ /usr/bin/install -c -m 644 ctlgeom-types.h '/usr/local/include'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/utils'
+Making install in examples
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1/examples'
+make[1]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Entering directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/share/libctl" || /bin/mkdir -p "/usr/local/share/libctl"
+/bin/mkdir -p '/usr/local/share/libctl/utils'
+ /usr/bin/install -c -m 644  utils/ctl-io.scm utils/geom.c utils/geom.scm utils/nlopt-constants.scm utils/nlopt.c '/usr/local/share/libctl/utils'
+/bin/mkdir -p '/usr/local/share/libctl/base'
+ /usr/bin/install -c -m 644  base/class.scm base/ctl.scm base/extern-funcs.scm base/help.scm base/include.scm base/interaction.scm base/io-vars.scm base/math-utils.scm base/matrix3x3.scm base/simplex.scm base/utils.scm base/vector3.scm base/main.c '/usr/local/share/libctl/base'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/libctl-3.2.1'
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+libtoolize: putting auxiliary files in '.'.
+libtoolize: linking file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: linking file 'm4/libtool.m4'
+libtoolize: linking file 'm4/ltoptions.m4'
+libtoolize: linking file 'm4/ltsugar.m4'
+libtoolize: linking file 'm4/ltversion.m4'
+libtoolize: linking file 'm4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for mpic++... mpic++
+checking for MPI_Init... yes
+checking for mpi.h... yes
+checking for extra flag needed to combine stdio.h and mpi.h... none
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for C++ compiler vendor... gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... mpic++ -E
+checking for ld used by mpic++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for mpic++ option to produce PIC... -fPIC -DPIC
+checking if mpic++ PIC flag -fPIC -DPIC works... yes
+checking if mpic++ static flag -static works... no
+checking if mpic++ supports -c -o file.o... yes
+checking if mpic++ supports -c -o file.o... (cached) yes
+checking whether the mpic++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for latex2html... no
+checking for sin in -lm... yes
+checking for fftw_plan_dft_1d in -lfftw3... yes
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking if f77 supports -c -o file.o... (cached) yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking how to get verbose linking output from f77... -v
+checking for Fortran 77 libraries of f77...  -L/usr/lib/x86_64-linux-gnu/hdf5/openmpi -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -lfftw3 -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for ATL_xerbla in -latlas... yes
+checking for sgemm_ in -lf77blas... yes
+checking for cblas_dgemm in -lcblas... yes
+checking for cheev_... no
+checking for cheev_ in -llapack... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for harminv >= 1.1... yes
+checking HARMINV_CFLAGS... 
+checking HARMINV_LIBS... -lharminv
+checking mpb.h usability... no
+checking mpb.h presence... no
+checking for mpb.h... no
+checking for cblas_cgemm... yes
+checking for gsl_sf_bessel_Jn in -lgsl... yes
+checking for deflate in -lz... yes
+checking for H5Pcreate in -lhdf5... yes
+checking hdf5.h usability... yes
+checking hdf5.h presence... yes
+checking for hdf5.h... yes
+checking for H5Pset_mpi... no
+checking for H5Pset_fapl_mpio... yes
+checking for mpirun... mpirun
+checking for guile-config... guile-config
+checking if linking to guile works... yes
+checking libguile.h usability... yes
+checking libguile.h presence... yes
+checking for libguile.h... yes
+checking guile/gh.h usability... no
+checking guile/gh.h presence... no
+checking for guile/gh.h... no
+checking for scm_make_smob_type... yes
+checking for SCM_SMOB_PREDICATE... no
+checking for SCM_SMOB_DATA... no
+checking for SCM_NEWSMOB... no
+checking how to activate readline in Guile... ice-9 readline
+checking for libctl dir... /usr/local/share/libctl
+checking for gen-ctl-io... gen-ctl-io
+checking for ctl_get_vector3 in -lctl... yes
+checking ctl.h usability... yes
+checking ctl.h presence... yes
+checking for ctl.h... yes
+checking whether libctl version is at least 3.2.0... ok
+checking for libctl_quiet feature... yes
+checking for basename in -lgen... no
+checking for feenableexcept... yes
+checking whether feenableexcept declaration is usable... yes
+checking whether to catch and ignore SIGFPE signals... no
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for cblas_ddot... yes
+checking for cblas_daxpy... yes
+checking for jn... yes
+checking for C/C++ restrict keyword... __restrict
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating meep-pkgconfig
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating libctl/Makefile
+config.status: creating libctl/meep.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep'
+Making all in src
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+make sphere_quad
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+  CXX      sphere-quad.o
+  CXXLD    sphere_quad
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; ../src/sphere_quad) > sphere-quad.h
+(echo "/* This file was automatically generated --- DO NOT EDIT */"; echo; sed 's/LOOP_OVER/S1LOOP_OVER/g' ../src/step_generic.cpp | sed 's/step_curl/step_curl_stride1/' | sed 's/step_update_EDHB/step_update_EDHB_stride1/' | sed 's/step_beta/step_beta_stride1/') > step_generic_stride1.cpp
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+  CXX      anisotropic_averaging.lo
+  CXX      bands.lo
+  CXX      boundaries.lo
+  CXX      bicgstab.lo
+  CXX      casimir.lo
+  CXX      control_c.lo
+  CXX      cw_fields.lo
+  CXX      dft.lo
+  CXX      dft_ldos.lo
+  CXX      energy_and_flux.lo
+  CXX      fields.lo
+  CXX      loop_in_chunks.lo
+  CXX      grace.lo
+  CXX      h5fields.lo
+  CXX      h5file.lo
+  CXX      initialize.lo
+  CXX      integrate.lo
+  CXX      integrate2.lo
+  CXX      monitor.lo
+  CXX      mympi.lo
+  CXX      multilevel-atom.lo
+  CXX      near2far.lo
+  CXX      output_directory.lo
+  CXX      random.lo
+  CXX      sources.lo
+  CXX      step.lo
+  CXX      step_db.lo
+  CXX      stress.lo
+  CXX      structure.lo
+  CXX      susceptibility.lo
+  CXX      time.lo
+  CXX      update_eh.lo
+  CXX      mpb.lo
+  CXX      update_pols.lo
+  CXX      vec.lo
+  CXX      step_generic.lo
+  CXX      step_generic_stride1.lo
+  CXXLD    libmeep_mpi.la
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+Making all in libctl
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/libctl'
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; sed 's/^ *class \+\([A-Za-z_0-9:]*\)\( *\| *:[^{]*\){.*$/%rename(meep_\1) meep::\1;/' ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | grep "%rename" | sort -u; echo; grep -hv typedef ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/\(inline\|const\|extern\|static\) \+//g' | sed 's/^[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%rename(meep_\1) meep::\1;/' | grep "%rename" | sort -u; ) > meep_renames.i
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; for f in ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp; do egrep "^enum" $f | sed 's/enum \+\([A-Za-z_0-9:]\+\).*$/\1/g' | while read enum; do cat $f | tr -d '\n' | sed 's/.*enum \+'${enum}' *{\([^}]*\)}.*/\1/g' | sed 's/= *[0-9]\+//g' |tr -d ' \t' | tr ',' '\n' | sed 's/^.*$/'"%rename(meep_${enum}_\0) meep::\0;/g"; echo; done; done;) > meep_enum_renames.i
+(echo "// AUTOMATICALLY GENERATED -- DO NOT EDIT"; grep -h friend ../src/meep.hpp ../src/meep/vec.hpp ../src/meep/mympi.hpp | sed 's/^ *friend \+[A-Za-z_0-9:<>]\+[* ]\+\([A-Za-z_0-9:]*\) *(.*$/%ignore \1;/' | grep "%ignore" | sort -u;) > meep_swig_bug_workaround.i
+(sed 's/%rename(\([A-Za-z0-9_]*\)) *\([A-Za-z0-9:_]*\);$/(define \2 (\1))/' meep_enum_renames.i | sed 's/[A-Za-z0-9:_]*:://g' | sed 's/_/-/g' | sed 's,//,;,'; echo "(define Centered Dielectric)") > meep-enums.scm
+gen-ctl-io --cxx --swig -o ctl-io.i meep.scm /usr/local/share/libctl
+swig -I../src -c++ -guile -o meep_wrap.cxx meep.i
+patch -p0 meep_wrap.cxx < ./meep_wrap.patch
+patching file meep_wrap.cxx
+Hunk #1 succeeded at 778 (offset 27 lines).
+make  all-am
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/libctl'
+gen-ctl-io --cxx --header -o ctl-io.h meep.scm /usr/local/share/libctl
+  CXX      meep.o
+  CXX      structure.o
+  CXX      meep_wrap.o
+cp -f /usr/local/share/libctl/base/main.c main.cpp
+  CXX      main.o
+cp -f /usr/local/share/libctl/utils/geom.c geom.cpp
+  CXX      geom.o
+gen-ctl-io --cxx --code -o ctl-io.cpp meep.scm /usr/local/share/libctl
+  CXX      ctl-io.o
+  CXXLD    meep_mpi
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/libctl'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/libctl'
+Making all in tests
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/tests'
+Making all in examples
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/examples'
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep'
+cp -f ./meep-pkgconfig meep_mpi.pc
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep'
+Making install in src
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/src'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libmeep_mpi.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.so.8.0.0 /usr/local/lib/libmeep_mpi.so.8.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so.8 || { rm -f libmeep_mpi.so.8 && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so.8; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmeep_mpi.so.8.0.0 libmeep_mpi.so || { rm -f libmeep_mpi.so && ln -s libmeep_mpi.so.8.0.0 libmeep_mpi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.lai /usr/local/lib/libmeep_mpi.la
+libtool: install: /usr/bin/install -c .libs/libmeep_mpi.a /usr/local/lib/libmeep_mpi.a
+libtool: install: chmod 644 /usr/local/lib/libmeep_mpi.a
+libtool: install: ranlib /usr/local/lib/libmeep_mpi.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/include'
+ /usr/bin/install -c -m 644 meep.hpp '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/meep'
+ /usr/bin/install -c -m 644 meep/mympi.hpp meep/vec.hpp '/usr/local/include/meep'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep/src'
+Making install in libctl
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep/libctl'
+make  install-am
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/libctl'
+make[3]: Entering directory '/home/dominecf/python-meep-install/meep/libctl'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c meep_mpi '/usr/local/bin/./meep-mpi'
+libtool: install: /usr/bin/install -c .libs/meep_mpi /usr/local/bin/./meep-mpi
+ /bin/mkdir -p '/usr/local/share/meep'
+ /usr/bin/install -c -m 644 meep.scm meep-enums.scm casimir.scm '/usr/local/share/meep'
+make[3]: Leaving directory '/home/dominecf/python-meep-install/meep/libctl'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/libctl'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep/libctl'
+Making install in tests
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep/tests'
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/tests'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep/tests'
+Making install in examples
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep/examples'
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep/examples'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep/examples'
+make[1]: Entering directory '/home/dominecf/python-meep-install/meep'
+make[2]: Entering directory '/home/dominecf/python-meep-install/meep'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 meep_mpi.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory '/home/dominecf/python-meep-install/meep'
+make[1]: Leaving directory '/home/dominecf/python-meep-install/meep'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libpython2.7-stdlib is already the newest version (2.7.13-2).
+The following additional packages will be installed:
+  blt fonts-lyx javascript-common libexpat1 libexpat1-dev libglade2-0
+  libjs-jquery-ui libpython-dev libpython2.7-dev libtcl8.6 libtk8.6
+  python-cairo python-cycler python-dateutil python-decorator
+  python-functools32 python-glade2 python-gobject-2 python-gtk2 python-imaging
+  python-matplotlib-data python-pil python-pyparsing python-six
+  python-subprocess32 python-tk python-tz python2.7-dev tk8.6-blt2.5
+  ttf-bitstream-vera
+Suggested packages:
+  blt-demo apache2 | lighttpd | httpd libjs-jquery-ui-docs tcl8.6 tk8.6
+  python-cycler-doc python-gtk2-doc python-gobject-2-dbg dvipng ffmpeg
+  inkscape ipython python-cairocffi python-configobj python-excelerator
+  python-gobject python-matplotlib-doc python-nose python-qt4 python-sip
+  python-tornado python-traits python-wxgtk3.0 texlive-extra-utils
+  texlive-latex-extra ttf-staypuft python-numpy-dbg python-numpy-doc
+  python-pil-doc python-pil-dbg python-pyparsing-doc python-scipy-doc tix
+  python-tk-dbg
+The following NEW packages will be installed:
+  blt fonts-lyx javascript-common libexpat1-dev libglade2-0 libjs-jquery-ui
+  libpython-dev libpython2.7-dev libtcl8.6 libtk8.6 python-cairo python-cycler
+  python-dateutil python-decorator python-dev python-functools32 python-glade2
+  python-gobject-2 python-gtk2 python-imaging python-matplotlib
+  python-matplotlib-data python-numpy python-pil python-pyparsing python-scipy
+  python-six python-subprocess32 python-tk python-tz python2.7-dev
+  tk8.6-blt2.5 ttf-bitstream-vera
+The following packages will be upgraded:
+  libexpat1
+1 upgraded, 33 newly installed, 0 to remove and 181 not upgraded.
+Need to get 49,3 MB/49,3 MB of archives.
+After this operation, 131 MB of additional disk space will be used.
+Get:1 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libglade2-0 amd64 1:2.6.4-2 [44,6 kB]
+Get:2 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libtcl8.6 amd64 8.6.6+dfsg-1 [878 kB]
+Get:3 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libtk8.6 amd64 8.6.6-1 [693 kB]
+Get:4 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 tk8.6-blt2.5 amd64 2.5.3+dfsg-3 [574 kB]
+Get:5 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 blt amd64 2.5.3+dfsg-3 [4 852 B]
+Get:6 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 fonts-lyx all 2.2.2-1 [155 kB]
+Get:7 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 javascript-common all 11 [6 066 B]
+Get:8 http://cz.archive.ubuntu.com/ubuntu zesty-updates/main amd64 libexpat1-dev amd64 2.2.0-2ubuntu0.1 [122 kB]
+Get:9 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 libjs-jquery-ui all 1.12.1+dfsg-4 [232 kB]
+Get:10 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libpython2.7-dev amd64 2.7.13-2 [28,2 MB]
+Get:11 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 libpython-dev amd64 2.7.13-2 [7 842 B]
+Get:12 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-cairo amd64 1.8.8-2.1 [41,3 kB]
+Get:13 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-six all 1.10.0-3 [10,9 kB]
+Get:14 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-cycler all 0.10.0-1 [7 520 B]
+Get:15 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-dateutil all 2.5.3-2 [51,1 kB]
+Get:16 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-decorator all 4.0.11-1 [9 272 B]
+Get:17 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python2.7-dev amd64 2.7.13-2 [276 kB]
+Get:18 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-dev amd64 2.7.13-2 [1 160 B]
+Get:19 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-functools32 all 3.2.3.2-3 [10,8 kB]
+Get:20 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-gobject-2 amd64 2.28.6-12ubuntu2 [181 kB]
+Get:21 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-gtk2 amd64 2.24.0-5.1ubuntu1 [621 kB]
+Get:22 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-glade2 amd64 2.24.0-5.1ubuntu1 [9 012 B]
+Get:23 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-pil amd64 4.0.0-4 [330 kB]
+Get:24 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-imaging all 4.0.0-4 [4 136 B]
+Get:25 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 ttf-bitstream-vera all 1.10-8 [352 kB]
+Get:26 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-matplotlib-data all 2.0.0+dfsg1-2ubuntu1 [3 989 kB]
+Get:27 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-pyparsing all 2.1.10+dfsg1-1 [51,7 kB]
+Get:28 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-tz all 2014.10~dfsg1-0ubuntu2 [31,5 kB]
+Get:29 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-numpy amd64 1:1.12.1-1ubuntu1 [1 924 kB]
+Get:30 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-subprocess32 amd64 3.2.7-2 [26,6 kB]
+Get:31 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-matplotlib amd64 2.0.0+dfsg1-2ubuntu1 [1 500 kB]
+Get:32 http://cz.archive.ubuntu.com/ubuntu zesty/main amd64 python-tk amd64 2.7.13-1 [26,4 kB]
+Get:33 http://cz.archive.ubuntu.com/ubuntu zesty/universe amd64 python-scipy amd64 0.18.1-2 [8 921 kB]
+Fetched 49,3 MB in 22s (2 160 kB/s)
+Selecting previously unselected package libglade2-0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123727 files and directories currently installed.)
+Preparing to unpack .../00-libglade2-0_1%3a2.6.4-2_amd64.deb ...
+Unpacking libglade2-0:amd64 (1:2.6.4-2) ...
+Preparing to unpack .../01-libexpat1_2.2.0-2ubuntu0.1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.2.0-2ubuntu0.1) over (2.2.0-2) ...
+Selecting previously unselected package libtcl8.6:amd64.
+Preparing to unpack .../02-libtcl8.6_8.6.6+dfsg-1_amd64.deb ...
+Unpacking libtcl8.6:amd64 (8.6.6+dfsg-1) ...
+Selecting previously unselected package libtk8.6:amd64.
+Preparing to unpack .../03-libtk8.6_8.6.6-1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.6-1) ...
+Selecting previously unselected package tk8.6-blt2.5.
+Preparing to unpack .../04-tk8.6-blt2.5_2.5.3+dfsg-3_amd64.deb ...
+Unpacking tk8.6-blt2.5 (2.5.3+dfsg-3) ...
+Selecting previously unselected package blt.
+Preparing to unpack .../05-blt_2.5.3+dfsg-3_amd64.deb ...
+Unpacking blt (2.5.3+dfsg-3) ...
+Selecting previously unselected package fonts-lyx.
+Preparing to unpack .../06-fonts-lyx_2.2.2-1_all.deb ...
+Unpacking fonts-lyx (2.2.2-1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../07-javascript-common_11_all.deb ...
+Unpacking javascript-common (11) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../08-libexpat1-dev_2.2.0-2ubuntu0.1_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.2.0-2ubuntu0.1) ...
+Selecting previously unselected package libjs-jquery-ui.
+Preparing to unpack .../09-libjs-jquery-ui_1.12.1+dfsg-4_all.deb ...
+Unpacking libjs-jquery-ui (1.12.1+dfsg-4) ...
+Selecting previously unselected package libpython2.7-dev:amd64.
+Preparing to unpack .../10-libpython2.7-dev_2.7.13-2_amd64.deb ...
+Unpacking libpython2.7-dev:amd64 (2.7.13-2) ...
+Selecting previously unselected package libpython-dev:amd64.
+Preparing to unpack .../11-libpython-dev_2.7.13-2_amd64.deb ...
+Unpacking libpython-dev:amd64 (2.7.13-2) ...
+Selecting previously unselected package python-cairo.
+Preparing to unpack .../12-python-cairo_1.8.8-2.1_amd64.deb ...
+Unpacking python-cairo (1.8.8-2.1) ...
+Selecting previously unselected package python-six.
+Preparing to unpack .../13-python-six_1.10.0-3_all.deb ...
+Unpacking python-six (1.10.0-3) ...
+Selecting previously unselected package python-cycler.
+Preparing to unpack .../14-python-cycler_0.10.0-1_all.deb ...
+Unpacking python-cycler (0.10.0-1) ...
+Selecting previously unselected package python-dateutil.
+Preparing to unpack .../15-python-dateutil_2.5.3-2_all.deb ...
+Unpacking python-dateutil (2.5.3-2) ...
+Selecting previously unselected package python-decorator.
+Preparing to unpack .../16-python-decorator_4.0.11-1_all.deb ...
+Unpacking python-decorator (4.0.11-1) ...
+Selecting previously unselected package python2.7-dev.
+Preparing to unpack .../17-python2.7-dev_2.7.13-2_amd64.deb ...
+Unpacking python2.7-dev (2.7.13-2) ...
+Selecting previously unselected package python-dev.
+Preparing to unpack .../18-python-dev_2.7.13-2_amd64.deb ...
+Unpacking python-dev (2.7.13-2) ...
+Selecting previously unselected package python-functools32.
+Preparing to unpack .../19-python-functools32_3.2.3.2-3_all.deb ...
+Unpacking python-functools32 (3.2.3.2-3) ...
+Selecting previously unselected package python-gobject-2.
+Preparing to unpack .../20-python-gobject-2_2.28.6-12ubuntu2_amd64.deb ...
+Unpacking python-gobject-2 (2.28.6-12ubuntu2) ...
+Selecting previously unselected package python-gtk2.
+Preparing to unpack .../21-python-gtk2_2.24.0-5.1ubuntu1_amd64.deb ...
+Unpacking python-gtk2 (2.24.0-5.1ubuntu1) ...
+Selecting previously unselected package python-glade2.
+Preparing to unpack .../22-python-glade2_2.24.0-5.1ubuntu1_amd64.deb ...
+Unpacking python-glade2 (2.24.0-5.1ubuntu1) ...
+Selecting previously unselected package python-pil:amd64.
+Preparing to unpack .../23-python-pil_4.0.0-4_amd64.deb ...
+Unpacking python-pil:amd64 (4.0.0-4) ...
+Selecting previously unselected package python-imaging.
+Preparing to unpack .../24-python-imaging_4.0.0-4_all.deb ...
+Unpacking python-imaging (4.0.0-4) ...
+Selecting previously unselected package ttf-bitstream-vera.
+Preparing to unpack .../25-ttf-bitstream-vera_1.10-8_all.deb ...
+Unpacking ttf-bitstream-vera (1.10-8) ...
+Selecting previously unselected package python-matplotlib-data.
+Preparing to unpack .../26-python-matplotlib-data_2.0.0+dfsg1-2ubuntu1_all.deb ...
+Unpacking python-matplotlib-data (2.0.0+dfsg1-2ubuntu1) ...
+Selecting previously unselected package python-pyparsing.
+Preparing to unpack .../27-python-pyparsing_2.1.10+dfsg1-1_all.deb ...
+Unpacking python-pyparsing (2.1.10+dfsg1-1) ...
+Selecting previously unselected package python-tz.
+Preparing to unpack .../28-python-tz_2014.10~dfsg1-0ubuntu2_all.deb ...
+Unpacking python-tz (2014.10~dfsg1-0ubuntu2) ...
+Selecting previously unselected package python-numpy.
+Preparing to unpack .../29-python-numpy_1%3a1.12.1-1ubuntu1_amd64.deb ...
+Unpacking python-numpy (1:1.12.1-1ubuntu1) ...
+Selecting previously unselected package python-subprocess32.
+Preparing to unpack .../30-python-subprocess32_3.2.7-2_amd64.deb ...
+Unpacking python-subprocess32 (3.2.7-2) ...
+Selecting previously unselected package python-matplotlib.
+Preparing to unpack .../31-python-matplotlib_2.0.0+dfsg1-2ubuntu1_amd64.deb ...
+Unpacking python-matplotlib (2.0.0+dfsg1-2ubuntu1) ...
+Selecting previously unselected package python-tk.
+Preparing to unpack .../32-python-tk_2.7.13-1_amd64.deb ...
+Unpacking python-tk (2.7.13-1) ...
+Selecting previously unselected package python-scipy.
+Preparing to unpack .../33-python-scipy_0.18.1-2_amd64.deb ...
+Unpacking python-scipy (0.18.1-2) ...
+Setting up python-functools32 (3.2.3.2-3) ...
+Setting up libexpat1:amd64 (2.2.0-2ubuntu0.1) ...
+Setting up python-tz (2014.10~dfsg1-0ubuntu2) ...
+Processing triggers for sgml-base (1.29) ...
+Setting up python-numpy (1:1.12.1-1ubuntu1) ...
+Setting up python-gobject-2 (2.28.6-12ubuntu2) ...
+Setting up libglade2-0:amd64 (1:2.6.4-2) ...
+Setting up python-six (1.10.0-3) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Setting up libjs-jquery-ui (1.12.1+dfsg-4) ...
+Setting up python-cairo (1.8.8-2.1) ...
+Setting up libexpat1-dev:amd64 (2.2.0-2ubuntu0.1) ...
+Setting up ttf-bitstream-vera (1.10-8) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libpython2.7-dev:amd64 (2.7.13-2) ...
+Setting up python-decorator (4.0.11-1) ...
+Setting up libtcl8.6:amd64 (8.6.6+dfsg-1) ...
+Setting up javascript-common (11) ...
+Setting up python-subprocess32 (3.2.7-2) ...
+Setting up python2.7-dev (2.7.13-2) ...
+Setting up python-pil:amd64 (4.0.0-4) ...
+Processing triggers for fontconfig (2.11.94-0ubuntu2) ...
+Setting up fonts-lyx (2.2.2-1) ...
+Setting up python-pyparsing (2.1.10+dfsg1-1) ...
+Setting up libpython-dev:amd64 (2.7.13-2) ...
+Setting up python-matplotlib-data (2.0.0+dfsg1-2ubuntu1) ...
+Setting up python-scipy (0.18.1-2) ...
+Setting up python-dev (2.7.13-2) ...
+Setting up libtk8.6:amd64 (8.6.6-1) ...
+Setting up python-gtk2 (2.24.0-5.1ubuntu1) ...
+Setting up python-cycler (0.10.0-1) ...
+Setting up python-dateutil (2.5.3-2) ...
+Setting up python-imaging (4.0.0-4) ...
+Setting up python-glade2 (2.24.0-5.1ubuntu1) ...
+Setting up tk8.6-blt2.5 (2.5.3+dfsg-3) ...
+Setting up blt (2.5.3+dfsg-3) ...
+Setting up python-matplotlib (2.0.0+dfsg1-2ubuntu1) ...
+Setting up python-tk (2.7.13-1) ...
+Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-ZZaKJ6/python2.7-2.7.13=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/local/include -I/usr/include/python2.7 -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-2.7/meep_mpi_wrap.o
+creating build/lib.linux-x86_64-2.7
+x86_64-linux-gnu-g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-ZZaKJ6/python2.7-2.7.13=. -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-ZZaKJ6/python2.7-2.7.13=. -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/meep_mpi_wrap.o -L/usr/local/lib -lmeep_mpi -o build/lib.linux-x86_64-2.7/_meep_mpi.so
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-2.7
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> /usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> /usr/local/lib/python2.7/dist-packages
+byte-compiling /usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+copying custom.hpp -> /usr/local/lib/python2.7/dist-packages
+running install_egg_info
+Writing /usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+running build_ext
+installing to build/bdist.linux-x86_64/dumb
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/dumb
+creating build/bdist.linux-x86_64/dumb/usr
+creating build/bdist.linux-x86_64/dumb/usr/local
+creating build/bdist.linux-x86_64/dumb/usr/local/lib
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7
+creating build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/meep_mpi.py -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+copying build/lib.linux-x86_64-2.7/_meep_mpi.so -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+byte-compiling build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/meep_mpi.py to meep_mpi.pyc
+running install_data
+copying custom.hpp -> build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages
+running install_egg_info
+Writing build/bdist.linux-x86_64/dumb/usr/local/lib/python2.7/dist-packages/python_meep-1.4.egg-info
+creating /home/dominecf/python-meep-install/python-meep/dist
+Creating tar archive
+removing 'build/bdist.linux-x86_64/dumb' (and everything under it)
