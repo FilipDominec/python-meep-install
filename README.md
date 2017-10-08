@@ -1,3 +1,6 @@
+# Important note:
+As of 2017, the compilation script fails on Ubuntu 17.04 due to numpy API deprecation. 
+	
 # Overview of python-meep-install
 Setting up the electromagnetic simulation environment based on MEEP (http://ab-initio.mit.edu/wiki/index.php/Meep) is not straightforward. Author has spent several days making the simulation work on different 32/64-bit systems, use HDF5 libraries with multiprocessing support etc., and this experience has motivated the publication of this script.
 
@@ -23,7 +26,7 @@ There is a good chance to make it compile python-meep for Python3, but I did not
 
 # System compatibility:
 ### Tested to work fully on:
-* _Ubuntu_: 12.10, 14.10, 15.04, 15.10 (64-bit), newer versions see below
+* _Ubuntu_: 12.10, 14.10, 15.04, 15.10 (64-bit)
 * _Debian_ Jessie
 
 ### Experimental/partially working:
@@ -34,6 +37,7 @@ There is a good chance to make it compile python-meep for Python3, but I did not
 
 ### Known not to work on:
 * Windows+Cygwin: h5utils did not compile correctly due to libpng error? (reported June 2017, triaged)
+* _Ubuntu_: 17.04 (amd64) issues with guile and friends; fix underway
 
 # Possible issues
 * When some installation step fails, you will perhaps notice it at the end of the whole procedure since Python-meep compilation will be missing some dependencies. You will have to compare your compilation output against the files in the ```log/``` directory. 
