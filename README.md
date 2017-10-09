@@ -15,7 +15,7 @@ If everything works and you can 'import meep_mpi' in your Python2 console, do no
 ### Testing and debugging 
 If you wish to file a bug report, it is important to record the whole output of the installation script. To this end, call it as such:
 
-    sudo ./python-meep-install.sh 2>&1 | tee `date +%y%m%d`-`lsb_release -is``lsb_release -sr`-`uname -m`.log
+    sudo ./python-meep-install.sh 2>&1 | tee logs/`date +%y%m%d`-`lsb_release -sd | tr ' ' '_' `-`uname -m`.log
 
 You may either attach the file to an e-mail to the author, or start a new issue on github. Your contribution will be welcome!
 
