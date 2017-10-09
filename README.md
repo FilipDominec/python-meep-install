@@ -15,14 +15,14 @@ If everything works and you can 'import meep_mpi' in your Python2 console, do no
 ### Testing and debugging 
 If you wish to file a bug report, it is important to record the whole output of the installation script. To this end, call it as such:
 
-    sudo ./python-meep-install.sh 2>&1 | tee your-system-version.log
+    sudo ./python-meep-install.sh 2>&1 | tee `date +%y%m%d`-`lsb_release -is``lsb_release -sr`-`uname -m`.log
 
 You may either attach the file to an e-mail to the author, or start a new issue on github. Your contribution will be welcome!
 
 ### User options 
 By editing the ```--- Settings -----``` section in the 'python-meep-install.sh' script, you can choose which implementation of the MPI protocol will be used (```openmpi```, ```mpich```, ```mpich2```), or choose ```none``` to disable multiprocessing.
 
-There is a good chance to make it compile python-meep for Python3, but I did not test it thoroughly enough. 
+There is a good chance to make it compile python-meep for Python3 instead of the default Python2, but I did not test it thoroughly enough. 
 
 # System compatibility:
 ### Tested to work fully on:
