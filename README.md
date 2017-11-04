@@ -27,6 +27,7 @@ There is a good chance to make it compile python-meep for Python3 instead of the
 # System compatibility:
 ### Tested to work fully on:
 * _Ubuntu_: 12.10, 14.10, 15.04, 15.10 (64-bit)
+* _Ubuntu_: 16.04, 16.10, 17.04 (amd64) (these versions had previously issues with guile and friends, they appear to work, however)
 * _Debian_ Jessie
 
 ### Experimental/partially working:
@@ -37,7 +38,6 @@ There is a good chance to make it compile python-meep for Python3 instead of the
 
 ### Known not to work on:
 * Windows+Cygwin: h5utils did not compile correctly due to libpng error? (reported June 2017, triaged)
-* _Ubuntu_: 17.04 (amd64) issues with guile and friends; fix underway
 
 # Possible issues
 * When some installation step fails, you will perhaps notice it at the end of the whole procedure since Python-meep compilation will be missing some dependencies. You will have to compare your compilation output against the files in the ```log/``` directory. 
