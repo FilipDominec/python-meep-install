@@ -1,6 +1,10 @@
 # Important note:
-As of 2017, the compilation script fails on Ubuntu 17.04 due to numpy API deprecation. 
-	
+As of 2017, the compilation script was reported to fail on Ubuntu 17.04 due to numpy API deprecation. 
+
+I recommend to try the new official guide at https://meep.readthedocs.io/en/latest/Build_From_Source/#building-from-source
+
+----	
+
 # Overview of python-meep-install
 Setting up the electromagnetic simulation environment based on MEEP (http://ab-initio.mit.edu/wiki/index.php/Meep) is not straightforward. Author has spent several days making the simulation work on different 32/64-bit systems, use HDF5 libraries with multiprocessing support etc., and this experience has motivated the publication of this script.
 
