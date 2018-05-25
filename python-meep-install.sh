@@ -8,8 +8,8 @@ etc., and this experience has motivated the publication of this script.
 
 It should automatically install MEEP, Python-meep and related 
 programs/libraries at different linux distributions.  If you are 
-interested in starting with python-meep, you may wish to try the example 
-scripts: https://github.com/FilipDominec/python-meep-utils
+interested in starting with python3-meep, you may wish to try the example 
+scripts: https://github.com/FilipDominec/python3-meep-utils
 
 (c) Filip Dominec 2013-2017, licensed under GPL-2.0
 """
@@ -139,27 +139,27 @@ fi
 make  &&  sudo make install
 cd ..
 
-## Failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
+## failsafe alternative if git not working: download the 1.2.1 sources (somewhat obsoleted)
 #if [ ! -d "meep" ]; then wget http://ab-initio.mit.edu/meep/meep-1.3.tar.gz && tar xzf meep-1.3.tar.gz && mv meep-1.3 meep; fi
 #cd meep/
 #./configure $meep_opt --enable-maintainer-mode --prefix=/usr/local  &&  make  &&  sudo make install
 # # --enable-shared 
 #cd ..
 
-## --- PYTHON-MEEP ------------------------------------------------------------
-## NOTE: If you are interested in the scheme interface of MEEP only, you may 
+## --- python3-meep ------------------------------------------------------------
+## note: if you are interested in the scheme interface of meep only, you may 
 ## make the compilation a bit faster by deleting all following lines
 
-## Install python-meep dependencies and SWIG
+## install python3-meep dependencies and swig
 if [ -n "$debian" ]; then
-	$INSTALL python-dev python-numpy python-scipy python-matplotlib python-argparse
+	$install python3-dev python3-numpy python3-scipy python3-matplotlib python3-argparse
 else
-	$INSTALL python-devel numpy scipy python2-matplotlib redhat-rpm-config
-	# based on some searching, argparse appears to be included in the default python package on fedora? python-argparse
+	$INSTALL python3-devel numpy scipy python32-matplotlib redhat-rpm-config
+	# based on some searching, argparse appears to be included in the default python3 package on fedora? python3-argparse
 	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
 
-## Get the latest source from green block at https://launchpad.net/python-meep/1.4
+## Get the latest source from green block at https://launchpad.net/python3-meep/1.4
 if [ ! -d "python-meep" ]; then
     if [ ! -f "python-meep-1.4.2.tar" ]; then
 	    wget https://launchpad.net/python-meep/1.4/1.4/+download/python-meep-1.4.2.tar
@@ -178,12 +178,12 @@ sed -i -e '/meep-site-init/i\
 	%include "carrays.i"\
 	%array_functions(double, doubleArray); ' `echo ./meep${pm_opt}.i | sed s/-/_/`
 
-sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python-meep
+sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python3-meep
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
 sed -i -e '/custom.hpp/ a export LD_RUN_PATH=$LD_RUN_PATH:\/usr\/local\/lib' make${pm_opt}
 sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-site-init.py
 ## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
 sed -i -e '/initialisations/d' meep-site-init.py
 
-sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib
+# TODO adapt: sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib
 
