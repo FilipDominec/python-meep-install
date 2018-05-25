@@ -1,0 +1,232 @@
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+removing 'build/temp.linux-x86_64-3.6' (and everything under it)
+'build/lib.linux-x86_64-3.6' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+removing 'build'
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-3.6
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+creating build/lib.linux-x86_64-3.6
+copying meep_mpi.py -> build/lib.linux-x86_64-3.6
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-3.6
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running clean
+removing 'build/temp.linux-x86_64-3.6' (and everything under it)
+'build/lib.linux-x86_64-3.6' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+removing 'build'
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+creating build
+creating build/temp.linux-x86_64-3.6
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running install
+running build
+running build_py
+creating build/lib.linux-x86_64-3.6
+copying meep_mpi.py -> build/lib.linux-x86_64-3.6
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+Directories for SWIG -I option :  ['/usr/local/include']
+Directories for -L option :  ['/usr/local/lib']
+running bdist
+running bdist_dumb
+running build
+running build_py
+copying meep_mpi.py -> build/lib.linux-x86_64-3.6
+running build_ext
+building '_meep_mpi' extension
+swigging meep_mpi.i to meep_mpi_wrap.cpp
+swig -python -c++ -w503,389,302,362,314,509,451 -I/usr/local/include -o meep_mpi_wrap.cpp meep_mpi.i
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.6-sXpGnM/python3.6-3.6.3=. -specs=/usr/share/dpkg/no-pie-compile.specs -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/local/include -I/usr/include/python3.6m -c meep_mpi_wrap.cpp -o build/temp.linux-x86_64-3.6/meep_mpi_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+In file included from /usr/include/python3.6m/numpy/ndarraytypes.h:1788:0,
+                 from /usr/include/python3.6m/numpy/ndarrayobject.h:18,
+                 from /usr/include/python3.6m/numpy/arrayobject.h:4,
+                 from custom.hpp:19,
+                 from meep_mpi_wrap.cpp:4100:
+/usr/include/python3.6m/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^~~~~~~
+meep_mpi_wrap.cpp: In function ‘const char* pytype_string(PyObject*)’:
+meep_mpi_wrap.cpp:4476:9: error: ‘PyFile_Check’ was not declared in this scope
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+meep_mpi_wrap.cpp:4476:9: note: suggested alternative: ‘PyCell_Check’
+     if (PyFile_Check(    py_obj)) return "file"        ;
+         ^~~~~~~~~~~~
+         PyCell_Check
+meep_mpi_wrap.cpp:4478:9: error: ‘PyInstance_Check’ was not declared in this scope
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+meep_mpi_wrap.cpp:4478:9: note: suggested alternative: ‘PySequence_Check’
+     if (PyInstance_Check(py_obj)) return "instance"    ;
+         ^~~~~~~~~~~~~~~~
+         PySequence_Check
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
