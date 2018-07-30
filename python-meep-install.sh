@@ -85,13 +85,13 @@ elif [ -n "$redhat" ]; then
 	#dnf copr enable hmaarrfk.meep
 	#dnf install meep
 	#dnf install h5utils
-    $INSTALL automake autoconf     gcc-c++      gcc-gfortran    
+    $INSTALL automake autoconf     gcc-c++      gcc-gfortran     ## fixme: autoconf dupli?
     echo "TODO: h5utils must be compiled on Fedora!"
     $INSTALL ImageMagick        atlas-devel    fftw3-devel     gsl-devel lapack-devel		
     #echo "TODO: MPB devel libs must be (probably) compiled on Fedora!"    
 	#$INSTALL mpb-devel   ## TODO mpb needs recomp w/ -fPIC,  but not tested on Fedora
     echo "TODO: harminv must be (probably) compiled on Fedora!"    
-    $INSTALL pkgconfig
+    $INSTALL pkgconfig	# already present in Fedora28?
     $INSTALL zlib-devel
     $INSTALL guile-devel
     $INSTALL $MPI $MPI-devel hdf5-$MPI-devel
@@ -154,7 +154,7 @@ cd ..
 if [ -n "$debian" ]; then
 	$install python3-dev python3-numpy python3-scipy python3-matplotlib python3-argparse
 else
-	$INSTALL python3-devel numpy scipy python32-matplotlib redhat-rpm-config
+	$INSTALL python3-devel numpy scipy python3-matplotlib redhat-rpm-config
 	# based on some searching, argparse appears to be included in the default python3 package on fedora? python3-argparse
 	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
