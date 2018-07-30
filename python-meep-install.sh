@@ -152,7 +152,7 @@ cd ..
 
 ## install python3-meep dependencies and swig
 if [ -n "$debian" ]; then
-	$install python3-dev python3-numpy python3-scipy python3-matplotlib python3-argparse
+	$INSTALL python3-dev python3-numpy python3-scipy python3-matplotlib python3-argparse
 else
 	$INSTALL python3-devel numpy scipy python3-matplotlib redhat-rpm-config
 	# based on some searching, argparse appears to be included in the default python3 package on fedora? python3-argparse
