@@ -11,7 +11,7 @@ programs/libraries at different linux distributions.  If you are
 interested in starting with python-meep, you may wish to try the example 
 scripts: https://github.com/FilipDominec/python-meep-utils
 
-(c) Filip Dominec 2013-2017, licensed under GPL-2.0
+(c) Filip Dominec 2013-2018, licensed under GPL-2.0
 """
 
 ## --- Settings ---------------------------------------------------------------
@@ -195,7 +195,7 @@ sed -i -e '/initialisations/d' meep-site-init.py
 ## TODO for pyhton3  adapt:
 ##   1) make, make-mpi				with:   s/^\./python3 ./g
 ##   2) setup.py, setup-mpi.py		with:   s/print \(.*)/print(\1)/g
-if [ "$PYTHON"  =  "python3" ]; then
+if [ "$PYTHON"  -e  "python3" ]; then
 	sed -i -e 's/^\./python3 ./g' ./make			## TODO test effect of this with py3
 	sed -i -e 's/^\./python3 ./g' ./make-mpi		## TODO test effect of this with py3
 	sed -i -e 's/print \(.*)/print(\1)/g' ./setup.py			## TODO test effect of this with py3

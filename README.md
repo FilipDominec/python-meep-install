@@ -46,6 +46,7 @@ What I observed to be needed
 * Python-meep works also perfectly on Ubuntu 16.04 (64-bit) and 17.04 (64-bit), but the ```meep``` scheme interpreter fails since it is compiled against "too new" version of ```guile``` 2.0.13 (see https://github.com/stevengj/meep/issues/57). Previous Ubuntu versions include ```guile``` 2.0.11 or older, with which ```meep``` (or ```meep-mpi```) work fine.
 
 ### Known not to work on:
+* _Ubuntu_: 18.04 (64-bit) compiles without error, but Python 2 reports: ```ImportError: No module named weave```
 * _Fedora 28_ (and other RPM-based systems)
   * On ```import meep_mpi```, I get an error ```AttributeError: module object has no attribute 'weave'```. 
 	* 2018-07-30 Using python2, this is *critical error*: I cannot make python-meep to work on Fedora 28 (64-bit)
