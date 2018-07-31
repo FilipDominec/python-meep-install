@@ -26,21 +26,38 @@ You may either attach the file to an e-mail to the author, or start a new issue 
 ### User options 
 By editing the ```--- Settings -----``` section in the 'python-meep-install.sh' script, you can choose which implementation of the MPI protocol will be used (```openmpi```, ```mpich```, ```mpich2```), or choose ```none``` to disable multiprocessing.
 
-There is a good chance to make it compile python-meep for Python3 instead of the default Python2, but I did not test it thoroughly enough. 
+There is a good chance to make it compile python-meep for Python3 instead of the default Python2, but I did not test it thoroughly enough. It fails on Fedora28.
+What I observed to be needed
+   1) ```make```, ```make-mpi```				with:   ```s/^\./python3 ./g```
+   2) ```setup.py```, setup-mpi.py```		with:   ```s/print \(.*)/print(\1)/g```
+   3) fix another serious error:  meep_mpi_wrap.cpp:4474:9: 
+
+    error: 'PyFile_Check' was not declared in this scope
+    ...                                                   
+    error: 'PyInstance_Check' was not declared in this scope
 
 # System compatibility:
 ### Tested to work fully on:
 * _Ubuntu_: 12.10, 14.10, 15.04, 15.10 (64-bit)
-* _Ubuntu_: 16.04, 16.10, 17.04 (amd64) (these versions had previously issues with guile and friends, they appear to work, however)
+* _Ubuntu_: 16.04, 16.10, 17.04 (64-bit) (these versions had previously issues with guile and friends, they appear to work, however)
 * _Debian_ Jessie
 
 ### Experimental/partially working:
-* _Fedora_ (and other RPM-based systems)
-  * (?) optional library 'harminv' is missing, can be manually compiled if needed
-  * (?) dependency 'pkg-config' is missing (not known if this is serious)
 * Python-meep works also perfectly on Ubuntu 16.04 (64-bit) and 17.04 (64-bit), but the ```meep``` scheme interpreter fails since it is compiled against "too new" version of ```guile``` 2.0.13 (see https://github.com/stevengj/meep/issues/57). Previous Ubuntu versions include ```guile``` 2.0.11 or older, with which ```meep``` (or ```meep-mpi```) work fine.
 
 ### Known not to work on:
+* _Fedora 28_ (and other RPM-based systems)
+  * On ```import meep_mpi```, I get an error ```AttributeError: module object has no attribute 'weave'```. 
+	* 2018-07-30 Using python2, this is *critical error*: I cannot make python-meep to work on Fedora 28 (64-bit)
+	* 2018-07-30 Using python3, meep could not be compiled (due to 'PyFile_Check' incompatibility in the installer, see above)
+  * Additionally multiprocessing on Redhat-based distros requires manual enabling after installation (tested with openmpi only)
+	* make sure that openmpi is there:  ```dnf install openmpi``` (actually the installer does this for you)
+    * as suggested at https://ask.fedoraproject.org/en/question/59399/module-command-not-found-in-fedora-21/ one needs to run as root: ```dnf install environment-modules-4.1.3*```
+	* log in to a new terminal session as a normal user
+    * then ```module load mpi/openmpi-x86_64```
+	* ```module load mpi``` and you can run your meep-based scripts. Note this is apparently not needed on Ubuntu/Debian.
+  * optional library 'harminv' is missing, can be perhaps manually compiled if needed
+  * dependency 'pkg-config' is reported missing (not known if this is serious)
 * Windows+Cygwin: h5utils did not compile correctly due to libpng error? (reported June 2017, triaged)
 
 # Possible issues

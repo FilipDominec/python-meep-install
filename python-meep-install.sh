@@ -15,6 +15,9 @@ scripts: https://github.com/FilipDominec/python3-meep-utils
 """
 
 ## --- Settings ---------------------------------------------------------------
+#PYTHON="python"		# for python2, well tested on Ubuntu, not working on Fedora28 (scipy.weave missing)
+PYTHON="python3"		# for python3, experimental but the right way to go
+
 MPI="openmpi"
 #MPI="mpich"
 #MPI="mpich2"
@@ -150,9 +153,10 @@ cd ..
 
 ## install python3-meep dependencies and swig
 if [ -n "$debian" ]; then
-	$INSTALL python3-dev python3-numpy python3-scipy python3-matplotlib python3-argparse
+	$INSTALL python3-dev	python3-numpy python3-scipy python3-matplotlib python3-argparse
 else
-	$INSTALL python3-devel numpy scipy python3-matplotlib redhat-rpm-config
+	$INSTALL python3-devel python3-numpy python3-scipy python3-matplotlib redhat-rpm-config
+	$INSTALL 
 	# based on some searching, argparse appears to be included in the default python3 package on fedora? python3-argparse
 	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
@@ -183,5 +187,10 @@ sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-
 ## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
 sed -i -e '/initialisations/d' meep-site-init.py
 
-# TODO adapt: sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib
+## TODO for pyhton3  adapt:
+##   1) make, make-mpi				with:   s/^\./python3 ./g
+##   2) setup.py, setup-mpi.py		with:   s/print \(.*)/print(\1)/g
+##   3) fix another error:  meep_mpi_wrap.cpp:4474:9: error: 'PyFile_Check' was not declared in this scope
+##                                                    error: 'PyInstance_Check' was not declared in this scope
+sudo python3 ./make${pm_opt} -I/usr/local/include -L/usr/local/lib 
 
