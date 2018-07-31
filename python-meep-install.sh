@@ -192,5 +192,17 @@ sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-
 ## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
 sed -i -e '/initialisations/d' meep-site-init.py
 
+## TODO for pyhton3  adapt:
+##   1) make, make-mpi				with:   s/^\./python3 ./g
+##   2) setup.py, setup-mpi.py		with:   s/print \(.*)/print(\1)/g
+if [ "$PYTHON"  =  "python3" ]; then
+	sed -i -e 's/^\./python3 ./g' ./make			## TODO test effect of this with py3
+	sed -i -e 's/^\./python3 ./g' ./make-mpi		## TODO test effect of this with py3
+	sed -i -e 's/print \(.*)/print(\1)/g' ./setup.py			## TODO test effect of this with py3
+	sed -i -e 's/print \(.*)/print(\1)/g' ./setup-mpi.py		## TODO test effect of this with py3
+fi 
+## TODO   3) for py3 fix another error:  meep_mpi_wrap.cpp:4474:9: error: 'PyFile_Check' was not declared in this scope
+##			 see also 
+
 sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib 
 
