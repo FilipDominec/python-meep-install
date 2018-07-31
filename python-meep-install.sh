@@ -173,24 +173,24 @@ fi
 ## from passing the "-I" and "-L" parameters to the build script).
 cd python-meep/
 pm_opt=`echo $meep_opt | sed 's/--with//g'`
-## Add dependencies required for access of the LDOS computation (this may require further fixes to yield useful data)
+
+## Remove dependencies required for access of the LDOS computation so they are not added multiple times (Diego Caraffini)
+## suggested by https://github.com/bonderado/python-meep-install/commit/e1dfc7adfdc4d6a1d80be0f7bc3f5f935dc0f57e
+sed -i -e '/^\t/d'  `echo ./meep${pm_opt}.i | sed s/-/_/`
+
+## Add dependencies required for access of the LDOS computation (this may require further fixes to yield useful data) TODO test this again?
 sed -i -e '/meep-site-init/i\
 	%include "cpointer.i"\
 	%pointer_functions(double ,doubleP) \/* added by FDominec to enable access to LDOS computation results *\/\
 	%include "carrays.i"\
 	%array_functions(double, doubleArray); ' `echo ./meep${pm_opt}.i | sed s/-/_/`
 
-sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in ${PYTHON}-meep
+sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python-meep
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
 sed -i -e '/custom.hpp/ a export LD_RUN_PATH=$LD_RUN_PATH:\/usr\/local\/lib' make${pm_opt}
 sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-site-init.py
 ## Newer versions of SWIG changed syntax rules and complained about "Unknown SWIG preprocessor directive" if the comment was left 
 sed -i -e '/initialisations/d' meep-site-init.py
 
-## TODO for pyhton3  adapt:
-##   1) make, make-mpi				with:   s/^\./python3 ./g
-##   2) setup.py, setup-mpi.py		with:   s/print \(.*)/print(\1)/g
-##   3) fix another error:  meep_mpi_wrap.cpp:4474:9: error: 'PyFile_Check' was not declared in this scope
-##                                                    error: 'PyInstance_Check' was not declared in this scope
-sudo python3 ./make${pm_opt} -I/usr/local/include -L/usr/local/lib 
+sudo ./make${pm_opt} -I/usr/local/include -L/usr/local/lib 
 
