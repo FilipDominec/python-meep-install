@@ -8,15 +8,15 @@ etc., and this experience has motivated the publication of this script.
 
 It should automatically install MEEP, Python-meep and related 
 programs/libraries at different linux distributions.  If you are 
-interested in starting with python3-meep, you may wish to try the example 
-scripts: https://github.com/FilipDominec/python3-meep-utils
+interested in starting with python-meep, you may wish to try the example 
+scripts: https://github.com/FilipDominec/python-meep-utils
 
 (c) Filip Dominec 2013-2017, licensed under GPL-2.0
 """
 
 ## --- Settings ---------------------------------------------------------------
-#PYTHON="python"		# for python2, well tested on Ubuntu, not working on Fedora28 (scipy.weave missing)
-PYTHON="python3"		# for python3, experimental but the right way to go
+PYTHON="python"		# for python2, well tested on Ubuntu, not working on Fedora28 (scipy.weave missing)
+#PYTHON="python3"		# for python3, fails on 'PyFile_Check was not declared in this scope' error, but the right way to go in the future
 
 MPI="openmpi"
 #MPI="mpich"
@@ -147,21 +147,21 @@ cd ..
 # # --enable-shared 
 #cd ..
 
-## --- python3-meep ------------------------------------------------------------
+## --- ${PYTHON}-meep ------------------------------------------------------------
 ## note: if you are interested in the scheme interface of meep only, you may 
 ## make the compilation a bit faster by deleting all following lines
 
-## install python3-meep dependencies and swig
+## install ${PYTHON}-meep dependencies and swig
 if [ -n "$debian" ]; then
-	$INSTALL python3-dev	python3-numpy python3-scipy python3-matplotlib python3-argparse
+	$INSTALL ${PYTHON}-dev	${PYTHON}-numpy ${PYTHON}-scipy ${PYTHON}-matplotlib ${PYTHON}-argparse
 else
-	$INSTALL python3-devel python3-numpy python3-scipy python3-matplotlib redhat-rpm-config
+	$INSTALL ${PYTHON}-devel ${PYTHON}-numpy ${PYTHON}-scipy ${PYTHON}-matplotlib redhat-rpm-config
 	$INSTALL 
-	# based on some searching, argparse appears to be included in the default python3 package on fedora? python3-argparse
+	# based on some searching, argparse appears to be included in the default python3 package on fedora? ${PYTHON}-argparse
 	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
 
-## Get the latest source from green block at https://launchpad.net/python3-meep/1.4
+## Get the latest source from green block at https://launchpad.net/${PYTHON}-meep/1.4
 if [ ! -d "python-meep" ]; then
     if [ ! -f "python-meep-1.4.2.tar" ]; then
 	    wget https://launchpad.net/python-meep/1.4/1.4/+download/python-meep-1.4.2.tar
@@ -180,7 +180,7 @@ sed -i -e '/meep-site-init/i\
 	%include "carrays.i"\
 	%array_functions(double, doubleArray); ' `echo ./meep${pm_opt}.i | sed s/-/_/`
 
-sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in python3-meep
+sed -i -e 's:MPI:non-MPI:g' ./meep.i ## this was a clear bug in ${PYTHON}-meep
 sed -i -e 's:/usr/lib:/usr/local/lib:g' -e 's:/usr/include:/usr/local/include:g' ./setup${pm_opt}.py
 sed -i -e '/custom.hpp/ a export LD_RUN_PATH=$LD_RUN_PATH:\/usr\/local\/lib' make${pm_opt}
 sed -i -e 's/#global/global/g' -e 's/#DISABLE/DISABLE/g' -e 's/\t/    /g'  meep-site-init.py
