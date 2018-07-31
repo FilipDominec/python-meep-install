@@ -41,10 +41,8 @@ if [ -e /etc/redhat-release ]; then
 	echo "Selecting Red Hat Mode"
 	if [ -d /etc/dnf ]; then
 		INSTALL="sudo dnf -y install"
-		sudo dnf update
 	else
 		INSTALL="sudo yum -y install"
-		sudo yum update
 	fi
 fi
 if [ -z "$INSTALL" ]; then
