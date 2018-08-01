@@ -156,7 +156,6 @@ if [ -n "$debian" ]; then
 	$INSTALL ${PYTHON}-dev	${PYTHON}-numpy ${PYTHON}-scipy ${PYTHON}-matplotlib ${PYTHON}-argparse
 else
 	$INSTALL ${PYTHON}-devel ${PYTHON}-numpy ${PYTHON}-scipy ${PYTHON}-matplotlib redhat-rpm-config
-	$INSTALL 
 	# based on some searching, argparse appears to be included in the default python3 package on fedora? ${PYTHON}-argparse
 	sudo ldconfig /usr/lib64/openmpi/lib/
 fi
