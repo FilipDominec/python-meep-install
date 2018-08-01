@@ -24,17 +24,9 @@ If you wish to file a bug report, it is important to record the whole output of 
 You may either attach the file to an e-mail to the author, or start a new issue on github. Your contribution will be welcome!
 
 ### User options 
-By editing the ```--- Settings -----``` section in the 'python-meep-install.sh' script, you can choose which implementation of the MPI protocol will be used (```openmpi```, ```mpich```, ```mpich2```), or choose ```none``` to disable multiprocessing.
+By editing the ```--- Settings -----``` section at the beginning of the 'python-meep-install.sh' script, you can choose which implementation of the MPI protocol will be used (```openmpi```, ```mpich```, ```mpich2```), or choose ```none``` to disable multiprocessing.
 
-There is a good chance to make it compile python-meep for Python3 instead of the default Python2, but I did not test it thoroughly enough. It fails on Fedora28.
-What I observed to be needed
-   1) ```make```, ```make-mpi```				with:   ```s/^\./python3 ./g```
-   2) ```setup.py```, setup-mpi.py```		with:   ```s/print \(.*)/print(\1)/g```
-   3) fix another serious error:  meep_mpi_wrap.cpp:4474:9: 
-
-    error: 'PyFile_Check' was not declared in this scope
-    ...                                                   
-    error: 'PyInstance_Check' was not declared in this scope
+One can also select whether Python2 or Python3 is used, but the latter does not work. The current version of the python-meep sources fails to install with Python3 (tested on Ubuntu 18.04 and Fedora28). For more details, see issue #12.
 
 # System compatibility:
 ### Tested to work fully on:
